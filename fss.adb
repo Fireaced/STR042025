@@ -50,10 +50,6 @@ package body fss is
     end if;
   end Mode;
 
-  procedure PositionAltitude is
-  begin
-  end PositionAltitude;
-
   procedure Speed is
 
     Current_Power: Power_Samples_Type := 0;
