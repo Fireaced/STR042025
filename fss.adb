@@ -35,10 +35,6 @@ package body fss is
   ------------- procedimientos para probar los dispositivos 
   ------------- SE DEBERÁN QUITAR PARA EL PROYECTO
   ----------------------------------------------------------------------
-  procedure Prueba_Velocidad_Distancia; 
-  procedure Prueba_Altitud_Joystick; 
-  procedure Prueba_Sensores_Piloto;
-
   procedure Mode (modeInput : in String);
   procedure PositionAltitude;
   procedure Speed;
@@ -190,12 +186,12 @@ package body fss is
       if Time_Until_Collision < 15 then
         Alarm(4);
       elsif Time_Until_Collision < 10 then
-        "Desvío Automatico"
+        "Desvío Automatico";
       end if;
     elsif Time_Until_Collision < 10 then
         Alarm(4);
     elsif Time_Until_Collision < 5 then
-      "Desvío Automatico"
+      "Desvío Automatico";
     end if;
     
   end Collision;
