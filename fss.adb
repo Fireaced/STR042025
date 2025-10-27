@@ -181,13 +181,15 @@ package body fss is
     if Current_Pp = 0 or Current_Light < 500 then
       if Time_Until_Collision < 15 then
         Alarm(4);
-      elsif Time_Until_Collision < 10 then
-        "Desvío Automatico";
+        if Time_Until_Collision < 10 then
+          "Desvío Automatico";
+        end if;
       end if;
     elsif Time_Until_Collision < 10 then
         Alarm(4);
-    elsif Time_Until_Collision < 5 then
-      "Desvío Automatico";
+        if Time_Until_Collision < 5 then
+          "Desvío Automatico";
+        end if;
     end if;
     
   end Collision;
