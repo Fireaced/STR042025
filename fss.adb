@@ -175,7 +175,7 @@ package body fss is
   begin
     
     Read_Distance(Current_Distance);
-    Current_Speed := Read_Speed;
+    Current_Speed := Speed_Altitud_Data.Get_Speed;
     Current_Pp := Read_PilotPresence;
     Get_Light(Current_Light);
     
