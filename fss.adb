@@ -5,6 +5,7 @@ with System; use System;
 
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
+with FSS_Interfaces; use FSS_Interfaces;
 
 -- NO ACTIVAR ESTE PAQUETE MIENTRAS NO SE TENGA PROGRAMADA LA INTERRUPCION
 -- Packages needed to generate button interrupts       
@@ -67,8 +68,8 @@ package body fss is
     Calculated_S := Speed_Samples_Type (float (Current_Power) * 1.2);
 
     Read_Joystick (Current_J);
-    Target_Pitch := Pitch_Samples_Type (Current_J(x));
-    Target_Roll := Roll_Samples_Type (Current_J(y));
+    Target_Pitch := Pitch_Roll_Data.Get_Pitch;
+    Target_Roll := Pitch_Roll_Data.Get_Roll;
 
     if (Target_Pitch > 0 and Target_Roll > 0) then
       Calculated_S := Calculated_S + (Speed_Samples_Type (200));
@@ -79,12 +80,13 @@ package body fss is
     end if;
 
     if (Calculated_S >= 1000) then
-      Set_Speed(Speed_Samples_Type (1000));
+      Calculated_S := Speed_Samples_Type (1000);
       Light_2(On);
     elsif (Calculated_S <= 300) then
-      Set_Speed(Speed_Samples_Type (300));
+      Calculated_S := Speed_Samples_Type (300);
       Light_2(On);
     else
+      Speed_Altitud_Data.UpdateSpeed (Calculated_S);
       Set_Speed(Calculated_S);
     end if;
 
@@ -93,6 +95,8 @@ package body fss is
   procedure PositionAltitude is
 
     Current_J: Joystick_Samples_Type := (0,0);
+    Current_Pitch: Pitch_Samples_Type := 0;
+    Current_Roll: Roll_Samples_Type := 0;
     Target_Pitch: Pitch_Samples_Type := 0;
     Target_Roll: Roll_Samples_Type := 0; 
     Aircraft_Pitch: Pitch_Samples_Type; 
@@ -104,8 +108,11 @@ package body fss is
 
     Read_Joystick (Current_J);
 
-    Target_Pitch := Pitch_Samples_Type (Current_J(x));
-    Target_Roll := Roll_Samples_Type (Current_J(y));
+    Current_Pitch := Get_Pitch;
+    Current_Roll := Get_Roll;
+
+    Target_Pitch := Pitch_Samples_Type (Current_J(x)) + Current_Pitch;
+    Target_Roll := Roll_Samples_Type (Current_J(y)) + Current_Roll;
 
     if (Target_Pitch > 30) then
       Target_Pitch := 30;
@@ -119,18 +126,16 @@ package body fss is
       Target_Roll := -45;
     end if;
 
-    Current_A := Read_Altitude;
+
+    Current_A := Speed_Altitud_Data.Get_Altitude;
 
     if (Current_A <= 2500) then
       Light_1(On);
 
       if (Current_A <= 2000) then
-        Set_Aircraft_Pitch (Pitch_Samples_Type (0));
-        Set_Aircraft_Roll (Roll_Samples_Type (0));
+        Target_Pitch := Pitch_Samples_Type (0);
+        Target_Roll := Roll_Samples_Type (0);
       else
-        Set_Aircraft_Pitch (Target_Pitch);
-        Set_Aircraft_Roll (Target_Roll);
-
         if (Target_Roll > 35 or Target_Roll < -35) then
           Display_Message ("Roll higher than +35/-35");
         end if;
@@ -139,25 +144,23 @@ package body fss is
       Light_1(On);
 
       if (Current_A >= 10000) then
-        Set_Aircraft_Pitch (Pitch_Samples_Type (0));
-        Set_Aircraft_Roll (Roll_Samples_Type (0));
+        Target_Pitch := Pitch_Samples_Type (0);
+        Targe_Roll := Roll_Samples_Type (0);
       else
-        Set_Aircraft_Pitch (Target_Pitch);
-        Set_Aircraft_Roll (Target_Roll);
-
         if (Target_Roll > 35 or Target_Roll < -35) then
           Display_Message ("Roll higher than +35/-35");
         end if;
       end if;
     
     else
-      Set_Aircraft_Pitch (Target_Pitch);
-      Set_Aircraft_Roll (Target_Roll);
-
       if (Target_Roll > 35 or Target_Roll < -35) then
           Display_Message ("Roll higher than +35/-35");
         end if;
     end if;
+
+    Pitch_Roll_Data.Update(Target_Pitch, Target_Roll);
+    Set_Aircraft_Pitch (Target_Pitch);
+    Set_Aircraft_Roll (Target_Roll);
 
   end PositionAltitude;
   
