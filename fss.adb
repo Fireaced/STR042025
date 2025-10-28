@@ -40,6 +40,8 @@ package body fss is
   procedure Speed;
   procedure Collision;
   procedure Display;
+  procedure Desvio_Automatico;
+
 
   procedure Mode (modeInput : in String) is
   begin
@@ -49,10 +51,6 @@ package body fss is
       AutomaticMode;
     end if;
   end Mode;
-
-  procedure PositionAltitude is
-  begin
-  end PositionAltitude;
 
   procedure Speed is
 
@@ -165,36 +163,50 @@ package body fss is
 
   end PositionAltitude;
   
-  Procedure Collision is
-    
-    Current_Distance: Distance_Samples_Type := 0;
-    Current_Speed: Speed_Samples_Type := 0;
-    Time_Until_Collision: float := 0;
-    Current_Pp: PilotPresence_Samples_Type := 1;
-    Current_Light: Light_Samples_Type := 0;
-  
-  begin
-    
-    Read_Distance(Current_Distance);
-    Current_Speed := Read_Speed;
-    Current_Pp := Read_PilotPresence;
-    Get_Light(Current_Light);
-    
-    Time_Until_Collision := Float(Current_Distance) / (Float(Current_Speed) * 1000.0 / 3600.0);
-    
-    if Current_Pp = 0 or Current_Light < 500 then
+   procedure Desvio_Automatico is
+   begin
+
+   Set_Aircraft_Roll (Roll_Samples_Type (45));
+   delay until Clock + Milliseconds (3000);
+   Set_Aircraft_Roll (Roll_Samples_Type (0));
+
+   end Desvio_Automatico;
+
+
+   Procedure Collision is
+      
+   Current_Distance: Distance_Samples_Type := 0;
+   Current_Speed: Speed_Samples_Type := 0;
+   Time_Until_Collision: float := 0;
+   Current_Pp: PilotPresence_Samples_Type := 1;
+   Current_Light: Light_Samples_Type := 0;
+
+   begin
+      
+   Read_Distance(Current_Distance);
+   Current_Speed := Read_Speed;
+   Current_Pp := Read_PilotPresence;
+   Get_Light(Current_Light);
+      
+   Time_Until_Collision := Float(Current_Distance) / (Float(Current_Speed) * 1000.0 / 3600.0);
+      
+   if Current_Pp = 0 or Current_Light < 500 then
       if Time_Until_Collision < 15 then
-        Alarm(4);
-      elsif Time_Until_Collision < 10 then
-        "Desvío Automatico";
+         Alarm(4);
       end if;
-    elsif Time_Until_Collision < 10 then
-        Alarm(4);
-    elsif Time_Until_Collision < 5 then
-      "Desvío Automatico";
-    end if;
-    
-  end Collision;
+      if Time_Until_Collision < 10 then
+         Desvio_Automatico;
+      end if;
+   elsif Time_Until_Collision < 10 then
+      Alarm(4);
+      if Time_Until_Collision < 5 then
+         Desvio_Automatico;
+      end if;
+   end if;
+      
+   end Collision;
+
+
 
   procedure Display is
 
