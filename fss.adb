@@ -41,13 +41,15 @@ package body fss is
   procedure Speed;
   procedure Collision;
   procedure Display;
+  procedure Desvio_Automatico;
+
 
   procedure Mode (modeInput : in String) is
   begin
     if (modeInput = "Manual") then
-      ManualMode;
+    Put_line("ManualMode");
     elsif (modeInput = "Automatic") then
-      AutomaticMode;
+    Put_line("Automatic Mode");
     end if;
   end Mode;
 
@@ -55,7 +57,6 @@ package body fss is
 
     Current_Power: Power_Samples_Type := 0;
     Current_Pp: PilotPresence_Samples_Type := 1;
-    Current_J: Joystick_Samples_Type := (0,0);
 
     Calculated_S: Speed_Samples_type := 0;
     Target_Pitch: Pitch_Samples_Type := 0;
@@ -67,7 +68,6 @@ package body fss is
     Read_Power (Current_Power);
     Calculated_S := Speed_Samples_Type (float (Current_Power) * 1.2);
 
-    Read_Joystick (Current_J);
     Target_Pitch := Pitch_Roll_Data.Get_Pitch;
     Target_Roll := Pitch_Roll_Data.Get_Roll;
 
@@ -164,38 +164,48 @@ package body fss is
 
   end PositionAltitude;
   
-  Procedure Collision is
-    
-    Current_Distance: Distance_Samples_Type := 0;
-    Current_Speed: Speed_Samples_Type := 0;
-    Time_Until_Collision: float := 0;
-    Current_Pp: PilotPresence_Samples_Type := 1;
-    Current_Light: Light_Samples_Type := 0;
-  
-  begin
-    
+   procedure Desvio_Automatico is
+   begin
+
+   Set_Aircraft_Roll (Roll_Samples_Type (45));
+   delay until Clock + Milliseconds (3000);
+   Set_Aircraft_Roll (Roll_Samples_Type (0));
+
+   end Desvio_Automatico;
+
+
+   procedure Collision is
+    Current_Distance    : Distance_Samples_Type := 0;
+    Current_Speed       : Speed_Samples_Type    := 0;
+    Time_Until_Collision : Float := 0.0;
+    Current_Pp          : PilotPresence_Samples_Type := 1;
+    Current_Light       : Light_Samples_Type := 0;
+begin
     Read_Distance(Current_Distance);
-    Current_Speed := Speed_Altitud_Data.Get_Speed;
-    Current_Pp := Read_PilotPresence;
+    Current_Speed := Read_Speed;
+    Current_Pp    := Read_PilotPresence;
     Get_Light(Current_Light);
-    
-    Time_Until_Collision := Float(Current_Distance) / (Float(Current_Speed) * 1000.0 / 3600.0);
-    
-    if Current_Pp = 0 or Current_Light < 500 then
-      if Time_Until_Collision < 15 then
-        Alarm(4);
-        if Time_Until_Collision < 10 then
-          "Desvío Automatico";
+
+    Time_Until_Collision :=
+        Float(Integer(Current_Distance)) / (Float(Integer(Current_Speed)) * 1000.0 / 3600.0);
+
+    if Current_Pp = 0 or else Float(Current_Light) < 500.0 then
+        if Time_Until_Collision < 15.0 then
+            Alarm(4);
         end if;
-      end if;
-    elsif Time_Until_Collision < 10 then
+        if Time_Until_Collision < 10.0 then
+            Desvio_Automatico;
+        end if;
+    elsif Time_Until_Collision < 10.0 then
         Alarm(4);
-        if Time_Until_Collision < 5 then
-          "Desvío Automatico";
+        if Time_Until_Collision < 5.0 then
+            Desvio_Automatico;
         end if;
     end if;
-    
-  end Collision;
+end Collision;
+
+
+
 
   procedure Display is
 
@@ -208,7 +218,7 @@ package body fss is
   begin
 
     Current_A := Read_Altitude;
-    Read_Power (Current_Pw);
+    Read_Power (Current_Power);
     Read_Joystick (Current_J);
     Aircraft_Pitch := Read_Pitch;
     Aircraft_Roll := Read_Roll;
