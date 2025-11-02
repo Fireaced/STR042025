@@ -90,6 +90,9 @@ package body fss is
       Set_Speed(Calculated_S);
     end if;
 
+    Display_Pilot_Power(Current_Power);
+    Display_Speed(Calculated_S);
+
   end Speed;
 
   procedure PositionAltitude is
@@ -145,7 +148,7 @@ package body fss is
 
       if (Current_A >= 10000) then
         Target_Pitch := Pitch_Samples_Type (0);
-        Targe_Roll := Roll_Samples_Type (0);
+        Target_Roll := Roll_Samples_Type (0);
       else
         if (Target_Roll > 35 or Target_Roll < -35) then
           Display_Message ("Roll higher than +35/-35");
@@ -162,25 +165,30 @@ package body fss is
     Set_Aircraft_Pitch (Target_Pitch);
     Set_Aircraft_Roll (Target_Roll);
 
+    Display_Altitude (Current_A);
+    Display_Joystick (Current_J);
+    Display_Pitch (Target_Pitch);
+    Display_Roll (Target_Roll);
+
   end PositionAltitude;
   
-   procedure Desvio_Automatico is
-   begin
+  procedure Desvio_Automatico is
+  begin
 
-   Set_Aircraft_Roll (Roll_Samples_Type (45));
-   delay until Clock + Milliseconds (3000);
-   Set_Aircraft_Roll (Roll_Samples_Type (0));
+    Set_Aircraft_Roll (Roll_Samples_Type (45));
+    delay until Clock + Milliseconds (3000);
+    Set_Aircraft_Roll (Roll_Samples_Type (0));
 
-   end Desvio_Automatico;
+  end Desvio_Automatico;
 
 
-   procedure Collision is
+  procedure Collision is
     Current_Distance    : Distance_Samples_Type := 0;
     Current_Speed       : Speed_Samples_Type    := 0;
     Time_Until_Collision : Float := 0.0;
     Current_Pp          : PilotPresence_Samples_Type := 1;
     Current_Light       : Light_Samples_Type := 0;
-begin
+  begin
     Read_Distance(Current_Distance);
     Current_Speed := Read_Speed;
     Current_Pp    := Read_PilotPresence;
@@ -202,7 +210,7 @@ begin
             Desvio_Automatico;
         end if;
     end if;
-end Collision;
+  end Collision;
 
 
 
