@@ -28,7 +28,7 @@ package body FSS_Interfaces is
          Current_Speed := Speed;
       end UpdateSpeed;
 
-      procedure UpdateAltitud (Altitude  : in Altitude_Samples_Type) is
+      procedure UpdateAltitud (Altitud  : in Altitude_Samples_Type) is
       begin
          Current_Altitud := Altitud;
       end UpdateAltitud;
