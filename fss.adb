@@ -108,6 +108,7 @@ package body fss is
     Current_A: Altitude_Samples_Type := Altitude_Samples_Type(8000);
 
   begin
+    Put_Line("-- Iniciando procedimiento");
 
     Read_Joystick (Current_J);
 
