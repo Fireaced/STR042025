@@ -21,6 +21,12 @@ package body fss is
   ----------------------------------------------------------------------
   ------------- procedure exported 
   ----------------------------------------------------------------------
+  procedure Background is
+  begin
+    loop
+      null;
+    end loop;
+  end Background;
   
   ----------------------------------------------------------------------
 
@@ -246,12 +252,6 @@ package body fss is
     Display_Message("Message for the Pilot");
 
   end Display;
-
-
-  procedure Background is
-  begin
-    null;
-  end Background;
   -----------------------------------------------------------------------
   ------------- declaration of tasks 
   -----------------------------------------------------------------------
@@ -276,9 +276,9 @@ package body fss is
   task body A is 
   begin
     loop
-      Put_Line("Position-Altitude Exectuing:");
+      Start_Activity ("Position-Altitude Executing:");
       PositionAltitude;
-      Put_Line("Position-Altitude Ended:");
+      Finish_Activity ("Position-Altitude Ended:");
       delay until Clock + Milliseconds (200);
     end loop;
   end A;
@@ -286,9 +286,9 @@ package body fss is
   task body B is 
   begin
     loop
-      Put_Line("Speed Exectuing:");
+      Start_Activity("Speed Executing:");
       Speed;
-      Put_Line("Speed Ended:");
+      Finish_Activity ("Speed Ended:");
       delay until Clock + Milliseconds (300);
     end loop;
   end B;
