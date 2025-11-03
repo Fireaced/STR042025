@@ -129,9 +129,10 @@ package body fss is
       Target_Roll := -45;
     end if;
 
-
+    Put_Line("-- Getting Altitud");
     Current_A := Speed_Altitude_Data.Get_Altitude;
 
+    Put_Line("-- Checking Variables");
     if (Current_A <= 2500) then
       Light_1(On);
 
@@ -161,6 +162,7 @@ package body fss is
         end if;
     end if;
 
+    Put_Line("-- Updating Variables");
     Pitch_Roll_Data.Update(Target_Pitch, Target_Roll);
     Set_Aircraft_Pitch (Target_Pitch);
     Set_Aircraft_Roll (Target_Roll);
