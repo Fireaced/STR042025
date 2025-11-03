@@ -12,6 +12,11 @@ with FSS_Interfaces; use FSS_Interfaces;
 -- with Ada.Interrupts.Names;
 -- with Button_Interrupt; use Button_Interrupt;
 
+-- Alejandro García Hidalgo, Roberto Valentín Lago, Diego Espinosa García, Alvaro Pintado Budia
+
+-- Tarea A (Tarea Posición - Altitud), Tarea B (Tarea Velocidad)
+-- Objetos protegidos en el fichero fss_interfaces (Pitch_Roll_Data para compartir los valores del alabeo y cabeceo)
+
 package body fss is
   ----------------------------------------------------------------------
   ------------- procedure exported 
@@ -245,12 +250,7 @@ package body fss is
 
   procedure Background is
   begin
-    loop
-    PositionAltitude;
-    Speed;
-    Collision;
-    Display;
-    end loop;
+    null;
   end Background;
   -----------------------------------------------------------------------
   ------------- declaration of tasks 
@@ -262,6 +262,10 @@ package body fss is
     pragma priority (5);
   end A;
 
+  task B is
+    pragma priority (5);
+  end B;
+
 
   -----------------------------------------------------------------------
   ------------- body of tasks 
@@ -271,14 +275,23 @@ package body fss is
   
   task body A is 
   begin
-    Put_Line("Position-Altitude Exectuing:");
-    PositionAltitude;
-    Put_Line("Position-Altitude Ended:");
-
-    Put_Line("Speed Exectuing:");
-    Speed;
-    Put_Line("Speed Ended:");
+    loop
+      Put_Line("Position-Altitude Exectuing:");
+      PositionAltitude;
+      Put_Line("Position-Altitude Ended:");
+      delay until Clock + Milliseconds (200);
+    end loop;
   end A;
+
+  task body B is 
+  begin
+    loop
+      Put_Line("Speed Exectuing:");
+      Speed;
+      Put_Line("Speed Ended:");
+      delay until Clock + Milliseconds (300);
+    end loop;
+  end B;
 
 begin
   null;
