@@ -112,11 +112,17 @@ package body fss is
 
     Read_Joystick (Current_J);
 
+    Put_Line("-- Joystick leido");
+
     Current_Pitch := Read_Pitch;
     Current_Roll := Read_Roll;
 
+    Put_Line("-- Pitch Leido");
+
     Target_Pitch := Pitch_Samples_Type (Current_J(x)) + Current_Pitch;
     Target_Roll := Roll_Samples_Type (Current_J(y)) + Current_Roll;
+
+    Put_Line("-- Target Pitch calculado");
 
     if (Target_Pitch > 30) then
       Target_Pitch := 30;
