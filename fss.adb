@@ -108,8 +108,8 @@ package body fss is
 
     Read_Joystick (Current_J);
 
-    Current_Pitch := Get_Pitch;
-    Current_Roll := Get_Roll;
+    Current_Pitch := Read_Pitch;
+    Current_Roll := Read_Roll;
 
     Target_Pitch := Pitch_Samples_Type (Current_J(x)) + Current_Pitch;
     Target_Roll := Roll_Samples_Type (Current_J(y)) + Current_Roll;
@@ -145,7 +145,7 @@ package body fss is
 
       if (Current_A >= 10000) then
         Target_Pitch := Pitch_Samples_Type (0);
-        Targe_Roll := Roll_Samples_Type (0);
+        Target_Roll := Roll_Samples_Type (0);
       else
         if (Target_Roll > 35 or Target_Roll < -35) then
           Display_Message ("Roll higher than +35/-35");
@@ -184,7 +184,7 @@ begin
     Read_Distance(Current_Distance);
     Current_Speed := Read_Speed;
     Current_Pp    := Read_PilotPresence;
-    Get_Light(Current_Light);
+    Read_Light_Intensity(Current_Light);
 
     Time_Until_Collision :=
         Float(Integer(Current_Distance)) / (Float(Integer(Current_Speed)) * 1000.0 / 3600.0);
