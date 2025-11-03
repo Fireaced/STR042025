@@ -13,14 +13,22 @@ with FSS_Interfaces; use FSS_Interfaces;
 -- with Button_Interrupt; use Button_Interrupt;
 
 package body fss is
+  
 
+  procedure PositionAltitude;
+  procedure Speed;
+  procedure Collision;
+  procedure Display;
   ----------------------------------------------------------------------
   ------------- procedure exported 
   ----------------------------------------------------------------------
   procedure Background is
   begin
     loop
-      null;
+    PositionAltitude;
+    Speed;
+    Collision;
+    Display;
     end loop;
   end Background;
   ----------------------------------------------------------------------
