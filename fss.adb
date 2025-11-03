@@ -111,21 +111,14 @@ package body fss is
     Current_A: Altitude_Samples_Type := Altitude_Samples_Type(8000);
 
   begin
-    Put_Line("-- Iniciando procedimiento");
 
     Read_Joystick (Current_J);
-
-    Put_Line("-- Joystick leido");
 
     Current_Pitch := Read_Pitch;
     Current_Roll := Read_Roll;
 
-    Put_Line("-- Pitch Leido");
-
     Target_Pitch := Pitch_Samples_Type (Current_J(x)) + Current_Pitch;
     Target_Roll := Roll_Samples_Type (Current_J(y)) + Current_Roll;
-
-    Put_Line("-- Target Pitch calculado");
 
     if (Target_Pitch > 30) then
       Target_Pitch := 30;
@@ -139,10 +132,8 @@ package body fss is
       Target_Roll := -45;
     end if;
 
-    Put_Line("-- Getting Altitud");
     Current_A := Speed_Altitude_Data.Get_Altitude;
 
-    Put_Line("-- Checking Variables");
     if (Current_A <= 2500) then
       Light_1(On);
 
@@ -172,7 +163,6 @@ package body fss is
         end if;
     end if;
 
-    Put_Line("-- Updating Variables");
     Pitch_Roll_Data.Update(Target_Pitch, Target_Roll);
     Set_Aircraft_Pitch (Target_Pitch);
     Set_Aircraft_Roll (Target_Roll);
