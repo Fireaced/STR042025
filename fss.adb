@@ -86,7 +86,7 @@ package body fss is
       Calculated_S := Speed_Samples_Type (300);
       Light_2(On);
     else
-      Speed_Altitud_Data.UpdateSpeed (Calculated_S);
+      Speed_Altitude_Data.UpdateSpeed (Calculated_S);
       Set_Speed(Calculated_S);
     end if;
 
@@ -130,7 +130,7 @@ package body fss is
     end if;
 
 
-    Current_A := Speed_Altitud_Data.Get_Altitude;
+    Current_A := Speed_Altitude_Data.Get_Altitude;
 
     if (Current_A <= 2500) then
       Light_1(On);
@@ -260,7 +260,13 @@ package body fss is
   
   task body A is 
   begin
-    null;
+    Put_Line("Position-Altitude Exectuing:");
+    PositionAltitude;
+    Put_Line("Position-Altitude Ended:");
+
+    Put_Line("Speed Exectuing:");
+    Speed;
+    Put_Line("Speed Ended:");
   end A;
 
 begin

@@ -21,16 +21,16 @@ package body FSS_Interfaces is
 
    end Pitch_Roll_Data;
 
-   protected body Speed_Altitud_Data is
+   protected body Speed_Altitude_Data is
 
       procedure UpdateSpeed (Speed : in Speed_Samples_Type) is
       begin
          Current_Speed := Speed;
       end UpdateSpeed;
 
-      procedure UpdateAltitud (Altitud  : in Altitude_Samples_Type) is
+      procedure UpdateAltitude (Altitude  : in Altitude_Samples_Type) is
       begin
-         Current_Altitud := Altitud;
+         Current_Altitude := Altitude;
       end UpdateAltitud;
 
       function Get_Speed return Speed_Samples_Type is
@@ -40,8 +40,8 @@ package body FSS_Interfaces is
 
       function Get_Altitude return Altitude_Samples_Type is
       begin
-         return Current_Altitud;
+         return Current_Altitude;
       end Get_Altitude;
 
-   end Speed_Altitud_Data;
+   end Speed_Altitude_Data;
 end FSS_Interfaces;

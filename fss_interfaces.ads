@@ -21,13 +21,13 @@ package FSS_Interfaces is
    -- Protected object: Speed Altitud
    ----------------------------------------------------------------------
 
-   protected Speed_Altitud_Data is
+   protected Speed_Altitude_Data is
       procedure UpdateSpeed (Speed : in Speed_Samples_Type);
-      procedure UpdateAltitud(Altitud  : in Altitude_Samples_Type);
+      procedure UpdateAltitude(Altitude  : in Altitude_Samples_Type);
       function Get_Speed return Speed_Samples_Type;
       function Get_Altitude  return Altitude_Samples_Type;
    private
       Current_Speed : Speed_Samples_Type := 0;
-      Current_Altitud  : Altitude_Samples_Type := 0;
-   end Speed_Altitud_Data;
+      Current_Altitude : Altitude_Samples_Type := 0;
+   end Speed_Altitude_Data;
 end FSS_Interfaces;
