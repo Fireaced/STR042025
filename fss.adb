@@ -13,24 +13,10 @@ with FSS_Interfaces; use FSS_Interfaces;
 -- with Button_Interrupt; use Button_Interrupt;
 
 package body fss is
-  
-
-  procedure PositionAltitude;
-  procedure Speed;
-  procedure Collision;
-  procedure Display;
   ----------------------------------------------------------------------
   ------------- procedure exported 
   ----------------------------------------------------------------------
-  procedure Background is
-  begin
-    loop
-    PositionAltitude;
-    Speed;
-    Collision;
-    Display;
-    end loop;
-  end Background;
+  
   ----------------------------------------------------------------------
 
   -----------------------------------------------------------------------
@@ -109,9 +95,7 @@ package body fss is
     Current_Pitch: Pitch_Samples_Type := 0;
     Current_Roll: Roll_Samples_Type := 0;
     Target_Pitch: Pitch_Samples_Type := 0;
-    Target_Roll: Roll_Samples_Type := 0; 
-    Aircraft_Pitch: Pitch_Samples_Type; 
-    Aircraft_Roll: Roll_Samples_Type;
+    Target_Roll: Roll_Samples_Type := 0;
     
     Current_A: Altitude_Samples_Type := Altitude_Samples_Type(8000);
 
@@ -258,6 +242,16 @@ package body fss is
 
   end Display;
 
+
+  procedure Background is
+  begin
+    loop
+    PositionAltitude;
+    Speed;
+    Collision;
+    Display;
+    end loop;
+  end Background;
   -----------------------------------------------------------------------
   ------------- declaration of tasks 
   -----------------------------------------------------------------------

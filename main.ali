@@ -11,7 +11,7 @@ W system%s		system.ads		system.ali
 D fss.ads		20251028183110 40408672
 D kernel.ads		20010312182047 56BBE4F1
 D kernel-parameters.ads	20010312182047 0D1B8F78
-D main.adb		20251028183110 22303A79
+D main.adb		20251103171711 22303A79
 D system.ads		20010312182047 2AE5BAFE
 X 1 fss.ads
 1U9*fss 4|1r6 10r4

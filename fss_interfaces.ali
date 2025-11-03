@@ -3,11 +3,11 @@ A -g
 P LC TF
 R nnvnrnnvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
 
-U fss_interfaces%b	fss_interfaces.adb	1E208444 PK
+U fss_interfaces%b	fss_interfaces.adb	33C27D9F PK
 W ada.exceptions%s	a-except.adb		a-except.ali
 W system.soft_links%s	s-soflin.adb		s-soflin.ali
 
-U fss_interfaces%s	fss_interfaces.ads	359E3A87 PK
+U fss_interfaces%s	fss_interfaces.ads	4B96E38B PK
 W devicesfss_v1%s	devicesfss_v1.adb	devicesfss_v1.ali
 W system.tasking%s	s-taskin.adb		s-taskin.ali
 W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
@@ -20,8 +20,8 @@ D a-reatim.ads		20000718095948 5DBAB303
 D a-stream.ads		20000718095948 5F7C277B
 D a-tags.ads		20000718095948 45EF7E4E
 D devicesfss_v1.ads	20251028183110 76163774
-D fss_interfaces.ads	20251103140641 43880DF3
-D fss_interfaces.adb	20251103143810 5DA889B7
+D fss_interfaces.ads	20251103153326 3D80D4FF
+D fss_interfaces.adb	20251103153752 0E42A960
 D kernel.ads		20010312182047 56BBE4F1
 D kernel-cpu_primitives.ads  20010312182047 5746D7AD
 D kernel-interrupts.ads	20010312182047 72CD7AA3
@@ -50,7 +50,7 @@ D s-unstyp.ads		20000718095949 78AFB91D
 D unchconv.ads		20000718095949 72DC4539
 X 8 devicesfss_v1.ads
 4U9*devicesFSS_V1 9|1r6 1r25
-24I10*Altitude_Samples_Type 9|26r45 28r37 31r26 10|31r46 41r36
+24I10*Altitude_Samples_Type 9|26r47 28r37 31r26 10|31r48 41r36
 31I10*Speed_Samples_Type 9|25r41 27r33 30r23 10|26r41 36r33
 39I10*Pitch_Samples_Type 9|11r36 13r33 16r23 10|5r36 12r33
 44I10*Roll_Samples_Type 9|12r36 14r33 17r23 10|6r36 17r32
@@ -64,13 +64,13 @@ X 9 fss_interfaces.ads
 14U16 Get_Roll 10|17b16
 16i7 Current_Pitch 10|8r10 14r17
 17i7 Current_Roll 10|9r10 19r17
-24w14*Speed_Altitud_Data
+24w14*Speed_Altitude_Data
 25U17 UpdateSpeed 10|26b17
 25i30 Speed 10|26b30 28r27
-26U17 UpdateAltitud 10|31b17
-26i31 Altitud 10|31b32 33r29
+26U17 UpdateAltitude 10|31b17
+26i32 Altitude 10|31b33 33r30
 27U16 Get_Speed 10|36b16
 28U16 Get_Altitude 10|41b16
 30i7 Current_Speed 10|28r10 38r17
-31i7 Current_Altitud 10|33r10 43r17
+31i7 Current_Altitude 10|33r10 43r17
 
