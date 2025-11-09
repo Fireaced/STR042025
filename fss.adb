@@ -163,7 +163,8 @@ package body fss is
         end if;
     end if;
 
-    Pitch_Roll_Data.Update(Target_Pitch, Target_Roll);
+    Pitch_Roll_Data.UpdatePitch(Target_Pitch);
+    Pitch_Roll_Data.UpdateRoll(Target_Roll);
     Set_Aircraft_Pitch (Target_Pitch);
     Set_Aircraft_Roll (Target_Roll);
 
@@ -178,8 +179,10 @@ package body fss is
   begin
 
     Set_Aircraft_Roll (Roll_Samples_Type (45));
+    Pitch_Roll_Data.UpdateRoll(Roll_Samples_Type (45));
     delay until Clock + Milliseconds (3000);
     Set_Aircraft_Roll (Roll_Samples_Type (0));
+    Pitch_Roll_Data.UpdateRoll(Roll_Samples_Type (0));
 
   end Desvio_Automatico;
 

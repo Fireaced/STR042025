@@ -2,12 +2,15 @@ package body FSS_Interfaces is
 
    protected body Pitch_Roll_Data is
 
-      procedure Update (Pitch : in Pitch_Samples_Type;
-                        Roll  : in Roll_Samples_Type) is
+      procedure UpdatePitch (Pitch : in Pitch_Samples_Type) is
       begin
          Current_Pitch := Pitch;
+      end UpdatePitch;
+
+      procedure UpdateRoll (Roll  : in Roll_Samples_Type) is
+      begin
          Current_Roll  := Roll;
-      end Update;
+      end UpdateRoll;
 
       function Get_Pitch return Pitch_Samples_Type is
       begin
