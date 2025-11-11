@@ -30,4 +30,27 @@ package FSS_Interfaces is
       Current_Speed : Speed_Samples_Type := 0;
       Current_Altitude : Altitude_Samples_Type := 0;
    end Speed_Altitude_Data;
+
+   ----------------------------------------------------------------------
+   -- Protected object: Display
+   ----------------------------------------------------------------------
+
+   protected Status_Record is
+      procedure SetAltitude(Altitude : in Altitude_Samples_Type);
+      procedure SetJoystick(Joystick : in Joystick_Samples_Type);
+      procedure SetPitch(Pitch : in Pitch_Samples_Type);
+      procedure SetRoll(Roll : in Roll_Samples_Type);
+      procedure SetSpeed(Speed : in Speed_Samples_Type);
+      procedure SetPower(Power : in Power_Samples_Type);
+      procedure SetMessage(Message : in String);
+      procedure ShowDisplay;
+   private
+      Current_Altitude : Altitude_Samples_Type := 0;
+      Current_Joystick : Joystick_Samples_Type := (0, 0);
+      Current_Pitch : Pitch_Samples_Type := 0;
+      Current_Roll : Roll_Samples_Type := 0;
+      Current_Speed : Speed_Samples_Type := 0;
+      Current_Power : Power_Samples_Type := 0;
+      Current_Message : String := "";
+   end Status_Record;
 end FSS_Interfaces;
