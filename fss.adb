@@ -52,9 +52,11 @@ package body fss is
   procedure Mode (modeInput : in String) is
   begin
     if (modeInput = "Manual") then
-    Put_line("ManualMode");
+      Selected_Mode.UpdateMode("Manual");
+      Put_line("Manual Mode");
     elsif (modeInput = "Automatic") then
-    Put_line("Automatic Mode");
+      Selected_Mode.UpdateMode("Automatic");
+      Put_line("Automatic Mode");
     end if;
   end Mode;
 

@@ -2,6 +2,17 @@ with devicesFSS_V1; use devicesFSS_V1;
 
 package FSS_Interfaces is
 
+   ----------------------------------------------------------------------
+   -- Protected object: Selected Mode
+   ----------------------------------------------------------------------
+
+   protected Selected_Mode is
+      procedure UpdateMode (Mode : in String);
+      function Get_Mode return String;
+   private
+      Current_Mode : String := "Manual";
+   end Selected_Mode;
+
 
    ----------------------------------------------------------------------
    -- Protected object: Pitch Roll

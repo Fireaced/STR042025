@@ -1,5 +1,18 @@
+with Interrupt_Handler;
 with tools;
 package body FSS_Interfaces is
+
+   protected body Selected_Mode is
+      procedure UpdateMode (Mode : in String) is
+      begin
+         Current_Mode := Mode;
+      end UpdateMode;
+
+      function Get_Mode return String is
+      begin
+         return Current_Mode;
+      end Get_Mode;
+   end Selected_Mode;
 
    protected body Pitch_Roll_Data is
 
