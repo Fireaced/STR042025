@@ -1,4 +1,5 @@
 with devicesFSS_V1; use devicesFSS_V1;
+with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 package FSS_Interfaces is
 
@@ -51,6 +52,6 @@ package FSS_Interfaces is
       Current_Roll : Roll_Samples_Type := 0;
       Current_Speed : Speed_Samples_Type := 0;
       Current_Power : Power_Samples_Type := 0;
-      Current_Message : String := "";
+      Current_Message : Unbounded_String := To_Unbounded_String("");
    end Status_Record;
 end FSS_Interfaces;
