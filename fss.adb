@@ -1,4 +1,5 @@
 
+with Interrupt_Handler;
 with Kernel.Serial_Output; use Kernel.Serial_Output;
 with Ada.Real_Time; use Ada.Real_Time;
 with System; use System;
@@ -242,6 +243,10 @@ package body fss is
     pragma priority (5);
   end B;
 
+  task Manual is
+    pragma priority (5);
+  end Manual;
+
 
   -----------------------------------------------------------------------
   ------------- body of tasks 
@@ -252,22 +257,33 @@ package body fss is
   task body A is 
   begin
     loop
-      Start_Activity ("Position-Altitude Executing:");
-      PositionAltitude;
-      Finish_Activity ("Position-Altitude Ended:");
-      delay until Clock + Milliseconds (200);
+      if(Selected_Mode.Current_Mode == "Automatic") then
+         Start_Activity ("Position-Altitude Executing:");
+         PositionAltitude;
+         Finish_Activity ("Position-Altitude Ended:");
+         delay until Clock + Milliseconds (200);
+      end if;
     end loop;
   end A;
 
   task body B is 
   begin
     loop
-      Start_Activity("Speed Executing:");
-      Speed;
-      Finish_Activity ("Speed Ended:");
-      delay until Clock + Milliseconds (300);
+      if(Selected_Mode.Current_Mode == "Automatic") then
+         Start_Activity("Speed Executing:");
+         Speed;
+         Finish_Activity ("Speed Ended:");
+         delay until Clock + Milliseconds (300);
+      end if;
     end loop;
   end B;
+
+   task body Manual is
+   begin
+    if(Selected_Mode.Current_Mode == "Manual") then
+      Put_line("----- Manual Task -----");
+    end if;
+  end Manual;
 
 begin
   null;

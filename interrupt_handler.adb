@@ -1,7 +1,9 @@
 with Ada.Interrupts;
 with Ada.Interrupts.Names;
+with Interrupt_Handler;
 with Kernel.Serial_Output;    -- opcional: cuidado en ISR
 with System; use System;
+with fss; use fss;
 
 package body Interrupt_Handler is
 
@@ -13,9 +15,8 @@ package body Interrupt_Handler is
       procedure Switch_Mode is
       begin
          case Current is
-            when Normal      => Current := Mantenimiento;
-            when Mantenimiento => Current := Ahorro;
-            when Ahorro       => Current := Normal;
+            when Manual      => Current := Automatic; Mode ("Automatic");
+            when Automatic => Current := Manual; Mode ("Manual");
          end case;
       end Switch_Mode;
 
