@@ -106,7 +106,7 @@ package body FSS_Interfaces is
 
       procedure SetMessage(Message : in String) is
       begin
-         Current_Message := Message;
+         Current_Message := To_Unbounded_String(Message);
       end SetMessage;
 
       procedure ShowDisplay is
@@ -117,7 +117,7 @@ package body FSS_Interfaces is
          Display_Joystick (Current_Joystick);
          Display_Pitch (Current_Pitch);
          Display_Roll (Current_Roll);
-         Display_Message(Current_Message);
+         Display_Message(To_String(Current_Message));
       end ShowDisplay;
 
    end Status_Record;
