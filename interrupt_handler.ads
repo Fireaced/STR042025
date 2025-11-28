@@ -1,23 +1,24 @@
-with Ada.Interrupts;         -- necesario si otros paquetes usan interrupciones
-with Ada.Interrupts.Names;   -- nombres de interrupciones del sistema
+with Ada.Interrupts;
 
 package Interrupt_Handler is
 
    type Mode_Type is (Manual, Automatic);
 
-   protected Mode_Manager is
+   protected type Mode_Manager_Type is
       procedure Switch_Mode;
       function Current_Mode return Mode_Type;
    private
-      Current : Mode_Type := Manual;
-   end Mode_Manager;
+      Current : Mode_Type := Automatic;
+   end Mode_Manager_Type;
 
-   -- Handler declarado como procedimiento de librería
-   protected Interrupts is
+   protected type Interrupts_Type is
       procedure Button_Handler;
-   end Interrupts;
+   end Interrupts_Type;
 
-   -- Inicialización opcional (p. ej. configurar pin/mascara)
+   -- Declaración de los objetos globales
+   Mode_Manager : Mode_Manager_Type;
+   Interrupts   : Interrupts_Type;
+
    procedure Initialize;
 
 end Interrupt_Handler;
