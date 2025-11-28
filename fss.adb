@@ -3,6 +3,7 @@ with Interrupt_Handler;
 with Kernel.Serial_Output; use Kernel.Serial_Output;
 with Ada.Real_Time; use Ada.Real_Time;
 with System; use System;
+with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
@@ -42,7 +43,6 @@ package body fss is
   ------------- procedimientos para probar los dispositivos 
   ------------- SE DEBERÁN QUITAR PARA EL PROYECTO
   ----------------------------------------------------------------------
-  procedure Mode (modeInput : in String);
   procedure PositionAltitude;
   procedure Speed;
   procedure Collision;
@@ -263,7 +263,7 @@ package body fss is
   task body A is 
   begin
     loop
-      if(Selected_Mode.Current_Mode ="Automatic") then
+      if(Selected_Mode.Get_Mode = "Automatic") then
          Start_Activity ("Position-Altitude Executing:");
          PositionAltitude;
          Finish_Activity ("Position-Altitude Ended:");
@@ -275,7 +275,7 @@ package body fss is
   task body B is 
   begin
     loop
-      if(Selected_Mode.Current_Mode = "Automatic") then
+      if(Selected_Mode.Get_Mode = "Automatic") then
          Start_Activity("Speed Executing:");
          Speed;
          Finish_Activity ("Speed Ended:");
@@ -286,7 +286,7 @@ package body fss is
 
    task body Manual is
    begin
-    if(Selected_Mode.Current_Mode = "Manual") then
+    if(Selected_Mode.Get_Mode = "Manual") then
       Put_line("----- Manual Task -----");
     end if;
   end Manual;
