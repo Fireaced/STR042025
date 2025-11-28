@@ -263,7 +263,7 @@ package body fss is
   task body A is 
   begin
     loop
-      if(Selected_Mode.Current_Mode == "Automatic") then
+      if(Selected_Mode.Current_Mode ="Automatic") then
          Start_Activity ("Position-Altitude Executing:");
          PositionAltitude;
          Finish_Activity ("Position-Altitude Ended:");
@@ -275,7 +275,7 @@ package body fss is
   task body B is 
   begin
     loop
-      if(Selected_Mode.Current_Mode == "Automatic") then
+      if(Selected_Mode.Current_Mode = "Automatic") then
          Start_Activity("Speed Executing:");
          Speed;
          Finish_Activity ("Speed Ended:");
@@ -286,7 +286,7 @@ package body fss is
 
    task body Manual is
    begin
-    if(Selected_Mode.Current_Mode == "Manual") then
+    if(Selected_Mode.Current_Mode = "Manual") then
       Put_line("----- Manual Task -----");
     end if;
   end Manual;
