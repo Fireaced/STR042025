@@ -38,14 +38,13 @@ package body Interrupt_Handler is
    end Interrupts;
 
    -- Asociamos el handler a la interrupción física.
-   pragma Attach_Handler (Button_Handler, Ada.Interrupts.Names.External_Interrupt_2);
+   pragma Attach_Handler(
+      Interrupts.Button_Handler,
+      Ada.Interrupts.Names.External_Interrupt_2
+   );
 
-   -- Inicialización: desmascarar, configurar pin, etc.
    procedure Initialize is
    begin
-      -- Aquí puedes llamar a rutinas de bajo nivel para configurar el pin
-      -- y dejar la interrupción habilitada. Si Force_External_Interrupt_2 ya
-      -- gestiona los registros, quizá no necesites nada.
       null;
    end Initialize;
 
