@@ -30,15 +30,12 @@ package body Interrupt_Handler is
    ---------------------------------------------
    -- Procedimiento que actuará como ISR (rápido)
    ---------------------------------------------
-   procedure Button_Handler is
-   begin
-      -- MUY IMPORTANTE: el código del ISR debe ser breve.
-      -- Llamamos a una operación protegida para hacer el trabajo seguro.
-      Mode_Manager.Switch_Mode;
-
-      -- NO hacer I/O pesado (Put_Line) aquí: puede fallar o bloquear.
-      -- Si quieres traza, mejor poner una bandera y que otra tarea haga el I/O.
-   end Button_Handler;
+   protected body Interrupts is
+      procedure Button_Handler is
+      begin
+         Mode_Manager.Switch_Mode;
+      end Button_Handler;
+   end Interrupts;
 
    -- Asociamos el handler a la interrupción física.
    pragma Attach_Handler (Button_Handler, Ada.Interrupts.Names.External_Interrupt_2);

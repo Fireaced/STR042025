@@ -13,7 +13,9 @@ package Interrupt_Handler is
    end Mode_Manager;
 
    -- Handler declarado como procedimiento de librería
-   procedure Button_Handler;
+   protected Interrupts is
+      procedure Button_Handler;
+   end Interrupts;
 
    -- Inicialización opcional (p. ej. configurar pin/mascara)
    procedure Initialize;
