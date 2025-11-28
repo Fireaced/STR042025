@@ -141,7 +141,7 @@ package body FSS_Interfaces is
 
       function GetMessage return String is
       begin
-         return Current_Message;
+         return To_String(Current_Message);
       end GetMessage;
 
    end Status_Record;
