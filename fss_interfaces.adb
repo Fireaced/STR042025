@@ -79,46 +79,70 @@ package body FSS_Interfaces is
          Current_Altitude := Altitude;
       end SetAltitude;
 
+      function GetAltitude return Altitude_Samples_Type is
+      begin
+         return Current_Altitude;
+      end GetAltitude;
+
       procedure SetJoystick(Joystick : in Joystick_Samples_Type) is
       begin
          Current_Joystick := Joystick;
       end SetJoystick;
+
+      function GetJoystick return Joystick_Samples_Type is
+      begin
+         return Current_Joystick;
+      end GetJoystick;
 
       procedure SetPitch(Pitch : in Pitch_Samples_Type) is
       begin
          Current_Pitch := Pitch;
       end SetPitch;
 
+      function GetPitch return Pitch_Samples_Type is
+      begin
+         return Current_Pitch;
+      end GetPitch;
+
       procedure SetRoll(Roll : in Roll_Samples_Type) is
       begin
          Current_Roll := Roll;
       end SetRoll;
+
+      function GetRoll return Roll_Samples_Type is
+      begin
+         return Current_Roll;
+      end GetRoll;
 
       procedure SetSpeed(Speed : in Speed_Samples_Type) is
       begin
          Current_Speed := Speed;
       end SetSpeed;
 
+      function GetSpeed return Speed_Samples_Type is
+      begin
+         return Current_Speed;
+      end GetSpeed;
+
       procedure SetPower(Power : in Power_Samples_Type) is
       begin
          Current_Power := Power;
       end SetPower;
+
+      function GetPower return Power_Samples_Type is
+      begin
+         return Current_Power;
+      end GetPower;
 
       procedure SetMessage(Message : in String) is
       begin
          Current_Message := To_Unbounded_String(Message);
       end SetMessage;
 
-      procedure ShowDisplay is
+      function GetMessage return String is
       begin
-         Display_Altitude (Current_Altitude);
-         Display_Pilot_Power(Current_Power);
-         Display_Speed(Current_Speed);
-         Display_Joystick (Current_Joystick);
-         Display_Pitch (Current_Pitch);
-         Display_Roll (Current_Roll);
-         Display_Message(To_String(Current_Message));
-      end ShowDisplay;
+         return Current_Message;
+      end GetMessage;
 
    end Status_Record;
 end FSS_Interfaces;

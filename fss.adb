@@ -200,7 +200,7 @@ package body fss is
     Current_Light       : Light_Samples_Type := 0;
   begin
     Read_Distance(Current_Distance);
-    Current_Speed := Read_Speed;
+    Current_Speed := Speed_Altitude_Data.Get_Speed;
     Current_Pp    := Read_PilotPresence;
     Read_Light_Intensity(Current_Light);
 
@@ -227,7 +227,13 @@ package body fss is
 
   procedure Display is
   begin
-    Status_Record.ShowDisplay;
+      Display_Altitude (Status_Record.GetAltitude);
+      Display_Pilot_Power(Status_Record.GetPower);
+      Display_Speed(Status_Record.GetSpeed);
+      Display_Joystick (Status_Record.GetJoystick);
+      Display_Pitch (Status_Record.GetPitch);
+      Display_Roll (Status_Record.GetRoll);
+      Display_Message(To_String(Status_Record.GetMessage));
   end Display;
   -----------------------------------------------------------------------
   ------------- declaration of tasks 
