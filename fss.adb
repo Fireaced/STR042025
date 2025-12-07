@@ -93,7 +93,6 @@ package body fss is
       Light_2(On);
     else
       Speed_Altitude_Data.UpdateSpeed (Calculated_S);
-      Set_Speed(Calculated_S);
     end if;
 
     Status_Record.SetPower(Current_Power);
@@ -133,7 +132,7 @@ package body fss is
       Target_Roll := -45;
     end if;
 
-    Current_A := Speed_Altitude_Data.Get_Altitude;
+    Current_A := Read_Altitude;
 
     if (Current_A <= 2500) then
       Light_1(On);
@@ -168,6 +167,7 @@ package body fss is
     Pitch_Roll_Data.UpdateRoll(Target_Roll, 0);
     Set_Aircraft_Pitch (Target_Pitch);
     Set_Aircraft_Roll (Target_Roll);
+    Speed_Altitude_Data.UpdateAltitude(Current_A);
 
     Status_Record.SetAltitude(Current_A);
     Status_Record.SetJoystick(Current_J);
