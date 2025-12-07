@@ -1,8 +1,8 @@
-with Ada.Text_IO; use Ada.Text_IO;
-
 package body Interrupt_Handler is
 
-   protected body Mode_M_Type is
+   Mode_Manager : Mode_Manager_Type;
+
+   protected body Mode_Manager_Type is
       procedure Switch_Mode is
       begin
          case Current is
@@ -11,10 +11,11 @@ package body Interrupt_Handler is
          end case;
       end Switch_Mode;
 
-      function Current_Mode return Mode_Type is 
+      function Current_Mode return Mode_Type is
       begin
          return Current;
       end Current_Mode;
-   end Mode_M_Type;
+
+   end Mode_Manager_Type;
 
 end Interrupt_Handler;
