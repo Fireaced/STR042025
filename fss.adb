@@ -239,16 +239,24 @@ package body fss is
 
    -- Aqui se declaran las tareas que forman el STR
 
-  task A is
-    pragma priority (5);
-  end A;
+  task positionAltitudeTask is
+    pragma priority (4);
+  end positionAltitudeTask;
 
-  task B is
+  task speedTask is
+    pragma priority (4);
+  end speedTask;
+
+  task collisionTask is
     pragma priority (5);
-  end B;
+  end speedTask;
+
+  task displayTask is
+    pragma priority (3);
+  end displayTask;
 
   task Manual is
-    pragma priority (5);
+    pragma priority (4);
   end Manual;
 
 
@@ -258,7 +266,7 @@ package body fss is
   
   -- Aqui se escriben los cuerpos de las tareas 
   
-  task body A is 
+  task body positionAltitudeTask is 
   begin
     loop
       if(Selected_Mode.Get_Mode = "Automatic") then
@@ -268,9 +276,9 @@ package body fss is
          delay until Clock + Milliseconds (200);
       end if;
     end loop;
-  end A;
+  end positionAltitudeTask;
 
-  task body B is 
+  task body speedTask is 
   begin
     loop
       if(Selected_Mode.Get_Mode = "Automatic") then
@@ -280,14 +288,38 @@ package body fss is
          delay until Clock + Milliseconds (300);
       end if;
     end loop;
-  end B;
+  end speedTask;
 
-   task body Manual is
+  task body collisionTask is 
+  begin
+    loop
+      if(Selected_Mode.Get_Mode = "Automatic") then
+         Start_Activity("Collision Executing:");
+         Collision;
+         Finish_Activity ("Collision Ended:");
+         delay until Clock + Milliseconds (250);
+      end if;
+    end loop;
+  end collisionTask;
+
+  task body displayTask is 
+  begin
+    loop
+      if(Selected_Mode.Get_Mode = "Automatic") then
+         Start_Activity("Display Executing:");
+         Display;
+         Finish_Activity ("Display Ended:");
+         delay until Clock + Milliseconds (1000);
+      end if;
+    end loop;
+  end displayTask;
+
+   task body manualTask is
    begin
     if(Selected_Mode.Get_Mode = "Manual") then
       Put_line("----- Manual Task -----");
     end if;
-  end Manual;
+  end manualTask;
 
 begin
   null;
