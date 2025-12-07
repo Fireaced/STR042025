@@ -237,8 +237,27 @@ package body fss is
   ------------- declaration of tasks 
   -----------------------------------------------------------------------
 
-  -- Aqui se declaran las tareas que forman el STR
+   -- Aqui se declaran las tareas que forman el STR
 
+  task A is
+    pragma priority (5);
+  end A;
+
+  task B is
+    pragma priority (5);
+  end B;
+
+  task Manual is
+    pragma priority (5);
+  end Manual;
+
+
+  -----------------------------------------------------------------------
+  ------------- body of tasks 
+  -----------------------------------------------------------------------
+  
+  -- Aqui se escriben los cuerpos de las tareas 
+  
   task body A is 
   begin
     loop
