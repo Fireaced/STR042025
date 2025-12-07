@@ -8,11 +8,13 @@ package FSS_Interfaces is
    ----------------------------------------------------------------------
 
    protected Pitch_Roll_Data is
-      procedure Update (Pitch : in Pitch_Samples_Type;
-                        Roll  : in Roll_Samples_Type);
+      procedure UpdatePitch (Pitch : in Pitch_Samples_Type; Collision: in Integer);
+      procedure UpdateRoll (Roll  : in Roll_Samples_Type; Collision: in Integer);
       function Get_Pitch return Pitch_Samples_Type;
       function Get_Roll  return Roll_Samples_Type;
    private
+      Current_Collision_Pitch : Integer := 0;
+      Current_Collision_Roll : Integer := 0;
       Current_Pitch : Pitch_Samples_Type := 0;
       Current_Roll  : Roll_Samples_Type := 0;
    end Pitch_Roll_Data;
