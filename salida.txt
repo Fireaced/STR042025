@@ -1,0 +1,3076 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 203200 bytes
+section: .data at 0x20319c0, size 11508 bytes
+tsim> resuming at 0x02000000
+
+[ 0.0025] >>> Speed Executing:
+[ 0.0216] ..# Pilot_Power:  800
+[ 0.0418] ..# Speed:  960
+[ 0.0590] --- Speed Ended:
+[ 0.0728] >>> Position-Altitude Executing:
+[ 0.1073] %Light(1): ON
+[ 0.1320] ..# Altitude:  0
+[ 0.1497] ..# Joystick:  81 3
+[ 0.1689] ..# Pitch:  0
+[ 0.1850] ..# Roll:  0
+[ 0.2007] --- Position-Altitude Ended:
+[ 0.3722] >>> Speed Executing:
+[ 0.3912] ..# Pilot_Power:  800
+[ 0.4114] ..# Speed:  960
+[ 0.4286] --- Speed Ended:
+[ 0.4424] >>> Position-Altitude Executing:
+[ 0.4769] %Light(1): ON
+[ 0.5016] ..# Altitude:  0
+[ 0.5193] ..# Joystick:  81-3
+[ 0.5385] ..# Pitch:  0
+[ 0.5546] ..# Roll:  0
+[ 0.5703] --- Position-Altitude Ended:
+[ 0.7417] >>> Speed Executing:
+[ 0.7608] ..# Pilot_Power:  800
+[ 0.7810] ..# Speed:  960
+[ 0.7982] --- Speed Ended:
+[ 0.8120] >>> Position-Altitude Executing:
+[ 0.8465] %Light(1): ON
+[ 0.8712] ..# Altitude:  0
+[ 0.8889] ..# Joystick:  3 0
+[ 0.9076] ..# Pitch:  0
+[ 0.9237] ..# Roll:  0
+[ 0.9393] --- Position-Altitude Ended:
+[ 1.1113] >>> Speed Executing:
+[ 1.1304] ..# Pilot_Power:  800
+[ 1.1506] ..# Speed:  960
+[ 1.1678] --- Speed Ended:
+[ 1.1816] >>> Position-Altitude Executing:
+[ 1.2161] %Light(1): ON
+[ 1.2408] ..# Altitude:  0
+[ 1.2585] ..# Joystick:  2 1
+[ 1.2772] ..# Pitch:  0
+[ 1.2933] ..# Roll:  0
+[ 1.3089] --- Position-Altitude Ended:
+[ 1.4809] >>> Speed Executing:
+[ 1.5000] ..# Pilot_Power:  800
+[ 1.5202] ..# Speed:  960
+[ 1.5374] --- Speed Ended:
+[ 1.5512] >>> Position-Altitude Executing:
+[ 1.5857] %Light(1): ON
+[ 1.6104] ..# Altitude:  0
+[ 1.6281] ..# Joystick: -1 3
+[ 1.6468] ..# Pitch:  0
+[ 1.6629] ..# Roll:  0
+[ 1.6785] --- Position-Altitude Ended:
+[ 1.8505] >>> Speed Executing:
+[ 1.8696] ..# Pilot_Power:  800
+[ 1.8898] ..# Speed:  960
+[ 1.9070] --- Speed Ended:
+[ 1.9208] >>> Position-Altitude Executing:
+[ 1.9553] %Light(1): ON
+[ 1.9800] ..# Altitude:  0
+[ 1.9977] ..# Joystick:  1-3
+[ 2.0164] ..# Pitch:  0
+[ 2.0325] ..# Roll:  0
+[ 2.0481] --- Position-Altitude Ended:
+[ 2.2201] >>> Speed Executing:
+[ 2.2391] ..# Pilot_Power:  800
+[ 2.2594] ..# Speed:  960
+[ 2.2765] --- Speed Ended:
+[ 2.2903] >>> Position-Altitude Executing:
+[ 2.3249] %Light(1): ON
+[ 2.3496] ..# Altitude:  0
+[ 2.3673] ..# Joystick:  3 0
+[ 2.3859] ..# Pitch:  0
+[ 2.4021] ..# Roll:  0
+[ 2.4177] --- Position-Altitude Ended:
+[ 2.5897] >>> Speed Executing:
+[ 2.6087] ..# Pilot_Power:  700
+[ 2.6290] ..# Speed:  840
+[ 2.6461] --- Speed Ended:
+[ 2.6599] >>> Position-Altitude Executing:
+[ 2.6945] %Light(1): ON
+[ 2.7192] ..# Altitude:  0
+[ 2.7368] ..# Joystick:  15 3
+[ 2.7561] ..# Pitch:  0
+[ 2.7722] ..# Roll:  0
+[ 2.7878] --- Position-Altitude Ended:
+[ 2.9592] >>> Speed Executing:
+[ 2.9783] ..# Pilot_Power:  700
+[ 2.9985] ..# Speed:  840
+[ 3.0157] --- Speed Ended:
+[ 3.0295] >>> Position-Altitude Executing:
+[ 3.0640] %Light(1): ON
+[ 3.0887] ..# Altitude:  0
+[ 3.1064] ..# Joystick:  25 3
+[ 3.1256] ..# Pitch:  0
+[ 3.1417] ..# Roll:  0
+[ 3.1573] --- Position-Altitude Ended:
+[ 3.3288] >>> Speed Executing:
+[ 3.3479] ..# Pilot_Power:  700
+[ 3.3681] ..# Speed:  840
+[ 3.3853] --- Speed Ended:
+[ 3.3991] >>> Position-Altitude Executing:
+[ 3.4336] %Light(1): ON
+[ 3.4583] ..# Altitude:  0
+[ 3.4760] ..# Joystick:  35-3
+[ 3.4952] ..# Pitch:  0
+[ 3.5113] ..# Roll:  0
+[ 3.5269] --- Position-Altitude Ended:
+[ 3.6984] >>> Speed Executing:
+[ 3.7175] ..# Pilot_Power:  700
+[ 3.7377] ..# Speed:  840
+[ 3.7549] --- Speed Ended:
+[ 3.7687] >>> Position-Altitude Executing:
+[ 3.8032] %Light(1): ON
+[ 3.8279] ..# Altitude:  0
+[ 3.8456] ..# Joystick:  45 0
+[ 3.8648] ..# Pitch:  0
+[ 3.8809] ..# Roll:  0
+[ 3.8965] --- Position-Altitude Ended:
+[ 4.0680] >>> Speed Executing:
+[ 4.0871] ..# Pilot_Power:  600
+[ 4.1073] ..# Speed:  720
+[ 4.1245] --- Speed Ended:
+[ 4.1382] >>> Position-Altitude Executing:
+[ 4.1728] %Light(1): ON
+[ 4.1975] ..# Altitude:  0
+[ 4.2152] ..# Joystick:  47 3
+[ 4.2344] ..# Pitch:  0
+[ 4.2505] ..# Roll:  0
+[ 4.2661] --- Position-Altitude Ended:
+[ 4.4376] >>> Speed Executing:
+[ 4.4566] ..# Pilot_Power:  600
+[ 4.4769] ..# Speed:  720
+[ 4.4940] --- Speed Ended:
+[ 4.5078] >>> Position-Altitude Executing:
+[ 4.5424] %Light(1): ON
+[ 4.5671] ..# Altitude:  0
+[ 4.5848] ..# Joystick:  47 3
+[ 4.6040] ..# Pitch:  0
+[ 4.6201] ..# Roll:  0
+[ 4.6357] --- Position-Altitude Ended:
+[ 4.8072] >>> Speed Executing:
+[ 4.8262] ..# Pilot_Power:  600
+[ 4.8465] ..# Speed:  720
+[ 4.8636] --- Speed Ended:
+[ 4.8774] >>> Position-Altitude Executing:
+[ 4.9120] %Light(1): ON
+[ 4.9367] ..# Altitude:  0
+[ 4.9543] ..# Joystick:  46-3
+[ 4.9736] ..# Pitch:  0
+[ 4.9897] ..# Roll:  0
+[ 5.0053] --- Position-Altitude Ended:
+[ 5.1768] >>> Speed Executing:
+[ 5.1935] %Light(2): ON
+[ 5.2063] ..# Pilot_Power:  900
+[ 5.2267] ..# Speed:  1000
+[ 5.2444] --- Speed Ended:
+[ 5.2582] >>> Position-Altitude Executing:
+[ 5.2927] %Light(1): ON
+[ 5.3174] ..# Altitude:  0
+[ 5.3351] ..# Joystick:  45 30
+[ 5.3548] ..# Pitch:  0
+[ 5.3709] ..# Roll:  0
+[ 5.3866] --- Position-Altitude Ended:
+[ 5.5575] >>> Speed Executing:
+[ 5.5743] %Light(2): ON
+[ 5.5871] ..# Pilot_Power:  900
+[ 5.6074] ..# Speed:  1000
+[ 5.6251] --- Speed Ended:
+[ 5.6389] >>> Position-Altitude Executing:
+[ 5.6735] %Light(1): ON
+[ 5.6982] ..# Altitude:  0
+[ 5.7158] ..# Joystick:  47 43
+[ 5.7356] ..# Pitch:  0
+[ 5.7517] ..# Roll:  0
+[ 5.7673] --- Position-Altitude Ended:
+[ 5.9382] >>> Speed Executing:
+[ 5.9549] %Light(2): ON
+[ 5.9678] ..# Pilot_Power:  900
+[ 5.9881] ..# Speed:  1000
+[ 6.0058] --- Speed Ended:
+[ 6.0196] >>> Position-Altitude Executing:
+[ 6.0542] %Light(1): ON
+[ 6.0788] ..# Altitude:  0
+[ 6.0965] ..# Joystick:  47 50
+[ 6.1162] ..# Pitch:  0
+[ 6.1324] ..# Roll:  0
+[ 6.1480] --- Position-Altitude Ended:
+[ 6.3190] >>> Speed Executing:
+[ 6.3357] %Light(2): ON
+[ 6.3485] ..# Pilot_Power:  900
+[ 6.3689] ..# Speed:  1000
+[ 6.3865] --- Speed Ended:
+[ 6.4003] >>> Position-Altitude Executing:
+[ 6.4391] %Light(1): ON
+[ 6.4596] ..# Altitude:  0
+[ 6.4772] ..# Joystick:  45 63
+[ 6.4970] ..# Pitch:  0
+[ 6.5131] ..# Roll:  0
+[ 6.5287] --- Position-Altitude Ended:
+[ 6.6997] >>> Speed Executing:
+[ 6.7164] %Light(2): ON
+[ 6.7293] ..# Pilot_Power:  900
+[ 6.7496] ..# Speed:  1000
+[ 6.7673] --- Speed Ended:
+[ 6.7811] >>> Position-Altitude Executing:
+[ 6.8157] %Light(1): ON
+[ 6.8403] ..# Altitude:  0
+[ 6.8580] ..# Joystick:  46 70
+[ 6.8777] ..# Pitch:  0
+[ 6.8939] ..# Roll:  0
+[ 6.9095] --- Position-Altitude Ended:
+[ 7.0805] >>> Speed Executing:
+[ 7.0972] %Light(2): ON
+[ 7.1100] ..# Pilot_Power:  1000
+[ 7.1309] ..# Speed:  1000
+[ 7.1486] --- Speed Ended:
+[ 7.1623] >>> Position-Altitude Executing:
+[ 7.1969] %Light(1): ON
+[ 7.2216] ..# Altitude:  0
+[ 7.2393] ..# Joystick:  47 30
+[ 7.2590] ..# Pitch:  0
+[ 7.2751] ..# Roll:  0
+[ 7.2907] --- Position-Altitude Ended:
+[ 7.4617] >>> Speed Executing:
+[ 7.4784] %Light(2): ON
+[ 7.4913] ..# Pilot_Power:  1000
+[ 7.5121] ..# Speed:  1000
+[ 7.5298] --- Speed Ended:
+[ 7.5436] >>> Position-Altitude Executing:
+[ 7.5782] %Light(1): ON
+[ 7.6028] ..# Altitude:  0
+[ 7.6205] ..# Joystick:  45 2
+[ 7.6397] ..# Pitch:  0
+[ 7.6558] ..# Roll:  0
+[ 7.6715] --- Position-Altitude Ended:
+[ 7.8430] >>> Speed Executing:
+[ 7.8597] %Light(2): ON
+[ 7.8725] ..# Pilot_Power:  1000
+[ 7.8934] ..# Speed:  1000
+[ 7.9111] --- Speed Ended:
+[ 7.9249] >>> Position-Altitude Executing:
+[ 7.9594] %Light(1): ON
+[ 7.9841] ..# Altitude:  0
+[ 8.0018] ..# Joystick:  45 0
+[ 8.0210] ..# Pitch:  0
+[ 8.0371] ..# Roll:  0
+[ 8.0527] --- Position-Altitude Ended:
+[ 8.2242] >>> Speed Executing:
+[ 8.2409] %Light(2): ON
+[ 8.2538] ..# Pilot_Power:  1020
+[ 8.2746] ..# Speed:  1000
+[ 8.2923] --- Speed Ended:
+[ 8.3061] >>> Position-Altitude Executing:
+[ 8.3407] %Light(1): ON
+[ 8.3654] ..# Altitude:  0
+[ 8.3830] ..# Joystick:  18 2
+[ 8.4022] ..# Pitch:  0
+[ 8.4184] ..# Roll:  0
+[ 8.4340] --- Position-Altitude Ended:
+[ 8.6055] >>> Speed Executing:
+[ 8.6222] %Light(2): ON
+[ 8.6350] ..# Pilot_Power:  1020
+[ 8.6559] ..# Speed:  1000
+[ 8.6736] --- Speed Ended:
+[ 8.6874] >>> Position-Altitude Executing:
+[ 8.7220] %Light(1): ON
+[ 8.7466] ..# Altitude:  0
+[ 8.7643] ..# Joystick:  5 2
+[ 8.7830] ..# Pitch:  0
+[ 8.7991] ..# Roll:  0
+[ 8.8148] --- Position-Altitude Ended:
+[ 8.9867] >>> Speed Executing:
+[ 9.0035] %Light(2): ON
+[ 9.0163] ..# Pilot_Power:  1020
+[ 9.0371] ..# Speed:  1000
+[ 9.0548] --- Speed Ended:
+[ 9.0686] >>> Position-Altitude Executing:
+[ 9.1032] %Light(1): ON
+[ 9.1279] ..# Altitude:  0
+[ 9.1455] ..# Joystick:  1 3
+[ 9.1642] ..# Pitch:  0
+[ 9.1804] ..# Roll:  0
+[ 9.1960] --- Position-Altitude Ended:
+[ 9.3680] >>> Speed Executing:
+[ 9.3847] %Light(2): ON
+[ 9.3975] ..# Pilot_Power:  1020
+[ 9.4184] ..# Speed:  1000
+[ 9.4361] --- Speed Ended:
+[ 9.4499] >>> Position-Altitude Executing:
+[ 9.4844] %Light(1): ON
+[ 9.5091] ..# Altitude:  0
+[ 9.5268] ..# Joystick:  1-3
+[ 9.5455] ..# Pitch:  0
+[ 9.5616] ..# Roll:  0
+[ 9.5772] --- Position-Altitude Ended:
+[ 9.7492] >>> Speed Executing:
+[ 9.7660] %Light(2): ON
+[ 9.7788] ..# Pilot_Power:  1020
+[ 9.7996] ..# Speed:  1000
+[ 9.8173] --- Speed Ended:
+[ 9.8311] >>> Position-Altitude Executing:
+[ 9.8657] %Light(1): ON
+[ 9.8903] ..# Altitude:  0
+[ 9.9080] ..# Joystick:  3 0
+[ 9.9267] ..# Pitch:  0
+[ 9.9428] ..# Roll:  0
+[ 9.9585] --- Position-Altitude Ended:
+[ 10.130] >>> Speed Executing:
+[ 10.149] ..# Pilot_Power:  800
+[ 10.169] ..# Speed:  960
+[ 10.186] --- Speed Ended:
+[ 10.200] >>> Position-Altitude Executing:
+[ 10.235] %Light(1): ON
+[ 10.259] ..# Altitude:  0
+[ 10.277] ..# Joystick:  2 1
+[ 10.296] ..# Pitch:  0
+[ 10.312] ..# Roll:  0
+[ 10.328] --- Position-Altitude Ended:
+[ 10.500] >>> Speed Executing:
+[ 10.519] ..# Pilot_Power:  800
+[ 10.539] ..# Speed:  960
+[ 10.556] --- Speed Ended:
+[ 10.570] >>> Position-Altitude Executing:
+[ 10.604] %Light(1): ON
+[ 10.629] ..# Altitude:  0
+[ 10.647] ..# Joystick: -1 3
+[ 10.665] ..# Pitch:  0
+[ 10.682] ..# Roll:  0
+[ 10.697] --- Position-Altitude Ended:
+[ 10.869] >>> Speed Executing:
+[ 10.888] ..# Pilot_Power:  800
+[ 10.908] ..# Speed:  960
+[ 10.926] --- Speed Ended:
+[ 10.939] >>> Position-Altitude Executing:
+[ 10.974] %Light(1): ON
+[ 10.999] ..# Altitude:  0
+[ 11.017] ..# Joystick:  1-3
+[ 11.035] ..# Pitch:  0
+[ 11.051] ..# Roll:  0
+[ 11.067] --- Position-Altitude Ended:
+[ 11.239] >>> Speed Executing:
+[ 11.258] ..# Pilot_Power:  800
+[ 11.278] ..# Speed:  960
+[ 11.295] --- Speed Ended:
+[ 11.309] >>> Position-Altitude Executing:
+[ 11.344] %Light(1): ON
+[ 11.368] ..# Altitude:  0
+[ 11.386] ..# Joystick:  3 0
+[ 11.405] ..# Pitch:  0
+[ 11.421] ..# Roll:  0
+[ 11.436] --- Position-Altitude Ended:
+[ 11.608] >>> Speed Executing:
+[ 11.627] ..# Pilot_Power:  800
+[ 11.648] ..# Speed:  960
+[ 11.665] --- Speed Ended:
+[ 11.679] >>> Position-Altitude Executing:
+[ 11.713] %Light(1): ON
+[ 11.738] ..# Altitude:  0
+[ 11.756] ..# Joystick: -2 1
+[ 11.774] ..# Pitch:  0
+[ 11.790] ..# Roll:  0
+[ 11.806] --- Position-Altitude Ended:
+[ 11.978] >>> Speed Executing:
+[ 11.997] ..# Pilot_Power:  800
+[ 12.017] ..# Speed:  960
+[ 12.034] --- Speed Ended:
+[ 12.048] >>> Position-Altitude Executing:
+[ 12.083] %Light(1): ON
+[ 12.107] ..# Altitude:  0
+[ 12.125] ..# Joystick:  1 3
+[ 12.144] ..# Pitch:  0
+[ 12.160] ..# Roll:  0
+[ 12.176] --- Position-Altitude Ended:
+[ 12.348] >>> Speed Executing:
+[ 12.367] ..# Pilot_Power:  800
+[ 12.387] ..# Speed:  960
+[ 12.404] --- Speed Ended:
+[ 12.418] >>> Position-Altitude Executing:
+[ 12.452] %Light(1): ON
+[ 12.477] ..# Altitude:  0
+[ 12.495] ..# Joystick:  1-3
+[ 12.513] ..# Pitch:  0
+[ 12.530] ..# Roll:  0
+[ 12.545] --- Position-Altitude Ended:
+[ 12.717] >>> Speed Executing:
+[ 12.736] ..# Pilot_Power:  800
+[ 12.756] ..# Speed:  960
+[ 12.774] --- Speed Ended:
+[ 12.787] >>> Position-Altitude Executing:
+[ 12.822] %Light(1): ON
+[ 12.847] ..# Altitude:  0
+[ 12.864] ..# Joystick: -20 0
+[ 12.884] ..# Pitch:  0
+[ 12.900] ..# Roll:  0
+[ 12.915] --- Position-Altitude Ended:
+[ 13.087] >>> Speed Executing:
+[ 13.106] ..# Pilot_Power:  800
+[ 13.126] ..# Speed:  960
+[ 13.143] --- Speed Ended:
+[ 13.157] >>> Position-Altitude Executing:
+[ 13.192] %Light(1): ON
+[ 13.216] ..# Altitude:  0
+[ 13.234] ..# Joystick: -25 3
+[ 13.253] ..# Pitch:  0
+[ 13.269] ..# Roll:  0
+[ 13.285] --- Position-Altitude Ended:
+[ 13.456] >>> Speed Executing:
+[ 13.475] ..# Pilot_Power:  800
+[ 13.496] ..# Speed:  960
+[ 13.513] --- Speed Ended:
+[ 13.527] >>> Position-Altitude Executing:
+[ 13.561] %Light(1): ON
+[ 13.586] ..# Altitude:  0
+[ 13.604] ..# Joystick: -37 3
+[ 13.623] ..# Pitch:  0
+[ 13.639] ..# Roll:  0
+[ 13.654] --- Position-Altitude Ended:
+[ 13.826] >>> Speed Executing:
+[ 13.845] ..# Pilot_Power:  800
+[ 13.865] ..# Speed:  960
+[ 13.882] --- Speed Ended:
+[ 13.896] >>> Position-Altitude Executing:
+[ 13.931] %Light(1): ON
+[ 13.955] ..# Altitude:  0
+[ 13.973] ..# Joystick: -45-3
+[ 13.992] ..# Pitch:  0
+[ 14.008] ..# Roll:  0
+[ 14.024] --- Position-Altitude Ended:
+[ 14.196] >>> Speed Executing:
+[ 14.215] ..# Pilot_Power:  800
+[ 14.235] ..# Speed:  960
+[ 14.252] --- Speed Ended:
+[ 14.266] >>> Position-Altitude Executing:
+[ 14.300] %Light(1): ON
+[ 14.325] ..# Altitude:  0
+[ 14.343] ..# Joystick: -45 0
+[ 14.362] ..# Pitch:  0
+[ 14.378] ..# Roll:  0
+[ 14.394] --- Position-Altitude Ended:
+[ 14.565] >>> Speed Executing:
+[ 14.584] ..# Pilot_Power:  800
+[ 14.604] ..# Speed:  960
+[ 14.622] --- Speed Ended:
+[ 14.635] >>> Position-Altitude Executing:
+[ 14.670] %Light(1): ON
+[ 14.695] ..# Altitude:  0
+[ 14.712] ..# Joystick: -47 3
+[ 14.732] ..# Pitch:  0
+[ 14.748] ..# Roll:  0
+[ 14.763] --- Position-Altitude Ended:
+[ 14.935] >>> Speed Executing:
+[ 14.954] ..# Pilot_Power:  800
+[ 14.974] ..# Speed:  960
+[ 14.991] --- Speed Ended:
+[ 15.005] >>> Position-Altitude Executing:
+[ 15.039] %Light(1): ON
+[ 15.064] ..# Altitude:  0
+[ 15.082] ..# Joystick: -47 0
+[ 15.101] ..# Pitch:  0
+[ 15.117] ..# Roll:  0
+[ 15.133] --- Position-Altitude Ended:
+[ 15.304] >>> Speed Executing:
+[ 15.321] %Light(2): ON
+[ 15.334] ..# Pilot_Power:  900
+[ 15.354] ..# Speed:  1000
+[ 15.372] --- Speed Ended:
+[ 15.386] >>> Position-Altitude Executing:
+[ 15.420] %Light(1): ON
+[ 15.445] ..# Altitude:  0
+[ 15.463] ..# Joystick: -45-3
+[ 15.482] ..# Pitch:  0
+[ 15.498] ..# Roll:  0
+[ 15.514] --- Position-Altitude Ended:
+[ 15.685] >>> Speed Executing:
+[ 15.702] %Light(2): ON
+[ 15.715] ..# Pilot_Power:  900
+[ 15.735] ..# Speed:  1000
+[ 15.753] --- Speed Ended:
+[ 15.766] >>> Position-Altitude Executing:
+[ 15.801] %Light(1): ON
+[ 15.826] ..# Altitude:  0
+[ 15.843] ..# Joystick: -46 0
+[ 15.862] ..# Pitch:  0
+[ 15.879] ..# Roll:  0
+[ 15.894] --- Position-Altitude Ended:
+[ 16.066] >>> Speed Executing:
+[ 16.082] %Light(2): ON
+[ 16.095] ..# Pilot_Power:  900
+[ 16.116] ..# Speed:  1000
+[ 16.133] --- Speed Ended:
+[ 16.147] >>> Position-Altitude Executing:
+[ 16.182] %Light(1): ON
+[ 16.206] ..# Altitude:  0
+[ 16.224] ..# Joystick: -17 0
+[ 16.243] ..# Pitch:  0
+[ 16.259] ..# Roll:  0
+[ 16.275] --- Position-Altitude Ended:
+[ 16.446] >>> Speed Executing:
+[ 16.463] %Light(2): ON
+[ 16.476] ..# Pilot_Power:  900
+[ 16.496] ..# Speed:  1000
+[ 16.514] --- Speed Ended:
+[ 16.528] >>> Position-Altitude Executing:
+[ 16.562] %Light(1): ON
+[ 16.587] ..# Altitude:  0
+[ 16.605] ..# Joystick:  1 3
+[ 16.623] ..# Pitch:  0
+[ 16.640] ..# Roll:  0
+[ 16.655] --- Position-Altitude Ended:
+[ 16.827] >>> Speed Executing:
+[ 16.846] ..# Pilot_Power:  400
+[ 16.866] ..# Speed:  480
+[ 16.884] --- Speed Ended:
+[ 16.897] >>> Position-Altitude Executing:
+[ 16.932] %Light(1): ON
+[ 16.957] ..# Altitude:  0
+[ 16.974] ..# Joystick:  1-3
+[ 16.993] ..# Pitch:  0
+[ 17.009] ..# Roll:  0
+[ 17.025] --- Position-Altitude Ended:
+[ 17.197] >>> Speed Executing:
+[ 17.214] %Light(2): ON
+[ 17.226] ..# Pilot_Power:  100
+[ 17.247] ..# Speed:  300
+[ 17.264] --- Speed Ended:
+[ 17.278] >>> Position-Altitude Executing:
+[ 17.312] %Light(1): ON
+[ 17.337] ..# Altitude:  0
+[ 17.355] ..# Joystick:  3 0
+[ 17.373] ..# Pitch:  0
+[ 17.389] ..# Roll:  0
+[ 17.405] --- Position-Altitude Ended:
+[ 17.577] >>> Speed Executing:
+[ 17.594] %Light(2): ON
+[ 17.607] ..# Pilot_Power:  100
+[ 17.627] ..# Speed:  300
+[ 17.644] --- Speed Ended:
+[ 17.658] >>> Position-Altitude Executing:
+[ 17.692] %Light(1): ON
+[ 17.717] ..# Altitude:  0
+[ 17.735] ..# Joystick:  1 3
+[ 17.754] ..# Pitch:  0
+[ 17.770] ..# Roll:  0
+[ 17.785] --- Position-Altitude Ended:
+[ 17.957] >>> Speed Executing:
+[ 17.974] %Light(2): ON
+[ 17.987] ..# Pilot_Power:  100
+[ 18.007] ..# Speed:  300
+[ 18.024] --- Speed Ended:
+[ 18.038] >>> Position-Altitude Executing:
+[ 18.073] %Light(1): ON
+[ 18.097] ..# Altitude:  0
+[ 18.115] ..# Joystick:  1 3
+[ 18.134] ..# Pitch:  0
+[ 18.150] ..# Roll:  0
+[ 18.165] --- Position-Altitude Ended:
+[ 18.337] >>> Speed Executing:
+[ 18.354] %Light(2): ON
+[ 18.367] ..# Pilot_Power:  110
+[ 18.387] ..# Speed:  300
+[ 18.404] --- Speed Ended:
+[ 18.418] >>> Position-Altitude Executing:
+[ 18.453] %Light(1): ON
+[ 18.478] ..# Altitude:  0
+[ 18.495] ..# Joystick:  1-3
+[ 18.514] ..# Pitch:  0
+[ 18.530] ..# Roll:  0
+[ 18.546] --- Position-Altitude Ended:
+[ 18.718] >>> Speed Executing:
+[ 18.734] %Light(2): ON
+[ 18.747] ..# Pilot_Power:  100
+[ 18.768] ..# Speed:  300
+[ 18.785] --- Speed Ended:
+[ 18.799] >>> Position-Altitude Executing:
+[ 18.833] %Light(1): ON
+[ 18.858] ..# Altitude:  0
+[ 18.875] ..# Joystick:  3 0
+[ 18.894] ..# Pitch:  0
+[ 18.910] ..# Roll:  0
+[ 18.926] --- Position-Altitude Ended:
+[ 19.098] >>> Speed Executing:
+[ 19.115] %Light(2): ON
+[ 19.127] ..# Pilot_Power:  900
+[ 19.148] ..# Speed:  1000
+[ 19.165] --- Speed Ended:
+[ 19.179] >>> Position-Altitude Executing:
+[ 19.214] %Light(1): ON
+[ 19.239] ..# Altitude:  0
+[ 19.256] ..# Joystick:  2 1
+[ 19.275] ..# Pitch:  0
+[ 19.291] ..# Roll:  0
+[ 19.307] --- Position-Altitude Ended:
+[ 19.479] >>> Speed Executing:
+[ 19.498] ..# Pilot_Power:  800
+[ 19.518] ..# Speed:  960
+[ 19.535] --- Speed Ended:
+[ 19.549] >>> Position-Altitude Executing:
+[ 19.583] %Light(1): ON
+[ 19.608] ..# Altitude:  0
+[ 19.626] ..# Joystick: -1 3
+[ 19.644] ..# Pitch:  0
+[ 19.661] ..# Roll:  0
+[ 19.676] --- Position-Altitude Ended:
+[ 19.848] >>> Speed Executing:
+[ 19.867] ..# Pilot_Power:  800
+[ 19.888] ..# Speed:  960
+[ 19.905] --- Speed Ended:
+[ 19.918] >>> Position-Altitude Executing:
+[ 19.953] %Light(1): ON
+[ 19.978] ..# Altitude:  0
+[ 19.996] ..# Joystick:  1-3
+[ 20.014] ..# Pitch:  0
+[ 20.030] ..# Roll:  0
+[ 20.046] --- Position-Altitude Ended:
+[ 20.218] >>> Speed Executing:
+[ 20.237] ..# Pilot_Power:  800
+[ 20.257] ..# Speed:  960
+[ 20.274] --- Speed Ended:
+[ 20.288] >>> Position-Altitude Executing:
+[ 20.323] %Light(1): ON
+[ 20.347] ..# Altitude:  0
+[ 20.365] ..# Joystick:  83 0
+[ 20.384] ..# Pitch:  0
+[ 20.400] ..# Roll:  0
+[ 20.416] --- Position-Altitude Ended:
+[ 20.587] >>> Speed Executing:
+[ 20.606] ..# Pilot_Power:  800
+[ 20.627] ..# Speed:  960
+[ 20.644] --- Speed Ended:
+[ 20.658] >>> Position-Altitude Executing:
+[ 20.692] %Light(1): ON
+[ 20.717] ..# Altitude:  0
+[ 20.735] ..# Joystick: -1 3
+[ 20.753] ..# Pitch:  0
+[ 20.769] ..# Roll:  0
+[ 20.785] --- Position-Altitude Ended:
+[ 20.957] >>> Speed Executing:
+[ 20.976] ..# Pilot_Power:  800
+[ 20.996] ..# Speed:  960
+[ 21.013] --- Speed Ended:
+[ 21.027] >>> Position-Altitude Executing:
+[ 21.062] %Light(1): ON
+[ 21.086] ..# Altitude:  0
+[ 21.104] ..# Joystick:  1 3
+[ 21.123] ..# Pitch:  0
+[ 21.139] ..# Roll:  0
+[ 21.155] --- Position-Altitude Ended:
+[ 21.327] >>> Speed Executing:
+[ 21.346] ..# Pilot_Power:  800
+[ 21.366] ..# Speed:  960
+[ 21.383] --- Speed Ended:
+[ 21.397] >>> Position-Altitude Executing:
+[ 21.431] %Light(1): ON
+[ 21.456] ..# Altitude:  0
+[ 21.474] ..# Joystick:  1-3
+[ 21.492] ..# Pitch:  0
+[ 21.509] ..# Roll:  0
+[ 21.524] --- Position-Altitude Ended:
+[ 21.696] >>> Speed Executing:
+[ 21.715] ..# Pilot_Power:  800
+[ 21.735] ..# Speed:  960
+[ 21.753] --- Speed Ended:
+[ 21.766] >>> Position-Altitude Executing:
+[ 21.801] %Light(1): ON
+[ 21.826] ..# Altitude:  0
+[ 21.843] ..# Joystick:  3 0
+[ 21.862] ..# Pitch:  0
+[ 21.878] ..# Roll:  0
+[ 21.894] --- Position-Altitude Ended:
+[ 22.066] >>> Speed Executing:
+[ 22.085] ..# Pilot_Power:  800
+[ 22.105] ..# Speed:  960
+[ 22.122] --- Speed Ended:
+[ 22.136] >>> Position-Altitude Executing:
+[ 22.171] %Light(1): ON
+[ 22.195] ..# Altitude:  0
+[ 22.213] ..# Joystick:  1 3
+[ 22.232] ..# Pitch:  0
+[ 22.248] ..# Roll:  0
+[ 22.263] --- Position-Altitude Ended:
+[ 22.435] >>> Speed Executing:
+[ 22.454] ..# Pilot_Power:  800
+[ 22.475] ..# Speed:  960
+[ 22.492] --- Speed Ended:
+[ 22.506] >>> Position-Altitude Executing:
+[ 22.540] %Light(1): ON
+[ 22.565] ..# Altitude:  0
+[ 22.582] ..# Joystick:  15 3
+[ 22.602] ..# Pitch:  0
+[ 22.618] ..# Roll:  0
+[ 22.633] --- Position-Altitude Ended:
+[ 22.805] >>> Speed Executing:
+[ 22.824] ..# Pilot_Power:  700
+[ 22.844] ..# Speed:  840
+[ 22.861] --- Speed Ended:
+[ 22.875] >>> Position-Altitude Executing:
+[ 22.910] %Light(1): ON
+[ 22.934] ..# Altitude:  0
+[ 22.952] ..# Joystick:  20-3
+[ 22.971] ..# Pitch:  0
+[ 22.987] ..# Roll:  0
+[ 23.003] --- Position-Altitude Ended:
+[ 23.175] >>> Speed Executing:
+[ 23.194] ..# Pilot_Power:  700
+[ 23.214] ..# Speed:  840
+[ 23.231] --- Speed Ended:
+[ 23.245] >>> Position-Altitude Executing:
+[ 23.279] %Light(1): ON
+[ 23.304] ..# Altitude:  0
+[ 23.322] ..# Joystick:  35 0
+[ 23.341] ..# Pitch:  0
+[ 23.357] ..# Roll:  0
+[ 23.373] --- Position-Altitude Ended:
+[ 23.544] >>> Speed Executing:
+[ 23.563] ..# Pilot_Power:  700
+[ 23.583] ..# Speed:  840
+[ 23.601] --- Speed Ended:
+[ 23.619] >>> Position-Altitude Executing:
+[ 23.649] %Light(1): ON
+[ 23.674] ..# Altitude:  0
+[ 23.691] ..# Joystick:  37 3
+[ 23.710] ..# Pitch:  0
+[ 23.727] ..# Roll:  0
+[ 23.742] --- Position-Altitude Ended:
+[ 23.914] >>> Speed Executing:
+[ 23.933] ..# Pilot_Power:  700
+[ 23.953] ..# Speed:  840
+[ 23.970] --- Speed Ended:
+[ 23.984] >>> Position-Altitude Executing:
+[ 24.019] %Light(1): ON
+[ 24.043] ..# Altitude:  0
+[ 24.061] ..# Joystick:  47 3
+[ 24.080] ..# Pitch:  0
+[ 24.096] ..# Roll:  0
+[ 24.112] --- Position-Altitude Ended:
+[ 24.283] >>> Speed Executing:
+[ 24.302] ..# Pilot_Power:  600
+[ 24.323] ..# Speed:  720
+[ 24.340] --- Speed Ended:
+[ 24.354] >>> Position-Altitude Executing:
+[ 24.388] %Light(1): ON
+[ 24.413] ..# Altitude:  0
+[ 24.430] ..# Joystick:  45-3
+[ 24.450] ..# Pitch:  0
+[ 24.466] ..# Roll:  0
+[ 24.481] --- Position-Altitude Ended:
+[ 24.653] >>> Speed Executing:
+[ 24.672] ..# Pilot_Power:  600
+[ 24.692] ..# Speed:  720
+[ 24.709] --- Speed Ended:
+[ 24.723] >>> Position-Altitude Executing:
+[ 24.758] %Light(1): ON
+[ 24.782] ..# Altitude:  0
+[ 24.800] ..# Joystick:  47 1
+[ 24.819] ..# Pitch:  0
+[ 24.835] ..# Roll:  0
+[ 24.851] --- Position-Altitude Ended:
+[ 25.023] >>> Speed Executing:
+[ 25.039] %Light(2): ON
+[ 25.052] ..# Pilot_Power:  900
+[ 25.072] ..# Speed:  1000
+[ 25.090] --- Speed Ended:
+[ 25.104] >>> Position-Altitude Executing:
+[ 25.138] %Light(1): ON
+[ 25.163] ..# Altitude:  0
+[ 25.181] ..# Joystick:  47 20
+[ 25.201] ..# Pitch:  0
+[ 25.217] ..# Roll:  0
+[ 25.232] --- Position-Altitude Ended:
+[ 25.403] >>> Speed Executing:
+[ 25.420] %Light(2): ON
+[ 25.433] ..# Pilot_Power:  900
+[ 25.453] ..# Speed:  1000
+[ 25.471] --- Speed Ended:
+[ 25.485] >>> Position-Altitude Executing:
+[ 25.519] %Light(1): ON
+[ 25.544] ..# Altitude:  0
+[ 25.562] ..# Joystick:  47 33
+[ 25.581] ..# Pitch:  0
+[ 25.597] ..# Roll:  0
+[ 25.613] --- Position-Altitude Ended:
+[ 25.784] >>> Speed Executing:
+[ 25.801] %Light(2): ON
+[ 25.814] ..# Pilot_Power:  900
+[ 25.834] ..# Speed:  1000
+[ 25.852] --- Speed Ended:
+[ 25.865] >>> Position-Altitude Executing:
+[ 25.900] %Light(1): ON
+[ 25.925] ..# Altitude:  0
+[ 25.942] ..# Joystick:  46 43
+[ 25.962] ..# Pitch:  0
+[ 25.978] ..# Roll:  0
+[ 25.994] --- Position-Altitude Ended:
+[ 26.165] >>> Speed Executing:
+[ 26.181] %Light(2): ON
+[ 26.194] ..# Pilot_Power:  900
+[ 26.215] ..# Speed:  1000
+[ 26.232] --- Speed Ended:
+[ 26.246] >>> Position-Altitude Executing:
+[ 26.281] %Light(1): ON
+[ 26.305] ..# Altitude:  0
+[ 26.323] ..# Joystick:  45 60
+[ 26.343] ..# Pitch:  0
+[ 26.359] ..# Roll:  0
+[ 26.375] --- Position-Altitude Ended:
+[ 26.545] >>> Speed Executing:
+[ 26.562] %Light(2): ON
+[ 26.575] ..# Pilot_Power:  900
+[ 26.595] ..# Speed:  1000
+[ 26.613] --- Speed Ended:
+[ 26.627] >>> Position-Altitude Executing:
+[ 26.661] %Light(1): ON
+[ 26.686] ..# Altitude:  0
+[ 26.704] ..# Joystick:  47 73
+[ 26.724] ..# Pitch:  0
+[ 26.740] ..# Roll:  0
+[ 26.755] --- Position-Altitude Ended:
+[ 26.926] >>> Speed Executing:
+[ 26.943] %Light(2): ON
+[ 26.956] ..# Pilot_Power:  900
+[ 26.976] ..# Speed:  1000
+[ 26.994] --- Speed Ended:
+[ 27.008] >>> Position-Altitude Executing:
+[ 27.042] %Light(1): ON
+[ 27.067] ..# Altitude:  0
+[ 27.084] ..# Joystick:  47 30
+[ 27.104] ..# Pitch:  0
+[ 27.120] ..# Roll:  0
+[ 27.136] --- Position-Altitude Ended:
+[ 27.307] >>> Speed Executing:
+[ 27.324] %Light(2): ON
+[ 27.336] ..# Pilot_Power:  1000
+[ 27.357] ..# Speed:  1000
+[ 27.375] --- Speed Ended:
+[ 27.389] >>> Position-Altitude Executing:
+[ 27.423] %Light(1): ON
+[ 27.448] ..# Altitude:  0
+[ 27.466] ..# Joystick:  45 5
+[ 27.485] ..# Pitch:  0
+[ 27.501] ..# Roll:  0
+[ 27.517] --- Position-Altitude Ended:
+[ 27.688] >>> Speed Executing:
+[ 27.705] %Light(2): ON
+[ 27.718] ..# Pilot_Power:  1000
+[ 27.739] ..# Speed:  1000
+[ 27.756] --- Speed Ended:
+[ 27.770] >>> Position-Altitude Executing:
+[ 27.805] %Light(1): ON
+[ 27.829] ..# Altitude:  0
+[ 27.847] ..# Joystick:  45 2
+[ 27.866] ..# Pitch:  0
+[ 27.882] ..# Roll:  0
+[ 27.898] --- Position-Altitude Ended:
+[ 28.069] >>> Speed Executing:
+[ 28.086] %Light(2): ON
+[ 28.099] ..# Pilot_Power:  1020
+[ 28.120] ..# Speed:  1000
+[ 28.138] --- Speed Ended:
+[ 28.151] >>> Position-Altitude Executing:
+[ 28.186] %Light(1): ON
+[ 28.211] ..# Altitude:  0
+[ 28.228] ..# Joystick:  25 2
+[ 28.247] ..# Pitch:  0
+[ 28.264] ..# Roll:  0
+[ 28.279] --- Position-Altitude Ended:
+[ 28.451] >>> Speed Executing:
+[ 28.467] %Light(2): ON
+[ 28.480] ..# Pilot_Power:  1020
+[ 28.501] ..# Speed:  1000
+[ 28.519] --- Speed Ended:
+[ 28.533] >>> Position-Altitude Executing:
+[ 28.567] %Light(1): ON
+[ 28.592] ..# Altitude:  0
+[ 28.609] ..# Joystick:  15 3
+[ 28.629] ..# Pitch:  0
+[ 28.645] ..# Roll:  0
+[ 28.660] --- Position-Altitude Ended:
+[ 28.832] >>> Speed Executing:
+[ 28.849] %Light(2): ON
+[ 28.861] ..# Pilot_Power:  1020
+[ 28.882] ..# Speed:  1000
+[ 28.900] --- Speed Ended:
+[ 28.914] >>> Position-Altitude Executing:
+[ 28.948] %Light(1): ON
+[ 28.973] ..# Altitude:  0
+[ 28.991] ..# Joystick:  5 0
+[ 29.010] ..# Pitch:  0
+[ 29.026] ..# Roll:  0
+[ 29.041] --- Position-Altitude Ended:
+[ 29.213] >>> Speed Executing:
+[ 29.230] %Light(2): ON
+[ 29.243] ..# Pilot_Power:  1020
+[ 29.264] ..# Speed:  1000
+[ 29.281] --- Speed Ended:
+[ 29.295] >>> Position-Altitude Executing:
+[ 29.330] %Light(1): ON
+[ 29.354] ..# Altitude:  0
+[ 29.372] ..# Joystick:  3 0
+[ 29.391] ..# Pitch:  0
+[ 29.407] ..# Roll:  0
+[ 29.422] --- Position-Altitude Ended:
+[ 29.594] >>> Speed Executing:
+[ 29.611] %Light(2): ON
+[ 29.624] ..# Pilot_Power:  1020
+[ 29.645] ..# Speed:  1000
+[ 29.663] --- Speed Ended:
+[ 29.676] >>> Position-Altitude Executing:
+[ 29.711] %Light(1): ON
+[ 29.736] ..# Altitude:  0
+[ 29.753] ..# Joystick:  2 1
+[ 29.772] ..# Pitch:  0
+[ 29.788] ..# Roll:  0
+[ 29.804] --- Position-Altitude Ended:
+[ 29.976] >>> Speed Executing:
+[ 29.992] %Light(2): ON
+[ 30.005] ..# Pilot_Power:  1020
+[ 30.026] ..# Speed:  1000
+[ 30.044] --- Speed Ended:
+[ 30.062] >>> Position-Altitude Executing:
+[ 30.092] %Light(1): ON
+[ 30.117] ..# Altitude:  0
+[ 30.134] ..# Joystick:  1 3
+[ 30.153] ..# Pitch:  0
+[ 30.169] ..# Roll:  0
+[ 30.185] --- Position-Altitude Ended:
+[ 30.357] >>> Speed Executing:
+[ 30.376] ..# Pilot_Power:  800
+[ 30.396] ..# Speed:  960
+[ 30.413] --- Speed Ended:
+[ 30.427] >>> Position-Altitude Executing:
+[ 30.462] %Light(1): ON
+[ 30.486] ..# Altitude:  0
+[ 30.504] ..# Joystick:  1-3
+[ 30.523] ..# Pitch:  0
+[ 30.539] ..# Roll:  0
+[ 30.555] --- Position-Altitude Ended:
+[ 30.727] >>> Speed Executing:
+[ 30.746] ..# Pilot_Power:  800
+[ 30.766] ..# Speed:  960
+[ 30.783] --- Speed Ended:
+[ 30.797] >>> Position-Altitude Executing:
+[ 30.831] %Light(1): ON
+[ 30.856] ..# Altitude:  0
+[ 30.874] ..# Joystick:  3 0
+[ 30.892] ..# Pitch:  0
+[ 30.909] ..# Roll:  0
+[ 30.924] --- Position-Altitude Ended:
+[ 31.096] >>> Speed Executing:
+[ 31.115] ..# Pilot_Power:  800
+[ 31.135] ..# Speed:  960
+[ 31.153] --- Speed Ended:
+[ 31.166] >>> Position-Altitude Executing:
+[ 31.201] %Light(1): ON
+[ 31.226] ..# Altitude:  0
+[ 31.243] ..# Joystick:  2 1
+[ 31.262] ..# Pitch:  0
+[ 31.278] ..# Roll:  0
+[ 31.294] --- Position-Altitude Ended:
+[ 31.466] >>> Speed Executing:
+[ 31.485] ..# Pilot_Power:  800
+[ 31.505] ..# Speed:  960
+[ 31.522] --- Speed Ended:
+[ 31.536] >>> Position-Altitude Executing:
+[ 31.571] %Light(1): ON
+[ 31.595] ..# Altitude:  0
+[ 31.613] ..# Joystick:  1 3
+[ 31.632] ..# Pitch:  0
+[ 31.648] ..# Roll:  0
+[ 31.663] --- Position-Altitude Ended:
+[ 31.835] >>> Speed Executing:
+[ 31.854] ..# Pilot_Power:  800
+[ 31.875] ..# Speed:  960
+[ 31.892] --- Speed Ended:
+[ 31.906] >>> Position-Altitude Executing:
+[ 31.940] %Light(1): ON
+[ 31.965] ..# Altitude:  0
+[ 31.983] ..# Joystick:  1-3
+[ 32.001] ..# Pitch:  0
+[ 32.017] ..# Roll:  0
+[ 32.033] --- Position-Altitude Ended:
+[ 32.209] >>> Speed Executing:
+[ 32.224] ..# Pilot_Power:  800
+[ 32.244] ..# Speed:  960
+[ 32.261] --- Speed Ended:
+[ 32.275] >>> Position-Altitude Executing:
+[ 32.310] %Light(1): ON
+[ 32.334] ..# Altitude:  0
+[ 32.352] ..# Joystick:  3 0
+[ 32.371] ..# Pitch:  0
+[ 32.387] ..# Roll:  0
+[ 32.403] --- Position-Altitude Ended:
+[ 32.575] >>> Speed Executing:
+[ 32.594] ..# Pilot_Power:  800
+[ 32.614] ..# Speed:  960
+[ 32.631] --- Speed Ended:
+[ 32.645] >>> Position-Altitude Executing:
+[ 32.679] %Light(1): ON
+[ 32.704] ..# Altitude:  0
+[ 32.722] ..# Joystick: -15 3
+[ 32.741] ..# Pitch:  0
+[ 32.757] ..# Roll:  0
+[ 32.773] --- Position-Altitude Ended:
+[ 32.944] >>> Speed Executing:
+[ 32.963] ..# Pilot_Power:  800
+[ 32.983] ..# Speed:  960
+[ 33.000] --- Speed Ended:
+[ 33.014] >>> Position-Altitude Executing:
+[ 33.049] %Light(1): ON
+[ 33.074] ..# Altitude:  0
+[ 33.091] ..# Joystick: -25 3
+[ 33.110] ..# Pitch:  0
+[ 33.127] ..# Roll:  0
+[ 33.142] --- Position-Altitude Ended:
+[ 33.314] >>> Speed Executing:
+[ 33.333] ..# Pilot_Power:  800
+[ 33.353] ..# Speed:  960
+[ 33.370] --- Speed Ended:
+[ 33.384] >>> Position-Altitude Executing:
+[ 33.418] %Light(1): ON
+[ 33.443] ..# Altitude:  0
+[ 33.461] ..# Joystick: -35-3
+[ 33.480] ..# Pitch:  0
+[ 33.496] ..# Roll:  0
+[ 33.512] --- Position-Altitude Ended:
+[ 33.683] >>> Speed Executing:
+[ 33.702] ..# Pilot_Power:  800
+[ 33.723] ..# Speed:  960
+[ 33.740] --- Speed Ended:
+[ 33.753] >>> Position-Altitude Executing:
+[ 33.788] %Light(1): ON
+[ 33.813] ..# Altitude:  0
+[ 33.830] ..# Joystick: -45 0
+[ 33.850] ..# Pitch:  0
+[ 33.866] ..# Roll:  0
+[ 33.881] --- Position-Altitude Ended:
+[ 34.053] >>> Speed Executing:
+[ 34.072] ..# Pilot_Power:  800
+[ 34.092] ..# Speed:  960
+[ 34.109] --- Speed Ended:
+[ 34.123] >>> Position-Altitude Executing:
+[ 34.158] %Light(1): ON
+[ 34.182] ..# Altitude:  0
+[ 34.200] ..# Joystick: -47 3
+[ 34.219] ..# Pitch:  0
+[ 34.235] ..# Roll:  0
+[ 34.251] --- Position-Altitude Ended:
+[ 34.422] >>> Speed Executing:
+[ 34.441] ..# Pilot_Power:  800
+[ 34.462] ..# Speed:  960
+[ 34.479] --- Speed Ended:
+[ 34.493] >>> Position-Altitude Executing:
+[ 34.527] %Light(1): ON
+[ 34.552] ..# Altitude:  0
+[ 34.570] ..# Joystick: -47 3
+[ 34.589] ..# Pitch:  0
+[ 34.605] ..# Roll:  0
+[ 34.621] --- Position-Altitude Ended:
+[ 34.792] >>> Speed Executing:
+[ 34.811] ..# Pilot_Power:  800
+[ 34.831] ..# Speed:  960
+[ 34.848] --- Speed Ended:
+[ 34.862] >>> Position-Altitude Executing:
+[ 34.897] %Light(1): ON
+[ 34.922] ..# Altitude:  0
+[ 34.939] ..# Joystick: -46-3
+[ 34.958] ..# Pitch:  0
+[ 34.975] ..# Roll:  0
+[ 34.990] --- Position-Altitude Ended:
+[ 35.162] >>> Speed Executing:
+[ 35.178] %Light(2): ON
+[ 35.191] ..# Pilot_Power:  900
+[ 35.212] ..# Speed:  1000
+[ 35.229] --- Speed Ended:
+[ 35.243] >>> Position-Altitude Executing:
+[ 35.278] %Light(1): ON
+[ 35.302] ..# Altitude:  0
+[ 35.320] ..# Joystick: -45 0
+[ 35.339] ..# Pitch:  0
+[ 35.355] ..# Roll:  0
+[ 35.371] --- Position-Altitude Ended:
+[ 35.542] >>> Speed Executing:
+[ 35.559] %Light(2): ON
+[ 35.572] ..# Pilot_Power:  900
+[ 35.592] ..# Speed:  1000
+[ 35.610] --- Speed Ended:
+[ 35.624] >>> Position-Altitude Executing:
+[ 35.658] %Light(1): ON
+[ 35.683] ..# Altitude:  0
+[ 35.701] ..# Joystick: -47 3
+[ 35.720] ..# Pitch:  0
+[ 35.736] ..# Roll:  0
+[ 35.752] --- Position-Altitude Ended:
+[ 35.923] >>> Speed Executing:
+[ 35.940] %Light(2): ON
+[ 35.953] ..# Pilot_Power:  900
+[ 35.973] ..# Speed:  1000
+[ 35.991] --- Speed Ended:
+[ 36.004] >>> Position-Altitude Executing:
+[ 36.039] %Light(1): ON
+[ 36.064] ..# Altitude:  0
+[ 36.081] ..# Joystick: -17 0
+[ 36.101] ..# Pitch:  0
+[ 36.117] ..# Roll:  0
+[ 36.132] --- Position-Altitude Ended:
+[ 36.304] >>> Speed Executing:
+[ 36.320] %Light(2): ON
+[ 36.333] ..# Pilot_Power:  900
+[ 36.354] ..# Speed:  1000
+[ 36.371] --- Speed Ended:
+[ 36.385] >>> Position-Altitude Executing:
+[ 36.420] %Light(1): ON
+[ 36.444] ..# Altitude:  0
+[ 36.462] ..# Joystick: -15-3
+[ 36.481] ..# Pitch:  0
+[ 36.497] ..# Roll:  0
+[ 36.513] --- Position-Altitude Ended:
+[ 36.685] >>> Speed Executing:
+[ 36.704] ..# Pilot_Power:  500
+[ 36.724] ..# Speed:  600
+[ 36.741] --- Speed Ended:
+[ 36.755] >>> Position-Altitude Executing:
+[ 36.789] %Light(1): ON
+[ 36.814] ..# Altitude:  0
+[ 36.832] ..# Joystick:  3 0
+[ 36.850] ..# Pitch:  0
+[ 36.866] ..# Roll:  0
+[ 36.882] --- Position-Altitude Ended:
+[ 37.054] >>> Speed Executing:
+[ 37.071] %Light(2): ON
+[ 37.084] ..# Pilot_Power:  100
+[ 37.104] ..# Speed:  300
+[ 37.121] --- Speed Ended:
+[ 37.135] >>> Position-Altitude Executing:
+[ 37.170] %Light(1): ON
+[ 37.194] ..# Altitude:  0
+[ 37.212] ..# Joystick:  1 3
+[ 37.231] ..# Pitch:  0
+[ 37.247] ..# Roll:  0
+[ 37.262] --- Position-Altitude Ended:
+[ 37.434] >>> Speed Executing:
+[ 37.451] %Light(2): ON
+[ 37.464] ..# Pilot_Power:  100
+[ 37.484] ..# Speed:  300
+[ 37.501] --- Speed Ended:
+[ 37.515] >>> Position-Altitude Executing:
+[ 37.550] %Light(1): ON
+[ 37.574] ..# Altitude:  0
+[ 37.592] ..# Joystick:  1 3
+[ 37.611] ..# Pitch:  0
+[ 37.627] ..# Roll:  0
+[ 37.643] --- Position-Altitude Ended:
+[ 37.815] >>> Speed Executing:
+[ 37.831] %Light(2): ON
+[ 37.844] ..# Pilot_Power:  100
+[ 37.864] ..# Speed:  300
+[ 37.882] --- Speed Ended:
+[ 37.895] >>> Position-Altitude Executing:
+[ 37.930] %Light(1): ON
+[ 37.955] ..# Altitude:  0
+[ 37.972] ..# Joystick:  1-3
+[ 37.991] ..# Pitch:  0
+[ 38.007] ..# Roll:  0
+[ 38.023] --- Position-Altitude Ended:
+[ 38.195] >>> Speed Executing:
+[ 38.212] %Light(2): ON
+[ 38.224] ..# Pilot_Power:  110
+[ 38.245] ..# Speed:  300
+[ 38.262] --- Speed Ended:
+[ 38.276] >>> Position-Altitude Executing:
+[ 38.310] %Light(1): ON
+[ 38.335] ..# Altitude:  0
+[ 38.353] ..# Joystick:  3 0
+[ 38.371] ..# Pitch:  0
+[ 38.387] ..# Roll:  0
+[ 38.403] --- Position-Altitude Ended:
+[ 38.575] >>> Speed Executing:
+[ 38.592] %Light(2): ON
+[ 38.605] ..# Pilot_Power:  103
+[ 38.625] ..# Speed:  300
+[ 38.642] --- Speed Ended:
+[ 38.656] >>> Position-Altitude Executing:
+[ 38.690] %Light(1): ON
+[ 38.715] ..# Altitude:  0
+[ 38.733] ..# Joystick: -1 3
+[ 38.752] ..# Pitch:  0
+[ 38.768] ..# Roll:  0
+[ 38.783] --- Position-Altitude Ended:
+[ 38.955] >>> Speed Executing:
+[ 38.972] %Light(2): ON
+[ 38.985] ..# Pilot_Power:  100
+[ 39.005] ..# Speed:  300
+[ 39.022] --- Speed Ended:
+[ 39.036] >>> Position-Altitude Executing:
+[ 39.071] %Light(1): ON
+[ 39.095] ..# Altitude:  0
+[ 39.113] ..# Joystick:  1 3
+[ 39.132] ..# Pitch:  0
+[ 39.148] ..# Roll:  0
+[ 39.163] --- Position-Altitude Ended:
+[ 39.335] >>> Speed Executing:
+[ 39.354] ..# Pilot_Power:  800
+[ 39.375] ..# Speed:  960
+[ 39.392] --- Speed Ended:
+[ 39.406] >>> Position-Altitude Executing:
+[ 39.440] %Light(1): ON
+[ 39.465] ..# Altitude:  0
+[ 39.483] ..# Joystick:  1-3
+[ 39.501] ..# Pitch:  0
+[ 39.517] ..# Roll:  0
+[ 39.533] --- Position-Altitude Ended:
+[ 39.705] >>> Speed Executing:
+[ 39.724] ..# Pilot_Power:  800
+[ 39.744] ..# Speed:  960
+[ 39.761] --- Speed Ended:
+[ 39.775] >>> Position-Altitude Executing:
+[ 39.810] %Light(1): ON
+[ 39.834] ..# Altitude:  0
+[ 39.852] ..# Joystick:  3 0
+[ 39.871] ..# Pitch:  0
+[ 39.887] ..# Roll:  0
+[ 39.903] --- Position-Altitude Ended:
+[ 40.075] >>> Speed Executing:
+[ 40.094] ..# Pilot_Power:  800
+[ 40.114] ..# Speed:  960
+[ 40.131] --- Speed Ended:
+[ 40.145] >>> Position-Altitude Executing:
+[ 40.179] %Light(1): ON
+[ 40.204] ..# Altitude:  0
+[ 40.222] ..# Joystick:  81 3
+[ 40.241] ..# Pitch:  0
+[ 40.257] ..# Roll:  0
+[ 40.273] --- Position-Altitude Ended:
+[ 40.444] >>> Speed Executing:
+[ 40.463] ..# Pilot_Power:  800
+[ 40.483] ..# Speed:  960
+[ 40.501] --- Speed Ended:
+[ 40.514] >>> Position-Altitude Executing:
+[ 40.549] %Light(1): ON
+[ 40.574] ..# Altitude:  0
+[ 40.591] ..# Joystick:  1 3
+[ 40.610] ..# Pitch:  0
+[ 40.626] ..# Roll:  0
+[ 40.642] --- Position-Altitude Ended:
+[ 40.814] >>> Speed Executing:
+[ 40.833] ..# Pilot_Power:  800
+[ 40.853] ..# Speed:  960
+[ 40.870] --- Speed Ended:
+[ 40.884] >>> Position-Altitude Executing:
+[ 40.919] %Light(1): ON
+[ 40.943] ..# Altitude:  0
+[ 40.961] ..# Joystick:  1-3
+[ 40.980] ..# Pitch:  0
+[ 40.996] ..# Roll:  0
+[ 41.011] --- Position-Altitude Ended:
+[ 41.183] >>> Speed Executing:
+[ 41.202] ..# Pilot_Power:  800
+[ 41.223] ..# Speed:  960
+[ 41.240] --- Speed Ended:
+[ 41.254] >>> Position-Altitude Executing:
+[ 41.288] %Light(1): ON
+[ 41.313] ..# Altitude:  0
+[ 41.331] ..# Joystick:  3 0
+[ 41.349] ..# Pitch:  0
+[ 41.365] ..# Roll:  0
+[ 41.381] --- Position-Altitude Ended:
+[ 41.553] >>> Speed Executing:
+[ 41.572] ..# Pilot_Power:  800
+[ 41.592] ..# Speed:  960
+[ 41.609] --- Speed Ended:
+[ 41.623] >>> Position-Altitude Executing:
+[ 41.658] %Light(1): ON
+[ 41.682] ..# Altitude:  0
+[ 41.700] ..# Joystick: -1 3
+[ 41.719] ..# Pitch:  0
+[ 41.735] ..# Roll:  0
+[ 41.751] --- Position-Altitude Ended:
+[ 41.923] >>> Speed Executing:
+[ 41.942] ..# Pilot_Power:  800
+[ 41.962] ..# Speed:  960
+[ 41.979] --- Speed Ended:
+[ 41.993] >>> Position-Altitude Executing:
+[ 42.027] %Light(1): ON
+[ 42.052] ..# Altitude:  0
+[ 42.070] ..# Joystick:  1 3
+[ 42.088] ..# Pitch:  0
+[ 42.104] ..# Roll:  0
+[ 42.120] --- Position-Altitude Ended:
+[ 42.292] >>> Speed Executing:
+[ 42.311] ..# Pilot_Power:  800
+[ 42.331] ..# Speed:  960
+[ 42.349] --- Speed Ended:
+[ 42.362] >>> Position-Altitude Executing:
+[ 42.397] %Light(1): ON
+[ 42.422] ..# Altitude:  0
+[ 42.439] ..# Joystick:  1-3
+[ 42.458] ..# Pitch:  0
+[ 42.474] ..# Roll:  0
+[ 42.490] --- Position-Altitude Ended:
+[ 42.662] >>> Speed Executing:
+[ 42.681] ..# Pilot_Power:  700
+[ 42.701] ..# Speed:  840
+[ 42.718] --- Speed Ended:
+[ 42.732] >>> Position-Altitude Executing:
+[ 42.767] %Light(1): ON
+[ 42.791] ..# Altitude:  0
+[ 42.809] ..# Joystick:  20 0
+[ 42.828] ..# Pitch:  0
+[ 42.844] ..# Roll:  0
+[ 42.860] --- Position-Altitude Ended:
+[ 43.031] >>> Speed Executing:
+[ 43.050] ..# Pilot_Power:  700
+[ 43.071] ..# Speed:  840
+[ 43.088] --- Speed Ended:
+[ 43.102] >>> Position-Altitude Executing:
+[ 43.136] %Light(1): ON
+[ 43.161] ..# Altitude:  0
+[ 43.178] ..# Joystick:  25 3
+[ 43.198] ..# Pitch:  0
+[ 43.214] ..# Roll:  0
+[ 43.229] --- Position-Altitude Ended:
+[ 43.401] >>> Speed Executing:
+[ 43.420] ..# Pilot_Power:  700
+[ 43.440] ..# Speed:  840
+[ 43.457] --- Speed Ended:
+[ 43.471] >>> Position-Altitude Executing:
+[ 43.506] %Light(1): ON
+[ 43.530] ..# Altitude:  0
+[ 43.548] ..# Joystick:  35-3
+[ 43.567] ..# Pitch:  0
+[ 43.583] ..# Roll:  0
+[ 43.599] --- Position-Altitude Ended:
+[ 43.770] >>> Speed Executing:
+[ 43.790] ..# Pilot_Power:  700
+[ 43.810] ..# Speed:  840
+[ 43.827] --- Speed Ended:
+[ 43.841] >>> Position-Altitude Executing:
+[ 43.875] %Light(1): ON
+[ 43.900] ..# Altitude:  0
+[ 43.918] ..# Joystick:  45 0
+[ 43.937] ..# Pitch:  0
+[ 43.953] ..# Roll:  0
+[ 43.969] --- Position-Altitude Ended:
+[ 44.140] >>> Speed Executing:
+[ 44.159] ..# Pilot_Power:  600
+[ 44.179] ..# Speed:  720
+[ 44.197] --- Speed Ended:
+[ 44.210] >>> Position-Altitude Executing:
+[ 44.245] %Light(1): ON
+[ 44.270] ..# Altitude:  0
+[ 44.287] ..# Joystick:  47 1
+[ 44.306] ..# Pitch:  0
+[ 44.323] ..# Roll:  0
+[ 44.338] --- Position-Altitude Ended:
+[ 44.510] >>> Speed Executing:
+[ 44.529] ..# Pilot_Power:  600
+[ 44.549] ..# Speed:  720
+[ 44.566] --- Speed Ended:
+[ 44.580] >>> Position-Altitude Executing:
+[ 44.614] %Light(1): ON
+[ 44.639] ..# Altitude:  0
+[ 44.657] ..# Joystick:  47 3
+[ 44.676] ..# Pitch:  0
+[ 44.692] ..# Roll:  0
+[ 44.708] --- Position-Altitude Ended:
+[ 44.879] >>> Speed Executing:
+[ 44.898] ..# Pilot_Power:  600
+[ 44.919] ..# Speed:  720
+[ 44.936] --- Speed Ended:
+[ 44.950] >>> Position-Altitude Executing:
+[ 44.984] %Light(1): ON
+[ 45.009] ..# Altitude:  0
+[ 45.026] ..# Joystick:  46-3
+[ 45.046] ..# Pitch:  0
+[ 45.062] ..# Roll:  0
+[ 45.077] --- Position-Altitude Ended:
+[ 45.249] >>> Speed Executing:
+[ 45.266] %Light(2): ON
+[ 45.278] ..# Pilot_Power:  900
+[ 45.299] ..# Speed:  1000
+[ 45.316] --- Speed Ended:
+[ 45.330] >>> Position-Altitude Executing:
+[ 45.365] %Light(1): ON
+[ 45.389] ..# Altitude:  0
+[ 45.407] ..# Joystick:  45 30
+[ 45.427] ..# Pitch:  0
+[ 45.443] ..# Roll:  0
+[ 45.459] --- Position-Altitude Ended:
+[ 45.630] >>> Speed Executing:
+[ 45.646] %Light(2): ON
+[ 45.659] ..# Pilot_Power:  900
+[ 45.680] ..# Speed:  1000
+[ 45.697] --- Speed Ended:
+[ 45.711] >>> Position-Altitude Executing:
+[ 45.746] %Light(1): ON
+[ 45.770] ..# Altitude:  0
+[ 45.788] ..# Joystick:  47 41
+[ 45.808] ..# Pitch:  0
+[ 45.824] ..# Roll:  0
+[ 45.839] --- Position-Altitude Ended:
+[ 46.010] >>> Speed Executing:
+[ 46.027] %Light(2): ON
+[ 46.040] ..# Pilot_Power:  900
+[ 46.060] ..# Speed:  1000
+[ 46.078] --- Speed Ended:
+[ 46.092] >>> Position-Altitude Executing:
+[ 46.126] %Light(1): ON
+[ 46.151] ..# Altitude:  0
+[ 46.169] ..# Joystick:  47 50
+[ 46.188] ..# Pitch:  0
+[ 46.204] ..# Roll:  0
+[ 46.220] --- Position-Altitude Ended:
+[ 46.391] >>> Speed Executing:
+[ 46.408] %Light(2): ON
+[ 46.421] ..# Pilot_Power:  900
+[ 46.441] ..# Speed:  1000
+[ 46.459] --- Speed Ended:
+[ 46.472] >>> Position-Altitude Executing:
+[ 46.507] %Light(1): ON
+[ 46.532] ..# Altitude:  0
+[ 46.549] ..# Joystick:  45 63
+[ 46.569] ..# Pitch:  0
+[ 46.585] ..# Roll:  0
+[ 46.601] --- Position-Altitude Ended:
+[ 46.772] >>> Speed Executing:
+[ 46.789] %Light(2): ON
+[ 46.801] ..# Pilot_Power:  900
+[ 46.822] ..# Speed:  1000
+[ 46.839] --- Speed Ended:
+[ 46.853] >>> Position-Altitude Executing:
+[ 46.888] %Light(1): ON
+[ 46.912] ..# Altitude:  0
+[ 46.930] ..# Joystick:  46 70
+[ 46.950] ..# Pitch:  0
+[ 46.966] ..# Roll:  0
+[ 46.982] --- Position-Altitude Ended:
+[ 47.153] >>> Speed Executing:
+[ 47.169] %Light(2): ON
+[ 47.182] ..# Pilot_Power:  1000
+[ 47.203] ..# Speed:  1000
+[ 47.221] --- Speed Ended:
+[ 47.234] >>> Position-Altitude Executing:
+[ 47.269] %Light(1): ON
+[ 47.294] ..# Altitude:  0
+[ 47.311] ..# Joystick:  45 5
+[ 47.331] ..# Pitch:  0
+[ 47.347] ..# Roll:  0
+[ 47.362] --- Position-Altitude Ended:
+[ 47.534] >>> Speed Executing:
+[ 47.551] %Light(2): ON
+[ 47.563] ..# Pilot_Power:  1000
+[ 47.584] ..# Speed:  1000
+[ 47.602] --- Speed Ended:
+[ 47.616] >>> Position-Altitude Executing:
+[ 47.650] %Light(1): ON
+[ 47.675] ..# Altitude:  0
+[ 47.693] ..# Joystick:  45 2
+[ 47.712] ..# Pitch:  0
+[ 47.728] ..# Roll:  0
+[ 47.744] --- Position-Altitude Ended:
+[ 47.915] >>> Speed Executing:
+[ 47.932] %Light(2): ON
+[ 47.945] ..# Pilot_Power:  1000
+[ 47.966] ..# Speed:  1000
+[ 47.983] --- Speed Ended:
+[ 47.997] >>> Position-Altitude Executing:
+[ 48.032] %Light(1): ON
+[ 48.056] ..# Altitude:  0
+[ 48.074] ..# Joystick:  25 3
+[ 48.093] ..# Pitch:  0
+[ 48.109] ..# Roll:  0
+[ 48.125] --- Position-Altitude Ended:
+[ 48.296] >>> Speed Executing:
+[ 48.313] %Light(2): ON
+[ 48.326] ..# Pilot_Power:  1020
+[ 48.347] ..# Speed:  1000
+[ 48.365] --- Speed Ended:
+[ 48.378] >>> Position-Altitude Executing:
+[ 48.413] %Light(1): ON
+[ 48.438] ..# Altitude:  0
+[ 48.455] ..# Joystick:  15 0
+[ 48.474] ..# Pitch:  0
+[ 48.491] ..# Roll:  0
+[ 48.506] --- Position-Altitude Ended:
+[ 48.678] >>> Speed Executing:
+[ 48.694] %Light(2): ON
+[ 48.707] ..# Pilot_Power:  1020
+[ 48.728] ..# Speed:  1000
+[ 48.746] --- Speed Ended:
+[ 48.760] >>> Position-Altitude Executing:
+[ 48.794] %Light(1): ON
+[ 48.819] ..# Altitude:  0
+[ 48.837] ..# Joystick:  5 2
+[ 48.855] ..# Pitch:  0
+[ 48.871] ..# Roll:  0
+[ 48.887] --- Position-Altitude Ended:
+[ 49.059] >>> Speed Executing:
+[ 49.076] %Light(2): ON
+[ 49.089] ..# Pilot_Power:  1020
+[ 49.109] ..# Speed:  1000
+[ 49.127] --- Speed Ended:
+[ 49.141] >>> Position-Altitude Executing:
+[ 49.175] %Light(1): ON
+[ 49.200] ..# Altitude:  0
+[ 49.218] ..# Joystick:  1 3
+[ 49.236] ..# Pitch:  0
+[ 49.253] ..# Roll:  0
+[ 49.268] --- Position-Altitude Ended:
+[ 49.440] >>> Speed Executing:
+[ 49.457] %Light(2): ON
+[ 49.470] ..# Pilot_Power:  1020
+[ 49.491] ..# Speed:  1000
+[ 49.508] --- Speed Ended:
+[ 49.522] >>> Position-Altitude Executing:
+[ 49.557] %Light(1): ON
+[ 49.581] ..# Altitude:  0
+[ 49.599] ..# Joystick:  1 3
+[ 49.618] ..# Pitch:  0
+[ 49.634] ..# Roll:  0
+[ 49.649] --- Position-Altitude Ended:
+[ 49.821] >>> Speed Executing:
+[ 49.838] %Light(2): ON
+[ 49.851] ..# Pilot_Power:  1020
+[ 49.872] ..# Speed:  1000
+[ 49.890] --- Speed Ended:
+[ 49.903] >>> Position-Altitude Executing:
+[ 49.938] %Light(1): ON
+[ 49.963] ..# Altitude:  0
+[ 49.980] ..# Joystick:  1-3
+[ 49.999] ..# Pitch:  0
+[ 50.015] ..# Roll:  0
+[ 50.031] --- Position-Altitude Ended:
+[ 50.203] >>> Speed Executing:
+[ 50.222] ..# Pilot_Power:  800
+[ 50.242] ..# Speed:  960
+[ 50.259] --- Speed Ended:
+[ 50.273] >>> Position-Altitude Executing:
+[ 50.308] %Light(1): ON
+[ 50.332] ..# Altitude:  0
+[ 50.350] ..# Joystick:  3 0
+[ 50.369] ..# Pitch:  0
+[ 50.385] ..# Roll:  0
+[ 50.400] --- Position-Altitude Ended:
+[ 50.572] >>> Speed Executing:
+[ 50.591] ..# Pilot_Power:  800
+[ 50.612] ..# Speed:  960
+[ 50.629] --- Speed Ended:
+[ 50.643] >>> Position-Altitude Executing:
+[ 50.677] %Light(1): ON
+[ 50.702] ..# Altitude:  0
+[ 50.719] ..# Joystick: -1 3
+[ 50.738] ..# Pitch:  0
+[ 50.754] ..# Roll:  0
+[ 50.770] --- Position-Altitude Ended:
+[ 50.942] >>> Speed Executing:
+[ 50.961] ..# Pilot_Power:  800
+[ 50.981] ..# Speed:  960
+[ 50.998] --- Speed Ended:
+[ 51.012] >>> Position-Altitude Executing:
+[ 51.047] %Light(1): ON
+[ 51.071] ..# Altitude:  0
+[ 51.089] ..# Joystick:  1 3
+[ 51.108] ..# Pitch:  0
+[ 51.124] ..# Roll:  0
+[ 51.139] --- Position-Altitude Ended:
+[ 51.311] >>> Speed Executing:
+[ 51.330] ..# Pilot_Power:  800
+[ 51.351] ..# Speed:  960
+[ 51.368] --- Speed Ended:
+[ 51.382] >>> Position-Altitude Executing:
+[ 51.416] %Light(1): ON
+[ 51.441] ..# Altitude:  0
+[ 51.459] ..# Joystick:  1-3
+[ 51.477] ..# Pitch:  0
+[ 51.493] ..# Roll:  0
+[ 51.509] --- Position-Altitude Ended:
+[ 51.681] >>> Speed Executing:
+[ 51.700] ..# Pilot_Power:  800
+[ 51.720] ..# Speed:  960
+[ 51.737] --- Speed Ended:
+[ 51.751] >>> Position-Altitude Executing:
+[ 51.786] %Light(1): ON
+[ 51.811] ..# Altitude:  0
+[ 51.828] ..# Joystick:  3 0
+[ 51.847] ..# Pitch:  0
+[ 51.863] ..# Roll:  0
+[ 51.879] --- Position-Altitude Ended:
+[ 52.051] >>> Speed Executing:
+[ 52.070] ..# Pilot_Power:  800
+[ 52.090] ..# Speed:  960
+[ 52.107] --- Speed Ended:
+[ 52.121] >>> Position-Altitude Executing:
+[ 52.155] %Light(1): ON
+[ 52.180] ..# Altitude:  0
+[ 52.198] ..# Joystick:  1 3
+[ 52.216] ..# Pitch:  0
+[ 52.233] ..# Roll:  0
+[ 52.248] --- Position-Altitude Ended:
+[ 52.420] >>> Speed Executing:
+[ 52.439] ..# Pilot_Power:  800
+[ 52.459] ..# Speed:  960
+[ 52.477] --- Speed Ended:
+[ 52.490] >>> Position-Altitude Executing:
+[ 52.525] %Light(1): ON
+[ 52.550] ..# Altitude:  0
+[ 52.567] ..# Joystick: -15 3
+[ 52.587] ..# Pitch:  0
+[ 52.603] ..# Roll:  0
+[ 52.618] --- Position-Altitude Ended:
+[ 52.790] >>> Speed Executing:
+[ 52.809] ..# Pilot_Power:  800
+[ 52.829] ..# Speed:  960
+[ 52.846] --- Speed Ended:
+[ 52.860] >>> Position-Altitude Executing:
+[ 52.895] %Light(1): ON
+[ 52.919] ..# Altitude:  0
+[ 52.937] ..# Joystick: -20-3
+[ 52.956] ..# Pitch:  0
+[ 52.972] ..# Roll:  0
+[ 52.988] --- Position-Altitude Ended:
+[ 53.159] >>> Speed Executing:
+[ 53.178] ..# Pilot_Power:  800
+[ 53.199] ..# Speed:  960
+[ 53.216] --- Speed Ended:
+[ 53.230] >>> Position-Altitude Executing:
+[ 53.264] %Light(1): ON
+[ 53.289] ..# Altitude:  0
+[ 53.307] ..# Joystick: -35 0
+[ 53.326] ..# Pitch:  0
+[ 53.342] ..# Roll:  0
+[ 53.358] --- Position-Altitude Ended:
+[ 53.529] >>> Speed Executing:
+[ 53.548] ..# Pilot_Power:  800
+[ 53.568] ..# Speed:  960
+[ 53.585] --- Speed Ended:
+[ 53.599] >>> Position-Altitude Executing:
+[ 53.634] %Light(1): ON
+[ 53.658] ..# Altitude:  0
+[ 53.676] ..# Joystick: -37 3
+[ 53.695] ..# Pitch:  0
+[ 53.712] ..# Roll:  0
+[ 53.727] --- Position-Altitude Ended:
+[ 53.899] >>> Speed Executing:
+[ 53.918] ..# Pilot_Power:  800
+[ 53.938] ..# Speed:  960
+[ 53.955] --- Speed Ended:
+[ 53.969] >>> Position-Altitude Executing:
+[ 54.003] %Light(1): ON
+[ 54.028] ..# Altitude:  0
+[ 54.046] ..# Joystick: -45-3
+[ 54.065] ..# Pitch:  0
+[ 54.081] ..# Roll:  0
+[ 54.097] --- Position-Altitude Ended:
+[ 54.268] >>> Speed Executing:
+[ 54.287] ..# Pilot_Power:  800
+[ 54.307] ..# Speed:  960
+[ 54.325] --- Speed Ended:
+[ 54.338] >>> Position-Altitude Executing:
+[ 54.373] %Light(1): ON
+[ 54.398] ..# Altitude:  0
+[ 54.415] ..# Joystick: -45 0
+[ 54.435] ..# Pitch:  0
+[ 54.451] ..# Roll:  0
+[ 54.466] --- Position-Altitude Ended:
+[ 54.638] >>> Speed Executing:
+[ 54.657] ..# Pilot_Power:  800
+[ 54.677] ..# Speed:  960
+[ 54.694] --- Speed Ended:
+[ 54.708] >>> Position-Altitude Executing:
+[ 54.743] %Light(1): ON
+[ 54.767] ..# Altitude:  0
+[ 54.785] ..# Joystick: -47 1
+[ 54.804] ..# Pitch:  0
+[ 54.820] ..# Roll:  0
+[ 54.836] --- Position-Altitude Ended:
+[ 55.007] >>> Speed Executing:
+[ 55.024] %Light(2): ON
+[ 55.037] ..# Pilot_Power:  900
+[ 55.057] ..# Speed:  1000
+[ 55.075] --- Speed Ended:
+[ 55.089] >>> Position-Altitude Executing:
+[ 55.123] %Light(1): ON
+[ 55.148] ..# Altitude:  0
+[ 55.166] ..# Joystick: -47 0
+[ 55.185] ..# Pitch:  0
+[ 55.201] ..# Roll:  0
+[ 55.217] --- Position-Altitude Ended:
+[ 55.388] >>> Speed Executing:
+[ 55.405] %Light(2): ON
+[ 55.418] ..# Pilot_Power:  900
+[ 55.438] ..# Speed:  1000
+[ 55.456] --- Speed Ended:
+[ 55.470] >>> Position-Altitude Executing:
+[ 55.504] %Light(1): ON
+[ 55.529] ..# Altitude:  0
+[ 55.546] ..# Joystick: -45-3
+[ 55.566] ..# Pitch:  0
+[ 55.582] ..# Roll:  0
+[ 55.597] --- Position-Altitude Ended:
+[ 55.769] >>> Speed Executing:
+[ 55.786] %Light(2): ON
+[ 55.798] ..# Pilot_Power:  900
+[ 55.819] ..# Speed:  1000
+[ 55.836] --- Speed Ended:
+[ 55.850] >>> Position-Altitude Executing:
+[ 55.885] %Light(1): ON
+[ 55.910] ..# Altitude:  0
+[ 55.927] ..# Joystick: -46 0
+[ 55.946] ..# Pitch:  0
+[ 55.963] ..# Roll:  0
+[ 55.978] --- Position-Altitude Ended:
+[ 56.150] >>> Speed Executing:
+[ 56.166] %Light(2): ON
+[ 56.179] ..# Pilot_Power:  900
+[ 56.200] ..# Speed:  1000
+[ 56.217] --- Speed Ended:
+[ 56.231] >>> Position-Altitude Executing:
+[ 56.266] %Light(1): ON
+[ 56.290] ..# Altitude:  0
+[ 56.308] ..# Joystick: -15 0
+[ 56.327] ..# Pitch:  0
+[ 56.343] ..# Roll:  0
+[ 56.359] --- Position-Altitude Ended:
+[ 56.530] >>> Speed Executing:
+[ 56.547] %Light(2): ON
+[ 56.560] ..# Pilot_Power:  900
+[ 56.580] ..# Speed:  1000
+[ 56.598] --- Speed Ended:
+[ 56.612] >>> Position-Altitude Executing:
+[ 56.646] %Light(1): ON
+[ 56.671] ..# Altitude:  0
+[ 56.689] ..# Joystick:  1 3
+[ 56.707] ..# Pitch:  0
+[ 56.724] ..# Roll:  0
+[ 56.739] --- Position-Altitude Ended:
+[ 56.911] >>> Speed Executing:
+[ 56.930] ..# Pilot_Power:  300
+[ 56.950] ..# Speed:  360
+[ 56.968] --- Speed Ended:
+[ 56.981] >>> Position-Altitude Executing:
+[ 57.016] %Light(1): ON
+[ 57.041] ..# Altitude:  0
+[ 57.058] ..# Joystick:  1 3
+[ 57.077] ..# Pitch:  0
+[ 57.093] ..# Roll:  0
+[ 57.109] --- Position-Altitude Ended:
+[ 57.281] >>> Speed Executing:
+[ 57.298] %Light(2): ON
+[ 57.310] ..# Pilot_Power:  100
+[ 57.331] ..# Speed:  300
+[ 57.348] --- Speed Ended:
+[ 57.362] >>> Position-Altitude Executing:
+[ 57.396] %Light(1): ON
+[ 57.421] ..# Altitude:  0
+[ 57.439] ..# Joystick:  1-3
+[ 57.457] ..# Pitch:  0
+[ 57.473] ..# Roll:  0
+[ 57.489] --- Position-Altitude Ended:
+[ 57.661] >>> Speed Executing:
+[ 57.678] %Light(2): ON
+[ 57.691] ..# Pilot_Power:  100
+[ 57.711] ..# Speed:  300
+[ 57.728] --- Speed Ended:
+[ 57.742] >>> Position-Altitude Executing:
+[ 57.777] %Light(1): ON
+[ 57.801] ..# Altitude:  0
+[ 57.819] ..# Joystick:  3 0
+[ 57.838] ..# Pitch:  0
+[ 57.854] ..# Roll:  0
+[ 57.869] --- Position-Altitude Ended:
+[ 58.041] >>> Speed Executing:
+[ 58.058] %Light(2): ON
+[ 58.071] ..# Pilot_Power:  110
+[ 58.091] ..# Speed:  300
+[ 58.108] --- Speed Ended:
+[ 58.122] >>> Position-Altitude Executing:
+[ 58.157] %Light(1): ON
+[ 58.181] ..# Altitude:  0
+[ 58.199] ..# Joystick:  1 3
+[ 58.218] ..# Pitch:  0
+[ 58.234] ..# Roll:  0
+[ 58.250] --- Position-Altitude Ended:
+[ 58.422] >>> Speed Executing:
+[ 58.438] %Light(2): ON
+[ 58.451] ..# Pilot_Power:  103
+[ 58.471] ..# Speed:  300
+[ 58.489] --- Speed Ended:
+[ 58.502] >>> Position-Altitude Executing:
+[ 58.537] %Light(1): ON
+[ 58.562] ..# Altitude:  0
+[ 58.579] ..# Joystick:  1 3
+[ 58.598] ..# Pitch:  0
+[ 58.614] ..# Roll:  0
+[ 58.630] --- Position-Altitude Ended:
+[ 58.802] >>> Speed Executing:
+[ 58.818] %Light(2): ON
+[ 58.831] ..# Pilot_Power:  100
+[ 58.852] ..# Speed:  300
+[ 58.869] --- Speed Ended:
+[ 58.883] >>> Position-Altitude Executing:
+[ 58.917] %Light(1): ON
+[ 58.942] ..# Altitude:  0
+[ 58.960] ..# Joystick:  1-3
+[ 58.978] ..# Pitch:  0
+[ 58.994] ..# Roll:  0
+[ 59.010] --- Position-Altitude Ended:
+[ 59.182] >>> Speed Executing:
+[ 59.201] ..# Pilot_Power:  800
+[ 59.221] ..# Speed:  960
+[ 59.238] --- Speed Ended:
+[ 59.252] >>> Position-Altitude Executing:
+[ 59.287] %Light(1): ON
+[ 59.311] ..# Altitude:  0
+[ 59.329] ..# Joystick:  3 0
+[ 59.348] ..# Pitch:  0
+[ 59.364] ..# Roll:  0
+[ 59.380] --- Position-Altitude Ended:
+[ 59.552] >>> Speed Executing:
+[ 59.571] ..# Pilot_Power:  800
+[ 59.591] ..# Speed:  960
+[ 59.608] --- Speed Ended:
+[ 59.622] >>> Position-Altitude Executing:
+[ 59.656] %Light(1): ON
+[ 59.681] ..# Altitude:  0
+[ 59.699] ..# Joystick: -1 3
+[ 59.717] ..# Pitch:  0
+[ 59.734] ..# Roll:  0
+[ 59.749] --- Position-Altitude Ended:
+[ 59.921] >>> Speed Executing:
+[ 59.940] ..# Pilot_Power:  800
+[ 59.960] ..# Speed:  960
+[ 59.978] --- Speed Ended:
+[ 59.991] >>> Position-Altitude Executing:
+[ 60.026] %Light(1): ON
+[ 60.051] ..# Altitude:  0
+[ 60.068] ..# Joystick:  81 3
+[ 60.087] ..# Pitch:  0
+[ 60.104] ..# Roll:  0
+[ 60.119] --- Position-Altitude Ended:
+[ 60.291] >>> Speed Executing:
+[ 60.310] ..# Pilot_Power:  800
+[ 60.330] ..# Speed:  960
+[ 60.347] --- Speed Ended:
+[ 60.361] >>> Position-Altitude Executing:
+[ 60.396] %Light(1): ON
+[ 60.420] ..# Altitude:  0
+[ 60.438] ..# Joystick:  81-3
+[ 60.457] ..# Pitch:  0
+[ 60.473] ..# Roll:  0
+[ 60.489] --- Position-Altitude Ended:
+[ 60.660] >>> Speed Executing:
+[ 60.679] ..# Pilot_Power:  800
+[ 60.700] ..# Speed:  960
+[ 60.717] --- Speed Ended:
+[ 60.731] >>> Position-Altitude Executing:
+[ 60.765] %Light(1): ON
+[ 60.790] ..# Altitude:  0
+[ 60.807] ..# Joystick:  3 0
+[ 60.826] ..# Pitch:  0
+[ 60.842] ..# Roll:  0
+[ 60.858] --- Position-Altitude Ended:
+[ 61.030] >>> Speed Executing:
+[ 61.049] ..# Pilot_Power:  800
+[ 61.069] ..# Speed:  960
+[ 61.086] --- Speed Ended:
+[ 61.100] >>> Position-Altitude Executing:
+[ 61.135] %Light(1): ON
+[ 61.159] ..# Altitude:  0
+[ 61.177] ..# Joystick:  1 3
+[ 61.196] ..# Pitch:  0
+[ 61.212] ..# Roll:  0
+[ 61.228] --- Position-Altitude Ended:
+[ 61.400] >>> Speed Executing:
+[ 61.419] ..# Pilot_Power:  800
+[ 61.439] ..# Speed:  960
+[ 61.456] --- Speed Ended:
+[ 61.470] >>> Position-Altitude Executing:
+[ 61.504] %Light(1): ON
+[ 61.529] ..# Altitude:  0
+[ 61.547] ..# Joystick:  1-3
+[ 61.565] ..# Pitch:  0
+[ 61.581] ..# Roll:  0
+[ 61.597] --- Position-Altitude Ended:
+[ 61.769] >>> Speed Executing:
+[ 61.788] ..# Pilot_Power:  800
+[ 61.808] ..# Speed:  960
+[ 61.826] --- Speed Ended:
+[ 61.839] >>> Position-Altitude Executing:
+[ 61.874] %Light(1): ON
+[ 61.899] ..# Altitude:  0
+[ 61.916] ..# Joystick:  3 0
+[ 61.935] ..# Pitch:  0
+[ 61.951] ..# Roll:  0
+[ 61.967] --- Position-Altitude Ended:
+[ 62.139] >>> Speed Executing:
+[ 62.158] ..# Pilot_Power:  800
+[ 62.178] ..# Speed:  960
+[ 62.195] --- Speed Ended:
+[ 62.209] >>> Position-Altitude Executing:
+[ 62.244] %Light(1): ON
+[ 62.272] ..# Altitude:  0
+[ 62.286] ..# Joystick:  2 1
+[ 62.305] ..# Pitch:  0
+[ 62.321] ..# Roll:  0
+[ 62.336] --- Position-Altitude Ended:
+[ 62.508] >>> Speed Executing:
+[ 62.527] ..# Pilot_Power:  700
+[ 62.548] ..# Speed:  840
+[ 62.565] --- Speed Ended:
+[ 62.579] >>> Position-Altitude Executing:
+[ 62.613] %Light(1): ON
+[ 62.638] ..# Altitude:  0
+[ 62.655] ..# Joystick:  15 3
+[ 62.675] ..# Pitch:  0
+[ 62.691] ..# Roll:  0
+[ 62.706] --- Position-Altitude Ended:
+[ 62.878] >>> Speed Executing:
+[ 62.897] ..# Pilot_Power:  700
+[ 62.917] ..# Speed:  840
+[ 62.934] --- Speed Ended:
+[ 62.948] >>> Position-Altitude Executing:
+[ 62.983] %Light(1): ON
+[ 63.007] ..# Altitude:  0
+[ 63.025] ..# Joystick:  20-3
+[ 63.044] ..# Pitch:  0
+[ 63.060] ..# Roll:  0
+[ 63.076] --- Position-Altitude Ended:
+[ 63.248] >>> Speed Executing:
+[ 63.267] ..# Pilot_Power:  700
+[ 63.287] ..# Speed:  840
+[ 63.304] --- Speed Ended:
+[ 63.318] >>> Position-Altitude Executing:
+[ 63.352] %Light(1): ON
+[ 63.377] ..# Altitude:  0
+[ 63.395] ..# Joystick:  35 0
+[ 63.414] ..# Pitch:  0
+[ 63.430] ..# Roll:  0
+[ 63.446] --- Position-Altitude Ended:
+[ 63.617] >>> Speed Executing:
+[ 63.636] ..# Pilot_Power:  700
+[ 63.656] ..# Speed:  840
+[ 63.674] --- Speed Ended:
+[ 63.687] >>> Position-Altitude Executing:
+[ 63.722] %Light(1): ON
+[ 63.747] ..# Altitude:  0
+[ 63.764] ..# Joystick:  37 1
+[ 63.783] ..# Pitch:  0
+[ 63.800] ..# Roll:  0
+[ 63.815] --- Position-Altitude Ended:
+[ 63.987] >>> Speed Executing:
+[ 64.006] ..# Pilot_Power:  600
+[ 64.026] ..# Speed:  720
+[ 64.043] --- Speed Ended:
+[ 64.057] >>> Position-Altitude Executing:
+[ 64.092] %Light(1): ON
+[ 64.116] ..# Altitude:  0
+[ 64.134] ..# Joystick:  47 3
+[ 64.153] ..# Pitch:  0
+[ 64.169] ..# Roll:  0
+[ 64.185] --- Position-Altitude Ended:
+[ 64.356] >>> Speed Executing:
+[ 64.375] ..# Pilot_Power:  600
+[ 64.396] ..# Speed:  720
+[ 64.413] --- Speed Ended:
+[ 64.427] >>> Position-Altitude Executing:
+[ 64.461] %Light(1): ON
+[ 64.486] ..# Altitude:  0
+[ 64.503] ..# Joystick:  45-3
+[ 64.523] ..# Pitch:  0
+[ 64.539] ..# Roll:  0
+[ 64.554] --- Position-Altitude Ended:
+[ 64.726] >>> Speed Executing:
+[ 64.745] ..# Pilot_Power:  600
+[ 64.765] ..# Speed:  720
+[ 64.782] --- Speed Ended:
+[ 64.796] >>> Position-Altitude Executing:
+[ 64.831] %Light(1): ON
+[ 64.855] ..# Altitude:  0
+[ 64.873] ..# Joystick:  46 0
+[ 64.892] ..# Pitch:  0
+[ 64.908] ..# Roll:  0
+[ 64.924] --- Position-Altitude Ended:
+[ 65.095] >>> Speed Executing:
+[ 65.112] %Light(2): ON
+[ 65.125] ..# Pilot_Power:  900
+[ 65.145] ..# Speed:  1000
+[ 65.163] --- Speed Ended:
+[ 65.177] >>> Position-Altitude Executing:
+[ 65.211] %Light(1): ON
+[ 65.236] ..# Altitude:  0
+[ 65.254] ..# Joystick:  47 21
+[ 65.273] ..# Pitch:  0
+[ 65.290] ..# Roll:  0
+[ 65.305] --- Position-Altitude Ended:
+[ 65.476] >>> Speed Executing:
+[ 65.493] %Light(2): ON
+[ 65.506] ..# Pilot_Power:  900
+[ 65.526] ..# Speed:  1000
+[ 65.544] --- Speed Ended:
+[ 65.558] >>> Position-Altitude Executing:
+[ 65.592] %Light(1): ON
+[ 65.617] ..# Altitude:  0
+[ 65.635] ..# Joystick:  47 43
+[ 65.654] ..# Pitch:  0
+[ 65.670] ..# Roll:  0
+[ 65.686] --- Position-Altitude Ended:
+[ 65.857] >>> Speed Executing:
+[ 65.874] %Light(2): ON
+[ 65.887] ..# Pilot_Power:  900
+[ 65.907] ..# Speed:  1000
+[ 65.925] --- Speed Ended:
+[ 65.938] >>> Position-Altitude Executing:
+[ 65.973] %Light(1): ON
+[ 65.998] ..# Altitude:  0
+[ 66.015] ..# Joystick:  46 43
+[ 66.035] ..# Pitch:  0
+[ 66.051] ..# Roll:  0
+[ 66.067] --- Position-Altitude Ended:
+[ 66.238] >>> Speed Executing:
+[ 66.254] %Light(2): ON
+[ 66.267] ..# Pilot_Power:  900
+[ 66.288] ..# Speed:  1000
+[ 66.305] --- Speed Ended:
+[ 66.319] >>> Position-Altitude Executing:
+[ 66.354] %Light(1): ON
+[ 66.378] ..# Altitude:  0
+[ 66.396] ..# Joystick:  45 60
+[ 66.416] ..# Pitch:  0
+[ 66.432] ..# Roll:  0
+[ 66.448] --- Position-Altitude Ended:
+[ 66.618] >>> Speed Executing:
+[ 66.635] %Light(2): ON
+[ 66.648] ..# Pilot_Power:  900
+[ 66.668] ..# Speed:  1000
+[ 66.686] --- Speed Ended:
+[ 66.700] >>> Position-Altitude Executing:
+[ 66.734] %Light(1): ON
+[ 66.759] ..# Altitude:  0
+[ 66.777] ..# Joystick:  47 71
+[ 66.796] ..# Pitch:  0
+[ 66.813] ..# Roll:  0
+[ 66.828] --- Position-Altitude Ended:
+[ 66.999] >>> Speed Executing:
+[ 67.016] %Light(2): ON
+[ 67.029] ..# Pilot_Power:  1000
+[ 67.050] ..# Speed:  1000
+[ 67.067] --- Speed Ended:
+[ 67.081] >>> Position-Altitude Executing:
+[ 67.116] %Light(1): ON
+[ 67.140] ..# Altitude:  0
+[ 67.158] ..# Joystick:  47 30
+[ 67.178] ..# Pitch:  0
+[ 67.194] ..# Roll:  0
+[ 67.210] --- Position-Altitude Ended:
+[ 67.380] >>> Speed Executing:
+[ 67.397] %Light(2): ON
+[ 67.410] ..# Pilot_Power:  1000
+[ 67.431] ..# Speed:  1000
+[ 67.449] --- Speed Ended:
+[ 67.462] >>> Position-Altitude Executing:
+[ 67.497] %Light(1): ON
+[ 67.522] ..# Altitude:  0
+[ 67.539] ..# Joystick:  45 5
+[ 67.558] ..# Pitch:  0
+[ 67.575] ..# Roll:  0
+[ 67.590] --- Position-Altitude Ended:
+[ 67.762] >>> Speed Executing:
+[ 67.778] %Light(2): ON
+[ 67.791] ..# Pilot_Power:  1000
+[ 67.812] ..# Speed:  1000
+[ 67.830] --- Speed Ended:
+[ 67.844] >>> Position-Altitude Executing:
+[ 67.878] %Light(1): ON
+[ 67.903] ..# Altitude:  0
+[ 67.921] ..# Joystick:  45 2
+[ 67.940] ..# Pitch:  0
+[ 67.956] ..# Roll:  0
+[ 67.972] --- Position-Altitude Ended:
+[ 68.143] >>> Speed Executing:
+[ 68.160] %Light(2): ON
+[ 68.173] ..# Pilot_Power:  1020
+[ 68.193] ..# Speed:  1000
+[ 68.211] --- Speed Ended:
+[ 68.225] >>> Position-Altitude Executing:
+[ 68.259] %Light(1): ON
+[ 68.284] ..# Altitude:  0
+[ 68.302] ..# Joystick:  20 2
+[ 68.321] ..# Pitch:  0
+[ 68.337] ..# Roll:  0
+[ 68.353] --- Position-Altitude Ended:
+[ 68.524] >>> Speed Executing:
+[ 68.541] %Light(2): ON
+[ 68.554] ..# Pilot_Power:  1020
+[ 68.575] ..# Speed:  1000
+[ 68.592] --- Speed Ended:
+[ 68.606] >>> Position-Altitude Executing:
+[ 68.641] %Light(1): ON
+[ 68.665] ..# Altitude:  0
+[ 68.683] ..# Joystick:  5 2
+[ 68.702] ..# Pitch:  0
+[ 68.718] ..# Roll:  0
+[ 68.734] --- Position-Altitude Ended:
+[ 68.906] >>> Speed Executing:
+[ 68.922] %Light(2): ON
+[ 68.935] ..# Pilot_Power:  1020
+[ 68.956] ..# Speed:  1000
+[ 68.974] --- Speed Ended:
+[ 68.987] >>> Position-Altitude Executing:
+[ 69.022] %Light(1): ON
+[ 69.047] ..# Altitude:  0
+[ 69.064] ..# Joystick:  1 3
+[ 69.083] ..# Pitch:  0
+[ 69.099] ..# Roll:  0
+[ 69.115] --- Position-Altitude Ended:
+[ 69.287] >>> Speed Executing:
+[ 69.303] %Light(2): ON
+[ 69.316] ..# Pilot_Power:  1020
+[ 69.337] ..# Speed:  1000
+[ 69.355] --- Speed Ended:
+[ 69.369] >>> Position-Altitude Executing:
+[ 69.403] %Light(1): ON
+[ 69.428] ..# Altitude:  0
+[ 69.446] ..# Joystick:  1-3
+[ 69.464] ..# Pitch:  0
+[ 69.480] ..# Roll:  0
+[ 69.496] --- Position-Altitude Ended:
+[ 69.668] >>> Speed Executing:
+[ 69.685] %Light(2): ON
+[ 69.698] ..# Pilot_Power:  1020
+[ 69.718] ..# Speed:  1000
+[ 69.736] --- Speed Ended:
+[ 69.750] >>> Position-Altitude Executing:
+[ 69.784] %Light(1): ON
+[ 69.809] ..# Altitude:  0
+[ 69.827] ..# Joystick:  3 0
+[ 69.846] ..# Pitch:  0
+[ 69.862] ..# Roll:  0
+[ 69.877] --- Position-Altitude Ended:
+[ 70.049] >>> Speed Executing:
+[ 70.068] ..# Pilot_Power:  800
+[ 70.089] ..# Speed:  960
+[ 70.106] --- Speed Ended:
+[ 70.119] >>> Position-Altitude Executing:
+[ 70.154] %Light(1): ON
+[ 70.179] ..# Altitude:  0
+[ 70.196] ..# Joystick:  1 3
+[ 70.215] ..# Pitch:  0
+[ 70.231] ..# Roll:  0
+[ 70.247] --- Position-Altitude Ended:
+[ 70.419] >>> Speed Executing:
+[ 70.438] ..# Pilot_Power:  800
+[ 70.458] ..# Speed:  960
+[ 70.475] --- Speed Ended:
+[ 70.489] >>> Position-Altitude Executing:
+[ 70.524] %Light(1): ON
+[ 70.548] ..# Altitude:  0
+[ 70.566] ..# Joystick:  1 3
+[ 70.585] ..# Pitch:  0
+[ 70.601] ..# Roll:  0
+[ 70.616] --- Position-Altitude Ended:
+[ 70.788] >>> Speed Executing:
+[ 70.807] ..# Pilot_Power:  800
+[ 70.828] ..# Speed:  960
+[ 70.845] --- Speed Ended:
+[ 70.863] >>> Position-Altitude Executing:
+[ 70.893] %Light(1): ON
+[ 70.918] ..# Altitude:  0
+[ 70.936] ..# Joystick:  1-3
+[ 70.954] ..# Pitch:  0
+[ 70.970] ..# Roll:  0
+[ 70.986] --- Position-Altitude Ended:
+[ 71.158] >>> Speed Executing:
+[ 71.177] ..# Pilot_Power:  800
+[ 71.197] ..# Speed:  960
+[ 71.214] --- Speed Ended:
+[ 71.228] >>> Position-Altitude Executing:
+[ 71.263] %Light(1): ON
+[ 71.288] ..# Altitude:  0
+[ 71.305] ..# Joystick:  2 1
+[ 71.324] ..# Pitch:  0
+[ 71.340] ..# Roll:  0
+[ 71.356] --- Position-Altitude Ended:
+[ 71.528] >>> Speed Executing:
+[ 71.547] ..# Pilot_Power:  800
+[ 71.567] ..# Speed:  960
+[ 71.584] --- Speed Ended:
+[ 71.598] >>> Position-Altitude Executing:
+[ 71.632] %Light(1): ON
+[ 71.657] ..# Altitude:  0
+[ 71.675] ..# Joystick: -1 3
+[ 71.693] ..# Pitch:  0
+[ 71.710] ..# Roll:  0
+[ 71.725] --- Position-Altitude Ended:
+[ 71.897] >>> Speed Executing:
+[ 71.916] ..# Pilot_Power:  800
+[ 71.937] ..# Speed:  960
+[ 71.954] --- Speed Ended:
+[ 71.967] >>> Position-Altitude Executing:
+[ 72.002] %Light(1): ON
+[ 72.027] ..# Altitude:  0
+[ 72.044] ..# Joystick:  1-3
+[ 72.063] ..# Pitch:  0
+[ 72.079] ..# Roll:  0
+[ 72.095] --- Position-Altitude Ended:
+[ 72.267] >>> Speed Executing:
+[ 72.286] ..# Pilot_Power:  800
+[ 72.306] ..# Speed:  960
+[ 72.323] --- Speed Ended:
+[ 72.337] >>> Position-Altitude Executing:
+[ 72.372] %Light(1): ON
+[ 72.396] ..# Altitude:  0
+[ 72.414] ..# Joystick:  3 0
+[ 72.433] ..# Pitch:  0
+[ 72.449] ..# Roll:  0
+[ 72.464] --- Position-Altitude Ended:
+[ 72.636] >>> Speed Executing:
+[ 72.655] ..# Pilot_Power:  800
+[ 72.676] ..# Speed:  960
+[ 72.693] --- Speed Ended:
+[ 72.707] >>> Position-Altitude Executing:
+[ 72.741] %Light(1): ON
+[ 72.766] ..# Altitude:  0
+[ 72.784] ..# Joystick: -15 1
+[ 72.803] ..# Pitch:  0
+[ 72.819] ..# Roll:  0
+[ 72.835] --- Position-Altitude Ended:
+[ 73.010] >>> Speed Executing:
+[ 73.025] ..# Pilot_Power:  800
+[ 73.045] ..# Speed:  960
+[ 73.062] --- Speed Ended:
+[ 73.076] >>> Position-Altitude Executing:
+[ 73.111] %Light(1): ON
+[ 73.136] ..# Altitude:  0
+[ 73.153] ..# Joystick: -25 3
+[ 73.172] ..# Pitch:  0
+[ 73.189] ..# Roll:  0
+[ 73.204] --- Position-Altitude Ended:
+[ 73.376] >>> Speed Executing:
+[ 73.395] ..# Pilot_Power:  800
+[ 73.415] ..# Speed:  960
+[ 73.432] --- Speed Ended:
+[ 73.446] >>> Position-Altitude Executing:
+[ 73.480] %Light(1): ON
+[ 73.505] ..# Altitude:  0
+[ 73.523] ..# Joystick: -35-3
+[ 73.542] ..# Pitch:  0
+[ 73.558] ..# Roll:  0
+[ 73.574] --- Position-Altitude Ended:
+[ 73.745] >>> Speed Executing:
+[ 73.764] ..# Pilot_Power:  800
+[ 73.785] ..# Speed:  960
+[ 73.802] --- Speed Ended:
+[ 73.815] >>> Position-Altitude Executing:
+[ 73.850] %Light(1): ON
+[ 73.875] ..# Altitude:  0
+[ 73.892] ..# Joystick: -45 0
+[ 73.912] ..# Pitch:  0
+[ 73.928] ..# Roll:  0
+[ 73.943] --- Position-Altitude Ended:
+[ 74.115] >>> Speed Executing:
+[ 74.134] ..# Pilot_Power:  800
+[ 74.154] ..# Speed:  960
+[ 74.171] --- Speed Ended:
+[ 74.185] >>> Position-Altitude Executing:
+[ 74.220] %Light(1): ON
+[ 74.244] ..# Altitude:  0
+[ 74.262] ..# Joystick: -47 1
+[ 74.281] ..# Pitch:  0
+[ 74.297] ..# Roll:  0
+[ 74.313] --- Position-Altitude Ended:
+[ 74.484] >>> Speed Executing:
+[ 74.503] ..# Pilot_Power:  800
+[ 74.524] ..# Speed:  960
+[ 74.541] --- Speed Ended:
+[ 74.555] >>> Position-Altitude Executing:
+[ 74.589] %Light(1): ON
+[ 74.614] ..# Altitude:  0
+[ 74.632] ..# Joystick: -47 3
+[ 74.651] ..# Pitch:  0
+[ 74.667] ..# Roll:  0
+[ 74.683] --- Position-Altitude Ended:
+[ 74.854] >>> Speed Executing:
+[ 74.873] ..# Pilot_Power:  800
+[ 74.893] ..# Speed:  960
+[ 74.910] --- Speed Ended:
+[ 74.924] >>> Position-Altitude Executing:
+[ 74.959] %Light(1): ON
+[ 74.984] ..# Altitude:  0
+[ 75.001] ..# Joystick: -46-3
+[ 75.020] ..# Pitch:  0
+[ 75.037] ..# Roll:  0
+[ 75.052] --- Position-Altitude Ended:
+[ 75.224] >>> Speed Executing:
+[ 75.240] %Light(2): ON
+[ 75.253] ..# Pilot_Power:  900
+[ 75.274] ..# Speed:  1000
+[ 75.291] --- Speed Ended:
+[ 75.305] >>> Position-Altitude Executing:
+[ 75.340] %Light(1): ON
+[ 75.364] ..# Altitude:  0
+[ 75.382] ..# Joystick: -45 0
+[ 75.401] ..# Pitch:  0
+[ 75.417] ..# Roll:  0
+[ 75.433] --- Position-Altitude Ended:
+[ 75.604] >>> Speed Executing:
+[ 75.621] %Light(2): ON
+[ 75.634] ..# Pilot_Power:  900
+[ 75.654] ..# Speed:  1000
+[ 75.672] --- Speed Ended:
+[ 75.686] >>> Position-Altitude Executing:
+[ 75.720] %Light(1): ON
+[ 75.745] ..# Altitude:  0
+[ 75.763] ..# Joystick: -47 1
+[ 75.782] ..# Pitch:  0
+[ 75.798] ..# Roll:  0
+[ 75.814] --- Position-Altitude Ended:
+[ 75.985] >>> Speed Executing:
+[ 76.002] %Light(2): ON
+[ 76.015] ..# Pilot_Power:  900
+[ 76.035] ..# Speed:  1000
+[ 76.053] --- Speed Ended:
+[ 76.066] >>> Position-Altitude Executing:
+[ 76.101] %Light(1): ON
+[ 76.126] ..# Altitude:  0
+[ 76.143] ..# Joystick: -17 0
+[ 76.163] ..# Pitch:  0
+[ 76.179] ..# Roll:  0
+[ 76.194] --- Position-Altitude Ended:
+[ 76.366] >>> Speed Executing:
+[ 76.383] %Light(2): ON
+[ 76.395] ..# Pilot_Power:  900
+[ 76.416] ..# Speed:  1000
+[ 76.433] --- Speed Ended:
+[ 76.447] >>> Position-Altitude Executing:
+[ 76.482] %Light(1): ON
+[ 76.506] ..# Altitude:  0
+[ 76.524] ..# Joystick: -15-3
+[ 76.543] ..# Pitch:  0
+[ 76.559] ..# Roll:  0
+[ 76.575] --- Position-Altitude Ended:
+[ 76.747] >>> Speed Executing:
+[ 76.766] ..# Pilot_Power:  400
+[ 76.786] ..# Speed:  480
+[ 76.803] --- Speed Ended:
+[ 76.817] >>> Position-Altitude Executing:
+[ 76.851] %Light(1): ON
+[ 76.876] ..# Altitude:  0
+[ 76.894] ..# Joystick:  3 0
+[ 76.912] ..# Pitch:  0
+[ 76.929] ..# Roll:  0
+[ 76.944] --- Position-Altitude Ended:
+[ 77.116] >>> Speed Executing:
+[ 77.133] %Light(2): ON
+[ 77.146] ..# Pilot_Power:  100
+[ 77.166] ..# Speed:  300
+[ 77.183] --- Speed Ended:
+[ 77.197] >>> Position-Altitude Executing:
+[ 77.232] %Light(1): ON
+[ 77.256] ..# Altitude:  0
+[ 77.274] ..# Joystick:  2 1
+[ 77.293] ..# Pitch:  0
+[ 77.309] ..# Roll:  0
+[ 77.324] --- Position-Altitude Ended:
+[ 77.496] >>> Speed Executing:
+[ 77.513] %Light(2): ON
+[ 77.526] ..# Pilot_Power:  100
+[ 77.546] ..# Speed:  300
+[ 77.563] --- Speed Ended:
+[ 77.577] >>> Position-Altitude Executing:
+[ 77.612] %Light(1): ON
+[ 77.637] ..# Altitude:  0
+[ 77.654] ..# Joystick:  1 3
+[ 77.673] ..# Pitch:  0
+[ 77.689] ..# Roll:  0
+[ 77.705] --- Position-Altitude Ended:
+[ 77.877] >>> Speed Executing:
+[ 77.893] %Light(2): ON
+[ 77.906] ..# Pilot_Power:  100
+[ 77.927] ..# Speed:  300
+[ 77.944] --- Speed Ended:
+[ 77.958] >>> Position-Altitude Executing:
+[ 77.992] %Light(1): ON
+[ 78.017] ..# Altitude:  0
+[ 78.034] ..# Joystick:  1-3
+[ 78.053] ..# Pitch:  0
+[ 78.069] ..# Roll:  0
+[ 78.085] --- Position-Altitude Ended:
+[ 78.257] >>> Speed Executing:
+[ 78.274] %Light(2): ON
+[ 78.286] ..# Pilot_Power:  110
+[ 78.307] ..# Speed:  300
+[ 78.324] --- Speed Ended:
+[ 78.338] >>> Position-Altitude Executing:
+[ 78.372] %Light(1): ON
+[ 78.397] ..# Altitude:  0
+[ 78.415] ..# Joystick:  3 0
+[ 78.433] ..# Pitch:  0
+[ 78.450] ..# Roll:  0
+[ 78.465] --- Position-Altitude Ended:
+[ 78.637] >>> Speed Executing:
+[ 78.654] %Light(2): ON
+[ 78.667] ..# Pilot_Power:  103
+[ 78.687] ..# Speed:  300
+[ 78.704] --- Speed Ended:
+[ 78.718] >>> Position-Altitude Executing:
+[ 78.753] %Light(1): ON
+[ 78.777] ..# Altitude:  0
+[ 78.795] ..# Joystick: -2 1
+[ 78.814] ..# Pitch:  0
+[ 78.830] ..# Roll:  0
+[ 78.845] --- Position-Altitude Ended:
+[ 79.017] >>> Speed Executing:
+[ 79.034] %Light(2): ON
+[ 79.047] ..# Pilot_Power:  900
+[ 79.067] ..# Speed:  1000
+[ 79.085] --- Speed Ended:
+[ 79.099] >>> Position-Altitude Executing:
+[ 79.133] %Light(1): ON
+[ 79.158] ..# Altitude:  0
+[ 79.176] ..# Joystick:  1 3
+[ 79.194] ..# Pitch:  0
+[ 79.210] ..# Roll:  0
+[ 79.226] --- Position-Altitude Ended:
+[ 79.398] >>> Speed Executing:
+[ 79.417] ..# Pilot_Power:  800
+[ 79.437] ..# Speed:  960
+[ 79.455] --- Speed Ended:
+[ 79.468] >>> Position-Altitude Executing:
+[ 79.503] %Light(1): ON
+[ 79.528] ..# Altitude:  0
+[ 79.545] ..# Joystick:  1-3
+[ 79.564] ..# Pitch:  0
+[ 79.580] ..# Roll:  0
+[ 79.596] --- Position-Altitude Ended:
+[ 79.768] >>> Speed Executing:
+[ 79.787] ..# Pilot_Power:  800
+[ 79.807] ..# Speed:  960
+[ 79.824] --- Speed Ended:
+[ 79.838] >>> Position-Altitude Executing:
+[ 79.873] %Light(1): ON
+[ 79.897] ..# Altitude:  0
+[ 79.915] ..# Joystick:  3 0
+[ 79.934] ..# Pitch:  0
+[ 79.950] ..# Roll:  0
+[ 79.965] --- Position-Altitude Ended:
+[ 80.137] >>> Speed Executing:
+[ 80.156] ..# Pilot_Power:  800
+[ 80.177] ..# Speed:  960
+[ 80.194] --- Speed Ended:
+[ 80.208] >>> Position-Altitude Executing:
+[ 80.242] %Light(1): ON
+[ 80.267] ..# Altitude:  0
+[ 80.284] ..# Joystick:  82 1
+[ 80.304] ..# Pitch:  0
+[ 80.320] ..# Roll:  0
+[ 80.335] --- Position-Altitude Ended:
+[ 80.507] >>> Speed Executing:
+[ 80.526] ..# Pilot_Power:  800
+[ 80.546] ..# Speed:  960
+[ 80.563] --- Speed Ended:
+[ 80.577] >>> Position-Altitude Executing:
+[ 80.612] %Light(1): ON
+[ 80.636] ..# Altitude:  0
+[ 80.654] ..# Joystick: -1 3
+[ 80.673] ..# Pitch:  0
+[ 80.689] ..# Roll:  0
+[ 80.705] --- Position-Altitude Ended:
+[ 80.877] >>> Speed Executing:
+[ 80.896] ..# Pilot_Power:  800
+[ 80.916] ..# Speed:  960
+[ 80.933] --- Speed Ended:
+[ 80.947] >>> Position-Altitude Executing:
+[ 80.981] %Light(1): ON
+[ 81.006] ..# Altitude:  0
+[ 81.024] ..# Joystick:  1-3
+[ 81.042] ..# Pitch:  0
+[ 81.058] ..# Roll:  0
+[ 81.074] --- Position-Altitude Ended:
+[ 81.246] >>> Speed Executing:
+[ 81.265] ..# Pilot_Power:  800
+[ 81.285] ..# Speed:  960
+[ 81.303] --- Speed Ended:
+[ 81.316] >>> Position-Altitude Executing:
+[ 81.351] %Light(1): ON
+[ 81.376] ..# Altitude:  0
+[ 81.393] ..# Joystick:  3 0
+[ 81.412] ..# Pitch:  0
+[ 81.428] ..# Roll:  0
+[ 81.444] --- Position-Altitude Ended:
+[ 81.616] >>> Speed Executing:
+[ 81.635] ..# Pilot_Power:  800
+[ 81.655] ..# Speed:  960
+[ 81.672] --- Speed Ended:
+[ 81.686] >>> Position-Altitude Executing:
+[ 81.721] %Light(1): ON
+[ 81.745] ..# Altitude:  0
+[ 81.763] ..# Joystick: -2 1
+[ 81.782] ..# Pitch:  0
+[ 81.798] ..# Roll:  0
+[ 81.813] --- Position-Altitude Ended:
+[ 81.985] >>> Speed Executing:
+[ 82.004] ..# Pilot_Power:  800
+[ 82.025] ..# Speed:  960
+[ 82.042] --- Speed Ended:
+[ 82.056] >>> Position-Altitude Executing:
+[ 82.090] %Light(1): ON
+[ 82.115] ..# Altitude:  0
+[ 82.132] ..# Joystick:  1 3
+[ 82.151] ..# Pitch:  0
+[ 82.167] ..# Roll:  0
+[ 82.183] --- Position-Altitude Ended:
+[ 82.355] >>> Speed Executing:
+[ 82.374] ..# Pilot_Power:  800
+[ 82.394] ..# Speed:  960
+[ 82.411] --- Speed Ended:
+[ 82.425] >>> Position-Altitude Executing:
+[ 82.460] %Light(1): ON
+[ 82.484] ..# Altitude:  0
+[ 82.502] ..# Joystick:  1-3
+[ 82.521] ..# Pitch:  0
+[ 82.537] ..# Roll:  0
+[ 82.552] --- Position-Altitude Ended:
+[ 82.724] >>> Speed Executing:
+[ 82.744] ..# Pilot_Power:  700
+[ 82.764] ..# Speed:  840
+[ 82.781] --- Speed Ended:
+[ 82.795] >>> Position-Altitude Executing:
+[ 82.829] %Light(1): ON
+[ 82.854] ..# Altitude:  0
+[ 82.872] ..# Joystick:  20 0
+[ 82.891] ..# Pitch:  0
+[ 82.907] ..# Roll:  0
+[ 82.923] --- Position-Altitude Ended:
+[ 83.094] >>> Speed Executing:
+[ 83.113] ..# Pilot_Power:  700
+[ 83.133] ..# Speed:  840
+[ 83.151] --- Speed Ended:
+[ 83.164] >>> Position-Altitude Executing:
+[ 83.199] %Light(1): ON
+[ 83.224] ..# Altitude:  0
+[ 83.241] ..# Joystick:  25 3
+[ 83.260] ..# Pitch:  0
+[ 83.277] ..# Roll:  0
+[ 83.292] --- Position-Altitude Ended:
+[ 83.464] >>> Speed Executing:
+[ 83.483] ..# Pilot_Power:  700
+[ 83.503] ..# Speed:  840
+[ 83.520] --- Speed Ended:
+[ 83.534] >>> Position-Altitude Executing:
+[ 83.568] %Light(1): ON
+[ 83.593] ..# Altitude:  0
+[ 83.611] ..# Joystick:  37 3
+[ 83.630] ..# Pitch:  0
+[ 83.646] ..# Roll:  0
+[ 83.662] --- Position-Altitude Ended:
+[ 83.833] >>> Speed Executing:
+[ 83.852] ..# Pilot_Power:  700
+[ 83.873] ..# Speed:  840
+[ 83.890] --- Speed Ended:
+[ 83.904] >>> Position-Altitude Executing:
+[ 83.938] %Light(1): ON
+[ 83.963] ..# Altitude:  0
+[ 83.980] ..# Joystick:  45-3
+[ 84.000] ..# Pitch:  0
+[ 84.016] ..# Roll:  0
+[ 84.031] --- Position-Altitude Ended:
+[ 84.203] >>> Speed Executing:
+[ 84.222] ..# Pilot_Power:  600
+[ 84.242] ..# Speed:  720
+[ 84.259] --- Speed Ended:
+[ 84.273] >>> Position-Altitude Executing:
+[ 84.308] %Light(1): ON
+[ 84.332] ..# Altitude:  0
+[ 84.350] ..# Joystick:  45 0
+[ 84.369] ..# Pitch:  0
+[ 84.385] ..# Roll:  0
+[ 84.401] --- Position-Altitude Ended:
+[ 84.572] >>> Speed Executing:
+[ 84.592] ..# Pilot_Power:  600
+[ 84.612] ..# Speed:  720
+[ 84.629] --- Speed Ended:
+[ 84.643] >>> Position-Altitude Executing:
+[ 84.677] %Light(1): ON
+[ 84.702] ..# Altitude:  0
+[ 84.720] ..# Joystick:  47 3
+[ 84.739] ..# Pitch:  0
+[ 84.755] ..# Roll:  0
+[ 84.771] --- Position-Altitude Ended:
+[ 84.942] >>> Speed Executing:
+[ 84.961] ..# Pilot_Power:  600
+[ 84.981] ..# Speed:  720
+[ 84.998] --- Speed Ended:
+[ 85.012] >>> Position-Altitude Executing:
+[ 85.047] %Light(1): ON
+[ 85.071] ..# Altitude:  0
+[ 85.089] ..# Joystick:  47 20
+[ 85.109] ..# Pitch:  0
+[ 85.125] ..# Roll:  0
+[ 85.141] --- Position-Altitude Ended:
+[ 85.312] >>> Speed Executing:
+[ 85.328] %Light(2): ON
+[ 85.341] ..# Pilot_Power:  900
+[ 85.362] ..# Speed:  1000
+[ 85.379] --- Speed Ended:
+[ 85.393] >>> Position-Altitude Executing:
+[ 85.428] %Light(1): ON
+[ 85.452] ..# Altitude:  0
+[ 85.470] ..# Joystick:  45 33
+[ 85.490] ..# Pitch:  0
+[ 85.506] ..# Roll:  0
+[ 85.521] --- Position-Altitude Ended:
+[ 85.692] >>> Speed Executing:
+[ 85.709] %Light(2): ON
+[ 85.722] ..# Pilot_Power:  900
+[ 85.742] ..# Speed:  1000
+[ 85.760] --- Speed Ended:
+[ 85.774] >>> Position-Altitude Executing:
+[ 85.808] %Light(1): ON
+[ 85.833] ..# Altitude:  0
+[ 85.851] ..# Joystick:  46 40
+[ 85.870] ..# Pitch:  0
+[ 85.887] ..# Roll:  0
+[ 85.902] --- Position-Altitude Ended:
+[ 86.073] >>> Speed Executing:
+[ 86.090] %Light(2): ON
+[ 86.103] ..# Pilot_Power:  900
+[ 86.123] ..# Speed:  1000
+[ 86.141] --- Speed Ended:
+[ 86.154] >>> Position-Altitude Executing:
+[ 86.189] %Light(1): ON
+[ 86.214] ..# Altitude:  0
+[ 86.231] ..# Joystick:  47 50
+[ 86.251] ..# Pitch:  0
+[ 86.267] ..# Roll:  0
+[ 86.283] --- Position-Altitude Ended:
+[ 86.454] >>> Speed Executing:
+[ 86.471] %Light(2): ON
+[ 86.483] ..# Pilot_Power:  900
+[ 86.504] ..# Speed:  1000
+[ 86.521] --- Speed Ended:
+[ 86.535] >>> Position-Altitude Executing:
+[ 86.570] %Light(1): ON
+[ 86.594] ..# Altitude:  0
+[ 86.612] ..# Joystick:  47 73
+[ 86.632] ..# Pitch:  0
+[ 86.648] ..# Roll:  0
+[ 86.664] --- Position-Altitude Ended:
+[ 86.835] >>> Speed Executing:
+[ 86.851] %Light(2): ON
+[ 86.864] ..# Pilot_Power:  900
+[ 86.884] ..# Speed:  1000
+[ 86.902] --- Speed Ended:
+[ 86.916] >>> Position-Altitude Executing:
+[ 86.951] %Light(1): ON
+[ 86.975] ..# Altitude:  0
+[ 86.993] ..# Joystick:  46 73
+[ 87.013] ..# Pitch:  0
+[ 87.029] ..# Roll:  0
+[ 87.045] --- Position-Altitude Ended:
+[ 87.215] >>> Speed Executing:
+[ 87.232] %Light(2): ON
+[ 87.245] ..# Pilot_Power:  1000
+[ 87.266] ..# Speed:  1000
+[ 87.283] --- Speed Ended:
+[ 87.297] >>> Position-Altitude Executing:
+[ 87.332] %Light(1): ON
+[ 87.356] ..# Altitude:  0
+[ 87.374] ..# Joystick:  45 5
+[ 87.393] ..# Pitch:  0
+[ 87.409] ..# Roll:  0
+[ 87.425] --- Position-Altitude Ended:
+[ 87.597] >>> Speed Executing:
+[ 87.613] %Light(2): ON
+[ 87.626] ..# Pilot_Power:  1000
+[ 87.647] ..# Speed:  1000
+[ 87.665] --- Speed Ended:
+[ 87.678] >>> Position-Altitude Executing:
+[ 87.713] %Light(1): ON
+[ 87.738] ..# Altitude:  0
+[ 87.755] ..# Joystick:  45 2
+[ 87.775] ..# Pitch:  0
+[ 87.791] ..# Roll:  0
+[ 87.806] --- Position-Altitude Ended:
+[ 87.978] >>> Speed Executing:
+[ 87.995] %Light(2): ON
+[ 88.007] ..# Pilot_Power:  1000
+[ 88.028] ..# Speed:  1000
+[ 88.046] --- Speed Ended:
+[ 88.060] >>> Position-Altitude Executing:
+[ 88.094] %Light(1): ON
+[ 88.119] ..# Altitude:  0
+[ 88.137] ..# Joystick:  25 2
+[ 88.156] ..# Pitch:  0
+[ 88.172] ..# Roll:  0
+[ 88.188] --- Position-Altitude Ended:
+[ 88.359] >>> Speed Executing:
+[ 88.376] %Light(2): ON
+[ 88.389] ..# Pilot_Power:  1020
+[ 88.410] ..# Speed:  1000
+[ 88.427] --- Speed Ended:
+[ 88.441] >>> Position-Altitude Executing:
+[ 88.476] %Light(1): ON
+[ 88.500] ..# Altitude:  0
+[ 88.518] ..# Joystick:  15 0
+[ 88.537] ..# Pitch:  0
+[ 88.553] ..# Roll:  0
+[ 88.569] --- Position-Altitude Ended:
+[ 88.740] >>> Speed Executing:
+[ 88.757] %Light(2): ON
+[ 88.770] ..# Pilot_Power:  1020
+[ 88.791] ..# Speed:  1000
+[ 88.808] --- Speed Ended:
+[ 88.822] >>> Position-Altitude Executing:
+[ 88.857] %Light(1): ON
+[ 88.882] ..# Altitude:  0
+[ 88.899] ..# Joystick:  5 2
+[ 88.918] ..# Pitch:  0
+[ 88.934] ..# Roll:  0
+[ 88.950] --- Position-Altitude Ended:
+[ 89.122] >>> Speed Executing:
+[ 89.138] %Light(2): ON
+[ 89.151] ..# Pilot_Power:  1020
+[ 89.172] ..# Speed:  1000
+[ 89.190] --- Speed Ended:
+[ 89.204] >>> Position-Altitude Executing:
+[ 89.238] %Light(1): ON
+[ 89.263] ..# Altitude:  0
+[ 89.280] ..# Joystick:  2 1
+[ 89.299] ..# Pitch:  0
+[ 89.315] ..# Roll:  0
+[ 89.331] --- Position-Altitude Ended:
+[ 89.503] >>> Speed Executing:
+[ 89.520] %Light(2): ON
+[ 89.532] ..# Pilot_Power:  1020
+[ 89.553] ..# Speed:  1000
+[ 89.571] --- Speed Ended:
+[ 89.585] >>> Position-Altitude Executing:
+[ 89.619] %Light(1): ON
+[ 89.644] ..# Altitude:  0
+[ 89.662] ..# Joystick:  1 3
+[ 89.680] ..# Pitch:  0
+[ 89.697] ..# Roll:  0
+[ 89.712] --- Position-Altitude Ended:
+[ 89.884] >>> Speed Executing:
+[ 89.901] %Light(2): ON
+[ 89.914] ..# Pilot_Power:  1020
+[ 89.935] ..# Speed:  1000
+[ 89.952] --- Speed Ended:
+[ 89.966] >>> Position-Altitude Executing:
+[ 90.001] %Light(1): ON
+[ 90.025] ..# Altitude:  0
+[ 90.043] ..# Joystick:  1-3
+[ 90.062] ..# Pitch:  0
+[ 90.078] ..# Roll:  0
+[ 90.093] --- Position-Altitude Ended:
+[ 90.265] >>> Speed Executing:
+[ 90.284] ..# Pilot_Power:  800
+[ 90.305] ..# Speed:  960
+[ 90.322] --- Speed Ended:
+[ 90.336] >>> Position-Altitude Executing:
+[ 90.370] %Light(1): ON
+[ 90.395] ..# Altitude:  0
+[ 90.413] ..# Joystick:  3 0
+[ 90.431] ..# Pitch:  0
+[ 90.447] ..# Roll:  0
+[ 90.463] --- Position-Altitude Ended:
+[ 90.635] >>> Speed Executing:
+[ 90.654] ..# Pilot_Power:  800
+[ 90.674] ..# Speed:  960
+[ 90.691] --- Speed Ended:
+[ 90.705] >>> Position-Altitude Executing:
+[ 90.740] %Light(1): ON
+[ 90.764] ..# Altitude:  0
+[ 90.782] ..# Joystick: -2 1
+[ 90.801] ..# Pitch:  0
+[ 90.817] ..# Roll:  0
+[ 90.833] --- Position-Altitude Ended:
+[ 91.005] >>> Speed Executing:
+[ 91.024] ..# Pilot_Power:  800
+[ 91.044] ..# Speed:  960
+[ 91.061] --- Speed Ended:
+[ 91.075] >>> Position-Altitude Executing:
+[ 91.109] %Light(1): ON
+[ 91.134] ..# Altitude:  0
+[ 91.152] ..# Joystick:  1 3
+[ 91.170] ..# Pitch:  0
+[ 91.187] ..# Roll:  0
+[ 91.202] --- Position-Altitude Ended:
+[ 91.374] >>> Speed Executing:
+[ 91.393] ..# Pilot_Power:  800
+[ 91.413] ..# Speed:  960
+[ 91.431] --- Speed Ended:
+[ 91.444] >>> Position-Altitude Executing:
+[ 91.479] %Light(1): ON
+[ 91.504] ..# Altitude:  0
+[ 91.521] ..# Joystick:  1-3
+[ 91.540] ..# Pitch:  0
+[ 91.556] ..# Roll:  0
+[ 91.572] --- Position-Altitude Ended:
+[ 91.744] >>> Speed Executing:
+[ 91.763] ..# Pilot_Power:  800
+[ 91.783] ..# Speed:  960
+[ 91.800] --- Speed Ended:
+[ 91.814] >>> Position-Altitude Executing:
+[ 91.849] %Light(1): ON
+[ 91.873] ..# Altitude:  0
+[ 91.891] ..# Joystick:  3 0
+[ 91.910] ..# Pitch:  0
+[ 91.926] ..# Roll:  0
+[ 91.941] --- Position-Altitude Ended:
+[ 92.113] >>> Speed Executing:
+[ 92.132] ..# Pilot_Power:  800
+[ 92.153] ..# Speed:  960
+[ 92.170] --- Speed Ended:
+[ 92.184] >>> Position-Altitude Executing:
+[ 92.218] %Light(1): ON
+[ 92.243] ..# Altitude:  0
+[ 92.261] ..# Joystick:  2 1
+[ 92.279] ..# Pitch:  0
+[ 92.295] ..# Roll:  0
+[ 92.311] --- Position-Altitude Ended:
+[ 92.483] >>> Speed Executing:
+[ 92.502] ..# Pilot_Power:  800
+[ 92.522] ..# Speed:  960
+[ 92.539] --- Speed Ended:
+[ 92.553] >>> Position-Altitude Executing:
+[ 92.588] %Light(1): ON
+[ 92.612] ..# Altitude:  0
+[ 92.630] ..# Joystick: -15 3
+[ 92.649] ..# Pitch:  0
+[ 92.665] ..# Roll:  0
+[ 92.681] --- Position-Altitude Ended:
+[ 92.853] >>> Speed Executing:
+[ 92.872] ..# Pilot_Power:  800
+[ 92.892] ..# Speed:  960
+[ 92.909] --- Speed Ended:
+[ 92.923] >>> Position-Altitude Executing:
+[ 92.957] %Light(1): ON
+[ 92.982] ..# Altitude:  0
+[ 93.000] ..# Joystick: -20-3
+[ 93.019] ..# Pitch:  0
+[ 93.035] ..# Roll:  0
+[ 93.051] --- Position-Altitude Ended:
+[ 93.222] >>> Speed Executing:
+[ 93.241] ..# Pilot_Power:  800
+[ 93.261] ..# Speed:  960
+[ 93.279] --- Speed Ended:
+[ 93.292] >>> Position-Altitude Executing:
+[ 93.327] %Light(1): ON
+[ 93.352] ..# Altitude:  0
+[ 93.369] ..# Joystick: -35 0
+[ 93.389] ..# Pitch:  0
+[ 93.405] ..# Roll:  0
+[ 93.420] --- Position-Altitude Ended:
+[ 93.592] >>> Speed Executing:
+[ 93.611] ..# Pilot_Power:  800
+[ 93.631] ..# Speed:  960
+[ 93.648] --- Speed Ended:
+[ 93.662] >>> Position-Altitude Executing:
+[ 93.697] %Light(1): ON
+[ 93.721] ..# Altitude:  0
+[ 93.739] ..# Joystick: -37 3
+[ 93.758] ..# Pitch:  0
+[ 93.774] ..# Roll:  0
+[ 93.790] --- Position-Altitude Ended:
+[ 93.961] >>> Speed Executing:
+[ 93.980] ..# Pilot_Power:  800
+[ 94.001] ..# Speed:  960
+[ 94.018] --- Speed Ended:
+[ 94.032] >>> Position-Altitude Executing:
+[ 94.066] %Light(1): ON
+[ 94.091] ..# Altitude:  0
+[ 94.108] ..# Joystick: -47 3
+[ 94.128] ..# Pitch:  0
+[ 94.144] ..# Roll:  0
+[ 94.159] --- Position-Altitude Ended:
+[ 94.331] >>> Speed Executing:
+[ 94.350] ..# Pilot_Power:  800
+[ 94.370] ..# Speed:  960
+[ 94.387] --- Speed Ended:
+[ 94.401] >>> Position-Altitude Executing:
+[ 94.436] %Light(1): ON
+[ 94.460] ..# Altitude:  0
+[ 94.478] ..# Joystick: -45-3
+[ 94.497] ..# Pitch:  0
+[ 94.513] ..# Roll:  0
+[ 94.529] --- Position-Altitude Ended:
+[ 94.700] >>> Speed Executing:
+[ 94.720] ..# Pilot_Power:  800
+[ 94.740] ..# Speed:  960
+[ 94.757] --- Speed Ended:
+[ 94.771] >>> Position-Altitude Executing:
+[ 94.805] %Light(1): ON
+[ 94.830] ..# Altitude:  0
+[ 94.848] ..# Joystick: -46 0
+[ 94.867] ..# Pitch:  0
+[ 94.883] ..# Roll:  0
+[ 94.899] --- Position-Altitude Ended:
+[ 95.070] >>> Speed Executing:
+[ 95.087] %Light(2): ON
+[ 95.100] ..# Pilot_Power:  900
+[ 95.120] ..# Speed:  1000
+[ 95.138] --- Speed Ended:
+[ 95.151] >>> Position-Altitude Executing:
+[ 95.186] %Light(1): ON
+[ 95.211] ..# Altitude:  0
+[ 95.228] ..# Joystick: -47 0
+[ 95.248] ..# Pitch:  0
+[ 95.264] ..# Roll:  0
+[ 95.279] --- Position-Altitude Ended:
+[ 95.451] >>> Speed Executing:
+[ 95.468] %Light(2): ON
+[ 95.480] ..# Pilot_Power:  900
+[ 95.501] ..# Speed:  1000
+[ 95.518] --- Speed Ended:
+[ 95.532] >>> Position-Altitude Executing:
+[ 95.567] %Light(1): ON
+[ 95.591] ..# Altitude:  0
+[ 95.609] ..# Joystick: -47 3
+[ 95.628] ..# Pitch:  0
+[ 95.644] ..# Roll:  0
+[ 95.660] --- Position-Altitude Ended:
+[ 95.832] >>> Speed Executing:
+[ 95.848] %Light(2): ON
+[ 95.861] ..# Pilot_Power:  900
+[ 95.881] ..# Speed:  1000
+[ 95.899] --- Speed Ended:
+[ 95.913] >>> Position-Altitude Executing:
+[ 95.947] %Light(1): ON
+[ 95.972] ..# Altitude:  0
+[ 95.990] ..# Joystick: -46-3
+[ 96.009] ..# Pitch:  0
+[ 96.025] ..# Roll:  0
+[ 96.041] --- Position-Altitude Ended:
+[ 96.212] >>> Speed Executing:
+[ 96.229] %Light(2): ON
+[ 96.242] ..# Pilot_Power:  900
+[ 96.262] ..# Speed:  1000
+[ 96.280] --- Speed Ended:
+[ 96.294] >>> Position-Altitude Executing:
+[ 96.328] %Light(1): ON
+[ 96.353] ..# Altitude:  0
+[ 96.371] ..# Joystick: -15 0
+[ 96.390] ..# Pitch:  0
+[ 96.406] ..# Roll:  0
+[ 96.422] --- Position-Altitude Ended:
+[ 96.593] >>> Speed Executing:
+[ 96.612] ..# Pilot_Power:  700
+[ 96.632] ..# Speed:  840
+[ 96.649] --- Speed Ended:
+[ 96.663] >>> Position-Altitude Executing:
+[ 96.698] %Light(1): ON
+[ 96.722] ..# Altitude:  0
+[ 96.740] ..# Joystick:  1 3
+[ 96.759] ..# Pitch:  0
+[ 96.775] ..# Roll:  0
+[ 96.791] --- Position-Altitude Ended:
+[ 96.963] >>> Speed Executing:
+[ 96.982] ..# Pilot_Power:  300
+[ 97.002] ..# Speed:  360
+[ 97.019] --- Speed Ended:
+[ 97.033] >>> Position-Altitude Executing:
+[ 97.067] %Light(1): ON
+[ 97.092] ..# Altitude:  0
+[ 97.110] ..# Joystick:  1 3
+[ 97.128] ..# Pitch:  0
+[ 97.145] ..# Roll:  0
+[ 97.160] --- Position-Altitude Ended:
+[ 97.332] >>> Speed Executing:
+[ 97.349] %Light(2): ON
+[ 97.362] ..# Pilot_Power:  100
+[ 97.382] ..# Speed:  300
+[ 97.399] --- Speed Ended:
+[ 97.413] >>> Position-Altitude Executing:
+[ 97.448] %Light(1): ON
+[ 97.472] ..# Altitude:  0
+[ 97.490] ..# Joystick:  1-3
+[ 97.509] ..# Pitch:  0
+[ 97.525] ..# Roll:  0
+[ 97.540] --- Position-Altitude Ended:
+[ 97.712] >>> Speed Executing:
+[ 97.729] %Light(2): ON
+[ 97.742] ..# Pilot_Power:  100
+[ 97.762] ..# Speed:  300
+[ 97.779] --- Speed Ended:
+[ 97.793] >>> Position-Altitude Executing:
+[ 97.828] %Light(1): ON
+[ 97.852] ..# Altitude:  0
+[ 97.870] ..# Joystick:  3 0
+[ 97.889] ..# Pitch:  0
+[ 97.905] ..# Roll:  0
+[ 97.921] --- Position-Altitude Ended:
+[ 98.093] >>> Speed Executing:
+[ 98.109] %Light(2): ON
+[ 98.122] ..# Pilot_Power:  110
+[ 98.143] ..# Speed:  300
+[ 98.160] --- Speed Ended:
+[ 98.173] >>> Position-Altitude Executing:
+[ 98.208] %Light(1): ON
+[ 98.233] ..# Altitude:  0
+[ 98.250] ..# Joystick:  2 1
+[ 98.269] ..# Pitch:  0
+[ 98.285] ..# Roll:  0
+[ 98.301] --- Position-Altitude Ended:
+[ 98.473] >>> Speed Executing:
+[ 98.490] %Light(2): ON
+[ 98.502] ..# Pilot_Power:  103
+[ 98.523] ..# Speed:  300
+[ 98.540] --- Speed Ended:
+[ 98.554] >>> Position-Altitude Executing:
+[ 98.588] %Light(1): ON
+[ 98.613] ..# Altitude:  0
+[ 98.631] ..# Joystick: -1 3
+[ 98.649] ..# Pitch:  0
+[ 98.665] ..# Roll:  0
+[ 98.681] --- Position-Altitude Ended:
+[ 98.853] >>> Speed Executing:
+[ 98.870] %Light(2): ON
+[ 98.883] ..# Pilot_Power:  100
+[ 98.903] ..# Speed:  300
+[ 98.920] --- Speed Ended:
+[ 98.934] >>> Position-Altitude Executing:
+[ 98.969] %Light(1): ON
+[ 98.993] ..# Altitude:  0
+[ 99.011] ..# Joystick:  1-3
+[ 99.030] ..# Pitch:  0
+[ 99.046] ..# Roll:  0
+[ 99.062] --- Position-Altitude Ended:
+[ 99.233] >>> Speed Executing:
+[ 99.252] ..# Pilot_Power:  800
+[ 99.273] ..# Speed:  960
+[ 99.290] --- Speed Ended:
+[ 99.304] >>> Position-Altitude Executing:
+[ 99.338] %Light(1): ON
+[ 99.363] ..# Altitude:  0
+[ 99.380] ..# Joystick:  3 0
+[ 99.399] ..# Pitch:  0
+[ 99.415] ..# Roll:  0
+[ 99.431] --- Position-Altitude Ended:
+[ 99.603] >>> Speed Executing:
+[ 99.622] ..# Pilot_Power:  800
+[ 99.642] ..# Speed:  960
+[ 99.659] --- Speed Ended:
+[ 99.673] >>> Position-Altitude Executing:
+[ 99.708] %Light(1): ON
+[ 99.732] ..# Altitude:  0
+[ 99.750] ..# Joystick: -2 1
+[ 99.769] ..# Pitch:  0
+[ 99.785] ..# Roll:  0
+[ 99.801] --- Position-Altitude Ended:
+[ 99.973] >>> Speed Executing:
+[ 99.992] ..# Pilot_Power:  800
+[ 100.01] ..# Speed:  960
+[ 100.02] --- Speed Ended:
+[ 100.04] >>> Position-Altitude Executing:
+[ 100.34] >>> Speed Executing:
+Interrupt!
+ Stopped at time 2398976520 (1.714e+02 s)
+tsim> 
