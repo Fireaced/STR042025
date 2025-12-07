@@ -256,46 +256,47 @@ package body fss is
       Start_Time, End_Time : Time;
       Duration : Time_Span;
       Duration_ms : Float;
-  begin
+   begin
+      -- Position-Altitude
       Start_Activity ("Position-Altitude Executing:");
       Start_Time := Clock;
       PositionAltitude;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Position-Altitude task duration: ");Put_Line(Float'Image(Duration_ms));Put_Line("ms");New_Line();
+      Put_Line("Position-Altitude task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Position-Altitude Ended:");
 
-
+      -- Speed
       Start_Activity("Speed Executing:");
       Start_Time := Clock;
       Speed;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Speed task duration: ");Put_Line(Float'Image(Duration_ms));Put_Line("ms");New_Line();
+      Put_Line("Speed task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Speed Ended:");
 
-
+      -- Collision
       Start_Activity("Collision Executing:");
       Start_Time := Clock;
       Collision;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Collision task duration: ");Put_Line(Float'Image(Duration_ms));Put_Line("ms");New_Line();
+      Put_Line("Collision task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Collision Ended:");
 
-
+      -- Display
       Start_Activity("Display Executing:");
       Start_Time := Clock;
       Display;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Display task duration: ");Put_Line(Float'Image(Duration_ms));Put_Line("ms");New_Line();
+      Put_Line("Display task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Display Ended:");
-  end positionAltitudeTask;
+   end positionAltitudeTask;
 
 begin
   null;
