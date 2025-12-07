@@ -1,6 +1,7 @@
 with Ada.Interrupts;
 with Ada.Interrupts.Names;
 with Ada.Text_IO; use Ada.Text_IO;
+with FSS_Interfaces; use FSS_Interfaces;
 
 package body Interrupt_Handler is
 
