@@ -11,7 +11,7 @@ package FSS_Interfaces is
       procedure UpdateMode (Mode : in String);
       function Get_Mode return String;
    private
-      Current_Mode : Unbounded_String := To_Unbounded_String("Manual");
+      Current_Mode : Unbounded_String := To_Unbounded_String("Automatic");
       
    end Selected_Mode;
 
