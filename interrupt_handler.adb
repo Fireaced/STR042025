@@ -31,7 +31,7 @@ package body Interrupt_Handler is
       procedure Button_Handler is
       begin
          Pending := True;         -- abre barrera
-         Mode_Manager.Switch_Mode;
+         Mode_Manager_Type.Switch_Mode;
       end Button_Handler;
 
       entry Wait_Event when Pending is
