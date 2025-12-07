@@ -9,4 +9,9 @@ package Interrupt_Handler is
       Current : Mode_Type := Manual;
    end Mode_Manager_Type;
 
+   -- declaramos la tarea aquí si quieres
+   task Sporadic_Task is
+      pragma Priority (5);
+   end Sporadic_Task;
+
 end Interrupt_Handler;
