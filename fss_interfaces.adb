@@ -5,12 +5,12 @@ package body FSS_Interfaces is
    protected body Selected_Mode is
       procedure UpdateMode (Mode : in String) is
       begin
-         Current_Mode := Mode;
+         Current_Mode := To_Unbounded_String(Mode);
       end UpdateMode;
 
       function Get_Mode return String is
       begin
-         return Current_Mode;
+         return To_String(Current_Mode);
       end Get_Mode;
    end Selected_Mode;
 
@@ -141,7 +141,7 @@ package body FSS_Interfaces is
 
       function GetMessage return String is
       begin
-         return Current_Message;
+         return To_String(Current_Message);
       end GetMessage;
 
    end Status_Record;
