@@ -2,7 +2,7 @@ package Interrupt_Handler is
 
    type Mode_Type is (Manual, Automatic);
 
-   protected Mode_Manager_Type is
+   protected type Mode_Manager_Type is
       procedure Switch_Mode;
       function Current_Mode return Mode_Type;
    private
