@@ -2,6 +2,8 @@ with Kernel.Serial_Output; use Kernel.Serial_Output;
 with Ada.Real_Time; use Ada.Real_Time;
 with System; use System;
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Real_Time; use Ada.Real_Time;
 
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
@@ -243,22 +245,6 @@ package body fss is
     pragma priority (4);
   end positionAltitudeTask;
 
-  task speedTask is
-    pragma priority (4);
-  end speedTask;
-
-  task collisionTask is
-    pragma priority (5);
-  end collisionTask;
-
-  task displayTask is
-    pragma priority (3);
-  end displayTask;
-
-  task manualTask is
-    pragma priority (4);
-  end manualTask;
-
 
   -----------------------------------------------------------------------
   ------------- body of tasks 
@@ -266,60 +252,45 @@ package body fss is
   
   -- Aqui se escriben los cuerpos de las tareas 
   
-  task body positionAltitudeTask is 
+  task body positionAltitudeTask is
+      Start_Time, End_Time : Time;
+      Duration : Time_Span;
   begin
-    loop
-      if(Selected_Mode.Get_Mode = "Automatic") then
-         Start_Activity ("Position-Altitude Executing:");
-         PositionAltitude;
-         Finish_Activity ("Position-Altitude Ended:");
-         delay until Clock + Milliseconds (200);
-      end if;
-    end loop;
+      Start_Activity ("Position-Altitude Executing:");
+      Start_Time := Clock;
+      PositionAltitude;
+      End_Time := Clock;
+      Duration := End_Time - Start_Time;
+      Put_Line("Position-Altitude task duration: " & Duration'To_String & " s");
+      Finish_Activity ("Position-Altitude Ended:");
+
+
+      Start_Activity("Speed Executing:");
+      Start_Time := Clock;
+      Speed;
+      End_Time := Clock;
+      Duration := End_Time - Start_Time;
+      Put_Line("Speed task duration: " & Duration'To_String & " s");
+      Finish_Activity ("Speed Ended:");
+
+
+      Start_Activity("Collision Executing:");
+      Start_Time := Clock;
+      Collision;
+      End_Time := Clock;
+      Duration := End_Time - Start_Time;
+      Put_Line("Collision task duration: " & Duration'To_String & " s");
+      Finish_Activity ("Collision Ended:");
+
+
+      Start_Activity("Display Executing:");
+      Start_Time := Clock;
+      Display;
+      End_Time := Clock;
+      Duration := End_Time - Start_Time;
+      Put_Line("Display task duration: " & Duration'To_String & " s");
+      Finish_Activity ("Display Ended:");
   end positionAltitudeTask;
-
-  task body speedTask is 
-  begin
-    loop
-      if(Selected_Mode.Get_Mode = "Automatic") then
-         Start_Activity("Speed Executing:");
-         Speed;
-         Finish_Activity ("Speed Ended:");
-         delay until Clock + Milliseconds (300);
-      end if;
-    end loop;
-  end speedTask;
-
-  task body collisionTask is 
-  begin
-    loop
-      if(Selected_Mode.Get_Mode = "Automatic") then
-         Start_Activity("Collision Executing:");
-         Collision;
-         Finish_Activity ("Collision Ended:");
-         delay until Clock + Milliseconds (250);
-      end if;
-    end loop;
-  end collisionTask;
-
-  task body displayTask is 
-  begin
-    loop
-      if(Selected_Mode.Get_Mode = "Automatic") then
-         Start_Activity("Display Executing:");
-         Display;
-         Finish_Activity ("Display Ended:");
-         delay until Clock + Milliseconds (1000);
-      end if;
-    end loop;
-  end displayTask;
-
-   task body manualTask is
-   begin
-    if(Selected_Mode.Get_Mode = "Manual") then
-      Put_line("----- Manual Task -----");
-    end if;
-  end manualTask;
 
 begin
   null;
