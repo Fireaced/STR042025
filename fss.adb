@@ -239,40 +239,36 @@ package body fss is
 
   -- Aqui se declaran las tareas que forman el STR
 
-  task A is
-    pragma priority (5);
-  end A;
-
-  task B is
-    pragma priority (5);
-  end B;
-
-
-  -----------------------------------------------------------------------
-  ------------- body of tasks 
-  -----------------------------------------------------------------------
-  
-  -- Aqui se escriben los cuerpos de las tareas 
-  
   task body A is 
   begin
     loop
-      Start_Activity ("Position-Altitude Executing:");
-      PositionAltitude;
-      Finish_Activity ("Position-Altitude Ended:");
-      delay until Clock + Milliseconds (200);
+      if(Selected_Mode.Get_Mode = "Automatic") then
+         Start_Activity ("Position-Altitude Executing:");
+         PositionAltitude;
+         Finish_Activity ("Position-Altitude Ended:");
+         delay until Clock + Milliseconds (200);
+      end if;
     end loop;
   end A;
 
   task body B is 
   begin
     loop
-      Start_Activity("Speed Executing:");
-      Speed;
-      Finish_Activity ("Speed Ended:");
-      delay until Clock + Milliseconds (300);
+      if(Selected_Mode.Get_Mode = "Automatic") then
+         Start_Activity("Speed Executing:");
+         Speed;
+         Finish_Activity ("Speed Ended:");
+         delay until Clock + Milliseconds (300);
+      end if;
     end loop;
   end B;
+
+   task body Manual is
+   begin
+    if(Selected_Mode.Get_Mode = "Manual") then
+      Put_line("----- Manual Task -----");
+    end if;
+  end Manual;
 
 begin
   null;
