@@ -163,7 +163,8 @@ package body fss is
         end if;
     end if;
 
-    Pitch_Roll_Data.Update(Target_Pitch, Target_Roll);
+    Pitch_Roll_Data.UpdatePitch(Target_Pitch);
+    Pitch_Roll_Data.UpdateRoll(Target_Roll);
     Set_Aircraft_Pitch (Target_Pitch);
     Set_Aircraft_Roll (Target_Roll);
 
