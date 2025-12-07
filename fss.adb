@@ -264,6 +264,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
+      Duration_ms := Float(Duration_ms);
       Ada.Text_IO.Put_Line("Position-Altitude task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Position-Altitude Ended:");
 
@@ -274,6 +275,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
+      Duration_ms := Float(Duration_ms);
       Ada.Text_IO.Put_Line("Speed task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Speed Ended:");
 
@@ -284,6 +286,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
+      Duration_ms := Float(Duration_ms);
       Ada.Text_IO.Put_Line("Collision task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Collision Ended:");
 
@@ -294,6 +297,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
+      Duration_ms := Float(Duration_ms);
       Ada.Text_IO.Put_Line("Display task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Display Ended:");
    end positionAltitudeTask;
