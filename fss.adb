@@ -54,10 +54,10 @@ package body fss is
   begin
     if (modeInput = "Manual") then
       Selected_Mode.UpdateMode("Manual");
-      Put_line("Manual Mode");
+      Kernel.Serial_Output.Put_line("Manual Mode");
     elsif (modeInput = "Automatic") then
       Selected_Mode.UpdateMode("Automatic");
-      Put_line("Automatic Mode");
+      Kernel.Serial_Output.Put_line("Automatic Mode");
     end if;
   end Mode;
 
@@ -264,7 +264,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Position-Altitude task duration: " & Float'Image(Duration_ms) & " ms");
+      Ada.Text_IO.Put_Line("Position-Altitude task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Position-Altitude Ended:");
 
       -- Speed
@@ -274,7 +274,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Speed task duration: " & Float'Image(Duration_ms) & " ms");
+      Ada.Text_IO.Put_Line("Speed task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Speed Ended:");
 
       -- Collision
@@ -284,7 +284,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Collision task duration: " & Float'Image(Duration_ms) & " ms");
+      Ada.Text_IO.Put_Line("Collision task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Collision Ended:");
 
       -- Display
@@ -294,7 +294,7 @@ package body fss is
       End_Time := Clock;
       Duration := End_Time - Start_Time;
       Duration_ms := Duration / Milliseconds(1);
-      Put_Line("Display task duration: " & Float'Image(Duration_ms) & " ms");
+      Ada.Text_IO.Put_Line("Display task duration: " & Float'Image(Duration_ms) & " ms");
       Finish_Activity ("Display Ended:");
    end positionAltitudeTask;
 
