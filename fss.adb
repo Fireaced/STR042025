@@ -252,45 +252,48 @@ package body fss is
   
   -- Aqui se escriben los cuerpos de las tareas 
   
-  task body positionAltitudeTask is
+   task body positionAltitudeTask is
       Start_Time, End_Time : Time;
       Duration : Time_Span;
-  begin
-      Start_Activity ("Position-Altitude Executing:");
+      Duration_ms : Float;
+   begin
+      Start_Activity("Position-Altitude Executing:");
       Start_Time := Clock;
       PositionAltitude;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Position-Altitude task duration: " & Float'Image(Duration) & " ms");
-      Finish_Activity ("Position-Altitude Ended:");
-
+      Duration_ms := Duration / Milliseconds(1);
+      Put_Line("Position-Altitude task duration: " & Float'Image(Duration_ms) & " ms");
+      Finish_Activity("Position-Altitude Ended:");
 
       Start_Activity("Speed Executing:");
       Start_Time := Clock;
       Speed;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Speed task duration: " & Float'Image(Duration) & " ms");
-      Finish_Activity ("Speed Ended:");
-
+      Duration_ms := Duration / Milliseconds(1);
+      Put_Line("Speed task duration: " & Float'Image(Duration_ms) & " ms");
+      Finish_Activity("Speed Ended:");
 
       Start_Activity("Collision Executing:");
       Start_Time := Clock;
       Collision;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Collision task duration: " & Float'Image(Duration) & " ms");
-      Finish_Activity ("Collision Ended:");
-
+      Duration_ms := Duration / Milliseconds(1);
+      Put_Line("Collision task duration: " & Float'Image(Duration_ms) & " ms");
+      Finish_Activity("Collision Ended:");
 
       Start_Activity("Display Executing:");
       Start_Time := Clock;
       Display;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Display task duration: " & Float'Image(Duration) & " ms");
-      Finish_Activity ("Display Ended:");
-  end positionAltitudeTask;
+      Duration_ms := Duration / Milliseconds(1);
+      Put_Line("Display task duration: " & Float'Image(Duration_ms) & " ms");
+      Finish_Activity("Display Ended:");
+   end positionAltitudeTask;
+
 
 begin
   null;
