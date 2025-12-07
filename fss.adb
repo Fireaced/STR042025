@@ -261,7 +261,7 @@ package body fss is
       PositionAltitude;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Position-Altitude task duration: " & Duration'To_String & " s");
+      Put_Line("Position-Altitude task duration: " & Float'Image(Duration) & " ms");
       Finish_Activity ("Position-Altitude Ended:");
 
 
@@ -270,7 +270,7 @@ package body fss is
       Speed;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Speed task duration: " & Duration'To_String & " s");
+      Put_Line("Speed task duration: " & Float'Image(Duration) & " ms");
       Finish_Activity ("Speed Ended:");
 
 
@@ -279,7 +279,7 @@ package body fss is
       Collision;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Collision task duration: " & Duration'To_String & " s");
+      Put_Line("Collision task duration: " & Float'Image(Duration) & " ms");
       Finish_Activity ("Collision Ended:");
 
 
@@ -288,7 +288,7 @@ package body fss is
       Display;
       End_Time := Clock;
       Duration := End_Time - Start_Time;
-      Put_Line("Display task duration: " & Duration'To_String & " s");
+      Put_Line("Display task duration: " & Float'Image(Duration) & " ms");
       Finish_Activity ("Display Ended:");
   end positionAltitudeTask;
 
