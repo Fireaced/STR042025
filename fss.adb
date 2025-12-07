@@ -249,7 +249,7 @@ package body fss is
 
   task collisionTask is
     pragma priority (5);
-  end speedTask;
+  end collisionTask;
 
   task displayTask is
     pragma priority (3);
