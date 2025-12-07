@@ -31,7 +31,7 @@ package body Interrupt_Handler is
       procedure Button_Handler is
       begin
          Pending := True;         -- abre barrera
-         Mode_Manager_Type.Switch_Mode;
+         Mode_Manager.Switch_Mode;
       end Button_Handler;
 
       entry Wait_Event when Pending is
@@ -50,7 +50,7 @@ package body Interrupt_Handler is
          Interrupts.Wait_Event;  -- espera interrupción
 
          Put_Line ("Interrupción recibida. Modo actual: "
-                   & Mode_Manager_Type.Current_Mode'Image);
+                   & Mode_Manager.Current_Mode'Image);
       end loop;
    end Sporadic_Task;
 

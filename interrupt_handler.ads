@@ -6,7 +6,7 @@ package Interrupt_Handler is
    type Mode_Type is (Manual, Automatic);
 
    ---------------------------------------
-   -- Manejador de modos
+   -- Protected mode manager TYPE
    ---------------------------------------
    protected Mode_Manager_Type is
       procedure Switch_Mode;
@@ -14,6 +14,11 @@ package Interrupt_Handler is
    private
       Current : Mode_Type := Manual;
    end Mode_Manager_Type;
+
+   ---------------------------------------
+   -- Protected mode manager OBJECT
+   ---------------------------------------
+   Mode_Manager : Mode_Manager_Type;
 
    ---------------------------------------
    -- Objeto protegido de interrupciones
@@ -29,6 +34,8 @@ package Interrupt_Handler is
    private
       Pending : Boolean := False;
    end Interrupts;
+
+   Interrupts : Interrupts;
 
    ---------------------------------------
    -- Tarea esporádica
