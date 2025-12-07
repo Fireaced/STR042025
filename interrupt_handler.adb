@@ -50,7 +50,7 @@ package body Interrupt_Handler is
          Interrupts.Wait_Event;  -- espera interrupción
 
          Put_Line ("Interrupción recibida. Modo actual: "
-                   & Mode_Manager.Current_Mode'Image);
+                   & Mode_Manager_Type.Current_Mode'Image);
       end loop;
    end Sporadic_Task;
 
