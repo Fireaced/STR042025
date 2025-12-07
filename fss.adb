@@ -255,9 +255,9 @@ package body fss is
     pragma priority (3);
   end displayTask;
 
-  task Manual is
+  task manualTask is
     pragma priority (4);
-  end Manual;
+  end manualTask;
 
 
   -----------------------------------------------------------------------
