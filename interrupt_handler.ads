@@ -1,4 +1,5 @@
 with Ada.Interrupts;
+with Ada.Interrupts.Names;
 
 package Interrupt_Handler is
 
