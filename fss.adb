@@ -255,6 +255,7 @@ package body fss is
   task body positionAltitudeTask is
       Start_Time, End_Time : Time;
       Duration : Time_Span;
+      Duration_ms : Float;
   begin
       Start_Activity ("Position-Altitude Executing:");
       Start_Time := Clock;
