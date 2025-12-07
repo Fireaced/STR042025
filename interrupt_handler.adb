@@ -1,22 +1,18 @@
 with Ada.Interrupts;
 with Ada.Interrupts.Names;
-with Interrupt_Handler;
-with Kernel.Serial_Output;    -- opcional: cuidado en ISR
-with System; use System;
-with fss; use fss;
+with Ada.Text_IO; use Ada.Text_IO;
 
 package body Interrupt_Handler is
 
-   ----------------------------------------------------
-   -- Protected object que contiene la lógica de modo --
-   ----------------------------------------------------
-   protected body Mode_Manager is
-
+   ---------------------------
+   -- Mode manager body
+   ---------------------------
+   protected body Mode_Manager_Type is
       procedure Switch_Mode is
       begin
          case Current is
-            when Manual      => Current := Automatic; Mode ("Automatic");
-            when Automatic => Current := Manual; Mode ("Manual");
+            when Manual    => Current := Automatic;
+            when Automatic => Current := Manual;
          end case;
       end Switch_Mode;
 
@@ -24,31 +20,41 @@ package body Interrupt_Handler is
       begin
          return Current;
       end Current_Mode;
+   end Mode_Manager_Type;
 
-   end Mode_Manager;
+   ---------------------------
+   -- Interrupt handler body
+   ---------------------------
+   protected body Interrupts is
 
-   ---------------------------------------------
-   -- Procedimiento que actuará como ISR (rápido)
-   ---------------------------------------------
-   procedure Button_Handler is
+      procedure Button_Handler is
+      begin
+         Pending := True;         -- abre barrera
+         Mode_Manager.Switch_Mode;
+      end Button_Handler;
+
+      entry Wait_Event when Pending is
+      begin
+         Pending := False;        -- cierra barrera
+      end Wait_Event;
+
+   end Interrupts;
+
+   -------------------------
+   -- Sporadic task body --
+   -------------------------
+   task body Sporadic_Task is
    begin
-      -- MUY IMPORTANTE: el código del ISR debe ser breve.
-      -- Llamamos a una operación protegida para hacer el trabajo seguro.
-      Mode_Manager.Switch_Mode;
+      loop
+         Interrupts.Wait_Event;  -- espera interrupción
 
-      -- NO hacer I/O pesado (Put_Line) aquí: puede fallar o bloquear.
-      -- Si quieres traza, mejor poner una bandera y que otra tarea haga el I/O.
-   end Button_Handler;
+         Put_Line ("Interrupción recibida. Modo actual: "
+                   & Mode_Manager.Current_Mode'Image);
+      end loop;
+   end Sporadic_Task;
 
-   -- Asociamos el handler a la interrupción física.
-   pragma Attach_Handler (Button_Handler, Ada.Interrupts.Names.External_Interrupt_2);
-
-   -- Inicialización: desmascarar, configurar pin, etc.
    procedure Initialize is
    begin
-      -- Aquí puedes llamar a rutinas de bajo nivel para configurar el pin
-      -- y dejar la interrupción habilitada. Si Force_External_Interrupt_2 ya
-      -- gestiona los registros, quizá no necesites nada.
       null;
    end Initialize;
 
