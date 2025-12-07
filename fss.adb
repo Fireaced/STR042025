@@ -184,7 +184,7 @@ package body fss is
     Status_Record.SetRoll (Roll_Samples_Type (0));
     delay until Clock + Milliseconds (3000);
     Set_Aircraft_Roll (Roll_Samples_Type (0));
-    Pitch_Roll_Data.UpdateRoll(Roll_Samples_Type (0), 1);
+    Pitch_Roll_Data.UpdateRoll(Roll_Samples_Type (0), 0);
     Status_Record.SetRoll (Roll_Samples_Type (0));
 
   end Desvio_Automatico;
@@ -240,15 +240,15 @@ package body fss is
    -- Aqui se declaran las tareas que forman el STR
 
   task positionAltitudeTask is
-    pragma priority (4);
+    pragma priority (6);
   end positionAltitudeTask;
 
   task speedTask is
-    pragma priority (4);
+    pragma priority (5);
   end speedTask;
 
   task collisionTask is
-    pragma priority (5);
+    pragma priority (7);
   end collisionTask;
 
   task displayTask is
