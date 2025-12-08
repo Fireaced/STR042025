@@ -365,7 +365,7 @@ package body fss is
         Count := Count + 1;
 
         delay(300);
-      end if;
+      end loop;
     end if;
   end manualTask;
 
