@@ -273,8 +273,8 @@ package body fss is
          Start_Activity ("Position-Altitude Executing:");
          PositionAltitude;
          Finish_Activity ("Position-Altitude Ended:");
-         delay until Clock + Milliseconds (200);
       end if;
+      delay until Clock + Milliseconds (200);
     end loop;
   end positionAltitudeTask;
 
@@ -285,8 +285,8 @@ package body fss is
          Start_Activity("Speed Executing:");
          Speed;
          Finish_Activity ("Speed Ended:");
-         delay until Clock + Milliseconds (300);
       end if;
+      delay until Clock + Milliseconds (300);
     end loop;
   end speedTask;
 
@@ -297,8 +297,8 @@ package body fss is
          Start_Activity("Collision Executing:");
          Collision;
          Finish_Activity ("Collision Ended:");
-         delay until Clock + Milliseconds (250);
       end if;
+      delay until Clock + Milliseconds (250);
     end loop;
   end collisionTask;
 
@@ -309,8 +309,8 @@ package body fss is
          Start_Activity("Display Executing:");
          Display;
          Finish_Activity ("Display Ended:");
-         delay until Clock + Milliseconds (1000);
       end if;
+      delay until Clock + Milliseconds (1000);
     end loop;
   end displayTask;
 
@@ -359,12 +359,8 @@ package body fss is
           end if;
 
           Count := Count + 1;
-          
-          delay until Clock + Milliseconds (300);
-
-        else
-          delay until Clock + Milliseconds (300); 
         end if;
+        delay until Clock + Milliseconds (300); 
     end loop;
   end manualTask;
 
