@@ -1,0 +1,1378 @@
+[ 0.1619] ..# Altitude:  8000
+[ 0.1812] ..# Pilot_Power:  800
+[ 0.2015] ..# Speed:  960
+[ 0.2188] ..# Joystick:  4 1
+[ 0.2376] ..# Pitch:  4
+[ 0.2538] ..# Roll:  1
+[ 0.2695] ..# MSSG: 
+[ 1.3531] ..# Altitude:  8060
+[ 1.3725] ..# Pilot_Power:  800
+[ 1.3928] ..# Speed:  1000
+[ 1.4105] ..# Joystick:  4 1
+[ 1.4293] ..# Pitch:  1
+[ 1.6053] ..# Roll:  0
+[ 1.6210] ..# MSSG: 
+[ 2.7404] ..# Altitude:  8300
+[ 2.7597] ..# Pilot_Power:  800
+[ 2.7800] ..# Speed:  1000
+[ 2.7978] ..# Joystick:  22 16
+[ 2.8176] ..# Pitch:  30
+[ 2.8343] ..# Roll:  35
+[ 2.8505] ..# MSSG: 
+[ 3.9341] ..# Altitude:  8540
+[ 3.9534] ..# Pilot_Power:  850
+[ 3.9737] ..# Speed:  1000
+[ 3.9915] ..# Joystick:  10 40
+[ 4.0113] ..# Pitch:  30
+[ 4.1875] ..# Roll:  17
+[ 4.2038] ..# MSSG: Roll higher than +35/-35
+[ 5.3165] ..# Altitude:  8840
+[ 5.3358] ..# Pilot_Power:  600
+[ 5.3561] ..# Speed:  870
+[ 5.3734] ..# Joystick:  40 5
+[ 5.3926] ..# Pitch:  30
+[ 5.4094] ..# Roll: -40
+[ 5.4256] ..# MSSG: Roll higher than +35/-35
+[ 6.6681] ..# Altitude:  8900
+[ 6.6874] ..# Pilot_Power:  700
+[ 6.7077] ..# Speed:  990
+[ 6.7249] ..# Joystick:  55 5
+[ 6.7442] ..# Pitch:  30
+[ 6.7610] ..# Roll: -35
+[ 6.7772] ..# MSSG: Roll higher than +35/-35
+[ 7.8353] ..# Altitude:  8900
+[ 7.8546] ..# Pilot_Power:  200
+[ 7.8749] ..# Speed:  390
+[ 7.8921] ..# Joystick:  55 5
+[ 7.9114] ..# Pitch:  30
+[ 7.9482] --- Speed Ended:282] ..# Roll: -35
+[ 7.9752] ..# MSSG: Roll higher than +35/-35
+[ 9.0333] ..# Altitude:  8900
+[ 9.0526] ..# Pilot_Power:  350
+[ 9.0729] ..# Speed:  570
+[ 9.0901] ..# Joystick:  55 5
+[ 9.1094] ..# Pitch:  30
+[ 9.1261] ..# Roll: -35
+[ 9.1424] ..# MSSG: Roll higher than +35/-35
+[ 10.200] ..# Altitude:  8900
+[ 10.219] ..# Pilot_Power:  800
+[ 10.240] ..# Speed:  1000
+[ 10.257] ..# Joystick:  55 5
+[ 10.277] ..# Pitch:  30
+[ 10.293] ..# Roll: -35
+[ 10.372] --- Collision Ended:d Ended: 10.310] ..# MSSG: Roll higher than +35/-35
+[ 11.449] ..# Altitude:  8900
+[ 11.468] ..# Pilot_Power:  800
+[ 11.489] ..# Speed:
+[ 11.544] ..# Joystick:  55 5
+[ 11.564] ..# Pitch:  30
+[ 11.580] ..# Roll: -35
+[ 11.597] ..# MSSG: Roll higher than +35/-35
+[ 12.693] ..# Altitude:  8900
+[ 12.712] ..# Pilot_Power:  800
+[ 12.732] ..# Speed:  1000
+[ 12.750] ..# Joystick:  55 5
+[ 12.769] ..# Pitch:  30
+[ 12.817] --- Speed Ended:12.786] ..# Roll: -35
+[ 12.846] ..# MSSG: Roll higher than +35/-35
+[ 13.915] ..# Altitude:  8900
+[ 13.934] ..# Pilot_Power:  800
+[ 13.954] ..# Speed:  1000
+[ 13.972] ..# Joystick:  55 5
+[ 13.991] ..# Pitch:  30
+[ 14.008] ..# Roll: -35
+[ 14.024] ..# MSSG: Roll higher than +35/-35
+[ 15.082] ..# Altitude:  8900
+[ 15.102] ..# Pilot_Power:  800
+[ 15.122] ..# Speed:  1000
+[ 15.140] ..# Joystick:  55 5
+[ 15.159] ..# Pitch:  30
+[ 15.176] ..# Roll: -35
+[ 15.192] ..# MSSG: Roll higher than +35/-35
+[ 16.354] ..# Altitude:  8900
+[ 16.373] ..# Pilot_Pow
+[ 16.431] ..# Speed:  1000
+[ 16.449] ..# Joystick:  55 5
+[ 16.468] ..# Pitch:  30
+[ 16.485] ..# Roll: -35
+[ 16.501] ..# MSSG: Roll higher than +35/-35
+[ 17.590] ..# Altitude:  8900
+[ 17.609] ..# Pilot_Power:  800
+[ 17.630] ..# Speed:  1000
+[ 17.647] ..# Joystick:  55 5
+[ 17.667] ..# Pitch:  30
+[ 17.683] ..# Roll: -35
+[ 17.733] --- Speed Ended:0] ..# MSSG: Roll higher than +35/-35
+[ 18.831] ..# Altitude:  8900
+[ 18.850] ..# Pilot_Power:  800
+[ 18.871] ..# Speed:  1000
+[ 18.888] ..# Joystick:  55 5
+[ 18.908] ..# Pitch:  30
+[ 18.924] ..# Roll: -35
+[ 18.941] ..# MSSG: Roll higher than +35/-35
+[ 20.037] ..# Altitude:  8900
+[ 20.056] ..# Pilot_Power:  800
+[ 20.076] ..# Speed:  1000
+[ 20.094] ..# Joystick:  55 5
+[ 20.113] ..# Pit
+[ 20.168] ..# Roll: -35
+[ 20.227] ..# MSSG: Roll higher than +35/-35
+[ 21.323] ..# Altitude:  8900
+[ 21.343] ..# Pilot_Power:  800
+[ 21.363] ..# Speed:  1000
+[ 21.381] ..# Joystick:  55 5
+[ 21.400] ..# Pitch:  30
+[ 21.417] ..# Roll: -35
+[ 21.433] ..# MSSG: Roll higher than +35/-35
+[ 22.491] ..# Altitude:  8900
+[ 22.510] ..# Pilot_Power:  800
+[ 22.531] ..# Speed:  1000
+[ 22.548] ..# Joystick:  55 5
+[ 22.568] ..# Pitch:  30
+[ 22.584] ..# Roll: -35
+[ 22.601] ..# MSSG: Roll higher than
+[ 23.746] ..# Altitude:  8900
+[ 23.765] ..# Pilot_Power:  850
+[ 23.785] ..# Speed:  1000
+[ 23.803] ..# Joystick:  55 5
+[ 23.822] ..# Pitch:  30
+[ 23.839] ..# Roll: -35
+[ 23.881] --- Collision Ended:55] ..# MSSG: Roll higher than +35/-35
+[ 24.951] ..# Altitude:  8900
+[ 24.971] ..# Pilot_Power:  900
+[ 24.991] ..# Speed:  1000
+[ 25.047] ..# Joystick:  55 5
+[ 25.066] ..# Pitch:  30
+[ 25.083] ..# Roll: -35
+[ 25.129] ..# MSSG: Roll higher than +35/-35
+[ 26.213] ..# Altitude:  8900
+[ 26.232] ..# Pilot_Power:  700
+[ 26.253] ..# Speed:  990
+[ 26.270] ..# Joystick:  55 5
+[ 26.289] ..# Pitch:  30
+[ 26.306] ..# Roll: -35
+[ 26.322] ..# MSSG: Roll higher than +35/-35
+[ 27.380] ..# Altitude:  8900
+[ 27.399] ..# Pilot_Power:  200
+[ 27.420] ..# Speed:  390
+[ 27.437] ..# Joy
+[ 27.487] ..# Pitch:  30
+[ 27.504] ..# Roll: -35
+[ 27.520] ..# MSSG: Roll higher than +35/-35
+[ 28.578] ..# Altitude:  8900
+[ 28.597] ..# Pilot_Power:  350
+[ 28.618] ..# Speed:  570
+[ 28.635] ..# Joystick:  55 5
+[ 28.654] ..# Pitch:  30
+[ 28.671] ..# Roll: -35
+[ 28.687] ..# MSSG: Roll higher than +35/-35
+[ 29.745] ..# Altitude:  8900
+[ 29.765] ..# Pilot_Power:  800
+[ 29.785] ..# Speed:  1000
+[ 29.803] ..# Joystick:  55 5
+[ 29.865] ..# Pitch:  30
+[ 29.882] ..# Roll: -35
+[ 29.935] ..# MSSG: Roll higher than +35/-35
+[ 30.993] ..# Altitude:  8900
+[ 31.013] ..# Pilot_Power:  1000
+[ 31.034] ..# Speed:
+[ 31.089] ..# Joystick:  55 5
+[ 31.109] ..# Pitch:  30
+[ 31.125] ..# Roll: -35
+[ 31.141] ..# MSSG: Roll higher than +35/-35
+[ 32.237] ..# Altitude:  8900
+[ 32.257] ..# Pilot_Power:  800
+[ 32.277] ..# Speed:
+[ 32.338] ..# Joystick:  55 5
+[ 32.358] ..# Pitch:  30
+[ 32.374] ..# Roll: -35
+[ 32.391] ..# MSSG: Roll higher than +35/-35
+[ 33.449] ..# Altitude:  8900
+[ 33.468] ..# Pilot_Power:  800
+[ 33.488] ..# Speed:  1000
+[ 33.506] ..# Joystick:  55 5
+[ 33.525] ..# Pitch:  30
+[ 33.542] ..# Roll: -35
+[ 33.558] ..# MSSG: Roll higher than +35/-35
+[ 34.616] ..# Altitude:  8900
+[ 34.636] ..# Pilot_Power:  800
+[ 34.656] ..# Speed:  1000
+[ 34.674] ..# Joystick:  55 5
+[ 34.693] ..# Pitch:  30
+[ 34.710] ..# Roll: -35
+[ 34.757] --- Speed Ended: 34.726] ..# MSSG: R
+[ 35.866] ..# Altitude:  8900
+[ 35.885] ..# Pilot_Power:  800
+[ 35.905] ..# Speed:  1000
+[ 35.923] ..# 
+[ 35.980] ..# Pitch:  30
+[ 35.997] ..# Roll: -35
+[ 36.013] ..# MSSG: Roll higher than +35/-35
+[ 37.071] ..# Alt
+[ 37.128] ..# Pilot_Power:  800
+[ 37.149] ..# Speed:  1000
+[ 37.166] ..# Joystick:  55 5
+[ 37.186] ..# Pitch:  30
+[ 37.245] ..# Roll: -35
+[ 37.262] ..# MSSG: Roll higher than +35/-35
+[ 38.328] ..# Altitude:  8900
+[ 38.347] ..# Pilot_Power:  800
+[ 38.368] ..# Speed:  1000
+[ 38.385] ..# Joystick:  55 5
+[ 38.405] ..# Pitch:  30
+[ 38.421] ..# Roll: -35
+[ 38.438] ..# MSSG: Roll higher than +35/-35
+[ 39.496] ..# Altitude:  8900
+[ 39.515] ..# Pilot_Power:  800
+[ 39.535] ..# Speed:  1000
+[ 39.553] ..# Joystick:  55 5
+[ 39.572] ..# Pitch:  30
+[ 39.589] ..# Roll: -35
+[ 39.605] ..# MSSG: Roll higher than +35/-35
+[ 40.767] ..# Altitude:  8900
+[ 40.787] ..# Pilot_Power:  800
+[ 40.807] ..# Spee
+[ 40.863] ..# Joystick:  55 5
+[ 40.882] ..# Pitch:  30
+[ 40.899] ..# Roll: -35
+[ 40.915] ..# MSSG: Roll higher than +35/-35
+[ 42.011] ..# Altitude:  8900
+[ 42.030] ..# Pilot_Power:  800
+[ 42.050] ..# Speed:  1000
+[ 42.068] ..# Joystick:  55 5
+[ 42.087] ..# Pitch:  30
+[ 42.104] ..# Roll: -
+[ 42.164] ..# MSSG: Roll higher than +35/-35
+[ 43.243] ..# Altitude:  8900
+[ 43.262] ..# Pilot_Power:  850
+[ 43.282] ..# Speed:  1000
+[ 43.300] ..# Joystick:  55 5
+[ 43.319] ..# Pitch:  30
+[ 43.336] ..# Roll: -35
+[ 43.352] ..# MSSG: Roll higher than +35/-35
+[ 44.410] ..# Altitude:  8900
+[ 44.430] ..# Pilot_Power:  900
+[ 44.450] ..# Speed:  1000
+[ 44.468] ..# Joystick:  55 5
+[ 44.487] ..# Pitch:  30
+[ 44.504] ..# Roll: -35
+[ 44.520] ..# MSSG: Roll higher than +35/-35
+[ 45.659] ..# Altitude:  8900
+[ 45.679] ..# Pilot_Power:  600
+[ 45.724] --- Collision Ended:699] ..# Speed:  870
+[ 45.754] ..# Joystick:  55 5
+[ 45.773] ..# Pitch:  30
+[ 45.790] ..# Roll: -35
+[ 45.806] ..# MSSG: Roll higher than +35/-35
+[ 46.902] ..# Altitude:  8900
+[ 46.922] ..# Pilot_Power:  700
+[ 46.942] ..# Speed:  990
+[ 46.983] --- Speed Ended:# Joystick:  55 5
+[ 47.009] ..# Pitch:  30
+[ 47.026] ..# Roll: -35
+[ 47.042] ..# MSSG: Roll higher than +35/-35
+[ 48.100] ..# Altitude:  8900
+[ 48.120] ..# Pilot_Power:  200
+[ 48.140] ..# Speed:  390
+[ 48.157] ..# Joystick:  55 5
+[ 48.176] ..# Pitch:  30
+[ 48.193] ..# Roll: -35
+[ 48.209] ..# MSSG: Roll higher than +35/-35
+[ 49.268] ..# Altitude:  8900
+[ 49.287] ..# Pilot_Power:  800
+[ 49.307] ..# Speed:  1000
+[ 49.358] --- Speed Ended:25] ..# Joystick:  55 5
+[ 49.388] ..# Pitch:  30
+[ 49.404] ..# Roll: -35
+[ 49.421] ..# MSSG: Roll higher tha
+[ 50.517] ..# Altitude:  8900
+[ 50.536] ..# Pilot_Power:  1000
+[ 50.557] ..# Speed:  1000
+[ 50.575] ..# Joystick:  55
+[ 50.632] ..# Pitch:  30
+[ 50.648] ..# Roll: -35
+[ 50.665] ..# MSSG: Roll higher than +35/-35
+[ 51.723] ..# Altitude:  8900
+[ 51.780] ..# Pilot_Power:  800
+[ 51.835] --- Speed Ended: ..# Speed:  1000
+[ 51.861] ..# Joystick:  55 5
+[ 51.880] ..# Pitch:  30
+[ 51.897] ..# Roll: -35
+[ 51.913] ..# MSSG: Roll higher than +35/-35
+[ 52.971] ..# Altitude:  8900
+[ 52.991] ..# Pilot_Power:  800
+[ 53.011] ..# Speed:  1000
+[ 53.029] ..# Joystick:  55 5
+[ 53.048] ..# Pitch:  30
+[ 53.065] ..# Roll: -35
+[ 53.081] ..# MSSG: Roll higher than +35/-35
+[ 54.139] ..# Altitude:  8900
+[ 54.158] ..# Pilot_Power:  800
+[ 54.179] ..# Speed:  1000
+[ 54.197] ..# Joystick:  55 5
+[ 54.216] ..# Pitch:  30
+[ 54.233] ..# Roll
+[ 54.292] ..# MSSG: Roll higher than +35/-35
+[ 55.388] ..# Altitude:  8900
+[ 55.408] ..# Pilot_Power:  800
+[ 55.428] ..# Speed:  1000
+[ 55.446] ..# Joystick:  55 5
+[ 55.465] ..# Pitch
+[ 55.520] ..# Roll: -35
+[ 55.536] ..# MSSG: Roll higher than +35/-35
+[ 56.594] ..# Altitude:  8900
+[ 56.613] ..# Pilot_Po
+[ 56.671] ..# Speed:  1000
+[ 56.689] ..# Joystick:  55 5
+[ 56.708] ..# Pitch
+[ 56.769] ..# Roll: -35
+[ 56.785] ..# MSSG: Roll higher than +35/-35
+[ 57.846] ..# Altitude:  8900
+[ 57.865] ..# Pilot_Power:  800
+[ 57.886] ..# Speed:  1000
+[ 57.903] ..# Joystick:  55 5
+[ 57.923] ..# Pitch:  30
+[ 57.939] ..# Roll: -35
+[ 57.956] ..# MSSG: Roll higher than +35/-35
+[ 59.014] ..# Altitude:  8900
+[ 59.033] ..# Pilot_Power:  800
+[ 59.053] ..# Speed:  1000
+[ 59.071] ..# Joystick:  55 5
+[ 59.090] ..# Pitch:  30
+[ 59.107] ..# Roll: -35
+[ 59.123] ..# MSSG: Roll higher than +35/-35
+[ 60.268] ..# Altitude:  8900
+[ 60.288] ..# Pilot_Power:  800
+[ 60.308] ..# Speed:  1000
+[ 60.326] ..# Joystick:  55 5
+[ 60.345] ..# Pitch:  30
+[ 60.399] ..# Roll: -35
+[ 60.415] ..# MSSG: Roll higher than +35/-35
+[ 61.474] ..# Altitude:  8900
+[ 61.493] ..# Pilot_Power:  800
+[ 61.551] ..# Speed:  1000
+[ 61.568] ..# Joystick:  55 5
+[ 61.588] ..# Pitch:  30
+[ 61.604] ..# Roll: -35
+[ 61.621] ..# MSSG: Rol
+[ 62.758] ..# Altitude:  8900
+[ 62.777] ..# Pilot_Power:  800
+[ 62.798] ..# Speed:  1000
+[ 62.815] ..# Joystick:  55 5
+[ 62.835] ..# Pitch:  30
+[ 62.851] ..# Roll: -35
+[ 62.868] ..# MSSG: Roll higher than +35/-35
+[ 63.926] ..# Altitude:  8900
+[ 63.945] ..# Pilot_Power:  850
+[ 63.965] ..# Speed:  1000
+[ 63.983] ..# Joystick:  55 5
+[ 64.003] ..# Pitch:  30
+[ 64.019] ..# Roll: -35
+[ 64.035] ..# MSSG: Roll higher than +35/-35
+[ 65.185] ..# Altitude:  8900
+[ 65.204] ..# Pilot_Power:  600
+[ 65.224] ..# Speed:  870
+[ 65.268] --- Collision Ended:] ..# Joystick:  55 5
+[ 65.299] ..# Pitch:  30
+[ 65.315] ..# Roll: -35
+[ 65.332] ..# MSSG: Roll higher than +35/-35
+[ 66.418] --- Collision Ended:.# Altitude:  8900
+[ 66.447] ..# Pilot_Power:  700
+[ 66.467] ..# Speed:  990
+[ 66.484] ..# Joystick
+[ 66.534] ..# Pitch:  30
+[ 66.551] ..# Roll: -35
+[ 66.567] ..# MSSG: Roll higher than +35/-35
+[ 67.626] ..# Altitude:  8900
+[ 67.645] ..# Pilot_Power:  200
+[ 67.665] ..# Speed:  390
+[ 67.682] ..# Joystick:  55 5
+[ 67.702] ..# Pitch:  30
+[ 67.718] ..# Roll: -35
+[ 67.735] ..# MSSG: Roll higher than +35/-35
+[ 68.793] ..# Altitude:  8900
+[ 68.812] ..# Pilot_Power:  350
+[ 68.832] ..# Speed:  570
+[ 68.880] ..# Joystick:  55 5
+[ 68.899] ..# Pitch:  30
+[ 68.916] ..# Roll: -35
+[ 68.932] ..# MSSG: Roll higher than +35/-35
+[ 69.990] ..# Altitude:  8900
+[ 70.010] ..# Pilot_Power:  800
+[ 70.030] ..# Speed:  1000
+[ 70.048] ..# Joystick:  55 5
+[ 70.067] ..# Pitch:  30
+[ 70.084] ..# Roll: -35
+[ 70.100] ..# MSSG: Roll higher than +35/-35
+[ 71.196] ..# Altitude:  8900
+[ 71.215] ..# Pilot_Power:  1000
+[ 71.236] ..# Speed:  1000
+[ 71.254] ..# Joystick:  55 5
+[ 71.354] ..# Pitch:  30
+[ 71.371] ..# Roll: -35
+[ 71.387] ..# MSSG: Roll higher than +35/-35
+[ 72.483] ..# Altitude:  8900
+[ 72.502] ..# Pilot_Power:  800
+[ 72.523] ..# Speed:  1000
+[ 72.540] ..# Joystick:  55 5
+[ 72.560] ..# Pitch:  30
+[ 72.576] ..# Roll: -35
+[ 72.593] ..# MSSG: Roll higher than +35/-35
+[ 73.651] ..# Altitude:  8900
+[ 73.670] ..# Pilot_Power:  800
+[ 73.690] ..# Speed:  1000
+[ 73.708] ..# Joystick:  55 5
+[ 73.727] ..# Pitch:  30
+[ 73.778] --- Speed Ended:] ..# Roll: -35
+[ 73.804] ..# MSSG: Roll higher than +35/-35
+[ 74.876] ..# Altitude:  8900
+[ 74.895] ..# Pilot_Power:  800
+[ 74.916] ..# Speed:  1000
+[ 74.933] ..# Joystick:  55 5
+[ 74.953] ..# Pitch:  30
+[ 74.969] ..# Roll: -35
+[ 74.986] ..# MSSG: Roll higher than +35/-35
+[ 76.082] ..# Altitude:  8900
+[ 76.101] ..# Pilot_Power:  800
+[ 76.121] ..# Speed:  1000
+[ 76.139] ..# Joystick:  55 5
+[ 76.158] ..# Pitch:  
+[ 76.213] ..# Roll: -35
+[ 76.272] ..# MSSG: Roll higher than +35/-35
+[ 77.368] ..# Altitude:  8900
+[ 77.387] ..# Pilot_Power:  800
+[ 77.408] ..# Speed:  1000
+[ 77.426] ..# Joystick:  55 5
+[ 77.445] ..# Pitch:  30
+[ 77.462] ..# Roll: -35
+[ 77.478] ..# MSSG: Roll higher than +35/-35
+[ 78.536] ..# Altitude:  8900
+[ 78.555] ..# Pilot_Power:  800
+[ 78.576] ..# Speed:  1000
+[ 78.593] ..# Joystick:  55 5
+[ 78.613] ..# Pitch:  30
+[ 78.629] ..# Roll: -35
+[ 78.646] ..# MSSG: Roll higher than
+[ 79.791] ..# Altitude:  8900
+[ 79.810] ..# Pilot_Power:  800
+[ 79.830] ..# Speed:  1000
+[ 79.848] ..# Joystick:  55 5
+[ 79.867] ..# Pitch:  30
+[ 79.884] ..# Roll: -35
+[ 79.928] --- Collision Ended:..# MSSG: Roll higher than +35/-35
+[ 80.996] ..# Altitude:  8900
+[ 81.016] ..# Pilot_Power:  800
+[ 81.036] ..# Speed:  1000
+[ 81.078] --- Collision Ended:.054] ..# Joystick:  55 5
+[ 81.111] ..# Pitch:  30
+[ 81.128] ..# Roll: -35
+[ 81.187] ..# MSSG: Roll higher than +35/-35
+[ 82.269] ..# Altitude:  8900
+[ 82.288] ..# Pilot_Power:  800
+[ 82.308] ..# Speed:  1000
+[ 82.326] ..# Joystick:  55 5
+[ 82.345] ..# Pitch:  30
+[ 82.362] ..# Roll: -35
+[ 82.378] ..# MSSG: Roll higher than +35/-35
+[ 83.436] ..# Altitude:  8900
+[ 83.456] ..# Pilot_Power:  850
+[ 83.476] ..# Speed:  1000
+[ 83.494] ..# Joystick:  55 5
+[ 83.513] ..# Pitch:  30
+[ 83.530] ..# Roll: -35
+[ 83.546] ..# MSSG: Roll higher than +35/-35
+[ 84.691] ..# Altitude:  8900
+[ 84.710] ..# Pilot_Power:  900
+[ 84.731] ..# Speed:  1000
+[ 84.749] ..# Joystick:  55 5
+[ 84.768] ..# Pitch:  30
+[ 84.785] ..# Ro
+[ 84.839] ..# MSSG: Roll higher than +35/-35
+[ 85.897] ..# Altitude:  8900
+[ 85.916] ..# Pilot_Power:  600
+[ 85.936] ..#
+[ 85.992] ..# Joystick:  55 5
+[ 86.011] ..# Pi
+[ 86.058] ..# Roll: -35
+[ 86.075] ..# MSSG: Roll higher than +35/-35
+[ 87.148] ..# Altitude:  8900
+[ 87.167] ..# Pilot_Power:  200
+[ 87.187] ..# Speed:  390
+[ 87.205] ..# Joystick:  55 5
+[ 87.224] ..# Pitch:  30
+[ 87.241] ..# Roll: -35
+[ 87.257] ..# MSSG: Roll higher than +35/-35
+[ 88.315] ..# Altitude:  8900
+[ 88.334] ..# Pilot_Power:  350
+[ 88.355] ..# Speed:  
+[ 88.403] ..# Joystick:  55 5
+[ 88.422] ..# Pitch:  30
+[ 88.439] ..# Roll: -35
+[ 88.455] ..# MSSG: Roll higher than +35/-35
+[ 89.513] ..# Altitude:  8900
+[ 89.532] ..# Pilot_Power:  800
+[ 89.553] ..# Speed:  1000
+[ 89.570] ..# Joystick:  55 5
+[ 89.590] ..# Pitch:  30
+[ 89.606] ..# Roll: -35
+[ 89.623] ..# MSSG: Roll higher than +35/-35
+[ 90.681] ..# Altitude:  8900
+[ 90.700] ..# Pilot_Power:  1000
+[ 90.721] ..# Speed:  1000
+[ 90.739] ..# Joystick:  55 5
+[ 90.758] ..# Pitch:  30
+[ 90.809] --- Speed Ended: ..# Roll: 
+[ 90.872] ..# MSSG: Roll higher than +35/-35
+[ 91.930] ..# Altitude:  8900
+[ 91.950] ..# Pilot_Power:  800
+[ 91.970] ..# Sp
+[ 92.026] ..# Joystick:  55 5
+[ 92.045] ..# Pitch:  30
+[ 92.062] ..# Roll: -35
+[ 92.078] ..# MSSG: Roll higher than +35/-35
+[ 93.174] ..# Altitude:  8900
+[ 93.193] ..# Pilot_Power:  800
+[ 93.213] ..# Speed:  1000
+[ 93.231] ..# Joystick:  55 5
+[ 93.294] ..# Pitch:  30
+[ 93.310] ..# Roll: -35
+[ 93.327] ..# MSSG: Roll higher than +35/-35
+[ 94.385] ..# Altitude:  8900
+[ 94.404] ..# Pilot_Power:  800
+[ 94.424] ..# Speed:  1000
+[ 94.442] ..# Joystick:  55 5
+[ 94.461] ..# Pitch:  30
+[ 94.478] ..# Roll: -35
+[ 94.494] ..# MSSG: Roll higher than +35/-35
+[ 95.552] ..# Altitude:  8900
+[ 95.572] ..# Pilot_Power:  800
+[ 95.592] ..# Speed:  1000
+[ 95.610] ..# Joystick:  55 5
+[ 95.629] ..# Pitch:  30
+[ 95.646] ..# Roll: -35
+[ 95.662] ..# MSSG: Roll higher than +35/-35
+[ 96.816] ..# Altitude:  8900
+[ 96.835] ..# Pilot_Power:  800
+[ 96.855] ..# Spee
+[ 96.911] ..# Joystick:  55 5
+[ 96.930] ..# Pitch:  30
+[ 96.947] ..# Roll: -35
+[ 96.963] ..# MSSG: Roll higher than +35/-35
+[ 98.059] ..# Altitude:  8900
+[ 98.078] ..# Pilot_Power:  800
+[ 98.099] ..# Speed:  1000
+[ 98.116] ..# Joystick:  55 5
+[ 98.136] ..# Pitch:  30
+[ 98.152] ..# Roll: -
+[ 98.212] ..# MSSG: Roll higher than +35/-35
+[ 99.291] ..# Altitude:  8900
+[ 99.310] ..# Pilot_Power:  800
+[ 99.331] ..# Speed:  1000
+[ 99.348] ..# Joystick:  55 5
+[ 99.368] ..# Pitch:  30
+[ 99.384] ..# Roll: -35
+[ 99.401] ..# MSSG: Roll higher than +35/-35
+[ 100.45] ..# Altitude:  8900
+[ 100.47] ..# Pilot_Power:  800
+[ 100.49] ..# Speed:  1000
+[ 100.51] ..# Joystick:  55 5
+[ 100.53] ..# Pitch:  30
+[ 100.55] ..# Roll: -35
+[ 100.56] ..# MSSG: Roll higher than +35/-35
+[ 101.62] ..# Altitude:  8900
+[ 101.64] ..# Pilot_Power:  800
+[ 101.66] ..# Speed:  1000
+[ 101.68] ..# Joystick:  55 5
+[ 101.70] ..# Pitch:  30
+[ 101.72] ..# Roll: -35
+[ 101.73] ..# MSSG: Roll higher than +35/-35
+[ 102.79] ..# Altitude:  8900
+[ 102.81] ..# Pilot_Power:  800
+[ 102.83] ..# Speed:  1000
+[ 102.85] ..# Joystick:  55 5
+[ 102.87] ..# Pitch:  30
+[ 102.88] ..# Roll: -35
+[ 102.90] ..# MSSG: Roll higher than +35/-35
+[ 103.96] ..# Altitude:  8900
+[ 103.98] ..# Pilot_Power:  800
+[ 104.00] ..# Speed:  1000
+[ 104.01] ..# Joystick:  55 5
+[ 104.03] ..# Pitch:  30
+[ 104.05] ..# Roll: -35
+[ 104.07] ..# MSSG: Roll higher than +35/-35
+[ 105.12] ..# Altitude:  8900
+[ 105.14] ..# Pilot_Power:  800
+[ 105.16] ..# Speed:  1000
+[ 105.18] ..# Joystick:  55 5
+[ 105.20] ..# Pitch:  30
+[ 105.22] ..# Roll: -35
+[ 105.23] ..# MSSG: Roll higher than +35/-35
+[ 106.29] ..# Altitude:  8900
+[ 106.31] ..# Pilot_Power:  800
+[ 106.33] ..# Speed:  1000
+[ 106.35] ..# Joystick:  55 5
+[ 106.37] ..# Pitch:  30
+[ 106.39] ..# Roll: -35
+[ 106.40] ..# MSSG: Roll higher than +35/-35
+[ 107.46] ..# Altitude:  8900
+[ 107.48] ..# Pilot_Power:  800
+[ 107.50] ..# Speed:  1000
+[ 107.52] ..# Joystick:  55 5
+[ 107.54] ..# Pitch:  30
+[ 107.55] ..# Roll: -35
+[ 107.57] ..# MSSG: Roll higher than +35/-35
+[ 108.63] ..# Altitude:  8900
+[ 108.65] ..# Pilot_Power:  800
+[ 108.67] ..# Speed:  1000
+[ 108.68] ..# Joystick:  55 5
+[ 108.70] ..# Pitch:  30
+[ 108.72] ..# Roll: -35
+[ 108.74] ..# MSSG: Roll higher than +35/-35
+[ 109.80] ..# Altitude:  8900
+[ 109.81] ..# Pilot_Power:  800
+[ 109.83] ..# Speed:  1000
+[ 109.85] ..# Joystick:  55 5
+[ 109.87] ..# Pitch:  30
+[ 109.89] ..# Roll: -35
+[ 109.90] ..# MSSG: Roll higher than +35/-35
+[ 110.96] ..# Altitude:  8900
+[ 110.98] ..# Pilot_Power:  800
+[ 111.00] ..# Speed:  1000
+[ 111.02] ..# Joystick:  55 5
+[ 111.04] ..# Pitch:  30
+[ 111.06] ..# Roll: -35
+[ 111.07] ..# MSSG: Roll higher than +35/-35
+[ 112.13] ..# Altitude:  8900
+[ 112.15] ..# Pilot_Power:  800
+[ 112.17] ..# Speed:  1000
+[ 112.19] ..# Joystick:  55 5
+[ 112.21] ..# Pitch:  30
+[ 112.22] ..# Roll: -35
+[ 112.24] ..# MSSG: Roll higher than +35/-35
+[ 113.30] ..# Altitude:  8900
+[ 113.32] ..# Pilot_Power:  800
+[ 113.34] ..# Speed:  1000
+[ 113.36] ..# Joystick:  55 5
+[ 113.37] ..# Pitch:  30
+[ 113.39] ..# Roll: -35
+[ 113.41] ..# MSSG: Roll higher than +35/-35
+[ 114.47] ..# Altitude:  8900
+[ 114.49] ..# Pilot_Power:  800
+[ 114.51] ..# Speed:  1000
+[ 114.52] ..# Joystick:  55 5
+[ 114.54] ..# Pitch:  30
+[ 114.56] ..# Roll: -35
+[ 114.58] ..# MSSG: Roll higher than +35/-35
+[ 115.63] ..# Altitude:  8900
+[ 115.65] ..# Pilot_Power:  800
+[ 115.67] ..# Speed:  1000
+[ 115.69] ..# Joystick:  55 5
+[ 115.71] ..# Pitch:  30
+[ 115.73] ..# Roll: -35
+[ 115.74] ..# MSSG: Roll higher than +35/-35
+[ 116.80] ..# Altitude:  8900
+[ 116.82] ..# Pilot_Power:  800
+[ 116.84] ..# Speed:  1000
+[ 116.86] ..# Joystick:  55 5
+[ 116.88] ..# Pitch:  30
+[ 116.89] ..# Roll: -35
+[ 116.91] ..# MSSG: Roll higher than +35/-35
+[ 117.97] ..# Altitude:  8900
+[ 117.99] ..# Pilot_Power:  800
+[ 118.01] ..# Speed:  1000
+[ 118.03] ..# Joystick:  55 5
+[ 118.05] ..# Pitch:  30
+[ 118.06] ..# Roll: -35
+[ 118.08] ..# MSSG: Roll higher than +35/-35
+[ 119.14] ..# Altitude:  8900
+[ 119.16] ..# Pilot_Power:  800
+[ 119.18] ..# Speed:  1000
+[ 119.19] ..# Joystick:  55 5
+[ 119.21] ..# Pitch:  30
+[ 119.23] ..# Roll: -35
+[ 119.25] ..# MSSG: Roll higher than +35/-35
+[ 120.30] ..# Altitude:  8900
+[ 120.32] ..# Pilot_Power:  800
+[ 120.34] ..# Speed:  1000
+[ 120.36] ..# Joystick:  55 5
+[ 120.38] ..# Pitch:  30
+[ 120.40] ..# Roll: -35
+[ 120.41] ..# MSSG: Roll higher than +35/-35
+[ 121.47] ..# Altitude:  8900
+[ 121.49] ..# Pilot_Power:  800
+[ 121.51] ..# Speed:  1000
+[ 121.53] ..# Joystick:  55 5
+[ 121.55] ..# Pitch:  30
+[ 121.56] ..# Roll: -35
+[ 121.58] ..# MSSG: Roll higher than +35/-35
+[ 122.64] ..# Altitude:  8900
+[ 122.66] ..# Pilot_Power:  800
+[ 122.68] ..# Speed:  1000
+[ 122.70] ..# Joystick:  55 5
+[ 122.72] ..# Pitch:  30
+[ 122.73] ..# Roll: -35
+[ 122.75] ..# MSSG: Roll higher than +35/-35
+[ 123.81] ..# Altitude:  8900
+[ 123.83] ..# Pilot_Power:  800
+[ 123.85] ..# Speed:  1000
+[ 123.86] ..# Joystick:  55 5
+[ 123.88] ..# Pitch:  30
+[ 123.90] ..# Roll: -35
+[ 123.92] ..# MSSG: Roll higher than +35/-35
+[ 124.97] ..# Altitude:  8900
+[ 124.99] ..# Pilot_Power:  800
+[ 125.01] ..# Speed:  1000
+[ 125.03] ..# Joystick:  55 5
+[ 125.05] ..# Pitch:  30
+[ 125.07] ..# Roll: -35
+[ 125.08] ..# MSSG: Roll higher than +35/-35
+[ 126.14] ..# Altitude:  8900
+[ 126.16] ..# Pilot_Power:  800
+[ 126.18] ..# Speed:  1000
+[ 126.20] ..# Joystick:  55 5
+[ 126.22] ..# Pitch:  30
+[ 126.24] ..# Roll: -35
+[ 126.25] ..# MSSG: Roll higher than +35/-35
+[ 127.31] ..# Altitude:  8900
+[ 127.33] ..# Pilot_Power:  800
+[ 127.35] ..# Speed:  1000
+[ 127.37] ..# Joystick:  55 5
+[ 127.39] ..# Pitch:  30
+[ 127.40] ..# Roll: -35
+[ 127.42] ..# MSSG: Roll higher than +35/-35
+[ 128.48] ..# Altitude:  8900
+[ 128.50] ..# Pilot_Power:  800
+[ 128.52] ..# Speed:  1000
+[ 128.53] ..# Joystick:  55 5
+[ 128.55] ..# Pitch:  30
+[ 128.57] ..# Roll: -35
+[ 128.59] ..# MSSG: Roll higher than +35/-35
+[ 129.64] ..# Altitude:  8900
+[ 129.66] ..# Pilot_Power:  800
+[ 129.68] ..# Speed:  1000
+[ 129.70] ..# Joystick:  55 5
+[ 129.72] ..# Pitch:  30
+[ 129.74] ..# Roll: -35
+[ 129.75] ..# MSSG: Roll higher than +35/-35
+[ 130.81] ..# Altitude:  8900
+[ 130.83] ..# Pilot_Power:  800
+[ 130.85] ..# Speed:  1000
+[ 130.87] ..# Joystick:  55 5
+[ 130.89] ..# Pitch:  30
+[ 130.91] ..# Roll: -35
+[ 130.92] ..# MSSG: Roll higher than +35/-35
+[ 131.98] ..# Altitude:  8900
+[ 132.00] ..# Pilot_Power:  800
+[ 132.02] ..# Speed:  1000
+[ 132.04] ..# Joystick:  55 5
+[ 132.06] ..# Pitch:  30
+[ 132.07] ..# Roll: -35
+[ 132.09] ..# MSSG: Roll higher than +35/-35
+[ 133.15] ..# Altitude:  8900
+[ 133.17] ..# Pilot_Power:  800
+[ 133.19] ..# Speed:  1000
+[ 133.21] ..# Joystick:  55 5
+[ 133.22] ..# Pitch:  30
+[ 133.24] ..# Roll: -35
+[ 133.26] ..# MSSG: Roll higher than +35/-35
+[ 134.32] ..# Altitude:  8900
+[ 134.33] ..# Pilot_Power:  800
+[ 134.36] ..# Speed:  1000
+[ 134.37] ..# Joystick:  55 5
+[ 134.39] ..# Pitch:  30
+[ 134.41] ..# Roll: -35
+[ 134.43] ..# MSSG: Roll higher than +35/-35
+[ 135.48] ..# Altitude:  8900
+[ 135.50] ..# Pilot_Power:  800
+[ 135.52] ..# Speed:  1000
+[ 135.54] ..# Joystick:  55 5
+[ 135.56] ..# Pitch:  30
+[ 135.58] ..# Roll: -35
+[ 135.59] ..# MSSG: Roll higher than +35/-35
+[ 136.65] ..# Altitude:  8900
+[ 136.67] ..# Pilot_Power:  800
+[ 136.69] ..# Speed:  1000
+[ 136.71] ..# Joystick:  55 5
+[ 136.73] ..# Pitch:  30
+[ 136.74] ..# Roll: -35
+[ 136.76] ..# MSSG: Roll higher than +35/-35
+[ 137.82] ..# Altitude:  8900
+[ 137.84] ..# Pilot_Power:  800
+[ 137.86] ..# Speed:  1000
+[ 137.88] ..# Joystick:  55 5
+[ 137.90] ..# Pitch:  30
+[ 137.91] ..# Roll: -35
+[ 137.93] ..# MSSG: Roll higher than +35/-35
+[ 138.99] ..# Altitude:  8900
+[ 139.01] ..# Pilot_Power:  800
+[ 139.03] ..# Speed:  1000
+[ 139.04] ..# Joystick:  55 5
+[ 139.06] ..# Pitch:  30
+[ 139.08] ..# Roll: -35
+[ 139.10] ..# MSSG: Roll higher than +35/-35
+[ 140.15] ..# Altitude:  8900
+[ 140.17] ..# Pilot_Power:  800
+[ 140.19] ..# Speed:  1000
+[ 140.21] ..# Joystick:  55 5
+[ 140.23] ..# Pitch:  30
+[ 140.25] ..# Roll: -35
+[ 140.26] ..# MSSG: Roll higher than +35/-35
+[ 141.32] ..# Altitude:  8900
+[ 141.34] ..# Pilot_Power:  800
+[ 141.36] ..# Speed:  1000
+[ 141.38] ..# Joystick:  55 5
+[ 141.40] ..# Pitch:  30
+[ 141.41] ..# Roll: -35
+[ 141.43] ..# MSSG: Roll higher than +35/-35
+[ 142.49] ..# Altitude:  8900
+[ 142.51] ..# Pilot_Power:  800
+[ 142.53] ..# Speed:  1000
+[ 142.55] ..# Joystick:  55 5
+[ 142.57] ..# Pitch:  30
+[ 142.58] ..# Roll: -35
+[ 142.60] ..# MSSG: Roll higher than +35/-35
+[ 143.66] ..# Altitude:  8900
+[ 143.68] ..# Pilot_Power:  800
+[ 143.70] ..# Speed:  1000
+[ 143.71] ..# Joystick:  55 5
+[ 143.73] ..# Pitch:  30
+[ 143.75] ..# Roll: -35
+[ 143.77] ..# MSSG: Roll higher than +35/-35
+[ 144.82] ..# Altitude:  8900
+[ 144.84] ..# Pilot_Power:  800
+[ 144.86] ..# Speed:  1000
+[ 144.88] ..# Joystick:  55 5
+[ 144.90] ..# Pitch:  30
+[ 144.92] ..# Roll: -35
+[ 144.93] ..# MSSG: Roll higher than +35/-35
+[ 145.99] ..# Altitude:  8900
+[ 146.01] ..# Pilot_Power:  800
+[ 146.03] ..# Speed:  1000
+[ 146.05] ..# Joystick:  55 5
+[ 146.07] ..# Pitch:  30
+[ 146.09] ..# Roll: -35
+[ 146.10] ..# MSSG: Roll higher than +35/-35
+[ 147.16] ..# Altitude:  8900
+[ 147.18] ..# Pilot_Power:  800
+[ 147.20] ..# Speed:  1000
+[ 147.22] ..# Joystick:  55 5
+[ 147.24] ..# Pitch:  30
+[ 147.25] ..# Roll: -35
+[ 147.27] ..# MSSG: Roll higher than +35/-35
+[ 148.33] ..# Altitude:  8900
+[ 148.35] ..# Pilot_Power:  800
+[ 148.37] ..# Speed:  1000
+[ 148.38] ..# Joystick:  55 5
+[ 148.40] ..# Pitch:  30
+[ 148.42] ..# Roll: -35
+[ 148.44] ..# MSSG: Roll higher than +35/-35
+[ 149.49] ..# Altitude:  8900
+[ 149.51] ..# Pilot_Power:  800
+[ 149.53] ..# Speed:  1000
+[ 149.55] ..# Joystick:  55 5
+[ 149.57] ..# Pitch:  30
+[ 149.59] ..# Roll: -35
+[ 149.60] ..# MSSG: Roll higher than +35/-35
+[ 150.66] ..# Altitude:  8900
+[ 150.68] ..# Pilot_Power:  800
+[ 150.70] ..# Speed:  1000
+[ 150.72] ..# Joystick:  55 5
+[ 150.74] ..# Pitch:  30
+[ 150.76] ..# Roll: -35
+[ 150.77] ..# MSSG: Roll higher than +35/-35
+[ 151.83] ..# Altitude:  8900
+[ 151.85] ..# Pilot_Power:  800
+[ 151.87] ..# Speed:  1000
+[ 151.89] ..# Joystick:  55 5
+[ 151.91] ..# Pitch:  30
+[ 151.92] ..# Roll: -35
+[ 151.94] ..# MSSG: Roll higher than +35/-35
+[ 153.00] ..# Altitude:  8900
+[ 153.02] ..# Pilot_Power:  800
+[ 153.04] ..# Speed:  1000
+[ 153.06] ..# Joystick:  55 5
+[ 153.07] ..# Pitch:  30
+[ 153.09] ..# Roll: -35
+[ 153.11] ..# MSSG: Roll higher than +35/-35
+[ 154.17] ..# Altitude:  8900
+[ 154.18] ..# Pilot_Power:  800
+[ 154.20] ..# Speed:  1000
+[ 154.22] ..# Joystick:  55 5
+[ 154.24] ..# Pitch:  30
+[ 154.26] ..# Roll: -35
+[ 154.27] ..# MSSG: Roll higher than +35/-35
+[ 155.33] ..# Altitude:  8900
+[ 155.35] ..# Pilot_Power:  800
+[ 155.37] ..# Speed:  1000
+[ 155.39] ..# Joystick:  55 5
+[ 155.41] ..# Pitch:  30
+[ 155.43] ..# Roll: -35
+[ 155.44] ..# MSSG: Roll higher than +35/-35
+[ 156.50] ..# Altitude:  8900
+[ 156.52] ..# Pilot_Power:  800
+[ 156.54] ..# Speed:  1000
+[ 156.56] ..# Joystick:  55 5
+[ 156.58] ..# Pitch:  30
+[ 156.59] ..# Roll: -35
+[ 156.61] ..# MSSG: Roll higher than +35/-35
+[ 157.67] ..# Altitude:  8900
+[ 157.69] ..# Pilot_Power:  800
+[ 157.71] ..# Speed:  1000
+[ 157.73] ..# Joystick:  55 5
+[ 157.74] ..# Pitch:  30
+[ 157.76] ..# Roll: -35
+[ 157.78] ..# MSSG: Roll higher than +35/-35
+[ 158.84] ..# Altitude:  8900
+[ 158.86] ..# Pilot_Power:  800
+[ 158.88] ..# Speed:  1000
+[ 158.89] ..# Joystick:  55 5
+[ 158.91] ..# Pitch:  30
+[ 158.93] ..# Roll: -35
+[ 158.95] ..# MSSG: Roll higher than +35/-35
+[ 160.00] ..# Altitude:  8900
+[ 160.02] ..# Pilot_Power:  800
+[ 160.04] ..# Speed:  1000
+[ 160.06] ..# Joystick:  55 5
+[ 160.08] ..# Pitch:  30
+[ 160.10] ..# Roll: -35
+[ 160.11] ..# MSSG: Roll higher than +35/-35
+[ 161.17] ..# Altitude:  8900
+[ 161.19] ..# Pilot_Power:  800
+[ 161.21] ..# Speed:  1000
+[ 161.23] ..# Joystick:  55 5
+[ 161.25] ..# Pitch:  30
+[ 161.26] ..# Roll: -35
+[ 161.28] ..# MSSG: Roll higher than +35/-35
+[ 162.34] ..# Altitude:  8900
+[ 162.36] ..# Pilot_Power:  800
+[ 162.38] ..# Speed:  1000
+[ 162.40] ..# Joystick:  55 5
+[ 162.42] ..# Pitch:  30
+[ 162.43] ..# Roll: -35
+[ 162.45] ..# MSSG: Roll higher than +35/-35
+[ 163.51] ..# Altitude:  8900
+[ 163.53] ..# Pilot_Power:  800
+[ 163.55] ..# Speed:  1000
+[ 163.56] ..# Joystick:  55 5
+[ 163.58] ..# Pitch:  30
+[ 163.60] ..# Roll: -35
+[ 163.62] ..# MSSG: Roll higher than +35/-35
+[ 164.67] ..# Altitude:  8900
+[ 164.69] ..# Pilot_Power:  800
+[ 164.71] ..# Speed:  1000
+[ 164.73] ..# Joystick:  55 5
+[ 164.75] ..# Pitch:  30
+[ 164.77] ..# Roll: -35
+[ 164.78] ..# MSSG: Roll higher than +35/-35
+[ 165.84] ..# Altitude:  8900
+[ 165.86] ..# Pilot_Power:  800
+[ 165.88] ..# Speed:  1000
+[ 165.90] ..# Joystick:  55 5
+[ 165.92] ..# Pitch:  30
+[ 165.94] ..# Roll: -35
+[ 165.95] ..# MSSG: Roll higher than +35/-35
+[ 167.01] ..# Altitude:  8900
+[ 167.03] ..# Pilot_Power:  800
+[ 167.05] ..# Speed:  1000
+[ 167.07] ..# Joystick:  55 5
+[ 167.09] ..# Pitch:  30
+[ 167.10] ..# Roll: -35
+[ 167.12] ..# MSSG: Roll higher than +35/-35
+[ 168.18] ..# Altitude:  8900
+[ 168.20] ..# Pilot_Power:  800
+[ 168.22] ..# Speed:  1000
+[ 168.23] ..# Joystick:  55 5
+[ 168.25] ..# Pitch:  30
+[ 168.27] ..# Roll: -35
+[ 168.29] ..# MSSG: Roll higher than +35/-35
+[ 169.34] ..# Altitude:  8900
+[ 169.36] ..# Pilot_Power:  800
+[ 169.38] ..# Speed:  1000
+[ 169.40] ..# Joystick:  55 5
+[ 169.42] ..# Pitch:  30
+[ 169.44] ..# Roll: -35
+[ 169.45] ..# MSSG: Roll higher than +35/-35
+[ 170.51] ..# Altitude:  8900
+[ 170.53] ..# Pilot_Power:  800
+[ 170.55] ..# Speed:  1000
+[ 170.57] ..# Joystick:  55 5
+[ 170.59] ..# Pitch:  30
+[ 170.61] ..# Roll: -35
+[ 170.62] ..# MSSG: Roll higher than +35/-35
+[ 171.68] ..# Altitude:  8900
+[ 171.70] ..# Pilot_Power:  800
+[ 171.72] ..# Speed:  1000
+[ 171.74] ..# Joystick:  55 5
+[ 171.76] ..# Pitch:  30
+[ 171.77] ..# Roll: -35
+[ 171.79] ..# MSSG: Roll higher than +35/-35
+[ 172.85] ..# Altitude:  8900
+[ 172.87] ..# Pilot_Power:  800
+[ 172.89] ..# Speed:  1000
+[ 172.90] ..# Joystick:  55 5
+[ 172.92] ..# Pitch:  30
+[ 172.94] ..# Roll: -35
+[ 172.96] ..# MSSG: Roll higher than +35/-35
+[ 174.02] ..# Altitude:  8900
+[ 174.03] ..# Pilot_Power:  800
+[ 174.05] ..# Speed:  1000
+[ 174.07] ..# Joystick:  55 5
+[ 174.09] ..# Pitch:  30
+[ 174.11] ..# Roll: -35
+[ 174.12] ..# MSSG: Roll higher than +35/-35
+[ 175.18] ..# Altitude:  8900
+[ 175.20] ..# Pilot_Power:  800
+[ 175.22] ..# Speed:  1000
+[ 175.24] ..# Joystick:  55 5
+[ 175.26] ..# Pitch:  30
+[ 175.28] ..# Roll: -35
+[ 175.29] ..# MSSG: Roll higher than +35/-35
+[ 176.35] ..# Altitude:  8900
+[ 176.37] ..# Pilot_Power:  800
+[ 176.39] ..# Speed:  1000
+[ 176.41] ..# Joystick:  55 5
+[ 176.43] ..# Pitch:  30
+[ 176.44] ..# Roll: -35
+[ 176.46] ..# MSSG: Roll higher than +35/-35
+[ 177.52] ..# Altitude:  8900
+[ 177.54] ..# Pilot_Power:  800
+[ 177.56] ..# Speed:  1000
+[ 177.58] ..# Joystick:  55 5
+[ 177.59] ..# Pitch:  30
+[ 177.61] ..# Roll: -35
+[ 177.63] ..# MSSG: Roll higher than +35/-35
+[ 178.69] ..# Altitude:  8900
+[ 178.70] ..# Pilot_Power:  800
+[ 178.73] ..# Speed:  1000
+[ 178.74] ..# Joystick:  55 5
+[ 178.76] ..# Pitch:  30
+[ 178.78] ..# Roll: -35
+[ 178.80] ..# MSSG: Roll higher than +35/-35
+[ 179.85] ..# Altitude:  8900
+[ 179.87] ..# Pilot_Power:  800
+[ 179.89] ..# Speed:  1000
+[ 179.91] ..# Joystick:  55 5
+[ 179.93] ..# Pitch:  30
+[ 179.95] ..# Roll: -35
+[ 179.96] ..# MSSG: Roll higher than +35/-35
+[ 181.02] ..# Altitude:  8900
+[ 181.04] ..# Pilot_Power:  800
+[ 181.06] ..# Speed:  1000
+[ 181.08] ..# Joystick:  55 5
+[ 181.10] ..# Pitch:  30
+[ 181.11] ..# Roll: -35
+[ 181.13] ..# MSSG: Roll higher than +35/-35
+[ 182.19] ..# Altitude:  8900
+[ 182.21] ..# Pilot_Power:  800
+[ 182.23] ..# Speed:  1000
+[ 182.25] ..# Joystick:  55 5
+[ 182.27] ..# Pitch:  30
+[ 182.28] ..# Roll: -35
+[ 182.30] ..# MSSG: Roll higher than +35/-35
+[ 183.36] ..# Altitude:  8900
+[ 183.38] ..# Pilot_Power:  800
+[ 183.40] ..# Speed:  1000
+[ 183.41] ..# Joystick:  55 5
+[ 183.43] ..# Pitch:  30
+[ 183.45] ..# Roll: -35
+[ 183.47] ..# MSSG: Roll higher than +35/-35
+[ 184.52] ..# Altitude:  8900
+[ 184.54] ..# Pilot_Power:  800
+[ 184.56] ..# Speed:  1000
+[ 184.58] ..# Joystick:  55 5
+[ 184.60] ..# Pitch:  30
+[ 184.62] ..# Roll: -35
+[ 184.63] ..# MSSG: Roll higher than +35/-35
+[ 185.69] ..# Altitude:  8900
+[ 185.71] ..# Pilot_Power:  800
+[ 185.73] ..# Speed:  1000
+[ 185.75] ..# Joystick:  55 5
+[ 185.77] ..# Pitch:  30
+[ 185.78] ..# Roll: -35
+[ 185.80] ..# MSSG: Roll higher than +35/-35
+[ 186.86] ..# Altitude:  8900
+[ 186.88] ..# Pilot_Power:  800
+[ 186.90] ..# Speed:  1000
+[ 186.92] ..# Joystick:  55 5
+[ 186.94] ..# Pitch:  30
+[ 186.95] ..# Roll: -35
+[ 186.97] ..# MSSG: Roll higher than +35/-35
+[ 188.03] ..# Altitude:  8900
+[ 188.05] ..# Pilot_Power:  800
+[ 188.07] ..# Speed:  1000
+[ 188.08] ..# Joystick:  55 5
+[ 188.10] ..# Pitch:  30
+[ 188.12] ..# Roll: -35
+[ 188.14] ..# MSSG: Roll higher than +35/-35
+[ 189.19] ..# Altitude:  8900
+[ 189.21] ..# Pilot_Power:  800
+[ 189.23] ..# Speed:  1000
+[ 189.25] ..# Joystick:  55 5
+[ 189.27] ..# Pitch:  30
+[ 189.29] ..# Roll: -35
+[ 189.30] ..# MSSG: Roll higher than +35/-35
+[ 190.36] ..# Altitude:  8900
+[ 190.38] ..# Pilot_Power:  800
+[ 190.40] ..# Speed:  1000
+[ 190.42] ..# Joystick:  55 5
+[ 190.44] ..# Pitch:  30
+[ 190.46] ..# Roll: -35
+[ 190.47] ..# MSSG: Roll higher than +35/-35
+[ 191.53] ..# Altitude:  8900
+[ 191.55] ..# Pilot_Power:  800
+[ 191.57] ..# Speed:  1000
+[ 191.59] ..# Joystick:  55 5
+[ 191.61] ..# Pitch:  30
+[ 191.62] ..# Roll: -35
+[ 191.64] ..# MSSG: Roll higher than +35/-35
+[ 192.70] ..# Altitude:  8900
+[ 192.72] ..# Pilot_Power:  800
+[ 192.74] ..# Speed:  1000
+[ 192.75] ..# Joystick:  55 5
+[ 192.77] ..# Pitch:  30
+[ 192.79] ..# Roll: -35
+[ 192.81] ..# MSSG: Roll higher than +35/-35
+[ 193.86] ..# Altitude:  8900
+[ 193.88] ..# Pilot_Power:  800
+[ 193.90] ..# Speed:  1000
+[ 193.92] ..# Joystick:  55 5
+[ 193.94] ..# Pitch:  30
+[ 193.96] ..# Roll: -35
+[ 193.97] ..# MSSG: Roll higher than +35/-35
+[ 195.03] ..# Altitude:  8900
+[ 195.05] ..# Pilot_Power:  800
+[ 195.07] ..# Speed:  1000
+[ 195.09] ..# Joystick:  55 5
+[ 195.11] ..# Pitch:  30
+[ 195.13] ..# Roll: -35
+[ 195.14] ..# MSSG: Roll higher than +35/-35
+[ 196.20] ..# Altitude:  8900
+[ 196.22] ..# Pilot_Power:  800
+[ 196.24] ..# Speed:  1000
+[ 196.26] ..# Joystick:  55 5
+[ 196.28] ..# Pitch:  30
+[ 196.29] ..# Roll: -35
+[ 196.31] ..# MSSG: Roll higher than +35/-35
+[ 197.37] ..# Altitude:  8900
+[ 197.39] ..# Pilot_Power:  800
+[ 197.41] ..# Speed:  1000
+[ 197.43] ..# Joystick:  55 5
+[ 197.44] ..# Pitch:  30
+[ 197.46] ..# Roll: -35
+[ 197.48] ..# MSSG: Roll higher than +35/-35
+[ 198.54] ..# Altitude:  8900
+[ 198.55] ..# Pilot_Power:  800
+[ 198.58] ..# Speed:  1000
+[ 198.59] ..# Joystick:  55 5
+[ 198.61] ..# Pitch:  30
+[ 198.63] ..# Roll: -35
+[ 198.65] ..# MSSG: Roll higher than +35/-35
+[ 199.71] ..# Altitude:  8900
+[ 199.72] ..# Pilot_Power:  800
+[ 199.74] ..# Speed:  1000
+[ 199.76] ..# Joystick:  55 5
+[ 199.78] ..# Pitch:  30
+[ 199.80] ..# Roll: -35
+[ 199.81] ..# MSSG: Roll higher than +35/-35
+[ 200.87] ..# Altitude:  8900
+[ 200.89] ..# Pilot_Power:  800
+[ 200.91] ..# Speed:  1000
+[ 200.93] ..# Joystick:  55 5
+[ 200.95] ..# Pitch:  30
+[ 200.96] ..# Roll: -35
+[ 200.98] ..# MSSG: Roll higher than +35/-35
+[ 202.04] ..# Altitude:  8900
+[ 202.06] ..# Pilot_Power:  800
+[ 202.08] ..# Speed:  1000
+[ 202.10] ..# Joystick:  55 5
+[ 202.12] ..# Pitch:  30
+[ 202.13] ..# Roll: -35
+[ 202.15] ..# MSSG: Roll higher than +35/-35
+[ 203.21] ..# Altitude:  8900
+[ 203.23] ..# Pilot_Power:  800
+[ 203.25] ..# Speed:  1000
+[ 203.26] ..# Joystick:  55 5
+[ 203.28] ..# Pitch:  30
+[ 203.30] ..# Roll: -35
+[ 203.32] ..# MSSG: Roll higher than +35/-35
+[ 204.37] ..# Altitude:  8900
+[ 204.39] ..# Pilot_Power:  800
+[ 204.41] ..# Speed:  1000
+[ 204.43] ..# Joystick:  55 5
+[ 204.45] ..# Pitch:  30
+[ 204.47] ..# Roll: -35
+[ 204.48] ..# MSSG: Roll higher than +35/-35
+[ 205.54] ..# Altitude:  8900
+[ 205.56] ..# Pilot_Power:  800
+[ 205.58] ..# Speed:  1000
+[ 205.60] ..# Joystick:  55 5
+[ 205.62] ..# Pitch:  30
+[ 205.63] ..# Roll: -35
+[ 205.65] ..# MSSG: Roll higher than +35/-35
+[ 206.71] ..# Altitude:  8900
+[ 206.73] ..# Pilot_Power:  800
+[ 206.75] ..# Speed:  1000
+[ 206.77] ..# Joystick:  55 5
+[ 206.79] ..# Pitch:  30
+[ 206.80] ..# Roll: -35
+[ 206.82] ..# MSSG: Roll higher than +35/-35
+[ 207.88] ..# Altitude:  8900
+[ 207.90] ..# Pilot_Power:  800
+[ 207.92] ..# Speed:  1000
+[ 207.93] ..# Joystick:  55 5
+[ 207.95] ..# Pitch:  30
+[ 207.97] ..# Roll: -35
+[ 207.99] ..# MSSG: Roll higher than +35/-35
+[ 209.04] ..# Altitude:  8900
+[ 209.06] ..# Pilot_Power:  800
+[ 209.08] ..# Speed:  1000
+[ 209.10] ..# Joystick:  55 5
+[ 209.12] ..# Pitch:  30
+[ 209.14] ..# Roll: -35
+[ 209.15] ..# MSSG: Roll higher than +35/-35
+[ 210.21] ..# Altitude:  8900
+[ 210.23] ..# Pilot_Power:  800
+[ 210.25] ..# Speed:  1000
+[ 210.27] ..# Joystick:  55 5
+[ 210.29] ..# Pitch:  30
+[ 210.31] ..# Roll: -35
+[ 210.32] ..# MSSG: Roll higher than +35/-35
+[ 211.38] ..# Altitude:  8900
+[ 211.40] ..# Pilot_Power:  800
+[ 211.42] ..# Speed:  1000
+[ 211.44] ..# Joystick:  55 5
+[ 211.46] ..# Pitch:  30
+[ 211.47] ..# Roll: -35
+[ 211.49] ..# MSSG: Roll higher than +35/-35
+[ 212.55] ..# Altitude:  8900
+[ 212.57] ..# Pilot_Power:  800
+[ 212.59] ..# Speed:  1000
+[ 212.60] ..# Joystick:  55 5
+[ 212.62] ..# Pitch:  30
+[ 212.64] ..# Roll: -35
+[ 212.66] ..# MSSG: Roll higher than +35/-35
+[ 213.71] ..# Altitude:  8900
+[ 213.73] ..# Pilot_Power:  800
+[ 213.75] ..# Speed:  1000
+[ 213.77] ..# Joystick:  55 5
+[ 213.79] ..# Pitch:  30
+[ 213.81] ..# Roll: -35
+[ 213.82] ..# MSSG: Roll higher than +35/-35
+[ 214.88] ..# Altitude:  8900
+[ 214.90] ..# Pilot_Power:  800
+[ 214.92] ..# Speed:  1000
+[ 214.94] ..# Joystick:  55 5
+[ 214.96] ..# Pitch:  30
+[ 214.98] ..# Roll: -35
+[ 214.99] ..# MSSG: Roll higher than +35/-35
+[ 216.05] ..# Altitude:  8900
+[ 216.07] ..# Pilot_Power:  800
+[ 216.09] ..# Speed:  1000
+[ 216.11] ..# Joystick:  55 5
+[ 216.13] ..# Pitch:  30
+[ 216.14] ..# Roll: -35
+[ 216.16] ..# MSSG: Roll higher than +35/-35
+[ 217.22] ..# Altitude:  8900
+[ 217.24] ..# Pilot_Power:  800
+[ 217.26] ..# Speed:  1000
+[ 217.28] ..# Joystick:  55 5
+[ 217.29] ..# Pitch:  30
+[ 217.31] ..# Roll: -35
+[ 217.33] ..# MSSG: Roll higher than +35/-35
+[ 218.39] ..# Altitude:  8900
+[ 218.40] ..# Pilot_Power:  800
+[ 218.43] ..# Speed:  1000
+[ 218.44] ..# Joystick:  55 5
+[ 218.46] ..# Pitch:  30
+[ 218.48] ..# Roll: -35
+[ 218.50] ..# MSSG: Roll higher than +35/-35
+[ 219.55] ..# Altitude:  8900
+[ 219.57] ..# Pilot_Power:  800
+[ 219.59] ..# Speed:  1000
+[ 219.61] ..# Joystick:  55 5
+[ 219.63] ..# Pitch:  30
+[ 219.65] ..# Roll: -35
+[ 219.66] ..# MSSG: Roll higher than +35/-35
+[ 220.72] ..# Altitude:  8900
+[ 220.74] ..# Pilot_Power:  800
+[ 220.76] ..# Speed:  1000
+[ 220.78] ..# Joystick:  55 5
+[ 220.80] ..# Pitch:  30
+[ 220.81] ..# Roll: -35
+[ 220.83] ..# MSSG: Roll higher than +35/-35
+[ 221.89] ..# Altitude:  8900
+[ 221.91] ..# Pilot_Power:  800
+[ 221.93] ..# Speed:  1000
+[ 221.95] ..# Joystick:  55 5
+[ 221.97] ..# Pitch:  30
+[ 221.98] ..# Roll: -35
+[ 222.00] ..# MSSG: Roll higher than +35/-35
+[ 223.06] ..# Altitude:  8900
+[ 223.08] ..# Pilot_Power:  800
+[ 223.10] ..# Speed:  1000
+[ 223.11] ..# Joystick:  55 5
+[ 223.13] ..# Pitch:  30
+[ 223.15] ..# Roll: -35
+[ 223.17] ..# MSSG: Roll higher than +35/-35
+[ 224.22] ..# Altitude:  8900
+[ 224.24] ..# Pilot_Power:  800
+[ 224.26] ..# Speed:  1000
+[ 224.28] ..# Joystick:  55 5
+[ 224.30] ..# Pitch:  30
+[ 224.32] ..# Roll: -35
+[ 224.33] ..# MSSG: Roll higher than +35/-35
+[ 225.39] ..# Altitude:  8900
+[ 225.41] ..# Pilot_Power:  800
+[ 225.43] ..# Speed:  1000
+[ 225.45] ..# Joystick:  55 5
+[ 225.47] ..# Pitch:  30
+[ 225.48] ..# Roll: -35
+[ 225.50] ..# MSSG: Roll higher than +35/-35
+[ 226.56] ..# Altitude:  8900
+[ 226.58] ..# Pilot_Power:  800
+[ 226.60] ..# Speed:  1000
+[ 226.62] ..# Joystick:  55 5
+[ 226.64] ..# Pitch:  30
+[ 226.65] ..# Roll: -35
+[ 226.67] ..# MSSG: Roll higher than +35/-35
+[ 227.73] ..# Altitude:  8900
+[ 227.75] ..# Pilot_Power:  800
+[ 227.77] ..# Speed:  1000
+[ 227.78] ..# Joystick:  55 5
+[ 227.80] ..# Pitch:  30
+[ 227.82] ..# Roll: -35
+[ 227.84] ..# MSSG: Roll higher than +35/-35
+[ 228.89] ..# Altitude:  8900
+[ 228.91] ..# Pilot_Power:  800
+[ 228.93] ..# Speed:  1000
+[ 228.95] ..# Joystick:  55 5
+[ 228.97] ..# Pitch:  30
+[ 228.99] ..# Roll: -35
+[ 229.00] ..# MSSG: Roll higher than +35/-35
+[ 230.06] ..# Altitude:  8900
+[ 230.08] ..# Pilot_Power:  800
+[ 230.10] ..# Speed:  1000
+[ 230.12] ..# Joystick:  55 5
+[ 230.14] ..# Pitch:  30
+[ 230.16] ..# Roll: -35
+[ 230.17] ..# MSSG: Roll higher than +35/-35
+[ 231.23] ..# Altitude:  8900
+[ 231.25] ..# Pilot_Power:  800
+[ 231.27] ..# Speed:  1000
+[ 231.29] ..# Joystick:  55 5
+[ 231.31] ..# Pitch:  30
+[ 231.32] ..# Roll: -35
+[ 231.34] ..# MSSG: Roll higher than +35/-35
+[ 232.40] ..# Altitude:  8900
+[ 232.42] ..# Pilot_Power:  800
+[ 232.44] ..# Speed:  1000
+[ 232.45] ..# Joystick:  55 5
+[ 232.47] ..# Pitch:  30
+[ 232.49] ..# Roll: -35
+[ 232.51] ..# MSSG: Roll higher than +35/-35
+[ 233.56] ..# Altitude:  8900
+[ 233.58] ..# Pilot_Power:  800
+[ 233.60] ..# Speed:  1000
+[ 233.62] ..# Joystick:  55 5
+[ 233.64] ..# Pitch:  30
+[ 233.66] ..# Roll: -35

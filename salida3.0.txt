@@ -1,0 +1,1740 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 265760 bytes
+section: .data at 0x2040e20, size 11884 bytes
+tsim> resuming at 0x02000000
+
+[ 0.0041] >>> Collision Executing:
+[ 0.0261] --- Collision Ended:
+[ 0.0419] >>> Speed Executing:
+[ 0.0589] --- Speed Ended:
+[ 0.0727] >>> Position-Altitude Executing:
+[ 0.1251] --- Position-Altitude Ended:
+[ 0.1450] >>> Display Executing:
+[ 0.2841] --- 
+[ 0.2918] >>> Collision Executing:
+[ 0.3138] --- Collision Ended:Display Ended:
+[ 0.3445] >>> Position-Altitude Executing:
+[ 0.4026] --- Position-Altitude Ended:
+[ 0.4225] >>> Speed Executing:
+[ 0.4523] --- Speed Ended:
+[ 0.5791] >>> Collision Executing:
+[ 0.6011] --- Collision Ended:
+[ 0.6220] >>> Position-Altitude Executing:
+[ 0.6799] --- Position-Altitude Ended:
+[ 0.7655] >>> Speed Executing:
+[ 0.7952] --- Speed Ended:
+[ 0.8664] >>> Collision Executing:
+[ 0.8884] --- Collision Ended:
+[ 0.9043] >>> Position-Altitude Executing:
+[ 0.9622] --- Position-Altitude Ended:
+[ 1.1085] >>> Speed Executing:
+[ 1.1382] --- Speed Ended:
+[ 1.1538] >>> Collision Executing:
+[ 1.1757] --- Collision Ended:
+[ 1.1916] >>> Position-Altitude Executing:
+[ 1.2495] --- Position-Altitude Ended:
+[ 1.3363] >>> Display Executing:
+[ 1.4416] >>> Collision Executing:
+[ 1.4636] --- Collision Ended:
+[ 1.4794] >>> Speed Executing:
+[ 1.5092] --- Speed Ended:
+[ 1.5230] >>> Position-Altitude Executing:
+[ 1.5809] --- Position-Altitude Ended:7
+[ 1.6356] --- Display Ended:
+[ 1.7289] >>> Collision Executing:
+[ 1.7509] --- Collision Ended:
+[ 1.8003] >>> Position-Altitude Executing:
+[ 1.8583] --- Position-Altitude Ended:
+[ 1.8783] >>> Speed Executing:
+[ 1.9080] --- Speed Ended:
+[ 2.0163] >>> Collision Executing:
+[ 2.0383] --- Collision Ended:
+[ 2.0778] >>> Position-Altitude Executing:
+[ 2.1356] --- Position-Altitude Ended:
+[ 2.2213] >>> Speed Executing:
+[ 2.2510] --- Speed Ended:
+[ 2.3036] >>> Collision Executing:
+[ 2.3256] --- Collision Ended:
+[ 2.3551] >>> Position-Altitude Executing:
+[ 2.4130] --- Position-Altitude Ended:
+[ 2.5643] >>> Speed Executing:
+[ 2.5912] >>> Collision Executing:
+[ 2.6132] --- Collision Ended:: ON
+[ 2.6318] --- Speed Ended:
+[ 2.6456] >>> Position-Altitude Executing:
+[ 2.7035] --- Position-Altitude Ended:
+[ 2.7235] >>> Display Executing:
+[ 2.8651] --- Display Ende
+[ 2.8789] >>> Collision Executing:
+[ 2.9010] --- Collision Ended:d:
+[ 2.9230] >>> Position-Altitude Executing:
+[ 2.9819] --- Position-Altitude Ended:
+[ 3.0018] >>> Speed Executing:
+[ 3.0315] --- Speed Ended:
+[ 3.1663] >>> Collision Executing:
+[ 3.1883] --- Collision Ended:
+[ 3.2041] >>> Position-Altitude Executing:
+[ 3.2628] --- Position-Altitude Ended:
+[ 3.3448] >>> Speed Executing:
+[ 3.3745] --- Speed Ended:
+[ 3.4536] >>> Collision Executing:
+[ 3.4756] --- Collision Ended:
+[ 3.4915] >>> Position-Altitude Executing:
+[ 3.5501] --- Position-Altitude Ended:
+[ 3.6878] >>> Speed Executing:
+[ 3.7175] --- Speed Ended:
+[ 3.7410] >>> Collision Executing:
+[ 3.7629] --- Collision Ended:
+[ 3.7788] >>> Position-Altitude Executing:
+[ 3.8375] --- Position-Altitude Ended:
+[ 3.9173] >>> Display Executing:
+[ 4.0283] >>> Collision Executing:
+[ 4.0503] --- Collision Ended:
+[ 4.0661] >>> Speed Executing:
+[ 4.0959] --- Speed Ended:
+[ 4.1097] >>> Position-Altitude Executing:
+[ 4.1676] --- Position-Altitude Ended:
+[ 4.2307] --- Display Ended:
+[ 4.3156] >>> Collision Executing:
+[ 4.3376] --- Collision Ended:
+[ 4.3870] >>> Position-Altitude Executing:
+[ 4.4451] --- Position-Altitude Ended:
+[ 4.4650] >>> Speed Executing:
+[ 4.4948] --- Speed Ended:
+[ 4.6030] >>> Collision Executing:
+[ 4.6250] --- Collision Ended:
+[ 4.6645] >>> Position-Altitude Executing:
+[ 4.7232] --- Position-Altitude Ended:
+[ 4.8081] >>> Speed Executing:
+[ 4.8378] --- Speed Ended:
+[ 4.8903] >>> Collision Executing:
+[ 4.9123] --- Collision Ended:
+[ 4.9425] >>> Position-Altitude Executing:
+[ 5.0014] --- Position-Altitude Ended:
+[ 5.1511] >>> Speed Executing:
+[ 5.1680] --- Spee
+[ 5.1777] >>> Collision Executing:
+[ 5.1997] --- Collision Endedd Ended:
+[ 5.2208] >>> Position-Altitude Executing:
+[ 5.2796] --- Position-Altitude Ended:
+[ 5.2996] >>> Display Executing:
+[ 5.4525] --- Display En
+[ 5.4653] >>> Collision Executing:
+[ 5.4873] --- Collision Ended:
+[ 5.5031] >>> Position-Altitude Executing:
+[ 5.5611] --- Position-Altitude Ended:
+[ 5.5810] >>> Speed Executing:
+[ 5.5980] --- Speed Ended:ded:
+[ 5.7526] >>> Collision Executing:
+[ 5.7746] --- Collision Ended:
+[ 5.7905] >>> Position-Altitude Executing:
+[ 5.9112] >>> Speed Executing:
+[ 5.9282] --- Speed Ended:
+[ 6.0400] >>> Collision Executing:
+[ 6.0620] --- Collision Ended:
+[ 6.2414] >>> Speed Executing:
+[ 6.2584] --- Speed Ended:
+[ 6.3273] >>> Collision Executing:
+[ 6.3493] --- Collision Ended:
+[ 6.5717] >>> Speed Executing:
+[ 6.5886] --- Speed Ended:
+[ 
+[ 6.6148] >>> Collision Executing:
+[ 6.6369] --- Collision Ended:6.6133] >>> Display Executing:
+[ 6.8041] --- Display Ended:
+[ 6.9022] >>> Collision Executing:
+[ 6.9242] --- Collision Ended:
+[ 6.9401] >>> Speed Executing:
+[ 6.9571] --- Speed Ended:
+[ 7.1896] >>> Collision Executing:
+[ 7.2116] --- Collision Ended:
+[ 7.2704] >>> Speed Executing:
+[ 7.2873] --- Speed Ended:
+[ 7.4769] >>> Collision Executing:
+[ 7.4989] --- Collision Ended:
+[ 7.6006] >>> Speed Executing:
+[ 7.6176] --- Speed Ended:
+[ 7.7642] >>> Collision Executing:
+[ 7.7862] --- Collision Ended:
+[ 7.8184] >>> Display Executing:
+[ 7.9
+[ 7.9312] >>> Speed Executing:
+[ 8.0021] --- Display Ended:
+[ 8.0516] >>> Collision Executing:
+[ 8.0736] --- Collision Ended:
+[ 8.2615] >>> Speed Executing:
+[ 8.2784] --- Speed Ended:
+[ 8.3389] >>> Collision Executing:
+[ 8.3609] --- Collision Ended:
+[ 8.5917] >>> Speed Executing:
+[ 8.6087] --- Speed Ended:
+[ 8.6262] >>> Collision Executing:
+[ 8.6482] --- Collision Ended:
+[ 8.9136] >>> Collision Executing:
+[ 8.9356] --- Collision Ended:
+[ 8.9514] >>> Speed Executing:
+[ 8.9684] --- Speed Ended:
+[ 9.0164] >>> Display Executing:
+[ 9.1693] --- Display Ended:
+[ 9.2009] >>> Collision Executing:
+[ 9.2229] --- Collision Ended:
+[ 9.2817] >>> Speed Executing:
+[ 9.3114] --- Speed Ended:
+[ 9.4882] >>> Collision Executing:
+[ 9.5102] --- Collision Ended:
+[ 9.6247] >>> Speed Executing:
+[ 9.6544] --- Speed Ended:
+[ 9.7755] >>> Collision Executing:
+[ 9.7975] --- Collision Ended:
+[ 9.9677] >>> Speed Executing:
+[ 9.9974] --- Speed Ended:
+[ 10.062] >>> Collision Executing:
+[ 10.084] --- Collision Ended:
+[ 10.183] >>> Display Executing:
+[
+[ 10.311] >>> Speed Executing:
+[ 10.340] --- Spee
+[ 10.350] >>> Collision Executing:
+[ 10.418] --- Display Ended:
+[ 10.637] >>> Collision Executing:
+[ 10.659] --- Collision Ended:
+[ 10.692] >>> Speed Executing:
+[ 10.721] --- Speed Ended:
+[ 10.925] >>> Collision Executing:
+[ 10.947] --- Collision Ended:
+[ 11.035] >>> Speed Executing:
+[ 11.064] --- Speed Ended:
+[ 11.212] >>> Collision Executing:
+[ 11.234] --- Collision Ended:
+[ 11.378] >>> Speed Executing:
+[ 11.407] --- Speed Ended:
+[ 11.432] >>> Display Executing:
+[ 11.499] >>> Collision Executing:
+[ 11.522] --- Collision Ended:  1000
+[ 11.624] --- Display Ended:
+[ 11.721] >>> Speed Executing:
+[ 11.750] --- Speed Ended:
+[ 11.787] >>> Collision Executing:
+[ 11.809] --- Collision Ended:
+[ 12.064] >>> Speed 
+[ 12.074] >>> Collision Executing:
+[ 12.096] --- Collision Ended:Executing:
+[ 12.131] --- Speed Ended:
+[ 12.362] >>> Collision Executing:
+[ 12.384] --- Collision Ended:
+[ 12.444] >>> Speed Executing:
+[ 12.474] --- Speed Ended:
+[ 12.638] >>> Display
+[ 12.649] >>> Collision Executing:
+[ 12.671] --- Collision Ended: Executing:
+[ 
+[ 12.787] >>> Speed Executing:
+[ 12.873] --- Display Ended:
+[ 12.936] >>> Collision Executing:
+[ 12.958] --- Collision Ended:
+[ 13.131] >>> Speed Executing:
+[ 13.160] --- Speed Ended:
+[ 13.224] >>> Collision Executing:
+[ 13.246] --- Collision Ended:
+[ 13.474] >>> Speed Executing:
+[ 13.503] --- S
+[ 13.511] >>> Collision Executing:
+[ 13.533] --- Collision Ended:peed Ended:
+[ 13.799] >>> Collision Executing:
+[ 13.821] --- Collision Ended:
+[ 13.854] >>> Speed Executing:
+[ 13.884] --- Speed Ended:
+[ 13.898] >>> Display Executing:
+[ 14.051] --- Display Ended:
+[ 14.086] >>> Collision Executing:
+[ 14.108] --- Collision Ended:
+[ 14.197] >>> Speed Executing:
+[ 14.227] --- Speed Ended:
+[ 14.373] >>> Collision Executing:
+[ 14.395] --- Collision Ended:
+[ 14.540] >>> Speed Executing:
+[ 14.570] --- Speed Ended:
+[ 14.661] >>> Collision Executing:
+[ 14.683] --- Collision Ended:
+[ 14.883] >>> Speed Executing:
+[ 14.913] --- Speed Ended:
+[ 14.948] >>> Collision Executing:
+[ 14.970] --- Collision Ended:
+[ 15.066] >>> Display Executing:
+[ 15.219] --- 
+[ 15.227] >>> Spe
+[ 15.236] >>> Collision Executing:
+[ 15.258] --- Collision Ended:ed Executing:
+[ 15.294] --- Speed Ended:Display Ended:
+[ 15.523] >>> Collision Executing:
+[ 15.545] --- Collision Ended:
+[ 15.608] >>> Speed Executing:
+[ 15.637] --- Speed Ended:
+[ 15.811] >>> Collision Executing:
+[ 15.833] --- Collision Ended:
+[ 15.950] >>> Speed Executing:
+[ 15.980] --- Speed Ended:
+[ 16.098] >>> Collision Executing:
+[ 16.120] --- Collision Ended:
+[ 16.293] >>> Speed Executing:
+[ 16.323] --- Speed Ended:
+[ 16.337] >>> Display Executing:
+[ 16.385] >>> Collision Executing:
+[ 16.407] --- Collision Ended:er:  800
+[ 16.528] --- Display Ended:
+[ 16.636] >>> Speed Executing:
+[ 16.666] ---
+[ 16.673] >>> Collision Executing:
+[ 16.695] --- Collision Ended: Speed Ended:
+[ 16.961] >>> Collision Executing:
+[ 16.983] --- Collision Ended:
+[ 17.017] >>> Speed Executing:
+[ 17.047] --- Speed Ended:
+[ 17.248] >>> Collision Executing:
+[ 17.270] --- Collision Ended:
+[ 17.360] >>> Speed Executing:
+[ 17.390] --- Speed Ended:
+[ 17.535] >>> Collision Executing:
+[ 17.557] --- Collision Ended:
+[ 17.573] >>> Display Executing:
+[ 17.70
+[ 17.704] >>> Speed Executing:
+[ 17.770] --- Display Ended:
+[ 17.823] >>> Collision Executing:
+[ 17.845] --- Collision Ended:
+[ 18.047] >>> Speed Executing:
+[ 18.076] --- Speed Ended:
+[ 18.110] >>> Collision Executing:
+[ 18.132] --- Collision Ended:
+[ 18.390] >>> 
+[ 18.397] >>> Collision Executing:
+[ 18.419] --- Collision Ended:Speed Executing:
+[ 18.457] --- Speed Ended:
+[ 18.685] >>> Collision Executing:
+[ 18.707] --- Collision Ended:
+[ 18.771] >>> Speed Executing:
+[ 18.800] --- Speed Ended:
+[ 18.814] >>> Display Executing:
+[ 18.968
+[ 18.972] >>> Collision Executing:
+[ 18.994] --- Collision Ended:] --- Display Ended:
+[ 19.114] >>> Speed Executing:
+[ 19.143] --- Speed Ended:
+[ 19.260] >>> Collision Executing:
+[ 19.282] --- Collision Ended:
+[ 19.457] >>> Speed Executing:
+[ 19.486] --- Speed Ended:
+[ 19.547] >>> Collision Executing:
+[ 19.569] --- Collision Ended:
+[ 19.800] >>> Speed Executing:
+[ 19.829] 
+[ 19.835] >>> Collision Executing:
+[ 19.857] --- Collision Ended:--- Speed Ended:
+[ 20.020] >>> Display Executing:
+[ 20.123] >>> Collision Executing:
+[ 20.145] --- Collision Ended:ch:  30
+[ 20.180] >>> Speed Executing:
+[ 20.210] --- Speed Ended:
+[ 20.254] --- Display Ended:
+[ 20.410] >>> Collision Executing:
+[ 20.432] --- Collision Ended:
+[ 20.523] >>> Speed Executing:
+[ 20.553] --- Speed Ended:
+[ 20.697] >>> Collision Executing:
+[ 20.719] --- Collision Ended:
+[ 20.866] >>> Speed Executing:
+[ 20.896] --- Speed Ended:
+[ 20.985] >>> Collision Executing:
+[ 21.007] --- Collision Ended:
+[ 21.209] >>> Speed Executing:
+[ 21.239] --- Speed Ended:
+[ 21.2
+[ 21.272] >>> Collision Executing:
+[ 21.294] --- Collision Ended:69] >>> Display Executing:
+[ 21.460] --- Display Ended:
+[ 21.552] >>> 
+[ 21.560] >>> Collision Executing:
+[ 21.582] --- Collision Ended:Speed Executing:
+[ 21.620] --- Speed Ended:
+[ 21.847] >>> Collision Executing:
+[ 21.869] --- Collision Ended:
+[ 21.933] >>> Speed Executing:
+[ 21.963] --- Speed Ended:
+[ 22.135] >>> Collision Executing:
+[ 22.157] --- Collision Ended:
+[ 22.276] >>> Speed Executing:
+[ 22.306] --- Speed Ended:
+[ 22.422] >>> Collision Executing:
+[ 22.444] --- Collision Ended:
+[ 22.474] >>> Display Executing:
+[ 22.620] >>> Speed Executing:
+[ 22.649] --- Speed Ended: +35/-35
+[ 22.671] --- Display Ended:
+[ 22.709] >>> Collision Executing:
+[ 22.731] --- Collision Ended:
+[ 22.963] >>> Speed Executing:
+[ 22.992
+[ 22.997] >>> Collision Executing:
+[ 23.019] --- Collision Ended:] --- Speed Ended:
+[ 23.284] >>> Collision Executing:
+[ 23.306] --- Collision Ended:
+[ 23.343] >>> Speed Executing:
+[ 23.373] --- Speed Ended:
+[ 23.572] >>> Collision Executing:
+[ 23.594] --- Collision Ended:
+[
+[ 23.686] >>> Speed Executing:
+[ 23.716] --- Speed Ended: 23.685] >>> Display Executing:
+[ 23.8
+[ 23.859] >>> Collision Executing:
+[ 23.920] --- Display Ended:
+[ 24.029] >>> Speed Executing:
+[ 24.059] --- Speed Ended:
+[ 24.146] >>> Collision Executing:
+[ 24.168] --- Collision Ended:
+[ 24.372] >>> Speed Executing:
+[ 24.402] --- Speed Ended:
+[ 24.434] >>> Collision Executing:
+[ 24.456] --- Collision Ended:
+[ 24.715] >
+[ 24.722] >>> Collision Executing:
+[ 24.744] --- Collision Ended:>> Speed Executing:
+[ 24.783] --- Speed Ended:
+[ 24.934] >>> Display Executing:
+[ 25.009] >>> Collision Executing:
+[ 25.031] --- Collision Ended:
+[ 25.096] >>> Speed Executing:
+[ 25.113] --- Speed Ended:
+[ 25.156] --- Display Ended:
+[ 25.296] >>> Collision Executing:
+[ 25.318] --- Collision Ended:
+[ 25.427] >>> Speed Executing:
+[ 25.443] --- Speed Ended:
+[ 25.584] >>> Collision Executing:
+[ 25.606] --- Collision Ended:
+[ 25.757] >>> Speed Executing:
+[ 25.774] --- Speed Ended:
+[ 25.871] >>> Collision Executing:
+[ 25.893] --- Collision Ended:
+[ 26.087] >>> Speed Executing:
+[ 26.104] --- Speed Ended:
+[ 26.158] >>> Collision Executing:
+[ 26.180] --- Collision Ended:
+[ 26.196] >>> Display Executing:
+[ 26.349] --- Display Ended:
+[ 26.417] >>> Speed Executing:
+[ 26.434] --- Speed En
+[ 26.446] >>> Collision Executing:
+[ 26.468] --- Collision Ended:ded:
+[ 26.733] >>> Collision Executing:
+[ 26.755] --- Collision Ended:
+[ 26.785] >>> Speed Executing:
+[ 26.802] --- Speed Ended:
+[ 27.021] >>> Collision Executing:
+[ 27.043] --- Collision Ended:
+[ 27.116] >>> Speed Executing:
+[ 27.133] --- Speed Ended:
+[ 27.308] >>> Collision Executing:
+[ 27.330] --- Collision Ended:
+[ 27.363] >>> Display Executing:
+[ 27.446] >>> Speed Executing:
+[ 27.463] --- Speed Ended:stick:  55 5
+[ 27.547] --- Display Ended:
+[ 27.595] >>> Collision Executing:
+[ 27.617] --- Collision Ended:
+[ 27.776] >>> Speed Executing:
+[ 27.793] --- Speed Ended:
+[ 27.883] >>> Collision Executing:
+[ 27.905] --- Collision Ended:
+[ 28.107] >>> Speed Executing:
+[ 28.124] --- Speed Ended:
+[ 28.170] >>> Collision Executing:
+[ 28.192] --- Collision Ended:
+[ 28.437] >>> Speed Executing:
+[ 28.4
+[ 28.457] >>> Collision Executing:
+[ 28.479] --- Collision Ended:54] --- Speed Ended:
+[ 28.561] >>> Display Executing:
+[ 28.714] --- Display Ended:
+[ 28.745] >>> Collision Executing:
+[ 28.767] --- Collision Ended:
+[ 28.805] >>> Speed Executing:
+[ 28.822] --- Speed Ended:
+[ 29.032] >>> Collision Executing:
+[ 29.054] --- Collision Ended:
+[ 29.135] >>> Speed Executing:
+[ 29.165] --- Speed Ended:
+[ 29.319] >>> Collision Executing:
+[ 29.341] --- Collision Ended:
+[ 29.478] >>> Speed Executing:
+[ 29.508] --- Speed Ended:
+[ 29.607] >>> Collision Executing:
+[ 29.629] --- Collision Ended:
+[ 29.728] >>> Display Executing:
+[ 29.821] >>> Speed Executing:
+[ 29.851] --- Speed Ended:
+[ 29.894] >>> Collision Executing:
+[ 29.916] --- Collision Ended:
+[ 29.962] --- Display Ended:
+[ 30.164] >>> Speed Executing:
+[
+[ 30.182] >>> Collision Executing:
+[ 30.232] --- Speed Ended:
+[ 30.469] >>> Collision Executing:
+[ 30.491] --- Collision Ended:
+[ 30.545] >>> Speed Executing:
+[ 30.575] --- Speed Ended:
+[ 30.757] >>> Collision Executing:
+[ 30.779] --- Collision Ended:
+[ 30.888] >>> Speed Executing:
+[ 30.918] --- Speed Ended:
+[ 30.977] >>> Display Executing:
+[ 31.044] >>> Collision Executing:
+[ 31.066] --- Collision Ended:  1000
+[ 31.168] --- Display Ended:
+[ 31.231] >>> Speed Executing:
+[ 31.261] --- Speed Ended:
+[ 31.332] >>> Collision Executing:
+[ 31.354] --- Collision Ended:
+[ 31.574] >>> Speed Executing:
+[ 31.604] --- Speed Ended:
+[ 31.619] >>> Collision Executing:
+[ 31.641] --- Collision Ended:
+[ 31.906] >>> Collision Executing:
+[ 31.928] --- Collision Ended:
+[ 31.944] >>> Speed Executing:
+[ 31.974] --- Speed Ended:
+[ 32.183] >>> Display
+[ 32.194] >>> Collision Executing:
+[ 32.216] --- Collision Ended: Executing:
+[ 32.288] >>> Speed Executing:
+[ 32.318] --- Speed Ended:  1000
+[ 32.417] --- Display Ended:
+[ 32.481] >>> Collision Executing:
+[ 32.503] --- Collision Ended:
+[ 32.631] >>> Speed Executing:
+[ 32.660] --- Speed Ended:
+[ 32.769] >>> Collision Executing:
+[ 32.791] --- Collision Ended:
+[ 32.974] >>> Speed Executing:
+[ 33.003] --- Speed Ended:
+[ 33.056] >>> Collision Executing:
+[ 33.078] --- Collision Ended:
+[ 33.317] >>> Speed Executing:
+[ 33.344] >>> Collision Executing:
+[ 33.366] --- Collision Ended:: ON
+[ 33.384] --- Speed Ended:
+[ 33.432] >>> Display Executing:
+[ 33.585] --- Display Ended:
+[ 33.631] >>> Collision Executing:
+[ 33.653] --- Collision Ended:
+[ 33.698] >>> Speed Executing:
+[ 33.727] --- Speed Ended:
+[ 33.918] >>> Collision Executing:
+[ 33.940] --- Collision Ended:
+[ 34.041] >>> Speed Executing:
+[ 34.070] --- Speed Ended:
+[ 34.206] >>> Collision Executing:
+[ 34.228] --- Collision Ended:
+[ 34.384] >>> Speed Executing:
+[ 34.413] --- Speed Ended:
+[ 34.493] >>> Collision Executing:
+[ 34.515] --- Collision Ended:
+[ 34.600] >>> Display Executing:
+[
+[ 34.727] >>> Speed Executing:
+[ 34.781] >>> Collision Executing:
+[ 34.803] --- Collision Ended:oll higher than +35/-35
+[ 34.834] --- Display Ended:
+[ 35.068] >>> Collision Executing:
+[ 35.090] --- Collision Ended:
+[ 35.106] >>> Speed Executing:
+[ 35.136] --- Speed Ended:
+[ 35.356] >>> Collision Executing:
+[ 35.377] --- Collision Ended:
+[ 35.449] >>> Speed Executing:
+[ 35.479] --- Speed Ended:
+[ 35.643] >>> Collision Executing:
+[ 35.665] --- Collision Ended:
+[ 35.792] >>> Speed Executing:
+[ 35.822] --- Speed Ended:
+[ 35.849] >>> Display Executing:
+[ 35.931] >>> Collision Executing:
+[ 35.953] --- Collision Ended:Joystick:  55 5
+[ 36.040] --- Display Ended:
+[ 36.135] >>> Speed Executing:
+[ 36.165] --- Speed Ended:
+[ 36.218] >>> Collision Executing:
+[ 36.240] --- Collision Ended:
+[ 36.478] >>> Speed Executing:
+[ 36.505] >>> Collision Executing:
+[ 36.527] --- Collision Ended: ON
+[ 36.546] --- Speed Ended:
+[ 36.793] >>> Collision Executing:
+[ 36.815] --- Collision Ended:
+[ 36.859] >>> Speed Executing:
+[ 36.888] --- Speed Ended:
+[ 37.054] >>> Display Executing:
+[ 37.080] >>> Collision Executing:
+[ 37.102] --- Collision Ended:itude:  8900
+[ 37.202] >>> Speed Executing:
+[ 37.231] --- Speed Ended:
+[ 37.289] --- Display Ended:
+[ 37.368] >>> Collision Executing:
+[ 37.390] --- Collision Ended:
+[ 37.545] >>> Speed Executing:
+[ 37.574] --- Speed Ended:
+[ 37.655] >>> Collision Executing:
+[ 37.677] --- Collision Ended:
+[ 37.888] >>> Speed Executing:
+[ 37.917] --- Speed Ended:
+[ 37.942] >>> Collision Executing:
+[ 37.964] --- Collision Ended:
+[ 38.230] >>> Collision Executing:
+[ 38.252] --- Collision Ended:
+[ 38.268] >>> Speed Executing:
+[ 38.297] --- Speed Ended:
+[ 38.311] >>> Display Executing:
+[ 38.465] --- Display Ended:
+[ 38.517] >>> Collision Executing:
+[ 38.539] --- Collision Ended:
+[ 38.611] >>> Speed Executing:
+[ 38.640] --- Speed Ended:
+[ 38.804] >>> Collision Executing:
+[ 38.826] --- Collision Ended:
+[ 38.954] >>> Speed Executing:
+[ 38.983] --- Speed Ended:
+[ 39.092] >>> Collision Executing:
+[ 39.114] --- Collision Ended:
+[ 39.297] >>> Speed Executing:
+[ 39.326] --- Speed Ended:
+[ 39.379] >>> Collision Executing:
+[ 39.401] --- Collision Ended:
+[ 39.479] >>> Display Executing:
+[ 39.632] --- 
+[ 39.640] >>> Speed Executing:
+[ 39.667] >>> Collision Executing:
+[ 39.689] --- Collision Ended:: ON
+[ 39.708] --- Speed Ended:Display Ended:
+[ 39.954] >>> Collision Executing:
+[ 39.976] --- Collision Ended:
+[ 40.021] >>> Speed Executing:
+[ 40.051] --- Speed Ended:
+[ 40.242] >>> Collision Executing:
+[ 40.264] --- Collision Ended:
+[ 40.364] >>> Speed Executing:
+[ 40.394] --- Speed Ended:
+[ 40.529] >>> Collision Executing:
+[ 40.551] --- Collision Ended:
+[ 40.707] >>> Speed Executing:
+[ 40.737] --- Speed Ended:
+[ 40.750] >>> Display Executing:
+[ 40.817] >>> Collision Executing:
+[ 40.839] --- Collision Ended:d:  1000
+[ 40.942] --- Display Ended:
+[ 41.050] >>> Speed Executing:
+[ 41.080] --- Speed Ended:
+[ 41.104] >>> Collision Executing:
+[ 41.126] --- Collision Ended:
+[ 41.391] >>> Collision Executing:
+[ 41.413] --- Collision Ended:
+[ 41.429] >>> Speed Executing:
+[ 41.459] --- Speed Ended:
+[ 41.679] >>> Collision Executing:
+[ 41.701] --- Collision Ended:
+[ 41.772] >>> Speed Executing:
+[ 41.802] --- Speed Ended:
+[ 41.956] >>> Displ
+[ 41.966] >>> Collision Executing:
+[ 41.988] --- Collision Ended:ay Executing:
+[ 42.115] >>> Speed Executing:
+[ 42.145] --- Speed Ended:35
+[ 42.191] --- Display Ended:
+[ 42.253] >>> Collision Executing:
+[ 42.275] --- Collision Ended:
+[ 42.458] >>> Speed Executing:
+[ 42.488] --- Speed Ended:
+[ 42.541] >>> Collision Executing:
+[ 42.563] --- Collision Ended:
+[ 42.801] >>> Speed Executing:
+[ 42.828] >>> Collision Executing:
+[ 42.850] --- Collision Ended:: ON
+[ 42.869] --- Speed Ended:
+[ 43.116] >>> Collision Executing:
+[ 43.138] --- Collision Ended:
+[ 43.182] >>> Speed Executing:
+[ 43.212] --- Speed Ended:
+[ 43.226] >>> Display Executing:
+[ 43.379] --- Display Ended:
+[ 43.403] >>> Collision Executing:
+[ 43.425] --- Collision Ended:
+[ 43.525] >>> Speed Executing:
+[ 43.555] --- Speed Ended:
+[ 43.690] >>> Collision Executing:
+[ 43.712] --- Collision Ended:
+[ 43.868] >>> Speed Executing:
+[ 43.898] --- Speed Ended:
+[ 43.978] >>> Collision Executing:
+[ 44.000] --- Collision Ended:
+[ 44.211] >>> Speed Executing:
+[ 44.241] --- Speed Ended:
+[ 44.265] >>> Collision Executing:
+[ 44.287] --- Collision Ended:
+[ 44.393] >>> Display Executing:
+[ 44.547] 
+[ 44.552] >>> Collision Executing:
+[ 44.574] --- Collision Ended:
+[ 44.590] >>> Speed Executing:
+[ 44.620] --- Speed Ended:--- Display Ended:
+[ 44.840] >>> Collision Executing:
+[ 44.862] --- Collision Ended:
+[ 44.933] >>> Speed Executing:
+[ 44.963] --- Speed Ended:
+[ 45.127] >>> Collision Executing:
+[ 45.149] --- Collision Ended:
+[ 45.276] >>> Speed Executing:
+[ 45.293] --- Speed Ended:
+[ 45.414] >>> Collision Executing:
+[ 45.436] --- Collision Ended:
+[ 45.607] >>> Speed Executing:
+[ 45.624] --- Speed Ended:
+[ 45.643] >>> Display Executing:
+[ 45.
+[ 45.702] >>> Collision Executing:
+[ 45.833] --- Display Ended:
+[ 45.937] >>> Speed Executing:
+[ 45.954] --- Speed Ended:
+[ 45.989] >>> Collision Executing:
+[ 46.011] --- Collision Ended:
+[ 46.267] >>> Speed
+[ 46.277] >>> Collision Executing:
+[ 46.299] --- Collision Ended: Executing:
+[ 46.322] --- Speed Ended:
+[ 46.565] >>> Collision Executing:
+[ 46.587] --- Collision Ended:
+[ 46.635] >>> Speed Executing:
+[ 46.652] --- Speed Ended:
+[ 46.848
+[ 46.852] >>> Collision Executing:
+[ 46.874] --- Collision Ended:] >>> Display Executing:
+[ 46.959] ..
+[ 46.966] >>> Speed Executing:
+[ 47.069] --- Display Ended:
+[ 47.140] >>> Collision Executing:
+[ 47.162] --- Collision Ended:
+[ 47.296] >>> Speed Executing:
+[ 47.313] --- Speed Ended:
+[ 47.427] >>> Collision Executing:
+[ 47.449] --- Collision Ended:
+[ 47.626] >>> Speed Executing:
+[ 47.643] --- Speed Ended:
+[ 47.714] >>> Collision Executing:
+[ 47.736] --- Collision Ended:
+[ 47.957] >>> Speed Executing:
+[ 47.973] --- Speed Ended:
+[ 48.002] >>> Collision Executing:
+[ 48.024] --- Collision Ended:
+[ 48.083] >>> Display Executing:
+[ 48.236] --- Display Ended:
+[ 48
+[ 48.289] >>> Collision Executing:
+[ 48.311] --- Collision Ended:.287] >>> Speed Executing:
+[ 48.342] --- Speed Ended:
+[ 48.577] >>> Collision Executing:
+[ 48.599] --- Collision Ended:
+[ 48.655] >>> Speed Executing:
+[ 48.672] --- Speed Ended:
+[ 48.864] >>> Collision Executing:
+[ 48.886] --- Collision Ended:
+[ 48.985] >>> Speed Executing:
+[ 49.015] --- Speed Ended:
+[ 49.151] >>> Collision Executing:
+[ 49.173] --- Collision Ended:
+[ 49.251] >>> Display Executing:
+[ 49.3
+[ 49.328] >>> Speed Executing:
+[ 49.439] >>> Collision Executing:
+[ 49.461] --- Collision Ended:n +35/-35
+[ 49.485] --- Display Ended:
+[ 49.672] >>> Speed Executing:
+[ 49.701] --- Speed Ended:
+[ 49.726] >>> Collision Executing:
+[ 49.748] --- Collision Ended:
+[ 50.014] >>> Collision Executing:
+[ 50.036] --- Collision Ended:
+[ 50.052] >>> Speed Executing:
+[ 50.081] --- Speed Ended:
+[ 50.301] >>> Collision Executing:
+[ 50.323] --- Collision Ended:
+[ 50.395] >>> Speed Executing:
+[ 50.424] --- Speed Ended:
+[ 50.500] >>> Display Executing:
+[ 50.589] >>> Collision Executing:
+[ 50.611] --- Collision Ended: 5
+[ 50.692] --- Display Ended:
+[ 50.738] >>> Speed Executing:
+[ 50.767] --- Speed Ended:
+[ 50.876] >>> Collision Executing:
+[ 50.898] --- Collision Ended:
+[ 51.081] >>> Speed Executing:
+[ 51.110] --- Speed Ended:
+[ 51.163] >>> Collision Executing:
+[ 51.185] --- Collision Ended:
+[ 51.424] >>> Speed Executing:
+[ 51.451] >>> Collision Executing:
+[ 51.473] --- Collision Ended: ON
+[ 51.491] --- Speed Ended:
+[ 51.706] >>> Display Executing:
+[ 51.739] >>> Collision Executing:
+[ 51.761] --- Collision Ended:
+[ 51.800]
+[ 51.805] >>> Speed Executing:
+[ 51.940] --- Display Ended:
+[ 52.026] >>> Collision Executing:
+[ 52.048] --- Collision Ended:
+[ 52.148] >>> Speed Executing:
+[ 52.178] --- Speed Ended:
+[ 52.313] >>> Collision Executing:
+[ 52.335] --- Collision Ended:
+[ 52.491] >>> Speed Executing:
+[ 52.521] --- Speed Ended:
+[ 52.601] >>> Collision Executing:
+[ 52.623] --- Collision Ended:
+[ 52.834] >>> Speed Executing:
+[ 52.864] --- Speed Ended:
+[ 52.888] >>> Collision Executing:
+[ 52.910] --- Collision Ended:
+[ 52.955] >>> Display Executing:
+[ 53.108] --- Display Ended:
+[ 53.175] >>> Collision Executing:
+[ 53.197] --- Collision Ended:
+[ 53.213] >>> Speed Executing:
+[ 53.243] --- Speed Ended:
+[ 53.463] >>> Collision Executing:
+[ 53.485] --- Collision Ended:
+[ 53.556] >>> Speed Executing:
+[ 53.586] --- Speed Ended:
+[ 53.750] >>> Collision Executing:
+[ 53.772] --- Collision Ended:
+[ 53.899] >>> Speed Executing:
+[ 53.929] --- Speed Ended:
+[ 54.037] >>> Collision Executing:
+[ 54.059] --- Collision Ended:
+[ 54.122] >>> Display Executing:
+[ 54.242] >>> Speed Executing:
+[ 54.272] --- Speed Ended:: -35
+[ 54.319] 
+[ 54.325] >>> Collision Executing:
+[ 54.347] --- Collision Ended:--- Display Ended:
+[ 54.585] >>> Speed Executing:
+[ 54.613] >>> Collision Executing:
+[ 54.635] --- Collision Ended: ON
+[ 54.653] --- Speed Ended:
+[ 54.900] >>> Collision Executing:
+[ 54.922] --- Collision Ended:
+[ 54.966] >>> Speed Executing:
+[ 54.996] --- Speed Ended:
+[ 55.187] >>> Collision Executing:
+[ 55.209] --- Collision Ended:
+[ 55.309] >>> Speed Executing:
+[ 55.339] --- Speed Ended:
+[ 55.371] >>> Display Executing:
+[ 55.475] >>> Collision Executing:
+[ 55.497] --- Collision Ended::  30
+[ 55.563] --- Display Ended:
+[ 55.652] >>> Speed Executing:
+[ 55.682] --- Speed Ended:
+[ 55.762] >>> Collision Executing:
+[ 55.784] --- Collision Ended:
+[ 55.995] >>> Speed Executing:
+[ 56.025] --- Speed Ended:
+[ 56.050] >>> Collision Executing:
+[ 56.072] --- Collision Ended:
+[ 56.337] >>> Collision Executing:
+[ 56.359] --- Collision Ended:
+[ 56.375] >>> Speed Executing:
+[ 56.405] --- Speed Ended:
+[ 56.577] >>> Display Executing:
+[ 56.625] >>> Collision Executing:
+[ 56.647] --- Collision Ended:wer:  800
+[ 56.719] >>> Speed Executing:
+[ 56.748] --- Speed Ended::  30
+[ 56.812] --- Display Ended:
+[ 56.912] >>> Collision Executing:
+[ 56.934] --- Collision Ended:
+[ 57.062] >>> Speed Executing:
+[ 57.091] --- Speed Ended:
+[ 57.200] >>> Collision Executing:
+[ 57.222] --- Collision Ended:
+[ 57.405] >>> Speed Executing:
+[ 57.434] --- Speed Ended:
+[ 57.487] >>> Collision Executing:
+[ 57.509] --- Collision Ended:
+[ 57.748] >>> Speed Executing:
+[ 57.775] >>> Collision Executing:
+[ 57.797] --- Collision Ended:: ON
+[ 57.815] --- Speed Ended:
+[ 57.829] >>> Display Executing:
+[ 57.982] --- Display Ended:
+[ 58.062] >>> Collision Executing:
+[ 58.084] --- Collision Ended:
+[ 58.128] >>> Speed Executing:
+[ 58.158] --- Speed Ended:
+[ 58.349] >>> Collision Executing:
+[ 58.371] --- Collision Ended:
+[ 58.471] >>> Speed Executing:
+[ 58.501] --- Speed Ended:
+[ 58.637] >>> Collision Executing:
+[ 58.659] --- Collision Ended:
+[ 58.814] >>> Speed Executing:
+[ 58.844] --- Speed Ended:
+[ 58.924] >>> Collision Executing:
+[ 58.946] --- Collision Ended:
+[ 58.997] >>> Display Executing:
+[ 59.150] --- 
+[ 59.158] >>> Speed Executing:
+[ 59.188] --- Speed Ended:Display Ended:
+[ 59.211] >>> Collision Executing:
+[ 59.233] --- Collision Ended:
+[ 59.499] >>> Collision Executing:
+[ 59.521] --- Collision Ended:
+[ 59.536] >>> Speed Executing:
+[ 59.566] --- Speed Ended:
+[ 59.786] >>> Collision Executing:
+[ 59.808] --- Collision Ended:
+[ 59.879] >>> Speed Executing:
+[ 59.909] --- Speed Ended:
+[ 60.073] >>> Collision Executing:
+[ 60.095] --- Collision Ended:
+[ 60.208] >>> Display Execut
+[ 60.223] >>> Speed Executing:
+[ 60.253] --- Speed Ended:ing:
+[ 60.361] >>> Collision Executing:
+[ 60.383] --- Collision Ended:
+[ 60.442] --- Display Ended:
+[ 60.566] >>> Speed Executing:
+[ 60.596] --- Speed Ended:
+[ 60.648] >>> Collision Executing:
+[ 60.670] --- Collision Ended:
+[ 60.909] >>> Speed Executing:
+[ 60.936] >>> Collision Executing:
+[ 60.958] --- Collision Ended:: ON
+[ 60.976] --- Speed Ended:
+[ 61.223] >>> Collision Executing:
+[ 61.245] --- Collision Ended:
+[ 61.290] >>> Speed Executing:
+[ 61.319] --- Speed Ended:
+[ 61.457] >>> Display Executing:
+[ 61.511] >>> Collision Executing:
+[ 61.532] --- Collision Ended:
+[ 61.633] >>> Speed Executing:
+[ 61.663] --- Speed Ended:l higher than +35/-35
+[ 61.691] --- Display Ended:
+[ 61.798] >>> Collision Executing:
+[ 61.820] --- Collision Ended:
+[ 61.976] >>> Speed Executing:
+[ 62.006] --- Speed Ended:
+[ 62.085] >>> Collision Executing:
+[ 62.107] --- Collision Ended:
+[ 62.319] >>> Speed Executing:
+[ 62.349] --- Speed Ended:
+[ 62.372] >>> Collision Executing:
+[ 62.394] --- Collision Ended:
+[ 62.660] >>> Collision Executing:
+[ 62.682] --- Collision Ended:
+[ 62.698] >>> Speed Executing:
+[ 62.727] --- Speed Ended:
+[ 62.741] >>> Display Executing:
+[ 62.895] --- Display Ended:
+[ 62.947] >>> Collision Executing:
+[ 62.969] --- Collision Ended:
+[ 63.041] >>> Speed Executing:
+[ 63.070] --- Speed Ended:
+[ 63.234] >>> Collision Executing:
+[ 63.256] --- Collision Ended:
+[ 63.384] >>> Speed Executing:
+[ 63.413] --- Speed Ended:
+[ 63.522] >>> Collision Executing:
+[ 63.544] --- Collision Ended:
+[ 63.727] >>> Speed Executing:
+[ 63.756] --- Speed Ended:
+[ 63.809] >>> Collision Executing:
+[ 63.831] --- Collision Ended:
+[ 63.909] >>> Display Executing:
+[ 64.062] --- 
+[ 64.070] >>> Speed Executing:
+[ 64.097] >>> Collision Executing:
+[ 64.119] --- Collision Ended:): ON
+[ 64.138] --- Speed Ended:Display Ended:
+[ 64.384] >>> Collision Executing:
+[ 64.406] --- Collision Ended:
+[ 64.451] >>> Speed Executing:
+[ 64.481] --- Speed Ended:
+[ 64.671] >>> Collision Executing:
+[ 64.693] --- Collision Ended:
+[ 64.794] >>> Speed Executing:
+[ 64.824] --- Speed Ended:
+[ 64.958] >>> Collision Executing:
+[ 64.980] --- Collision Ended:
+[ 65.137] >>> Speed Executing:
+[ 65.154] --- Speed Ended:
+[ 65.168] >>> Display Executing:
+[ 65.241
+[ 65.246] >>> Collision Executing:
+[ 65.358] --- Display Ended:
+[ 65.467] >>> Speed Executing:
+[ 65.484] --- Speed Ended:
+[ 65.533] >>> Collision Executing:
+[ 65.555] --- Collision Ended:
+[ 65.797] >>> Speed Executing:
+[ 65.814] --
+[ 65.821] >>> Collision Executing:
+[ 65.843] --- Collision Ended:- Speed Ended:
+[ 66.108] >>> Collision Executing:
+[ 66.130] --- Collision Ended:
+[ 66.166] >>> Speed Executing:
+[ 66.182] --- Speed Ended:
+[ 66.373] >>> Display Executing:
+[ 66.390] .
+[ 66.396] >>> Collision Executing:
+[ 66.496] >>> Speed Executing:
+[ 66.513] --- Speed Ended::  55 5
+[ 66.594] --- Display Ended:
+[ 66.683] >>> Collision Executing:
+[ 66.705] --- Collision Ended:
+[ 66.826] >>> Speed Executing:
+[ 66.843] --- Speed Ended:
+[ 66.971] >>> Collision Executing:
+[ 66.993] --- Collision Ended:
+[ 67.157] >>> Speed Executing:
+[ 67.174] --- Speed Ended:
+[ 67.258] >>> Collision Executing:
+[ 67.280] --- Collision Ended:
+[ 67.487] >>> Speed Executing:
+[ 67.504] --- Speed Ended:
+[ 67.545] >>> Collision Executing:
+[ 67.567] --- Collision Ended:
+[ 67.609] >>> Display Executing:
+[ 67.762] --- Display Ended:
+[ 67.817] >>> Speed Executing:
+[ 67.834] >>> Collision Executing:
+[ 67.856] --- Collision Ended:
+[ 67.872] --- Speed Ended:
+[ 68.121] >>> Collision Executing:
+[ 68.143] --- Collision Ended:
+[ 68.185] >>> Speed Executing:
+[ 68.202] --- Speed Ended:
+[ 68.409] >>> Collision Executing:
+[ 68.431] --- Collision Ended:
+[ 68.515] >>> Speed Executing:
+[ 68.532] --- Speed Ended:
+[ 68.696] >>> Collision Executing:
+[ 68.718] --- Collision Ended:
+[ 68.776] >>> Display Executing:
+[ 68.846] >>> Speed Executing:
+[ 68.863] --- Speed Ended:
+[ 68.959] --- Display Ended:
+[ 68.983] >>> Collision Executing:
+[ 69.005] --- Collision Ended:
+[ 69.176] >>> Speed Executing:
+[ 69.206] --- Speed Ended:
+[ 69.271] >>> Collision Executing:
+[ 69.293] --- Collision Ended:
+[ 69.519] >>> Speed Executing:
+[ 69.549] --- Spee
+[ 69.558] >>> Collision Executing:
+[ 69.580] --- Collision Ended:d Ended:
+[ 69.846] >>> Collision Executing:
+[ 69.868] --- Collision Ended:
+[ 69.900] >>> Speed Executing:
+[ 69.929] --- Speed Ended:
+[ 69.973] >>> Display Executing:
+[ 70.127] --
+[ 70.133] >>> Collision Executing:
+[ 70.155] --- Collision Ended:- Display Ended:
+[ 70.243] >>> Speed Executing:
+[ 70.272] --- Speed Ended:
+[ 70.421] >>> Collision Executing:
+[ 70.443] --- Collision Ended:
+[ 70.586] >>> Speed Executing:
+[ 70.615] --- Speed Ended:
+[ 70.708] >>> Collision Executing:
+[ 70.730] --- Collision Ended:
+[ 70.929] >>> Speed Executing:
+[ 70.958] --- Speed Ended:
+[ 70.995] >>> Collision Executing:
+[ 71.017] --- Collision Ended:
+[ 71.179] >>> Display Executing:
+[ 71.272] >>> Speed Ex
+[ 71.283] >>> Collision Executing:
+[ 71.305] --- Collision Ended:ecuting:
+[ 71.339] --- Speed Ended:
+[ 71.414] --- Display Ended:
+[ 71.571] >>> Collision Executing:
+[ 71.593] --- Collision Ended:
+[ 71.652] >>> Speed Executing:
+[ 71.682] --- Speed Ended:
+[ 71.858] >>> Collision Executing:
+[ 71.880] --- Collision Ended:
+[ 71.995] >>> Speed Executing:
+[ 72.025] --- Speed Ended:
+[ 72.145] >>> Collision Executing:
+[ 72.167] --- Collision Ended:
+[ 72.338] >>> Speed Executing:
+[ 72.368] --- Speed Ended:
+[ 72.428]
+[ 72.433] >>> Collision Executing:
+[ 72.455] --- Collision Ended: >>> Display Executing:
+[ 72.619] --- Display Ended:
+[ 72.681] >>> Speed Executing:
+[ 72.711] --- Spee
+[ 72.721] >>> Collision Executing:
+[ 72.743] --- Collision Ended:d Ended:
+[ 73.012] >>> Collision Executing:
+[ 73.030] --- Collision Ended:
+[ 73.062] >>> Speed Executing:
+[ 73.092] --- Speed Ended:
+[ 73.296] >>> Collision Executing:
+[ 73.318] --- Collision Ended:
+[ 73.405] >>> Speed Executing:
+[ 73.435] --- Speed Ended:
+[ 73.583] >>> Collision Executing:
+[ 73.605] --- Collision Ended:
+[ 73.634] >>> Display Executing:
+[ 73.744
+[ 73.749] >>> Speed Executing:
+[ 73.831] --- Display Ended:
+[ 73.870] >>> Collision Executing:
+[ 73.892] --- Collision Ended:
+[ 74.092] >>> Speed Executing:
+[ 74.121] --- Speed Ended:
+[ 74.158] >>> Collision Executing:
+[ 74.180] --- Collision Ended:
+[ 74.435] >>> Speed 
+[ 74.445] >>> Collision Executing:
+[ 74.467] --- Collision Ended:Executing:
+[ 74.502] --- Speed Ended:
+[ 74.733] >>> Collision Executing:
+[ 74.755] --- Collision Ended:
+[ 74.815] >>> Speed Executing:
+[ 74.845] --- Speed Ended:
+[ 74.859] >>> Display Executing:
+[ 75.013] --- 
+[ 75.020] >>> Collision Executing:
+[ 75.042] --- Collision Ended:Display Ended:
+[ 75.159] >>> Speed Executing:
+[ 75.188] --- Speed Ended:
+[ 75.308] >>> Collision Executing:
+[ 75.330] --- Collision Ended:
+[ 75.502] >>> Speed Executing:
+[ 75.531] --- Speed Ended:
+[ 75.595] >>> Collision Executing:
+[ 75.617] --- Collision Ended:
+[ 75.845] >>> Speed Executing:
+[ 75.874] --- S
+[ 75.882] >>> Collision Executing:
+[ 75.904] --- Collision Ended:peed Ended:
+[ 76.065] >>> Display Executing:
+[ 76.170] >>> Collision Executing:
+[ 76.192] --- Collision Ended:30
+[ 76.225] >>> Speed Executing:
+[ 76.255] --- Speed Ended:
+[ 76.299] --- Display Ended:
+[ 76.457] >>> Collision Executing:
+[ 76.479] --- Collision Ended:
+[ 76.568] >>> Speed Executing:
+[ 76.598] --- Speed Ended:
+[ 76.745] >>> Collision Executing:
+[ 76.767] --- Collision Ended:
+[ 76.911] >>> Speed Executing:
+[ 76.941] --- Speed Ended:
+[ 77.032] >>> Collision Executing:
+[ 77.054] --- Collision Ended:
+[ 77.254] >>> Speed Executing:
+[ 77.284] --- Speed Ended:
+[ 77.313] >
+[ 77.320] >>> Collision Executing:
+[ 77.342] --- Collision Ended:>> Display Executing:
+[ 77.505] --- Display Ended:
+[ 77.597] >>> Spee
+[ 77.607] >>> Collision Executing:
+[ 77.629] --- Collision Ended:d Executing:
+[ 77.665] --- Speed Ended:
+[ 77.894] >>> Collision Executing:
+[ 77.916] --- Collision Ended:
+[ 77.978] >>> Speed Executing:
+[ 78.008] --- Speed Ended:
+[ 78.182] >>> Collision Executing:
+[ 78.204] --- Collision Ended:
+[ 78.321] >>> Speed Executing:
+[ 78.351] --- Speed Ended:
+[ 78.469] >>> Collision Executing:
+[ 78.491] --- Collision Ended:
+[ 78.519] >>> Display Executing:
+[ 78.664] >>> Speed Executing:
+[ 78.694] --- Speed Ended: +35/-35
+[ 78.716] --- Display Ended:
+[ 78.756] >>> Collision Executing:
+[ 78.778] --- Collision Ended:
+[ 79.007] >>> Speed Executing:
+[ 79.037] --
+[ 79.044] >>> Collision Executing:
+[ 79.066] --- Collision Ended:- Speed Ended:
+[ 79.331] >>> Collision Executing:
+[ 79.353] --- Collision Ended:
+[ 79.388] >>> Speed Executing:
+[ 79.418] --- Speed Ended:
+[ 79.619] >>> Collision Executing:
+[ 79.641] --- Collision Ended:
+[
+[ 79.731] >>> Speed Executing:
+[ 79.761] --- Speed Ended: 79.730] >>> Display Executing:
+[ 79.900] 
+[ 79.906] >>> Collision Executing:
+[ 79.965] --- Display Ended:
+[ 80.074] >>> Speed Executing:
+[ 80.104] --- Speed Ended:
+[ 80.193] >>> Collision Executing:
+[ 80.215] --- Collision Ended:
+[ 80.417] >>> Speed Executing:
+[ 80.447] --- Speed Ended:
+[ 80.481] >>> Collision Executing:
+[ 80.503] --- Collision Ended:
+[ 80.760] >>> S
+[ 80.768] >>> Collision Executing:
+[ 80.791] --- Collision Ended:peed Executing:
+[ 80.828] --- Speed Ended:
+[ 80.980] >>> Display Executing:
+[ 81
+[ 81.056] >>> Collision Executing:
+[ 81.141] >>> Speed Executing:
+[ 81.171] --- Speed Ended:
+[ 81.214] --- Display Ended:
+[ 81.344] >>> Collision Executing:
+[ 81.366] --- Collision Ended:
+[ 81.484] >>> Speed Executing:
+[ 81.514] --- Speed Ended:
+[ 81.631] >>> Collision Executing:
+[ 81.653] --- Collision Ended:
+[ 81.827] >>> Speed Executing:
+[ 81.857] --- Speed Ended:
+[ 81.918] >>> Collision Executing:
+[ 81.940] --- Collision Ended:
+[ 82.170] >>> Speed Executing:
+[ 82.200] -
+[ 82.206] >>> Collision Executing:
+[ 82.228] --- Collision Ended:-- Speed Ended:
+[ 82.252] >>> Display Executing:
+[ 82.405] --- Display Ended:
+[ 82.494] >>> Collision Executing:
+[ 82.516] --- Collision Ended:
+[ 82.551] >>> Speed Executing:
+[ 82.581] --- Speed Ended:
+[ 82.781] >>> Collision Executing:
+[ 82.803] --- Collision Ended:
+[ 82.894] >>> Speed Executing:
+[ 82.924] --- Speed Ended:
+[ 83.068] >>> Collision Executing:
+[ 83.090] --- Collision Ended:
+[ 83.237] >>> Speed Executing:
+[ 83.267] --- Speed Ended:
+[ 83.356] >>> Collision Executing:
+[ 83.378] --- Collision Ended:
+[ 83.419] >>> Display Executing:
+[ 83.573] --- 
+[ 83.581] >>> Speed Executing:
+[ 83.610] --- Speed Ended:Display Ended:
+[ 83.643] >>> Collision Executing:
+[ 83.665] --- Collision Ended:
+[ 83.924] >>>
+[ 83.931] >>> Collision Executing:
+[ 83.953] --- Collision Ended: Speed Executing:
+[ 83.991] --- Speed Ended:
+[ 84.218] >>> Collision Executing:
+[ 84.240] --- Collision Ended:
+[ 84.304] >>> Speed Executing:
+[ 84.334] --- Speed Ended:
+[ 84.505] >>> Collision Executing:
+[ 84.527] --- Collision Ended:
+[ 84.631] >>> Display Executing:
+[ 84.648] >>> Speed Executing:
+[ 84.677] --- Speed Ended:
+[ 84.793] >>> Collision Executing:
+[ 84.815] --- Collision Ended:ll: -35
+[ 84.866] --- Display Ended:
+[ 84.991] >>> Speed Executing:
+[ 85.008] --- Speed Ended:
+[ 85.081] >>> Collision Executing:
+[ 85.103] --- Collision Ended:
+[ 85.321] >>> Speed Executing:
+[ 85.338] --- Speed Ended:
+[ 85.368] >>> Collision Executing:
+[ 85.390] --- Collision Ended:
+[ 85.651
+[ 85.656] >>> Collision Executing:
+[ 85.678] --- Collision Ended:] >>> Speed Executing:
+[ 85.706] --- Speed Ended:
+[ 85.880] >>> Display Executing:
+[ 85.943] >>> Collision Executing:
+[ 85.966] --- Collision Ended: Speed:  870
+[ 86.020] >>> Speed Executing:
+[ 86.037] --- Speed Ended:tch:  30
+[ 86.102] --- Display Ended:
+[ 86.231] >>> Collision Executing:
+[ 86.253] --- Collision Ended:
+[ 86.350] >>> Speed Executing:
+[ 86.367] --- Speed Ended:
+[ 86.518] >>> Collision Executing:
+[ 86.540] --- Collision Ended:
+[ 86.680] >>> Speed Executing:
+[ 86.697] --- Speed Ended:
+[ 86.806] >>> Collision Executing:
+[ 86.828] --- Collision Ended:
+[ 87.010] >>> Speed Executing:
+[ 87.027] --- Speed Ended:
+[ 87.093] >>> Collision Executing:
+[ 87.115] --- Collision Ended:
+[ 87.131] >>> Display Executing:
+[ 87.284] --- Display Ended:
+[ 87.341] >>> Speed Executing:
+[ 87.358] --- Speed Ended:
+[ 87.380] >>> Collision Executing:
+[ 87.402] --- Collision Ended:
+[ 87.668] >>> Collision Executing:
+[ 87.690] --- Collision Ended:
+[ 87.706] >>> Speed Executing:
+[ 87.723] --- Speed Ended:
+[ 87.955] >>> Collision Executing:
+[ 87.977] --- Collision Ended:
+[ 88.036] >>> Speed Executing:
+[ 88.053] --- Speed Ended:
+[ 88.242] >>> Collision Executing:
+[ 88.264] --- Collision Ended:
+[ 88.298] >>> Display Executing:
+[ 88.366] >>> Speed Executing:
+[ 88.383] --- Speed Ended:570
+[ 88.482] --- Display Ended:
+[ 88.530] >>> Collision Executing:
+[ 88.552] --- Collision Ended:
+[ 88.697] >>> Speed Executing:
+[ 88.714] --- Speed Ended:
+[ 88.817] >>> Collision Executing:
+[ 88.839] --- Collision Ended:
+[ 89.027] >>> Speed Executing:
+[ 89.057] --- Speed Ended:
+[ 89.104] >>> Collision Executing:
+[ 89.126] --- Collision Ended:
+[ 89.370] >>> Speed Executing:
+[ 89.387]
+[ 89.392] >>> Collision Executing:
+[ 89.437] --- Speed Ended:
+[ 89.496] >>> Display Executing:
+[ 89.650] --- Display Ended:
+[ 89.679] >>> Collision Executing:
+[ 89.701] --- Collision Ended:
+[ 89.751] >>> Speed Executing:
+[ 89.780] --- Speed Ended:
+[ 89.966] >>> Collision Executing:
+[ 89.988] --- Collision Ended:
+[ 90.094] >>> Speed Executing:
+[ 90.123] --- Speed Ended:
+[ 90.254] >>> Collision Executing:
+[ 90.276] --- Collision Ended:
+[ 90.437] >>> Speed Executing:
+[ 90.466] --- Speed Ended:
+[ 90.541] >>> Collision Executing:
+[ 90.563] --- Collision Ended:
+[ 90.664] >>> Display Executing:
+[ 90.775]
+[ 90.780] >>> Speed Executing:
+[ 90.829] >>> Collision Executing:
+[ 90.851] --- Collision Ended:-35
+[ 90.899] --- Display Ended:
+[ 91.116] >>> Collision Executing:
+[ 91.138] --- Collision Ended:
+[ 91.154] >>> Speed Executing:
+[ 91.184] --- Speed Ended:
+[ 91.404] >>> Collision Executing:
+[ 91.426] --- Collision Ended:
+[ 91.497] >>> Speed Executing:
+[ 91.527] --- Speed Ended:
+[ 91.691] >>> Collision Executing:
+[ 91.713] --- Collision Ended:
+[ 91.840] >>> Speed Executing:
+[ 91.870] --- Speed Ended:
+[ 91.913] >>> Display Executing:
+[ 91.979] >>> Collision Executing:
+[ 92.001] --- Collision Ended:eed:  1000
+[ 92.105] --- Display Ended:
+[ 92.183] >>> Speed Executing:
+[ 92.213] --- Speed Ended:
+[ 92.266] >>> Collision Executing:
+[ 92.288] --- Collision Ended:
+[ 92.526] >>> Speed Executing:
+[ 92.554] >>> Collision Executing:
+[ 92.576] --- Collision Ended: ON
+[ 92.594] --- Speed Ended:
+[ 92.841] >>> Collision Executing:
+[ 92.863] --- Collision Ended:
+[ 92.907] >>> Speed Executing:
+[ 92.937] --- Speed Ended:
+[ 93.119] >>> Disp
+[ 93.129] >>> Collision Executing:
+[ 93.151] --- Collision Ended:lay Executing:
+[ 93.250] >>> Speed Executing:
+[ 93.280] --- Speed Ended:
+[ 93.353] --- Display Ended:
+[ 93.416] >>> Collision Executing:
+[ 93.438] --- Collision Ended:
+[ 93.593] >>> Speed Executing:
+[ 93.623] --- Speed Ended:
+[ 93.703] >>> Collision Executing:
+[ 93.725] --- Collision Ended:
+[ 93.936] >>> Speed Executing:
+[ 93.966] --- Speed Ended:
+[ 93.991] >>> Collision Executing:
+[ 94.013] --- Collision Ended:
+[ 94.278] >>> Collision Executing:
+[ 94.300] --- Collision Ended:
+[ 94.316] >>> Speed Executing:
+[ 94.346] --- Speed Ended:
+[ 94.368] >>> Display Executing:
+[ 94.521] --- Display Ended:
+[ 94.566] >>> Collision Executing:
+[ 94.588] --- Collision Ended:
+[ 94.659] >>> Speed Executing:
+[ 94.689] --- Speed Ended:
+[ 94.853] >>> Collision Executing:
+[ 94.875] --- Collision Ended:
+[ 95.002] >>> Speed Executing:
+[ 95.032] --- Speed Ended:
+[ 95.140] >>> Collision Executing:
+[ 95.162] --- Collision Ended:
+[ 95.345] >>> Speed Executing:
+[ 95.375] --- Speed Ended:
+[ 95.427] >>> Collision Executing:
+[ 95.449] --- Collision Ended:
+[ 95.535] >>> Display Executing:
+[ 95.688] >>> Speed Executing:
+[ 95.715] >>> Collision Executing:
+[ 95.737] --- Collision Ended:: ON
+[ 95.756] --- Speed Ended:
+[ 95.770] --- Display Ended:
+[ 96.002] >>> Collision Executing:
+[ 96.024] --- Collision Ended:
+[ 96.069] >>> Speed Executing:
+[ 96.099] --- Speed Ended:
+[ 96.290] >>> Collision Executing:
+[ 96.312] --- Collision Ended:
+[ 96.412] >>> Speed Executing:
+[ 96.442] --- Speed Ended:
+[ 96.577] >>> Collision Executing:
+[ 96.599] --- Collision Ended:
+[ 96.755] >>> Speed Executing:
+[ 96.785] --- Speed Ended:
+[ 96.799] >>> Display Executing:
+[ 96.865] >>> Collision Executing:
+[ 96.887] --- Collision Ended:d:  1000
+[ 96.990] --- Display Ended:
+[ 97.098] >>> Speed Executing:
+[ 97.128] --- Speed Ended:
+[ 97.152] >>> Collision Executing:
+[ 97.174] --- Collision Ended:
+[ 97.440] >>> Collision Executing:
+[ 97.462] --- Collision Ended:
+[ 97.477] >>> Speed Executing:
+[ 97.507] --- Speed Ended:
+[ 97.727] >>> Collision Executing:
+[ 97.749] --- Collision Ended:
+[ 97.820] >>> Speed Executing:
+[ 97.850] --- Speed Ended:
+[ 98.004] >>> Displ
+[ 98.015] >>> Collision Executing:
+[ 98.037] --- Collision Ended:ay Executing:
+[ 98.164] >>> Speed Executing:
+[ 98.193] --- Speed Ended:35
+[ 98.239] --- Display Ended:
+[ 98.302] >>> Collision Executing:
+[ 98.324] --- Collision Ended:
+[ 98.507] >>> Speed Executing:
+[ 98.536] --- Speed Ended:
+[ 98.589] >>> Collision Executing:
+[ 98.611] --- Collision Ended:
+[ 98.850] >>> Speed Executing:
+[ 98.877] >>> Collision Executing:
+[ 98.899] --- Collision Ended:: ON
+[ 98.917] --- Speed Ended:
+[ 99.164] >>> Collision Executing:
+[ 99.186] --- Collision Ended:
+[ 99.231] >>> Speed Executing:
+[ 99.260] --- Speed Ended:
+[ 99.274] >>> Display Executing:
+[ 99.428] --- Display Ended:
+[ 99.451] >>> Collision Executing:
+[ 99.473] --- Collision Ended:
+[ 99.574] >>> Speed Executing:
+[ 99.603] --- Speed Ended:
+[ 99.739] >>> Collision Executing:
+[ 99.761] --- Collision Ended:
+[ 99.917] >>> Speed Executing:
+[ 99.946] --- Speed Ended:
+[ 100.02] >>> Collision Executing:
+[ 100.04] --- Collision Ended:
+[ 100.26] >>> Speed Executing:
+[ 100.31] >>> Collision Executing:
+[ 100.44] >>> Display Executing:
+[ 100.59] --- Display Ended:
+[ 101.60] >>> Display Executing:
+[ 101.76] --- Display Ended:
+[ 102.77] >>> Display Executing:
+[ 102.93] --- Display Ended:
+[ 103.94] >>> Display Executing:
+[ 104.09] --- Display Ended:
+[ 105.11] >>> Display Executing:
+[ 105.26] --- Display Ended:
+[ 106.28] >>> Display Executing:
+[ 106.43] --- Display Ended:
+[ 107.44] >>> Display Executing:
+[ 107.60] --- Display Ended:
+[ 108.61] >>> Display Executing:
+[ 108.76] --- Display Ended:
+[ 109.78] >>> Display Executing:
+[ 109.93] --- Display Ended:
+[ 110.95] >>> Display Executing:
+[ 111.10] --- Display Ended:
+[ 112.11] >>> Display Executing:
+[ 112.27] --- Display Ended:
+[ 113.28] >>> Display Executing:
+[ 113.43] --- Display Ended:
+[ 114.45] >>> Display Executing:
+[ 114.60] --- Display Ended:
+[ 115.62] >>> Display Executing:
+[ 115.77] --- Display Ended:
+[ 116.78] >>> Display Executing:
+[ 116.94] --- Display Ended:
+[ 117.95] >>> Display Executing:
+[ 118.11] --- Display Ended:
+[ 119.12] >>> Display Executing:
+[ 119.27] --- Display Ended:
+[ 120.29] >>> Display Executing:
+[ 120.44] --- Display Ended:
+[ 121.45] >>> Display Executing:
+[ 121.61] --- Display Ended:
+[ 122.62] >>> Display Executing:
+[ 122.78] --- Display Ended:
+[ 123.79] >>> Display Executing:
+[ 123.94] --- Display Ended:
+[ 124.96] >>> Display Executing:
+[ 125.11] --- Display Ended:
+[ 126.13] >>> Display Executing:
+[ 126.28] --- Display Ended:
+[ 127.29] >>> Display Executing:
+[ 127.45] --- Display Ended:
+[ 128.46] >>> Display Executing:
+[ 128.61] --- Display Ended:
+[ 129.63] >>> Display Executing:
+[ 129.78] --- Display Ended:
+[ 130.80] >>> Display Executing:
+[ 130.95] --- Display Ended:
+[ 131.96] >>> Display Executing:
+[ 132.12] --- Display Ended:
+[ 133.14] >>> Display Executing:
+[ 133.28] --- Display Ended:
+[ 134.30] >>> Display Executing:
+[ 134.45] --- Display Ended:
+[ 135.47] >>> Display Executing:
+[ 135.62] --- Display Ended:
+[ 136.63] >>> Display Executing:
+[ 136.79] --- Display Ended:
+[ 137.80] >>> Display Executing:
+[ 137.95] --- Display Ended:
+[ 138.97] >>> Display Executing:
+[ 139.12] --- Display Ended:
+[ 140.14] >>> Display Executing:
+[ 140.29] --- Display Ended:
+[ 141.30] >>> Display Executing:
+[ 141.46] --- Display Ended:
+[ 142.47] >>> Display Executing:
+[ 142.63] --- Display Ended:
+[ 143.64] >>> Display Executing:
+[ 143.79] --- Display Ended:
+[ 144.81] >>> Display Executing:
+[ 144.96] --- Display Ended:
+[ 145.98] >>> Display Executing:
+[ 146.13] --- Display Ended:
+[ 147.14] >>> Display Executing:
+[ 147.30] --- Display Ended:
+[ 148.31] >>> Display Executing:
+[ 148.46] --- Display Ended:
+[ 149.48] >>> Display Executing:
+[ 149.63] --- Display Ended:
+[ 150.65] >>> Display Executing:
+[ 150.80] --- Display Ended:
+[ 151.81] >>> Display Executing:
+[ 151.97] --- Display Ended:
+[ 152.98] >>> Display Executing:
+[ 153.13] --- Display Ended:
+[ 154.15] >>> Display Executing:
+[ 154.30] --- Display Ended:
+[ 155.32] >>> Display Executing:
+[ 155.47] --- Display Ended:
+[ 156.48] >>> Display Executing:
+[ 156.64] --- Display Ended:
+[ 157.65] >>> Display Executing:
+[ 157.80] --- Display Ended:
+[ 158.82] >>> Display Executing:
+[ 158.97] --- Display Ended:
+[ 159.99] >>> Display Executing:
+[ 160.14] --- Display Ended:
+[ 161.15] >>> Display Executing:
+[ 161.31] --- Display Ended:
+[ 162.32] >>> Display Executing:
+[ 162.48] --- Display Ended:
+[ 163.49] >>> Display Executing:
+[ 163.64] --- Display Ended:
+[ 164.66] >>> Display Executing:
+[ 164.81] --- Display Ended:
+[ 165.82] >>> Display Executing:
+[ 165.98] --- Display Ended:
+[ 166.99] >>> Display Executing:
+[ 167.15] --- Display Ended:
+[ 168.16] >>> Display Executing:
+[ 168.31] --- Display Ended:
+[ 169.33] >>> Display Executing:
+[ 169.48] --- Display Ended:
+[ 170.50] >>> Display Executing:
+[ 170.65] --- Display Ended:
+[ 171.66] >>> Display Executing:
+[ 171.82] --- Display Ended:
+[ 172.83] >>> Display Executing:
+[ 172.98] --- Display Ended:
+[ 174.00] >>> Display Executing:
+[ 174.15] --- Display Ended:
+[ 175.17] >>> Display Executing:
+[ 175.32] --- Display Ended:
+[ 176.33] >>> Display Executing:
+[ 176.49] --- Display Ended:
+[ 177.50] >>> Display Executing:
+[ 177.65] --- Display Ended:
+[ 178.67] >>> Display Executing:
+[ 178.82] --- Display Ended:
+[ 179.84] >>> Display Executing:
+[ 179.99] --- Display Ended:
+[ 181.00] >>> Display Executing:
+[ 181.16] --- Display Ended:
+[ 182.17] >>> Display Executing:
+[ 182.33] --- Display Ended:
+[ 183.34] >>> Display Executing:
+[ 183.49] --- Display Ended:
+[ 184.51] >>> Display Executing:
+[ 184.66] --- Display Ended:
+[ 185.67] >>> Display Executing:
+[ 185.83] --- Display Ended:
+[ 186.84] >>> Display Executing:
+[ 187.00] --- Display Ended:
+[ 188.01] >>> Display Executing:
+[ 188.16] --- Display Ended:
+[ 189.18] >>> Display Executing:
+[ 189.33] --- Display Ended:
+[ 190.35] >>> Display Executing:
+[ 190.50] --- Display Ended:
+[ 191.51] >>> Display Executing:
+[ 191.67] --- Display Ended:
+[ 192.68] >>> Display Executing:
+[ 192.83] --- Display Ended:
+[ 193.85] >>> Display Executing:
+[ 194.00] --- Display Ended:
+[ 195.02] >>> Display Executing:
+[ 195.17] --- Display Ended:
+[ 196.18] >>> Display Executing:
+[ 196.34] --- Display Ended:
+[ 197.35] >>> Display Executing:
+[ 197.50] --- Display Ended:
+[ 198.52] >>> Display Executing:
+[ 198.67] --- Display Ended:
+[ 199.69] >>> Display Executing:
+[ 199.84] --- Display Ended:
+[ 200.85] >>> Display Executing:
+[ 201.01] --- Display Ended:
+[ 202.02] >>> Display Executing:
+[ 202.18] --- Display Ended:
+[ 203.19] >>> Display Executing:
+[ 203.34] --- Display Ended:
+[ 204.36] >>> Display Executing:
+[ 204.51] --- Display Ended:
+[ 205.52] >>> Display Executing:
+[ 205.68] --- Display Ended:
+[ 206.69] >>> Display Executing:
+[ 206.85] --- Display Ended:
+[ 207.86] >>> Display Executing:
+[ 208.01] --- Display Ended:
+[ 209.03] >>> Display Executing:
+[ 209.18] --- Display Ended:
+[ 210.20] >>> Display Executing:
+[ 210.35] --- Display Ended:
+[ 211.36] >>> Display Executing:
+[ 211.52] --- Display Ended:
+[ 212.53] >>> Display Executing:
+[ 212.68] --- Display Ended:
+[ 213.70] >>> Display Executing:
+[ 213.85] --- Display Ended:
+[ 214.87] >>> Display Executing:
+[ 215.02] --- Display Ended:
+[ 216.03] >>> Display Executing:
+[ 216.19] --- Display Ended:
+[ 217.20] >>> Display Executing:
+[ 217.35] --- Display Ended:
+[ 218.37] >>> Display Executing:
+[ 218.52] --- Display Ended:
+[ 219.54] >>> Display Executing:
+[ 219.69] --- Display Ended:
+[ 220.70] >>> Display Executing:
+[ 220.86] --- Display Ended:
+[ 221.87] >>> Display Executing:
+[ 222.02] --- Display Ended:
+[ 223.04] >>> Display Executing:
+[ 223.19] --- Display Ended:
+[ 224.21] >>> Display Executing:
+[ 224.36] --- Display Ended:
+[ 225.37] >>> Display Executing:
+[ 225.53] --- Display Ended:
+[ 226.54] >>> Display Executing:
+[ 226.70] --- Display Ended:
+[ 227.71] >>> Display Executing:
+[ 227.86] --- Display Ended:
+[ 228.88] >>> Display Executing:
+[ 229.03] --- Display Ended:
+[ 230.04] >>> Display Executing:
+[ 230.20] --- Display Ended:
+[ 231.21] >>> Display Executing:
+[ 231.37] --- Display Ended:
+[ 232.38] >>> Display Executing:
+[ 232.53] --- Display Ended:
+[ 233.55] >>> Display Executing:
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 265792 bytes
+section: .data at 0x2040e40, size 9484 bytes
+tsim> resuming at 0x02000000
+
+raised CONSTRAINT_ERROR : testing_2.ads:7
+Program exited normally.
