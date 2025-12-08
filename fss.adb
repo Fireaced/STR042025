@@ -314,59 +314,58 @@ package body fss is
     end loop;
   end displayTask;
 
-   task body manualTask is
-      Current_Power: Power_Samples_Type := 0;
-      Calculated_S: Speed_Samples_type := 0;
+  task body manualTask is
+    Current_Power: Power_Samples_Type := 0;
+    Calculated_S: Speed_Samples_type := 0;
+    Current_J: Joystick_Samples_Type := (0,0);
+    Current_Pitch: Pitch_Samples_Type := 0;
+    Current_Roll: Roll_Samples_Type := 0;
+    Current_A: Altitude_Samples_Type := Altitude_Samples_Type(8000);
+    Current_Distance : Distance_Samples_Type := 0;
+    Current_Pp: PilotPresence_Samples_Type := 1;
+    Current_Light : Light_Samples_Type := 0;
 
-      Current_J: Joystick_Samples_Type := (0,0);
-      Current_Pitch: Pitch_Samples_Type := 0;
-      Current_Roll: Roll_Samples_Type := 0;
-      
-      Current_A: Altitude_Samples_Type := Altitude_Samples_Type(8000);
+    Count : Integer := 0;
+  begin
+    loop 
+        if (Selected_Mode.Get_Mode = "Manual") then
+          Put_line("----- Manual Task -----"); 
 
-      Current_Distance    : Distance_Samples_Type := 0;
-      Current_Pp: PilotPresence_Samples_Type := 1;
-      Current_Light       : Light_Samples_Type := 0;
+          Read_Power (Current_Power);
+          Calculated_S := Speed_Samples_Type (Float (Current_Power) * 1.2);
+          Read_Joystick (Current_J);
 
-      Count : Integer := 0;
-   begin
-    if(Selected_Mode.Get_Mode = "Manual") then
-      Put_line("----- Manual Task -----");
-      loop
-        Read_Power (Current_Power);
-        Calculated_S := Speed_Samples_Type (float (Current_Power) * 1.2);
-        Read_Joystick (Current_J);
+          Current_Pitch := Read_Pitch;
+          Current_Roll := Read_Roll;
+          Current_A := Read_Altitude;
+          Read_Distance(Current_Distance);
+          Current_Pp := Read_PilotPresence;
+          Read_Light_Intensity(Current_Light);
 
-        Current_Pitch := Read_Pitch;
-        Current_Roll := Read_Roll;
+          if (Current_Pp = 0) then
+              Selected_Mode.UpdateMode("Automatic");
+              Put_Line("Switching to Automatic due to pilot absence");
+          end if;
 
-        Current_A := Read_Altitude;
+          if (Count >= 3) then
+              Display_Altitude (Current_A);
+              Display_Pilot_Power(Current_Power);
+              Display_Speed(Calculated_S);
+              Display_Joystick (Current_J);
+              Display_Pitch (Current_Pitch);
+              Display_Roll (Current_Roll);
+              Display_Message("");
+              Count := 0;
+          end if;
 
-        Read_Distance(Current_Distance);
-        Current_Pp    := Read_PilotPresence;
-        Read_Light_Intensity(Current_Light);
+          Count := Count + 1;
+          
+          delay until Clock + Milliseconds (300);
 
-        if (Current_Pp = 0) then
-          Selected_Mode.UpdateMode("Automatic");
+        else
+          delay until Clock + Milliseconds (300); 
         end if;
-
-        if (Count >= 3) then
-          Display_Altitude (Current_A);
-          Display_Pilot_Power(Current_Power);
-          Display_Speed(Calculated_S);
-          Display_Joystick (Current_J);
-          Display_Pitch (Current_Pitch);
-          Display_Roll (Current_Roll);
-          Display_Message("");
-
-          Count := 0;
-        end if;
-
-        Count := Count + 1;
-
-        delay until Clock + Milliseconds (300);
-      end loop;
-    end if;
+    end loop;
   end manualTask;
 
 begin
