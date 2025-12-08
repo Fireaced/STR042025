@@ -135,7 +135,8 @@ package body FSS_Interfaces is
 
       procedure SetMessage(Message : in String) is
       begin
-         Current_Message := To_Unbounded_String(Message);
+         Current_Message := (others => ' ');
+         Current_Message(1 .. Message'Length) := Message;
       end SetMessage;
 
       function GetMessage return String is

@@ -247,14 +247,7 @@ package body fss is
       Display_Pitch (Status_Record.GetPitch);
       Display_Roll (Status_Record.GetRoll);
       Display_Message(Status_Record.GetMessage);
-      Display_Altitude (Status_Record.GetAltitude);
-      Display_Pilot_Power(Status_Record.GetPower);
-      Display_Speed(Status_Record.GetSpeed);
-      Display_Joystick (Status_Record.GetJoystick);
-      Display_Pitch (Status_Record.GetPitch);
-      Display_Roll (Status_Record.GetRoll);
-      Display_Message(Status_Record.GetMessage);
-      Status_Record.SetMessage(" ");
+      Status_Record.SetMessage("");
       New_line;
   end Display;
   -----------------------------------------------------------------------

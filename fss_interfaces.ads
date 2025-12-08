@@ -72,6 +72,6 @@ package FSS_Interfaces is
       Current_Roll : Roll_Samples_Type := 0;
       Current_Speed : Speed_Samples_Type := 0;
       Current_Power : Power_Samples_Type := 0;
-      Current_Message : Unbounded_String := To_Unbounded_String("");
+      Current_Message : String(1 .. 100) := (others => ' ');
    end Status_Record;
 end FSS_Interfaces;
