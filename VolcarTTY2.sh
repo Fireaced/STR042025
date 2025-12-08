@@ -15,13 +15,16 @@ $PROGRAM | while IFS= read -r line; do
     if echo "$line" | grep -q "#"; then
         # Volcar al tty1 si la línea contiene un #
         echo "$line" > /dev/pts/1
+        echo "$line" >> "salida1.txt"
     else
       if echo "$line" | grep -q "%"; then
         # Volcar al tty2 si la línea contiene un %
         echo "$line" > /dev/pts/2
+        echo "$line" >> "salida2.txt"
       else      
         # Volcar al tty0 si la línea no contiene ni # ni % 
         echo "$line" > /dev/pts/0
+        echo "$line" >> "salida0.txt"
       fi
     fi
   fi
