@@ -377,8 +377,8 @@ package body fss is
               Display_Pilot_Power(Current_Power);
               Display_Speed(Calculated_S);
               Display_Joystick (Current_J);
-              Display_Pitch (Current_Pitch);
-              Display_Roll (Current_Roll);
+              Display_Pitch (Current_J(x));
+              Display_Roll (Current_J(y));
               Display_Message("");
               New_line;
               Count := 0;
