@@ -255,7 +255,7 @@ package body fss is
       Display_Roll (Status_Record.GetRoll);
       Display_Message(Status_Record.GetMessage);
       Status_Record.SetMessage(" ");
-      New_Line();
+      New_line;
   end Display;
   -----------------------------------------------------------------------
   ------------- declaration of tasks 
@@ -353,7 +353,7 @@ package body fss is
   begin
     loop 
         if (Selected_Mode.Get_Mode = "Manual") then
-          Put_line("----- Manual Task -----"); New_Line();
+          Put_line("----- Manual Task -----"); New_line;
 
           Read_Power (Current_Power);
           Calculated_S := Speed_Samples_Type (Float (Current_Power) * 1.2);
@@ -369,7 +369,7 @@ package body fss is
           if (Current_Pp = 0) then
               Selected_Mode.UpdateMode("Automatic");
               Put_Line("Switching to Automatic due to pilot absence");
-              New_Line();
+              New_line;
           end if;
 
           if (Count >= 3) then
@@ -380,6 +380,7 @@ package body fss is
               Display_Pitch (Current_Pitch);
               Display_Roll (Current_Roll);
               Display_Message("");
+              New_line;
               Count := 0;
           end if;
 
