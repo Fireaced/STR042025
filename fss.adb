@@ -2,6 +2,7 @@ with Kernel.Serial_Output; use Kernel.Serial_Output;
 with Ada.Real_Time; use Ada.Real_Time;
 with System; use System;
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
+with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 with Tools; use Tools;
 with devicesFSS_V1; use devicesFSS_V1;
@@ -53,7 +54,11 @@ package body fss is
     if (modeInput = "Manual") then
       Selected_Mode.UpdateMode("Manual");
       Put_line("Manual Mode");
+      Selected_Mode.UpdateMode("Manual");
+      Put_line("Manual Mode");
     elsif (modeInput = "Automatic") then
+      Selected_Mode.UpdateMode("Automatic");
+      Put_line("Automatic Mode");
       Selected_Mode.UpdateMode("Automatic");
       Put_line("Automatic Mode");
     end if;
@@ -95,6 +100,8 @@ package body fss is
       Speed_Altitude_Data.UpdateSpeed (Calculated_S);
     end if;
 
+    Status_Record.SetPower(Current_Power);
+    Status_Record.SetSpeed(Calculated_S);
     Status_Record.SetPower(Current_Power);
     Status_Record.SetSpeed(Calculated_S);
 
@@ -143,6 +150,7 @@ package body fss is
       else
         if (Target_Roll > 35 or Target_Roll < -35) then
           Status_Record.SetMessage("Roll higher than +35/-35");
+          Status_Record.SetMessage("Roll higher than +35/-35");
         end if;
       end if;
     elsif (Current_A >= 9500) then
@@ -154,15 +162,19 @@ package body fss is
       else
         if (Target_Roll > 35 or Target_Roll < -35) then
           Status_Record.SetMessage("Roll higher than +35/-35");
+          Status_Record.SetMessage("Roll higher than +35/-35");
         end if;
       end if;
     
     else
       if (Target_Roll > 35 or Target_Roll < -35) then
           Status_Record.SetMessage("Roll higher than +35/-35");
+          Status_Record.SetMessage("Roll higher than +35/-35");
         end if;
     end if;
 
+    Pitch_Roll_Data.UpdatePitch(Target_Pitch, 0);
+    Pitch_Roll_Data.UpdateRoll(Target_Roll, 0);
     Pitch_Roll_Data.UpdatePitch(Target_Pitch, 0);
     Pitch_Roll_Data.UpdateRoll(Target_Roll, 0);
     Set_Aircraft_Pitch (Target_Pitch);
@@ -182,6 +194,8 @@ package body fss is
     Set_Aircraft_Roll (Roll_Samples_Type (45));
     Pitch_Roll_Data.UpdateRoll(Roll_Samples_Type (45), 1);
     Status_Record.SetRoll (Roll_Samples_Type (0));
+    Pitch_Roll_Data.UpdateRoll(Roll_Samples_Type (45), 1);
+    Status_Record.SetRoll (Roll_Samples_Type (0));
     delay until Clock + Milliseconds (3000);
     Set_Aircraft_Roll (Roll_Samples_Type (0));
     Pitch_Roll_Data.UpdateRoll(Roll_Samples_Type (0), 0);
@@ -198,6 +212,7 @@ package body fss is
     Current_Light       : Light_Samples_Type := 0;
   begin
     Read_Distance(Current_Distance);
+    Current_Speed := Speed_Altitude_Data.Get_Speed;
     Current_Speed := Speed_Altitude_Data.Get_Speed;
     Current_Pp    := Read_PilotPresence;
     Read_Light_Intensity(Current_Light);
@@ -225,6 +240,13 @@ package body fss is
 
   procedure Display is
   begin
+      Display_Altitude (Status_Record.GetAltitude);
+      Display_Pilot_Power(Status_Record.GetPower);
+      Display_Speed(Status_Record.GetSpeed);
+      Display_Joystick (Status_Record.GetJoystick);
+      Display_Pitch (Status_Record.GetPitch);
+      Display_Roll (Status_Record.GetRoll);
+      Display_Message(Status_Record.GetMessage);
       Display_Altitude (Status_Record.GetAltitude);
       Display_Pilot_Power(Status_Record.GetPower);
       Display_Speed(Status_Record.GetSpeed);
