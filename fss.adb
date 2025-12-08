@@ -353,7 +353,7 @@ package body fss is
         if (Count >= 3) then
           Display_Altitude (Current_A);
           Display_Pilot_Power(Current_Power);
-          Display_Speed(SCalculated_S);
+          Display_Speed(Calculated_S);
           Display_Joystick (Current_J);
           Display_Pitch (Current_Pitch);
           Display_Roll (Current_Roll);
@@ -364,7 +364,7 @@ package body fss is
 
         Count := Count + 1;
 
-        delay(300);
+        delay until Clock + Milliseconds (300);
       end loop;
     end if;
   end manualTask;
