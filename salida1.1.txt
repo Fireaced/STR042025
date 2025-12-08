@@ -1,0 +1,644 @@
+[ 0.1750] ..# Altitude:  8000
+[ 0.1944] ..# Pilot_Power:  800
+[ 0.2147] ..# Speed:  1000
+[ 0.2324] ..# Joystick:  5 3
+[ 0.2512] ..# Pitch:  5
+[ 0.2674] ..# Roll:  3
+[ 0.2832] ..# MS
+[ 1.5749] ..# Altitude:  8100
+[ 1.5943] ..# Pilo
+[ 1.6583] ..# Speed:  1000
+[ 1.6761] ..# Joystick:  2 1
+[ 1.6949] ..# Pitch:  18
+[ 1.7116] ..# Roll:  7
+[ 1.8259] --- Position-Altitude Ended:7273] ..# MSSG:                                                                                                     
+[ 3.0129] ..# Altitude:  8340
+[ 3.0322] ..# Pilot_Power:  700
+[ 3.0525] ..# Speed:  1000
+[ 3.0703] ..# Joystick:  10 3
+[ 3.1108] --- Speed Ended:6] ..# Pitch:  30
+[ 3.1372] ..# Roll:  13
+[ 3.1535] ..# MSSG:        
+[ 4.4502] ..# Altitude:  8640
+[ 4.4696] ..# Pilot_Power:  500
+[ 4.4899] ..# Speed:  800
+[ 4.5071] ..# Joystick: 
+[ 4.5573] ..# Pitch:  30
+[ 4.5740] ..# Roll:  17
+[ 4.5903] ..# MSSG:         
+[ 5.8887] ..# Altitude:  8940
+[ 5.9080] ..# Pilot_Power:  900
+[ 5.9283] ..# Speed:  1000
+[ 5.9461] ..# Joystick:  15 18
+[ 5.9660] ..# Pitch:  30
+[ 6.0265] ..# Roll:  45
+[ 6.1592] ..# MSSG: Roll higher than +35/-35                                                                            
+[ 7.3539] ..# Altitude:  9240
+[ 7.3732] ..# Pilot_Power:  1000
+[ 7.3940] ..# Speed:  1000
+[ 7.4118] ..# Joystick:  18 18
+[ 7.4316] ..# Pitch:  30
+[ 7.4483] ..# Roll:  45
+[ 7.4646] ..# MSSG: Roll higher than +35/-3
+[ 8.8180] ..# Altitude:  9540
+[ 8.8373] ..# Pilot_Power:  1000
+[ 8.8581] ..# Speed:  1000
+[ 8.8759] ..# Joystick:  4-1
+[ 8.8947] ..# Pitch:  30
+[ 8.9114] ..# Roll:  43
+[ 8.9277] ..# MSSG: Roll higher than +35/-35                                                                            
+[ 10.265] ..# Altitude:  9840
+[ 10.284] ..# Pilot_Power:  800
+[ 10.304] ..# Speed:  1000
+[ 10.322] ..# Joystick:  5 4
+[ 10.341] ..# Pitch:  30
+[ 10.357] ..# Roll:  45
+[ 10.374] ..# MSSG: Roll higher than +35/-35                                                                            
+[ 11.478] ..# Altitude:  10020
+[ 11.498] ..# Pilot_Power:  800
+[ 11.518] ..# Speed:  1000
+[ 11.536] ..# Joystick:  2 0
+[ 11.555] ..# Pitch:  0
+[ 11.675] --- Position-Altitude Ended:1.607] --- Speed Ended:# Roll:  
+[ 11.753] ..# MSSG: Roll higher than +35/-35                                                                            
+[ 12.907] ..# Altitude:  10020
+[ 12.927] ..# Pilot_Power:  800
+[ 12.947] ..# Speed:  1000
+[ 12.965] ..# Joystick: -4-1
+[ 12.984] ..# Pitch:  0
+[ 13.000] ..# Roll:  0
+[ 13.016] ..# MSSG:               
+[ 14.280] ..# Altitude:  10020
+[ 14.382] ..# Pilot_Power:  800
+[ 14.402] ..# Speed:  1000
+[ 14.420] ..# Joystick: -2 1
+[ 14.438] ..# Pitch:  0
+[ 14.523] --- Position-Altitude Ended:455] ..# Roll:  0
+[ 14.556] ..# MSSG:                                        
+[ 15.699] ..# Altitude:  10020
+[ 15.719] ..# Pilot_Power:  900
+[ 15.777] ..# Speed:  1000
+[ 15.795] ..# Joystick:  5 0
+[ 15.814] ..# Pitch:  0
+[ 15.873] ..# Ro
+[ 15.974] ..# MSSG:                                                                            
+[ 17.123] ..# Altitude:  10020
+[ 17.143] ..# Pilot_Power:  300
+[ 17.163] ..# Speed
+[ 17.219] ..# Joystick:  1 3
+[ 17.237] ..# Pitch:  0
+[ 17.254] ..# Roll:  0
+[ 17.269] ..# MSSG:                              
+[ 18.556] ..# Altitude:  10020
+[ 18.576] ..# Pilot_Power:  180
+[ 18.596] ..# Speed:  316
+[ 18.651] ..# Joystick:  1-3
+[ 18.669] ..# Pitch:  0
+[ 18.686] ..# Roll:  0
+[ 18.701] ..# MSSG:                                     
+[ 19.972] ..# Altitude:  10020
+[ 20.036] ..# Pilot_Power:
+[ 20.094] ..# Speed:  1000
+[ 20.112] ..# Joystick:  1-3
+[ 20.131] ..# Pitch:  0
+[ 20.147] ..# R
+[ 20.248] ..# MSSG:                                                                                                     
+[ 21.397] ..# Altitude:  10020
+[ 21.417] ..# Pilot_Power:  800
+[ 21.437] ..# Speed:  1000
+[ 21.455] ..# Joystick:  3 0
+[ 21.473] ..# Pitch:  0
+[ 21.571] ..# Ro
+[ 21.672] ..# MSSG:                                                                                                     
+[ 22.821] ..# Altitude:  10020
+[ 22.841] ..# Pilot_Power:  700
+[ 22.861] ..# Speed:  940
+[ 22.878] ..# Joystick:  10 1
+[ 22.898] ..# Pitch:  0
+[ 22.914] ..# Roll: 
+[ 22.968] ..# MSSG:                                                   
+[ 24.245] ..# Altitude:  10020
+[ 24.265] ..# Pilot_Power:  500
+[ 24.286] ..# Speed:  700
+[ 24.303] ..# Joystick:  18 3
+[ 24.322] ..# Pitch:  0
+[ 24.338] ..# Roll:  0
+[ 24.354] ..# 
+[ 25.695] ..# Altitude:  10020
+[ 25.715] ..# Pilot_Power:  900
+[ 25.735] ..# Speed:  1000
+[ 25.753] ..# Joystick:  17 21
+[ 25.773] ..# Pitch:  0
+[ 25.789] ..# Roll
+[ 25.843] ..# MSSG
+[ 27.094] ..# Altitude:  10020
+[ 27.114] ..# Pilot_Power:
+[ 27.178] ..# Speed:  1000
+[ 27.196] ..# Joystick:  20 25
+[ 27.216] ..# Pitch:  0
+[ 27.353] --- Position-Altitude Ended:2] ..# Roll:  0
+[ 27.385] ..# MSSG:                                                                                                     
+[ 28.596] ..# Altitude:  10020
+[ 28.616] ..# Pilot_Power:  1000
+[ 28.669] --- Speed Ended:8.637] ..# Speed:  1000
+[ 28.698] ..# Joystick:  6-2
+[ 28.717] ..# Pitch:  0
+[ 28.733] ..# Roll: 
+[ 28.886] ..# MSSG:                                                                                                     
+[ 30.044] ..# Altitude:  10020
+[ 30.064] ..# Pilot_Power:  900
+[ 30.115] --- Speed Ended: 30.084] ..# Speed:  1000
+[ 30.146] ..# Joystick:  2-2
+[ 30.165] ..# Pitch:  0
+[ 30.181] ..# Roll:  0
+[ 30.197] ..# MSSG:                                       
+[ 31.465] ..# Altitude:  10020
+[ 31.485] ..# Pilot_Power:  800
+[ 31.505] ..# Speed:  1000
+[ 31.523] ..# Joystick:  1-1
+[ 31.574] --- Speed Ended:.542] ..# Pitch:  0
+[ 31.602] ..# Roll:  0
+[ 31.617] ..# MSSG:                                               
+[ 32.886] ..# Altitude:  10020
+[ 32.906] ..# Pilot_Power:  800
+[ 32.926] ..# 
+[ 32.982] ..# Joystick: -4-1
+[ 33.000] ..# Pitch:  0
+[ 33.017] ..# Roll: 
+[ 33.161] ..# MSSG:                                                                                                 
+[ 34.317] ..# Altitude:  10020
+[ 34.337] ..# Pilot_Power:  800
+[ 34.358] ..# Speed:  1000
+[ 34.413] ..# Joystick: -2 1
+[ 34.432] ..# Pitch:  0
+[ 34.448] ..# Roll:  0
+[ 34.464] ..# MSSG:                                                    
+[ 35.785] ..# Altitude:  10020
+[ 35.831] --- Collision Ended:5] ..# Pilot_Power:  900
+[ 35.863] ..# Speed:  1000
+[ 35.881] ..# Joystick:  5 0
+[ 35.900] ..# Pitch:  0
+[ 35.916] ..# Ro
+[ 36.017] ..# MSSG:                                                                               
+[ 37.228] ..# Altitude:  10020
+[ 37.285] ..# Pilot_Power:  200
+[ 37.305] ..# Speed:  340
+[ 37.323] ..# Joystick:  1 3
+[ 37.341] ..# 
+[ 37.443] ..# Roll:  0
+[ 37.459] ..# MSSG:                                                                                                     
+[ 38.638] ..# Altitude:  1002
+[ 38.727] ..# Pilot_Power:  180
+[ 38.747] ..# Speed:  316
+[ 38.764] ..# Joy
+[ 38.869] ..# Pitch:  0
+[ 38.885] ..# Roll:  0
+[ 38.901] ..# MSSG:                                                                                                     
+[ 40.299] ..# Altitude:  10020
+[ 40.319] ..# Pilot_Power:  800
+[ 40.339] ..# Speed:  1000
+[ 40.357] ..# Joystick:  4 2
+[ 40.376] ..# Pitch:  0
+[ 40.392] ..# Roll:  0
+[ 40.432] --- Collision Ended:.408] ..# MSSG:                                                     
+[ 41.768] ..# Altitude:  10020
+[ 41.788] ..# Pilot_Power:  800
+[ 41.808] ..# Speed:  1000
+[ 41.826] ..# Joystick:  1 1
+[ 41.870] --- Collision Ended:845] ..# Pitch:  0
+[ 41.899] ..# Ro
+[ 42.000] ..# MSSG:                                                                               
+[ 43.149] ..# Altitude:  10020
+[ 43.169] ..# Pil
+[ 43.220] ..# Speed:  820
+[ 43.237] ..# Joystick:  12 3
+[ 43.256] ..# Pitch:  0
+[ 43.273] ..# Roll:  0
+[ 43.397] --- Position-Altitude Ended:.# MSSG:                                                                                                     
+[ 44.576] ..# Altitude:  10020
+[ 44.595] ..# Pilot_Power:  500
+[ 44.616] ..# S
+[ 44.664] ..# Joystick:  17-1
+[ 44.683] ..# Pitch:  0
+[ 44.699] ..# Roll:  0
+[ 44.715] ..# M
+[ 46.013] ..# Altitude:  10020
+[ 46.033] ..# Pilot_Power:  900
+[ 46.053] ..# Speed:  1000
+[ 46.071] ..# Joystick:  14 16
+[ 46.125] --- Speed Ended:1] ..# Pitch:  0
+[ 46.151] ..# Roll
+[ 46.290] ..# MSSG:                                                                                                     
+[ 47.479] ..# Altitude:  10020
+[ 47.498] ..# Pilot_Power:  1000
+[ 47.519] ..# Speed:  1000
+[ 47.537] ..# Joystick:  17 15
+[ 47.557] ..# Pitch:  0
+[ 47.573] ..# Roll:  0
+[ 47.744] --- Position-Altitude Ended:] --- Speed Ended:589] ..# MSSG:                                                                                                     
+[ 48.986] ..# Altitude:  10020
+[ 49.006] ..# Pilot_Power:  1000
+[ 49.027] ..# Speed:  1000
+[ 49.045] ..# Joystick:  5 1
+[ 49.064] ..# Pitch:  0
+[ 49.080] ..# Roll:  0
+[ 49.096] ..#
+[ 50.417] ..# Altitude:  10020
+[ 50.437] ..# Pilot_Power:  800
+[ 50.457] ..# Speed:  1000
+[ 50.475] ..# Joystick:  3 2
+[ 50.494] ..# Pitch:  0
+[ 50.510] ..# Roll:  0
+[ 50.526] ..# MSSG:                                                                                                     
+[ 51.861] ..# Altitude:  10020
+[ 51.881] ..# Pilot_Power:  800
+[ 51.901] ..# Speed:  1000
+[ 51.919] ..# Joystick:  2 2
+[ 51.938] ..# Pitch:  0
+[ 51.954] ..# Roll:  0
+[ 51.970] ..# MSSG:                                                                                      
+[ 53.153] ..# Altitu
+[ 53.258] ..# Pilot_Power:  800
+[ 53.348] --- Speed Ended:3.278] ..# Speed:  1000
+[ 53.378] ..# Joystick: -7 2
+[ 53.396] ..# Pitch:  0
+[ 53.413] ..# Roll:  0
+[ 53.428] ..# MSSG:                    
+[ 54.690] ..# Altitude:  10020
+[ 54.710] ..# Pilot_Power:  800
+[ 54.730] ..# Speed:  1000
+[ 54.786] ..# Joystick:  0 0
+[ 54.804] ..# Pitch
+[ 54.864] ..# Ro
+[ 54.965] ..# MSSG:                                                                                                     
+[ 56.114] ..# Altitude:  10020
+[ 56.134] ..# Pilot_Power:  900
+[ 56.154] ..# Speed:  1000
+[ 56.172] ..# Joystick: 
+[ 56.229] ..# Pitch:  0
+[ 56.245] ..# Roll:  0
+[ 56.261] ..# MSSG:                                                   
+[ 57.549] ..# Altitude:  10020
+[ 57.569] ..# Pilot_Power:  200
+[ 57.589] ..# Speed:  340
+[ 57.606] ..# Joystick:  1-3
+[ 57.663] ..# Pitch:  0
+[ 57.679] ..# Roll:  0
+[ 57.695] ..# MSSG:                                 
+[ 59.007] ..# Altitude:  10020
+[ 59.026] ..# Pilot_Power:  150
+[ 59.047] ..# Speed:  30
+[ 59.102] ..# Joystick:  1-3
+[ 59.121] ..# Pitch:  0
+[ 59.137] ..# Ro
+[ 59.238] ..# MSSG:                                                                                 
+[ 60.417] ..# Altitude
+[ 60.481] ..# Pilot_Power:  800
+[ 60.539] ..# Speed:  1000
+[ 60.556] ..# Joystick:  
+[ 60.660] ..# Pitch:  0
+[ 60.677] ..# Roll:  0
+[ 60.692] ..# MSSG:                                                                                                     
+[ 62.095] ..# Altitude:  10020
+[ 62.115] ..# Pilot_Power:  800
+[ 62.135] ..# Speed:  1000
+[ 62.153] ..# Joystick:  5 3
+[ 62.172] ..# Pitch:  0
+[ 62.188] ..# Roll:  0
+[ 62.204] ..# MSSG:                
+[ 63.540] ..# Altitude:  10020
+[ 63.560] ..# Pilot_Power:  600
+[ 63.580] ..# Speed:  820
+[ 63.598] ..# Joystick:  15 0
+[ 63.617] ..# Pitch:  0
+[ 63.633] ..# Roll:  0
+[ 63.649] ..# MSSG:  
+[ 64.981] ..# Altitude:  10020
+[ 65.001] ..# Pilot_Power:  500
+[ 65.021] ..# Speed:  700
+[ 65.038] ..# Joystick:  17 0
+[ 65.058] ..# Pitch:  0
+[ 65.074] ..# Roll:  0
+[ 65.090] ..# M
+[ 66.388] ..# Altitude:  10020
+[ 66.408] ..# Pil
+[ 66.472] ..# Speed:  1000
+[ 66.490] ..# Joystick:  23 30
+[ 66.509] ..# Pitch:  0
+[ 66.526] ..# Roll
+[ 66.665] ..# MSSG:                                                                                                     
+[ 67.867] ..# Altitude:  10020
+[ 67.887] ..# Pilot_Power:  1000
+[ 67.908] ..# Speed:  1000
+[ 67.958] --- Speed Ended:7.926] ..# Joystick:  13 5
+[ 67.989] ..# Pitch:  0
+[ 68.005] ..# Roll:
+[ 68.158] ..# MSSG:                                                                                                     
+[ 69.366] ..# Altitude:  10020
+[ 69.386] ..# Pilot_Power:  900
+[ 69.406] ..# Speed:  1000
+[ 69.424] ..# Joystick:  13
+[ 69.487] ..# Pitch:  0
+[ 69.503] ..# Roll:  0
+[ 69.519] ..# MSSG:                                       
+[ 70.787] ..# Altitude:  10020
+[ 70.807] ..# Pilot_Power:  800
+[ 70.828] ..# Speed:  1000
+[ 70.845] ..# Joystick:  1-1
+[ 70.864] ..# Pitch:  0
+[ 70.880] ..# Roll:
+[ 70.940] ..# MSSG:                                              
+[ 72.208] ..# Altitude:  10020
+[ 72.228] ..# Pilot_Power:  800
+[ 72.248] ..# Speed:  1000
+[ 72.287] ..# Joystick: -5 3
+[ 72.306] ..# Pitch:  0
+[ 72.322] ..# Roll:  0
+[ 72.338] ..# MSSG:  
+[ 73.640] ..# Altitude:  10020
+[ 73.659] ..# Pilot_Power:  800
+[ 73.707] --- Collision Ended:..# Speed:  1000
+[ 73.735] ..# Joystick: -7-2
+[ 73.754] ..# Pitch:  0
+[ 73.770] ..# Roll:  0
+[ 73.786] ..# MSSG:                                                   
+[ 75.107] ..# Altitude:  10020
+[ 75.165] ..# Pilot_Power:  900
+[ 75.185] ..# Speed:  1000
+[ 75.203] ..# Joystick:  2 1
+[ 75.221] ..# Pitch:  0
+[ 75.238] ..# Ro
+[ 75.339] ..# MSSG:                                                                                 
+[ 76.518] ..# Altitud
+[ 76.607] ..# Pilot_Power:  700
+[ 76.627] ..# Speed:  940
+[ 76.644] ..# Joystick:  2 1
+[ 76.663] ..#
+[ 76.765] ..# Roll:  0
+[ 76.780] ..# MSSG:                                                                                                     
+[ 77.947] ..# Altitude:  10020
+[ 77.967] ..# Pi
+[ 78.069] ..# Speed:  300
+[ 78.086] ..# J
+[ 78.190] ..# Pitch:  0
+[ 78.207] ..# Roll:  0
+[ 78.222] ..# MSSG:                                                                                                     
+[ 79.358] ..# Altitude:  10020
+[ 79.378] ..# Pilot_Power:  800
+[ 79.398] ..# Speed:  1000
+[ 79.416] ..# Joystick:  3 0
+[ 79.458] --- Collision Ended: 79.434] ..# Pitch:  0
+[ 79.489] ..# Rol
+[ 79.634] ..# MSSG:                                                                                                     
+[ 80.797] ..# Altitude:  10020
+[ 80.817] ..# Pilot_Power:  800
+[ 80.837] ..# Speed:  1000
+[ 80.855] ..# Joystick:  4-1
+[ 80.911] ..# Pitch:  0
+[ 80.927] ..# Roll:  0
+[ 81.010] --- Position-Altitude Ended: 80.943] ..# MSSG:                                                                                 
+[ 82.185] ..# Altitude:  10020
+[ 82.205] ..# Pilot_Power:  800
+[ 82.257] --- Speed Ended:82.226] ..# Speed:  1000
+[ 82.287] ..# Joystick:  5 3
+[ 82.333] --- Collision Ended: ..# Pitch:  0
+[ 82.360] ..# R
+[ 82.461] ..# MSSG:                                                                                                     
+[ 83.610] ..# Altitude:  10020
+[ 83.630] ..# Pilot_Power:  600
+[ 83.650] ..# Speed:  820
+[ 83.667] ..# Joystick:  16-1
+[ 83.717] ..# Pitch:  0
+[ 83.734] ..# Roll:  0
+[ 83.858] --- Position-Altitude Ended:.# MSSG:                                                                                                     
+[ 85.039] ..# Altitude:  10020
+[ 85.058] ..# Pilot_Power:  500
+[ 85.079] ..# Speed:  700
+[ 85.096] ..# Joystick:  17 1
+[ 85.115] ..# Pitch:  0
+[ 85.175] ..# Roll: 
+[ 85.314] ..# MSSG:                                                                                                     
+[ 86.476] ..# Altitude:  10020
+[ 86.496] ..# Pilot_Power:  950
+[ 86.516] ..# Speed:  1000
+[ 86.534] ..# Joystick:  22 32
+[ 86.554] ..# Pitch:  0
+[ 86.570] ..# Roll:  0
+[ 86.586] ..# MSSG:                                                      
+[ 87.974] ..# Altitude:  10020
+[ 87.994] ..# Pilot_Power:  1000
+[ 88.015] ..# Speed:  1000
+[ 88.033] ..# Joystick:  12 3
+[ 88.052] ..# Pitch:  0
+[ 88.068] ..# Roll:  0
+[ 88.084] ..# MSSG:                  
+[ 89.437] ..# Altitude:  10020
+[ 89.457] ..# Pilot_Power:  900
+[ 89.477] ..# Speed:  1000
+[ 89.495] ..# Joystick:  13 4
+[ 89.514] ..# Pitch:  0
+[ 89.530] ..# Roll:  0
+[ 89.546] ..# MSSG:                                                                                                     
+[ 90.881] ..# Altitude:  10020
+[ 90.901] ..# Pilot_Power:  800
+[ 90.921] ..# Speed:  1000
+[ 90.939] ..# Joystick:  2 0
+[ 90.958] ..# Pitch:  0
+[ 90.974] ..# Roll:  0
+[ 90.990] ..# MSSG:                                                                                       
+[ 92.173] ..# Altitud
+[ 92.359] ..# Pilot_Power:  800
+[ 92.380] ..# Speed:  1000
+[ 92.397] ..# Joystick: -4 2
+[ 92.416] ..# Pitch:  0
+[ 92.432] ..# Roll:  0
+[ 92.448] ..# MSSG:                     
+[ 93.713] ..# Altitude:  10020
+[ 93.733] ..# Pilot_Power:  800
+[ 93.835] ..# Speed:  1000
+[ 93.852] ..# Joystick: -6-2
+[ 93.871] ..# Pitch:  0
+[ 93.958] --- Position-Altitude Ended:..# Roll:  0
+[ 93.988] ..# MSSG:                                                                                              
+[ 95.134] ..# Altitude:  10020
+[ 95.154] ..# Pilot_Power:  800
+[ 95.174] ..# Speed:  1000
+[ 95.219] --- Collision Ended:] ..# Joystick:  3 1
+[ 95.249] ..# Pitch:  0
+[ 95.265] ..# 
+[ 95.410] ..# MSSG:                                                                                                     
+[ 96.558] ..# Altitude:  10020
+[ 96.578] ..# Pilot_Power:  900
+[ 96.598] ..# Speed:  1000
+[ 96.616] ..# Joystick:  2 1
+[ 96.672] ..# Pitch:  0
+[ 96.689] ..# Roll:  0
+[ 96.704] ..# MSSG:                                                    
+[ 98.015] ..# Altitude:  10020
+[ 98.035] ..# Pilot_Power:  150
+[ 98.055] ..# Speed:  300
+[ 98.110] ..# Joystick:  1-3
+[ 98.128] ..# Pitch:  0
+[ 98.145] ..# Roll:  0
+[ 98.231] --- Position-Altitude Ended:..# MSSG:                                                                                  
+[ 99.407] ..# Altitude:  10020
+[ 99.471] ..# Pilot_Power:  800
+[ 99.491] ..# Speed:  1000
+[ 99.547] ..# Joystick:  3 0
+[ 99.565] ..# Pitch:  0
+[ 99.582] ..# Ro
+[ 99.683] ..# MSSG:                                                                                                     
+[ 100.78] ..# Altitude:  10020
+[ 100.80] ..# Pilot_Power:  800
+[ 100.82] ..# Speed:  1000
+[ 100.83] ..# Joystick:  1-3
+[ 100.85] ..# Pitch:  0
+[ 100.87] ..# Roll:  0
+[ 100.88] ..# MSSG:                                                                                                     
+[ 101.98] ..# Altitude:  10020
+[ 102.00] ..# Pilot_Power:  800
+[ 102.02] ..# Speed:  1000
+[ 102.04] ..# Joystick:  1-3
+[ 102.06] ..# Pitch:  0
+[ 102.08] ..# Roll:  0
+[ 102.09] ..# MSSG:                                                                                                     
+[ 103.19] ..# Altitude:  10020
+[ 103.21] ..# Pilot_Power:  800
+[ 103.23] ..# Speed:  1000
+[ 103.25] ..# Joystick:  1-3
+[ 103.27] ..# Pitch:  0
+[ 103.28] ..# Roll:  0
+[ 103.30] ..# MSSG:                                                                                                     
+[ 104.40] ..# Altitude:  10020
+[ 104.42] ..# Pilot_Power:  800
+[ 104.44] ..# Speed:  1000
+[ 104.45] ..# Joystick:  1-3
+[ 104.47] ..# Pitch:  0
+[ 104.49] ..# Roll:  0
+[ 104.50] ..# MSSG:                                                                                                     
+[ 105.60] ..# Altitude:  10020
+[ 105.62] ..# Pilot_Power:  800
+[ 105.64] ..# Speed:  1000
+[ 105.66] ..# Joystick:  1-3
+[ 105.68] ..# Pitch:  0
+[ 105.69] ..# Roll:  0
+[ 105.71] ..# MSSG:                                                                                                     
+[ 106.81] ..# Altitude:  10020
+[ 106.83] ..# Pilot_Power:  800
+[ 106.85] ..# Speed:  1000
+[ 106.87] ..# Joystick:  1-3
+[ 106.89] ..# Pitch:  0
+[ 106.90] ..# Roll:  0
+[ 106.92] ..# MSSG:                                                                                                     
+[ 108.01] ..# Altitude:  10020
+[ 108.03] ..# Pilot_Power:  800
+[ 108.06] ..# Speed:  1000
+[ 108.07] ..# Joystick:  1-3
+[ 108.09] ..# Pitch:  0
+[ 108.11] ..# Roll:  0
+[ 108.12] ..# MSSG:                                                                                                     
+[ 109.22] ..# Altitude:  10020
+[ 109.24] ..# Pilot_Power:  800
+[ 109.26] ..# Speed:  1000
+[ 109.28] ..# Joystick:  1-3
+[ 109.30] ..# Pitch:  0
+[ 109.31] ..# Roll:  0
+[ 109.33] ..# MSSG:                                                                                                     
+[ 110.43] ..# Altitude:  10020
+[ 110.45] ..# Pilot_Power:  800
+[ 110.47] ..# Speed:  1000
+[ 110.49] ..# Joystick:  1-3
+[ 110.50] ..# Pitch:  0
+[ 110.52] ..# Roll:  0
+[ 110.54] ..# MSSG:                                                                                                     
+[ 111.63] ..# Altitude:  10020
+[ 111.65] ..# Pilot_Power:  800
+[ 111.67] ..# Speed:  1000
+[ 111.69] ..# Joystick:  1-3
+[ 111.71] ..# Pitch:  0
+[ 111.73] ..# Roll:  0
+[ 111.74] ..# MSSG:                                                                                                     
+[ 112.84] ..# Altitude:  10020
+[ 112.86] ..# Pilot_Power:  800
+[ 112.88] ..# Speed:  1000
+[ 112.90] ..# Joystick:  1-3
+[ 112.92] ..# Pitch:  0
+[ 112.93] ..# Roll:  0
+[ 112.95] ..# MSSG:                                                                                                     
+[ 114.05] ..# Altitude:  10020
+[ 114.07] ..# Pilot_Power:  800
+[ 114.09] ..# Speed:  1000
+[ 114.11] ..# Joystick:  1-3
+[ 114.12] ..# Pitch:  0
+[ 114.14] ..# Roll:  0
+[ 114.16] ..# MSSG:                                                                                                     
+[ 115.25] ..# Altitude:  10020
+[ 115.27] ..# Pilot_Power:  800
+[ 115.29] ..# Speed:  1000
+[ 115.31] ..# Joystick:  1-3
+[ 115.33] ..# Pitch:  0
+[ 115.35] ..# Roll:  0
+[ 115.36] ..# MSSG:                                                                                                     
+[ 116.46] ..# Altitude:  10020
+[ 116.48] ..# Pilot_Power:  800
+[ 116.50] ..# Speed:  1000
+[ 116.52] ..# Joystick:  1-3
+[ 116.54] ..# Pitch:  0
+[ 116.55] ..# Roll:  0
+[ 116.57] ..# MSSG:                                                                                                     
+[ 117.67] ..# Altitude:  10020
+[ 117.69] ..# Pilot_Power:  800
+[ 117.71] ..# Speed:  1000
+[ 117.72] ..# Joystick:  1-3
+[ 117.74] ..# Pitch:  0
+[ 117.76] ..# Roll:  0
+[ 117.78] ..# MSSG:                                                                                                     
+[ 118.87] ..# Altitude:  10020
+[ 118.89] ..# Pilot_Power:  800
+[ 118.91] ..# Speed:  1000
+[ 118.93] ..# Joystick:  1-3
+[ 118.95] ..# Pitch:  0
+[ 118.97] ..# Roll:  0
+[ 118.98] ..# MSSG:                                                                                                     
+[ 120.08] ..# Altitude:  10020
+[ 120.10] ..# Pilot_Power:  800
+[ 120.12] ..# Speed:  1000
+[ 120.14] ..# Joystick:  1-3
+[ 120.16] ..# Pitch:  0
+[ 120.17] ..# Roll:  0
+[ 120.19] ..# MSSG:                                                                                                     
+[ 121.29] ..# Altitude:  10020
+[ 121.31] ..# Pilot_Power:  800
+[ 121.33] ..# Speed:  1000
+[ 121.34] ..# Joystick:  1-3
+[ 121.36] ..# Pitch:  0
+[ 121.38] ..# Roll:  0
+[ 121.39] ..# MSSG:                                                                                                     
+[ 122.49] ..# Altitude:  10020
+[ 122.51] ..# Pilot_Power:  800
+[ 122.53] ..# Speed:  1000
+[ 122.55] ..# Joystick:  1-3
+[ 122.57] ..# Pitch:  0
+[ 122.59] ..# Roll:  0
+[ 122.60] ..# MSSG:                                                                                                     
+[ 123.70] ..# Altitude:  10020
+[ 123.72] ..# Pilot_Power:  800
+[ 123.74] ..# Speed:  1000
+[ 123.76] ..# Joystick:  1-3
+[ 123.78] ..# Pitch:  0
+[ 123.79] ..# Roll:  0
+[ 123.81] ..# MSSG:                                                                                                     
+[ 124.91] ..# Altitude:  10020
+[ 124.93] ..# Pilot_Power:  800
+[ 124.95] ..# Speed:  1000
+[ 124.96] ..# Joystick:  1-3
+[ 124.98] ..# Pitch:  0
+[ 125.00] ..# Roll:  0
+[ 125.01] ..# MSSG:                                                                                                     
+[ 126.11] ..# Altitude:  10020
+[ 126.13] ..# Pilot_Power:  800
+[ 126.15] ..# Speed:  1000
+[ 126.17] ..# Joystick:  1-3
+[ 126.19] ..# Pitch:  0
+[ 126.20] ..# Roll:  0
+[ 126.22] ..# MSSG:                                                                                                     

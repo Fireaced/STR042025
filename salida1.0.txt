@@ -1,0 +1,2115 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 266912 bytes
+section: .data at 0x20412a0, size 11884 bytes
+tsim> resuming at 0x02000000
+
+[ 0.0041] >>> Collision Executing:
+[ 0.0262] --- Collision Ended:
+[ 0.0420] >>> Position-Altitude Executing:
+[ 0.0945] --- Position-Altitude Ended:
+[ 0.1145] >>> Speed Executing:
+[ 0.1443] --- Speed Ended:
+[ 0.1582] >>> Display Executing:
+[ 0.2918] >>> Collision Executing:
+[ 0.3141] --- Collision Ended:
+[ 0.3300] >>> Position-Altitude Executing:
+[ 0.3880] --- Position-Altitude Ended:SG:                                                                                               
+[ 0.4581] >>> Speed Executing:
+[ 0.4880] --- Speed Ended:      
+
+[ 0.5096] --- Display Ended:
+[ 0.5795] >>> Collision Executing:
+[ 0.6015] --- Collision Ended:
+[ 0.6174] >>> Position-Altitude Executing:
+[ 0.6754] --- Position-Altitude Ended:
+[ 0.8015] >>> Speed Executing:
+[ 0.8313] --- Speed Ended:
+[ 0.8669] >>> Collision Executing:
+[ 0.8889] --- Collision Ended:
+[ 0.9048] >>> Position-Altitude Executing:
+[ 0.9628] --- Position-Altitude Ended:
+[ 1.1448] >>> Spee
+[ 1.1545] >>> Collision Executing:
+[ 1.1766] --- Collision Ended:
+[ 1.1924] >>> Position-Altitude Executing:
+[ 1.2505] --- Position-Altitude Ended:d Executing:
+[ 1.2906] --- Speed Ended:
+[ 1.4419] >>> Collision Executing:
+[ 1.4640] --- Collision Ended:
+[ 1.4798] >>> Position-Altitude Executing:
+[ 1.5381] --- Position-Altitude Ended:
+[ 1.5580] >>> Display Executing:
+[ 1.6041] >>> Speed Executing:
+[ 1.6339] --- Speed Ended:t_Power:  800
+[ 1.
+[ 1.7299] >>> Collision Executing:
+[ 1.7520] --- Collision Ended:
+[ 1.7678] >>> Position-Altitude Executing:
+
+[ 1.9099] --- Display Ended:
+[ 1.9473] >>> Speed Executing:
+[ 1.9773] --- Speed Ended:
+[ 2.0173] >>> Collision Executing:
+[ 2.0394] --- Collision Ended:
+[ 2.0552] >>> Position-Altitude Executing:
+[ 2.1133] --- Position-Altitude Ended:
+[ 2.2908] >>> Speed Executi
+[ 2.3051] >>> Collision Executing:
+[ 2.3272] --- Collision Ended:
+[ 2.3430] >>> Position-Altitude Executing:
+[ 2.4011] --- Position-Altitude Ended:ng:
+[ 2.4366] --- Speed Ended:
+[ 2.5925] >>> Collision Executing:
+[ 2.6146] --- Collision Ended:
+[ 2.6304] >>> Position-Altitude Executing:
+[ 2.6885] --- Position-Altitude Ended:
+[ 2.7500] >>> Speed Executing:
+[ 2.7799] --- Speed Ended:
+[ 2.8799] >>> Collision Executing:
+[ 2.9020] --- Collision Ended:
+[ 2.9178] >>> Position-Altitude Executing:
+[ 2.9761] --- Position-Altitude Ended:
+[ 2.9960] >>> Display Executing:
+[ 3.089
+[ 3.0936] >>> Speed Executing:
+[ 3.1678] >>> Collision Executing:
+[ 3.1899] --- Collision Ended:
+[ 3.2057] >>> Position-Altitude Executing:
+[ 3.2638] --- Position-Altitude Ended:                                                                                             
+
+[ 3.3361] --- Display Ended:
+[ 3.4242] >>> Speed Executing:
+[ 3.4413] --- Speed Ended:
+[ 3.4552] >>> Collision Executing:
+[ 3.4773] --- Collision Ended:
+[ 3.4931] >>> Position-Altitude Executing:
+[ 3.5512] --- Position-Altitude Ended:
+[ 3.7426] >>> Collision Executing:
+[ 3.7647] --- Collision Ended:
+[ 3.7805] >>> Position-Altitude Executing:
+[ 3.8386] --- Position-Altitude Ended:
+[ 3.8585] >>> Speed Executing:
+[ 3.8757] --- Speed Ended:
+[ 4.0300] >>> Collision Executing:
+[ 4.0521] --- Collision Ended:
+[ 4.0679] >>> Position-Altitude Executing:
+[ 4.1260] --- Position-Altitude Ended:
+[ 4.1891] >>> Speed Executing:
+[ 4.2062] --- Speed Ended:
+[ 4.3174] >>> Collision Executing:
+[ 4.3395] --- Collision Ended:
+[ 4.3553] >>> Position-Altitude Executing:
+[ 4.4134] --- Position-Altitude Ended:
+[ 4.4333] >>> Display Executing:
+[ 4.5199] >>> Speed Executing:
+[ 4.5370] --- Speed Ended: 17-1
+[ 4.6051] >>> Collision Executing:
+[ 4.6272] --- Collision Ended:
+[ 4.6431] >>> Position-Altitude Executing:
+[ 4.7011] --- Position-Altitude Ended:                                                                                            
+
+[ 4.7729] --- Display Ended:
+[ 4.8505] >>> Speed Executing:
+[ 4.8676] --- Speed Ended:
+[ 4.8926] >>> Collision Executing:
+[ 4.9146] --- Collision Ended:
+[ 4.9305] >>> Position-Altitude Executing:
+[ 4.9887] --- Position-Altitude Ended:
+[ 5.1800] >>> Collision Executing:
+[ 5.2022] --- Collision Ended:
+[ 5.2180] >>> Position-Altitude Executing:
+[ 5.2761] --- Position-Altitude Ended:
+[ 5.2961] >>> Speed Executing:
+[ 5.3259] --- Speed Ended:
+[ 5.4676] >>> Collision Executing:
+[ 5.4896] --- Collision Ended:
+[ 5.5055] >>> Position-Altitude Executing:
+[ 5.5645] --- Position-Altitude Ended:
+[ 5.6394] >>> Speed Executing:
+[ 5.6692] --- Speed Ended:
+[ 5.7550] >>> Collision Executing:
+[ 5.7770] --- Collision Ended:
+[ 5.7929] >>> Position-Altitude Executing:
+[ 5.8519] --- Position-Altitude Ended:
+[ 5.8718] >>> Display Executing:
+[ 5.9827] >>> Speed Executing:
+[ 6.0126] --- Speed Ended:
+[ 6.0424] >>> Collision Executing:
+[ 6.0645] --- Collision Ended:
+[ 6.0803] >>> Position-Altitude Executing:
+[ 6.1393] --- Position-Altitude Ended:
+
+[ 6.2259] --- Display Ended:
+[ 6.326
+[ 6.3301] >>> Collision Executing:
+[ 6.3661] --- Collision Ended:
+[ 6.3819] >>> Position-Altitude Executing:
+[ 6.4409] --- Position-Altitude Ended:1] >>> Speed Executing:
+[ 6.4866] --- Speed Ended:
+[ 6.6314] >>> Collision Executing:
+[ 6.6535] --- Collision Ended:
+[ 6.6693] >>> Position-Altitude Executing:
+[ 6.7283] --- Position-Altitude Ended:
+[ 6.8001] >>> Speed Executing:
+[ 6.8300] --- Speed Ended:
+[ 6.9188] >>> Collision Executing:
+[ 6.9409] --- Collision Ended:
+[ 6.9567] >>> Position-Altitude Executing:
+[ 7.0158] --- Position-Altitude Ended:
+[ 7.1434] >>> Speed Executing:
+[ 7.1733] --- Speed Ended:
+[ 7.2062] >>> Collision Executing:
+[ 7.2422] --- Collision Ended:
+[ 7.2580] >>> Position-Altitude Executing:
+[ 7.3170] --- Position-Altitude Ended:
+[ 7.3370] >>> Display Executing:
+[ 7.4871] >>> Speed Executing:
+[ 7.503
+[ 7.5079] >>> Collision Executing:
+[ 7.5438] --- Collision Ended:
+[ 7.5597] >>> Position-Altitude Executing:
+[ 7.6477] --- Speed Ended:5                                                                            
+
+[ 7.7056] --- Display Ended:
+[ 7.8092] >>> Collision Executing:
+[ 7.8451] --- Collision Ended:
+[ 7.8610] >>> Position-Altitude Executing:
+[ 7.9200] --- Position-Altitude Ended:
+[ 7.9611] >>> Speed Executing:
+[ 7.9909] --- Speed Ended:
+[ 8.1105] >>> Collision Executing:
+[ 8.1525] >>> Position-Altitude Executing:
+[ 8.2115] --- Position-Altitude Ended:
+[ 8.3044] >>> Speed Executing:
+[ 8.3342] --- Speed Ended:
+[ 8.4309] >>> Position-Altitude Executing:
+[ 8.4899] --- Position-Altitude Ended:
+[ 8.6477] >>> Speed Executing:
+[ 8.6775] --- Speed Ended:
+[ 8.7093] >>> Position-Altitude Executing:
+[ 8.7812] --- Position-Altitude Ended:
+[ 8.8011] >>> Display Executing:
+[ 8.9910] >>> Spee
+[ 9.0007] >>> Position-Altitude Executing:
+[ 9.0726] --- Position-Altitude Ended:d Executing:
+[ 9.1127] --- Speed Ended:
+
+[ 9.1298] --- Display Ended:
+[ 9.2920] >>> Position-Altitude Executing:
+[ 9.3638] --- Position-Altitude Ended:
+[ 9.4261] >>> Speed Executing:
+[ 9.4560] --- Speed Ended:
+[ 9.5833] >>> Position-Altitude Executing:
+[ 9.6550] --- Position-Altitude Ended:
+[ 9.7694] >>> Speed Executing:
+[ 9.7993] --- Speed Ended:
+[ 9.8744] >>> Position-Altitude Executing:
+[ 9.9462] --- Position-Altitude Ended:
+[ 10.112] >>> Speed Executing:
+[ 10.142] --- Speed Ended:
+[ 10.156] >>> Disp
+[ 10.166] >>> Position-Altitude Executing:
+[ 10.237] --- Position-Altitude Ended:lay Executing:
+
+[ 10.440] --- Display Ended:
+[ 
+[ 10.457] >>> Position-Altitude Executing:
+[ 10.529] --- Position-Altitude Ended:10.456] >>> Speed Executing:
+[ 10.577] --- Speed Ended:
+[ 10.748] >>> Position-Altitude Executing:
+[ 10.820] --- Position-Altitude Ended:
+[ 10.891] >>> Speed Executing:
+[ 10.920] --- Speed Ended:
+[ 11.040] >>> Position-Altitude Executing:
+[ 11.105] --- Position-Altitude Ended:
+[ 11.158] --- Collision Ended:
+[ 11.234] >>> Speed Executing:
+[ 11.264] --- Speed Ended:
+[ 11.324] >>> Position-Altitude Executing:
+[ 11.390] --- Position-Altitude Ended:
+[ 11.423] >>> Collision Executing:
+[ 11.445] --- Collision Ended:
+[ 11.461] >>> Display Executing:
+[ 11.571] ..
+[ 11.577] >>> Speed Executing:
+[ 1
+[ 11.609] >>> Position-Altitude Executing:
+[ 11.711] >>> Collision Executing:
+[ 11.733] --- Collision Ended:0
+
+[ 11.820] --- Display Ended:
+[ 11.894] >>> Position-Altitude Executing:
+[ 11.959] --- Position-Altitude Ended:
+[ 11.998] >>> Collision Executing:
+[ 12.021] --- Collision Ended:
+[ 12.036] >>> Speed Executing:
+[ 12.066] --- Speed Ended:
+[ 12.179] >>> Position-Altitude Executing:
+[ 12.244] --- Position-Altitude Ended:
+[ 12.286] >>> Collision Executing:
+[ 12.308] --- Collision Ended:
+[ 12.380] >>> Speed Executing:
+[ 12.410] --- Speed Ended:
+[ 12.463] >>> Position-Altitude Executing:
+[ 12.529] --- Position-Altitude Ended:
+[ 12.573] >>> Collision Executing:
+[ 12.595] --- Collision Ended:
+[ 12.723] >>> Speed Executing:
+[ 12.748] >>> Position-Altitude Executing:
+[ 12.814] --- Position-Altitude Ended:(2): ON
+[ 12.838] --- Speed Ended:
+[ 12.852] >>> Dis
+[ 12.861] >>> Collision Executing:
+[ 12.883] --- Collision Ended:play Executing:
+[ 13.033] >>> Position-Altitude Executing:
+[ 13.099] --- Position-Altitude Ended:                                                           
+[ 13.149] >>> Collision Executing:
+[ 13.171] --- Collision Ended:
+[ 13.187] >>> Speed Executing:
+[ 13.217] --- Speed Ended:                           
+
+[ 13.249] --- Display Ended:
+[ 13.318] >>> Position-Altitude Executing:
+[ 13.384] --- Position-Altitude Ended:
+[ 13.436] >>> Collision Executing:
+[ 13.458] --- Collision Ended:
+[ 13.530] >>> Speed Executing:
+[ 13.560] --- Speed Ended:
+[ 13.603] >>> Position-Altitude Executing:
+[ 13.668] --- Position-Altitude Ended:
+[ 13.724] >>> Collision Executing:
+[ 13.746] --- Collision Ended:
+[ 13.874] >>> Speed Executi
+[ 13.888] >>> Position-Altitude Executing:
+[ 13.953] --- Position-Altitude Ended:ng:
+[ 13.989] --- Speed Ended:
+[ 14.011] >>> Collision Executing:
+[ 14.033] --- Collision Ended:
+[ 14.173] >>> Position-Altitude Executing:
+[ 14.238] --- Position-Altitude Ended:
+[ 14.263] >>> Display Executing:
+[ 14.299] >>> Collision Executing:
+[ 14.321] --- Collision Ended:
+[ 14.336] >>> Speed Executing:
+[ 14.366] --- Speed Ended:
+[ 14.
+[ 14.458] >>> Position-Altitude Executing:
+[ 14.586] >>> Collision Executing:
+[ 14.608] --- Collision Ended:                                                             
+
+[ 14.660] --- Display Ended:
+[ 14.680] >>> Speed Executing:
+[ 14.710] --- Speed Ended:
+[ 14.742] >>> Position-Altitude Executing:
+[ 14.808] --- Position-Altitude Ended:
+[ 14.874] >>> Collision Executing:
+[ 14.896] --- Collision Ended:
+[ 15.023
+[ 15.028] >>> Position-Altitude Executing:
+[ 15.093] --- Position-Altitude Ended:] >>> Speed Executing:
+[ 15.138] --- Speed Ended:
+[ 15.161] >>> Collision Executing:
+[ 15.183] --- Collision Ended:
+[ 15.312] >>> Position-Altitude Executing:
+[ 15.378] --- Position-Altitude Ended:
+[ 15.448] >>> Collision Executing:
+[ 15.471] --- Collision Ended:
+[ 15.486] >>> Speed Executing:
+[ 15.516] --- Speed Ended:
+[ 15.597] >>> Position-Altitude Executing:
+[ 15.663] --- Position-Altitude Ended:
+[ 15.682] >>> Display Executing:
+[ 15.736] >>> Collision Executing:
+[ 15.758] --- Collision Ended:
+[ 15.830] >>> Speed Executing:
+[ 15.860] --- Speed Ended:
+[ 15.882] >>> Position-Altitude Executing:
+[ 15.947] --- Position-Altitude Ended:ll:  0
+[ 16.024] >>> Collision Executing:
+[ 16.046] --- Collision Ended:                         
+
+[ 16.079] --- Display Ended:
+[ 16.167] >>> Position-Altitude Executing:
+[ 16.232] --- Position-Altitude Ended:
+[ 16.252] >>> Speed Executing:
+[ 16.282] --- Speed Ended:
+[ 16.311] >>> Collision Executing:
+[ 16.333] --- Collision Ended:
+[ 16.452] >>> Position-Altitude Executing:
+[ 16.517] --- Position-Altitude Ended:
+[ 16.
+[ 16.599] >>> Collision Executing:
+[ 16.621] --- Collision Ended:595] >>> Speed Executing:
+[ 16.651] --- Speed Ended:
+[ 16.736] >>> Position-Altitude Executing:
+[ 16.802] --- Position-Altitude Ended:
+[ 16.886] >>> Collision Executing:
+[ 16.908] --- Collision Ended:
+[ 16.964] >>> Speed Executing:
+[ 16.981] --- Speed Ended:
+[ 17.021] >>> Position-Altitude Executing:
+[ 17.086] --- Position-Altitude Ended:
+[ 17.106] >>> Display Executing:
+[ 17.178] >>> Collision Executing:
+[ 17.196] --- Collision Ended::  460
+[ 17.295] >>> Speed E
+[ 17.306] >>> Position-Altitude Executing:
+[ 17.371] --- Position-Altitude Ended:xecuting:
+[ 17.397] --- Speed Ended:                                                                       
+
+[ 17.452] --- Dis
+[ 17.461] >>> Collision Executing:
+[ 17.483] --- Collision Ended:play Ended:
+[ 17.591] >>> Position-Altitude Executing:
+[ 17.656] --- Position-Altitude Ended:
+[ 17.711] >>> Speed Executing:
+[ 17.741] --- Sp
+[ 17.749] >>> Collision Executing:
+[ 17.771] --- Collision Ended:eed Ended:
+[ 17.876] >>> Position-Altitude Executing:
+[ 17.941] --- Position-Altitude Ended:
+[ 18.037] >>> Collision Executing:
+[ 18.059] --- Collision Ended:
+[ 18.092] >>> Speed Executing:
+[ 18.109] --- Speed Ended:
+[ 18.160] >>> Position-Altitude Executing:
+[ 18.226] --- Position-Altitude Ended:
+[ 18.324] >>> Collision Executing:
+[ 18.346] --- Collision Ended:
+[ 18.423] >>> Speed Executing:
+[ 18.440] 
+[ 18.445] >>> Position-Altitude Executing:
+[ 18.511] --- Position-Altitude Ended:--- Speed Ended:
+[ 18.539] >>> Display Executing:
+[ 18.612] >>> Collision Executing:
+[ 18.634] --- Collision Ended:
+[ 18.731] >>> Position-Altitude Executing:
+[ 18.796] --- Position-Altitude Ended:                                             
+[ 18.839] >>> Speed Executing:
+[ 18.869] --- Speed Ended:                   
+
+[ 1
+[ 18.899] >>> Collision Executing:
+[ 18.921] --- Collision Ended:8.897] --- Display Ended:
+[ 19.015] >>> Position-Altitude Executing:
+[ 19.081] --- Position-Altitude Ended:
+[ 19.182
+[ 19.187] >>> Collision Executing:
+[ 19.209] --- Collision Ended:] >>> Speed Executing:
+[ 19.250] --- Speed Ended:
+[ 19.300] >>> Position-Altitude Executing:
+[ 19.365] --- Position-Altitude Ended:
+[ 19.474] >>> Collision Executing:
+[ 19.496] --- Collision Ended:
+[ 19.564] >>> Speed Executing:
+[ 19.580]
+[ 19.585] >>> Position-Altitude Executing:
+[ 19.679] --- Speed Ended:
+[ 19.762] >>> Collision Executing:
+[ 19.784] --- Collision Ended:
+[ 19.870] >>> Position-Altitude Executing:
+[ 19.935] --- Position-Altitude Ended:
+[ 19.955] >>> Display Executing:
+[ 19.992] >>> Speed Executing:
+[ 20.022] --- Speed Ended:
+[ 20.050] >>> Collision Executing:
+[ 20.072] --- Collision Ended:  800
+[ 20.155] >>> Position-Altitude Executing:
+[ 20.220] --- Position-Altitude Ended:oll:  0
+
+[ 20.314] --- Display Ended:
+[ 2
+[ 20.337] >>> Collision Executing:
+[ 20.360] --- Collision Ended:0.335] >>> Speed Executing:
+[ 20.403] --- Speed Ended:
+[ 20.440] >>> Position-Altitude Executing:
+[ 20.505] --- Position-Altitude Ended:
+[ 20.625] >>> Collision Executing:
+[ 20.647] --- Collision Ended:
+[ 20.717] >>> S
+[ 20.725] >>> Position-Altitude Executing:
+[ 20.790] --- Position-Altitude Ended:peed Executing:
+[ 20.832] --- Speed Ended:
+[ 20.912] >>> Collision Executing:
+[ 20.934] --- Collision Ended:
+[ 21.010] >>> Position-Altitude Executing:
+[ 21.075] --- Position-Altitude Ended:
+[ 21.145] >>> Speed Executing:
+[ 21.175] --- Speed Ended:
+[ 21.200] >>> Collision Executing:
+[ 21.222] --- Collision Ended:
+[ 21.294] >>> Position-Altitude Executing:
+[ 21.360] --- Position-Altitude Ended:
+[ 21.380] >>> Display Executing:
+[ 21.487] >>> Collision Executing:
+[ 21.509] --- Collision Ended:
+[ 21.525] >>> Speed Executing:
+[ 21.555] --- Speed Ended:
+[ 21.580] >>> Position-Altitude Executing:
+[ 21.645] --- Position-Altitude Ended:ll:  0
+
+[ 21.739] --- Display Ended:
+[ 21.774] >>> Collision Executing:
+[ 21.797] --- Collision Ended:
+[ 21.864] >>> Position-Altitude Executing:
+[ 21.930] --- Position-Altitude Ended:
+[ 21.950] >>> Speed Executing:
+[ 21.980] --- Speed Ended:
+[ 22.062] >>> Collision Executing:
+[ 22.084] --- Collision Ended:
+[ 22.149] >>> Position-Altitude Executing:
+[ 22.214] --- Position-Altitude Ended:
+[ 22.293] >>> Speed Executing:
+[ 22.323] --- Speed Ended:
+[ 22.349] >>> Collision Executing:
+[ 22.371] --- Collision Ended:
+[ 22.434] >>> Position-Altitude Executing:
+[ 22.499] --- Position-Altitude Ended:
+[ 22.637] >>> Collision Executing:
+[ 22.659] --- Collision Ended:
+[ 22.675] >>> Speed Executing:
+[ 22.692] --- Speed Ended:
+[ 22.719] >>> Position-Altitude Executing:
+[ 22.784] --- Position-Altitude Ended:
+[ 22.804] >>> Display Executing:
+[ 22.925] >>> Collision Executing:
+[ 22.947] --- Collision Ended: 0
+[ 23.004] >>> Position-Altitude Executing:
+[ 23.070] --- Position-Altitude Ended:
+[ 23.090] >>> Speed Executing:
+[ 23.107] --- Speed Ended:                                                  
+
+[ 23.151] --- Display Ended:
+[ 23.212] >>> Collision Executing:
+[ 23.234] --- Collision Ended:
+[ 23.289] >>> Position-Altitude Executing:
+[ 23.354] --- Position-Altitude Ended:
+[ 23.420] >>> Speed Executing:
+[ 23.437] --- Speed Ended:
+[ 23.499] >>> Collision Executing:
+[ 23.521] --- Collision Ended:
+[ 23.574] >>> Position-Altitude Executing:
+[ 23.639] --- Position-Altitude Ended:
+[ 23.751] >>> Speed Executing:
+[ 23.768] --- Speed Ended:
+[ 23.787] >>> Collision Executing:
+[ 23.809] --- Collision Ended:
+[ 23.858] >>> Position-Altitude Executing:
+[ 23.924] --- Position-Altitude Ended:
+[ 24.074] >>> Collision Executing:
+[ 24.096] --- Collision Ended:
+[ 24.112] >>> Speed Executing:
+[ 24.129] --- Speed Ended:
+[ 24.143] >>> Position-Altitude Executing:
+[ 24.209] --- Position-Altitude Ended:
+[ 24.229] >>> Display Executing:
+[ 24.362] >>> Collision Executing:
+[ 24.384] --- Collision Ended:MSSG:                                                   
+[ 24.428] >>> Position-Altitude Executing:
+[ 24.494] --- Position-Altitude Ended:
+[ 24.514] >>> Speed Executing:
+[ 24.531] --- Speed Ended:                                                  
+
+[ 24.575] --- Display Ended:
+[ 24.649] >>> Collision Executing:
+[ 24.671] --- Collision Ended:
+[ 24.713] >>> Position-Altitude Executing:
+[ 24.778] --- Position-Altitude Ended:
+[ 24.844] >>> Speed Executing:
+[ 24.861] --- Speed Ended:
+[ 24.937] >>> Collision Executing:
+[ 24.959] --- Collision Ended:
+[ 24.998] >>> Position-Altitude Executing:
+[ 25.063] --- Position-Altitude Ended:
+[ 25.175] >>> Speed Executing:
+[ 25.205] --- Speed Ended:
+[ 25.224] >>> Collision Executing:
+[ 25.246] --- Collision Ended:
+[ 25.283] >>> Position-Altitude Executing:
+[ 25.348] --- Position-Altitude Ended:
+[ 25.511] >>> Collision Executing:
+[ 25.533] --- Collision Ended:
+[ 25.549] >>> Speed Executing:
+[ 
+[ 25.568] >>> Position-Altitude Executing:
+[ 25.665] --- Speed Ended:
+[ 25.678] >>> Display Executing:
+[ 25.799] >>> Collision Executing:
+[ 25.821] --- Collision Ended::  0
+[ 25.853] >>> Position-Altitude Executing:
+[ 25.918] --- Position-Altitude Ended::                                                                              
+[ 25.978] >>> Speed Executing:
+[ 26.008] --- Speed Ended:                       
+
+[ 26.038] --- Display Ended:
+[ 26.086] >>> Collision Executing:
+[ 26.108] --- Collision Ended:
+[ 26.137] >>> Position-Altitude Executing:
+[ 26.203] --- Position-Altitude Ended:
+[ 26.322] >>> Speed Executing:
+[ 26.352] --- Speed Ended:
+[ 26.374] >>> Collision Executing:
+[ 26.396] --- Collision Ended:
+[ 26.422] >>> Position-Altitude Executing:
+[ 26.487] --- Position-Altitude Ended:
+[ 26.661] >>> Collision Executing:
+[ 26.683] --- Collision Ended:
+[ 26.699] >>> S
+[ 26.707] >>> Position-Altitude Executing:
+[ 26.773] --- Position-Altitude Ended:peed Executing:
+[ 26.814] --- Speed Ended:
+[ 26.948] >>> Collision Executing:
+[ 26.971] --- Collision Ended:
+[ 26.992] >>> Position-Altitude Executing:
+[ 27.058] --- Position-Altitude Ended:
+[ 27.077] >>> Display Executing:
+[ 27.128] >>> Speed Executing:
+[ 27.158] --- Speed Ended:  950
+[ 27.23
+[ 27.236] >>> Collision Executing:
+[ 27.272] --- Collision Ended:
+[ 27.288] >>> Position-Altitude Executing:
+
+[ 27.451] --- Display Ended:
+[ 27.471] >>> Speed Executing:
+[ 27.501] --- Speed Ended:
+[ 27.537] >>> Collision Executing:
+[ 27.573] --- Collision Ended:
+[ 27.589] >>> Position-Altitude Executing:
+[ 27.655] --- Position-Altitude Ended:
+[ 27.815] >>> Speed Executing:
+[ 27.839] >>> Collision Executing:
+[ 27.875] --- Collision Ended:
+[ 27.891] >>> Position-Altitude Executing:
+[ 27.956] --- Position-Altitude Ended:ht(2): ON
+[ 27.982] --- Speed Ended:
+[ 28.140] >>> Collision Executing:
+[ 28.177] --- Collision Ended:
+[ 28.192] >>> Position-Altitude Executing:
+[ 28.258] --- Position-Altitude Ended:
+[ 28.295] >>> Speed Executing:
+[ 28.325] --- Speed Ended:
+[ 28.442] >>> Collision Executing:
+[ 28.478] --- Collision Ended:
+[ 28.494] >>> Position-Altitude Executing:
+[ 28.559] --- Position-Altitude Ended:
+[ 28.579] >>> Display Executing:
+[ 2
+[ 28.639] >>> Speed Executing:
+[ 28.744] >>> Collision Executing:
+[ 28.780] --- Collision Ended:
+[ 28.796] >>> Position-Altitude Executing:
+[ 28.861] --- Position-Altitude Ended: 0
+
+[ 28.953] --- Display Ended:
+[ 28.982] >>> Speed Executing:
+[ 29.012] --- Speed Ended:
+[ 29.045] >>> Collision Executing:
+[ 29.087] >>> Position-Altitude Executing:
+[ 29.153] --- Position-Altitude Ended:
+[ 29.325] >>> Speed Executing:
+[ 29.355] --- Speed Ended:
+[ 29.372] >>> Position-Altitude Executing:
+[ 29.438] --- Position-Altitude Ended:
+[ 29.657] >>> Position-Altitude Executing:
+[ 29.722] --- Position-Altitude Ended:
+[ 29.742] >>> Speed Executing:
+[ 29.772] --- Speed Ended:
+[ 29.942] >>> Position-Altitude Executing:
+[ 30.007] --- Position-Altitude Ended:
+[ 30.027] >>> Display Executing:
+[
+[ 30.086] >>> Speed Executing:
+[ 30.227] >>> Position-Altitude Executing:
+[ 30.292] --- Position-Altitude Ended:                                                              
+
+[ 30.349] --- Display Ended:
+[ 30.429] >>> Speed Executing:
+[ 30.459] --- Speed Ended:
+[ 30.512] >>> Position-Altitude Executing:
+[ 30.577] --- Position-Altitude Ended:
+[ 30.772] >>> Speed Executing:
+[ 30.797] >>> Position-Altitude Executing:
+[ 30.862] --- Position-Altitude Ended:ht(2): ON
+[ 30.887] --- Speed Ended:
+[ 31.081] >>> Position-Altitude Executing:
+[ 31.147] --- Position-Altitude Ended:
+[ 31.201] >>> Speed Executing:
+[ 31.231] --- Speed Ended:
+[ 31.3
+[ 31.366] >>> Position-Altitude Executing:
+[ 31.432] --- Position-Altitude Ended:63] >>> Display Executing:
+[ 31
+[ 31.544] >>> Speed Executing:
+[ 31.652] >>> Position-Altitude Executing:
+[ 31.717] --- Position-Altitude Ended:                                                      
+
+[ 31.769] --- Display Ended:
+[ 31.888] >>> Speed Executing:
+[ 31.917] --- Speed Ended:
+[ 31.936] >>> Position-Altitude Executing:
+[ 32.002] --- Position-Altitude Ended:
+[ 32.093] --- Collision Ended:
+[ 32.221] >>> Position-Altitude Executing:
+[ 32.287] --- Position-Altitude Ended:
+[ 32.307] >>> Speed Executing:
+[ 32.336] --- Speed Ended:
+[ 32.359] >>> Collision Executing:
+[ 32.381] --- Collision Ended:
+[ 32.506] >>> Position-Altitude Executing:
+[ 32.571] --- Position-Altitude Ended:
+[ 32.646] >>> Collision Executing:
+[ 32.668] --- Collision Ended:
+[ 32.684] >>> Speed Executing:
+[ 32.714] --- Speed Ended:
+[ 32.784] >>> 
+[ 32.791] >>> Position-Altitude Executing:
+[ 32.857] --- Position-Altitude Ended:Display Executing:
+[ 32.934] >>> Collision Executing:
+[ 32.956] --- Collision Ended:Speed:  1000
+[ 33.027] >>> Speed Executing:
+[ 33.057] --- Speed Ended: 0
+[ 33.076] >>> Position-Altitude Executing:
+[ 33.141] --- Position-Altitude Ended:
+[ 33.221] >>> Collision Executing:
+[ 33.243] --- Collision Ended:    
+
+[ 33.266] --- Display Ended:
+[ 33.361] >>> Position-Altitude Executing:
+[ 33.426] --- Position-Altitude Ended:
+[ 33.446] >>> Speed Executing:
+[ 33.476] --- Speed Ended:
+[ 33.509] >>> Collision Executing:
+[ 33.531] --- Collision Ended:
+[ 33.646] >>> Position-Altitude Executing:
+[ 33.711] --- Position-Altitude Ended:
+[ 33.789] >>>
+[ 33.797] >>> Collision Executing:
+[ 33.819] --- Collision Ended: Speed Executing:
+[ 33.857] --- Speed Ended:
+[ 33.930] >>> Position-Altitude Executing:
+[ 33.996] --- Position-Altitude Ended:
+[ 34.084] >>> Collision Executing:
+[ 34.106] --- Collision Ended:
+[ 34.171] >>> Speed Executing:
+[ 34.200] --- Speed Ended:
+[ 34.215] >>> Position-Altitude Executing:
+[ 34.281] --- Position-Altitude Ended:
+[ 34.301] >>> Display Executing:
+[ 34.371] >>> Collision Executing:
+[ 34.394] --- Collision Ended:
+[ 34.500] >>> Position-Altitude Executing:
+[ 34.566] --- Position-Altitude Ended:
+[ 34.586] >>> Speed Executing:
+[ 34.616] --- Speed Ended:                                                 
+[ 34.659] >>> Collision Executing:
+[ 34.681] --- Collision Ended:
+
+[ 34.698] --- Display Ended:
+[ 34.785] >>> Position-Altitude Executing:
+[ 34.851] --- Position-Altitude Ended:
+[ 34.929] >>> Speed Executing:
+[
+[ 34.947] >>> Collision Executing:
+[ 34.997] --- Speed Ended:
+[ 35.070] >>> Position-Altitude Executing:
+[ 35.135] --- Position-Altitude Ended:
+[ 35.234] >>> Collision Executing:
+[ 35.256] --- Collision Ended:
+[ 35.310] >>> Speed Executing:
+[ 35.340] --- Speed Ended:
+[ 35.355] >>> Position-Altitude Executing:
+[ 35.420] --- Position-Altitude Ended:
+[ 35.522] >>> Collision Executing:
+[ 35.544] --- Collision Ended:
+[ 35.639] >>> Position-Altitude Executing:
+[ 35.705] --- Position-Altitude Ended:
+[ 35.725] >>> Speed Executing:
+[ 35.755] --- Speed Ended:
+[ 35.768] >>> Display Executing:
+[ 35.80
+[ 35.809] >>> Collision Executing:
+[ 35.925] >>> Position-Altitude Executing:
+[ 35.990] --- Position-Altitude Ended:ll:  0
+[ 36.068] >>> Speed Executing:
+[ 36.097] >>> Collision Executing:
+[ 36.119] --- Collision Ended:
+[ 36.136] --- Speed Ended:                      
+
+[ 36.166] --- Display Ended:
+[ 36.210] >>> Position-Altitude Executing:
+[ 36.275] --- Position-Altitude Ended:
+[ 36.384] >>> Collision Executing:
+[ 36.407] --- Collision Ended:
+[ 36.449] >>> Speed Executing:
+[ 36.479] --- Speed Ended:
+[ 36.494] >>> Position-Altitude Executing:
+[ 36.560] --- Position-Altitude Ended:
+[ 36.672] >>> Collision Executing:
+[ 36.694] --- Collision Ended:
+[ 36.779] >>> Position-Altitude Executing:
+[ 36.844] --- Position-Altitude Ended:
+[ 36.864] >>> Speed Executing:
+[ 36.882] --- Speed Ended:
+[ 36.959] >>> Collision Executing:
+[ 36.981] --- Collision Ended:
+[ 37.064] >>> Position-Altitude Executing:
+[ 37.129] --- Position-Altitude Ended:
+[ 37.180] >>> Display Executi
+[ 37.195] >>> Speed Executing:
+[ 37.212] --- Speed Ended:ng:
+[ 37.247] >>> Collision Executing:
+[ 37.269] --- Collision Ended:
+[ 37.349] >>> Position-Altitude Executing:
+[ 37.414] --- Position-Altitude Ended:Pitch:  0
+
+
+[ 37.526] >>> Sp
+[ 37.535] >>> Collision Executing:
+[ 37.557] --- Collision Ended:eed Executing:
+[ 37.594] --- Speed Ended:[ 37.607] --- Display Ended:
+[ 37.634] >>> Position-Altitude Executing:
+[ 37.699] --- Position-Altitude Ended:
+[ 37.822] >>> Collision Executing:
+[ 37.844] --- Collision Ended:
+[ 37.907] >>> Speed Ex
+[ 37.919] >>> Position-Altitude Executing:
+[ 37.984] --- Position-Altitude Ended:ecuting:
+[ 38.010] --- Speed Ended:
+[ 38.109] >>> Collision Executing:
+[ 38.132] --- Collision Ended:
+[ 38.204] >>> Position-Altitude Executing:
+[ 38.269] --- Position-Altitude Ended:
+[ 38.323] >>> Speed Executing:
+[ 38.340] --- Speed Ended:
+[ 38.397] >>> Collision Executing:
+[ 38.419] --- Collision Ended:
+[ 38.488] >>> Position-Altitude Executing:
+[ 38.554] --- Position-Altitude Ended:
+[ 38.621] >>> Display Executing:
+[ 38.654] >>> Speed Executing:
+[ 38.671] --- Speed Ended:
+[ 38.685] >>> Collision Executing:
+[ 38.707] --- Collision Ended:0
+[ 38.774] >>> Position-Altitude Executing:
+[ 38.839] --- Position-Altitude Ended:stick:  1 3
+
+[ 38.967]
+[ 38.972] >>> Collision Executing:
+[ 38.995] --- Collision Ended:
+[ 39.010] >>> Speed Executing:
+[ 39.040] --- Speed Ended: --- Disp
+[ 39.059] >>> Position-Altitude Executing:
+[ 39.124] --- Position-Altitude Ended:lay Ended:
+[ 39.260] >>> Collision Executing:
+[ 39.282] --- Collision Ended:
+[ 39.343] >>> Position-Altitude Executing:
+[ 39.409] --- Position-Altitude Ended:
+[ 39.429] >>> Speed Executing:
+[ 39.459] --- Speed Ended:
+[ 39.547] >>> Collision Executing:
+[ 39.569] --- Collision Ended:
+[ 39.628] >>> Position-Altitude Executing:
+[ 39.693] --- Position-Altitude Ended:
+[ 39.772] >>> Speed Executing:
+[ 39.802] --- Speed Ended:
+[ 39.835] >>> Collision Executing:
+[ 39.857] --- Collision Ended:
+[ 39.913] >>> Position-Altitude Executing:
+[ 39.978] --- Position-Altitude Ended:
+[ 40.115] >>>
+[ 40.122] >>> Collision Executing:
+[ 40.145] --- Collision Ended: Speed Executing:
+[ 40.183] --- Speed Ended:
+[
+[ 40.198] >>> Position-Altitude Executing:
+[ 40.263] --- Position-Altitude Ended: 40.197] >>> Display Executing:
+[ 40
+[ 40.410] >>> Collision Executing:
+[ 40.483] >>> Position-Altitude Executing:
+[ 40.548] --- Position-Altitude Ended:
+[ 40.568] >>> Speed Executing:
+[ 40.598] --- Speed Ended:                                                
+
+[ 40.641] --- Display Ended:
+[ 40.698] >>> Collision Executing:
+[ 40.720] --- Collision Ended:
+[ 40.768] >>> Position-Altitude Executing:
+[ 40.833] --- Position-Altitude Ended:
+[ 40.912] >>> Speed Executing:
+[ 40.941] --- Speed Ended:
+[ 40.985] >>> Collision Executing:
+[ 41.007] --- Collision Ended:
+[ 41.053] >>> Position-Altitude Executing:
+[ 41.118] --- Position-Altitude Ended:
+[ 41.255] >>> Speed Executing:
+[
+[ 41.273] >>> Collision Executing:
+[ 41.323] --- Speed Ended:
+[ 41.337] >>> Position-Altitude Executing:
+[ 41.403] --- Position-Altitude Ended:
+[ 41.560] >>> Collision Executing:
+[ 41.582] --- Collision Ended:
+[ 41.622] >>> Position-Altitude Executing:
+[ 41.687] --- Position-Altitude Ended:
+[ 41.707] >>> Speed Executing:
+[ 41.737] --- Speed Ended:
+[ 41.751] >>> Display Executing:
+[ 41.
+[ 41.848] >>> Collision Executing:
+[ 41.907] >>> Position-Altitude Executing:
+[ 41.973] --- Position-Altitude Ended:ll:  0
+[ 42.051] >>> Speed Executing:
+[ 42.081] --- Speed Ended:                      
+
+[ 42.110] --- Display Ended:
+[ 42.135] >>> Collision Executing:
+[ 42.157] --- Collision Ended:
+[ 42.192] >>> Position-Altitude Executing:
+[ 42.258] --- Position-Altitude Ended:
+[ 42.394] >>> Speed Executing:
+[ 42.423] >>> Collision Executing:
+[ 42.445] --- Collision Ended:
+[ 42.462] --- Speed Ended:
+[ 42.477] >>> Position-Altitude Executing:
+[ 42.542] --- Position-Altitude Ended:
+[ 42.710] >>> Collision Executing:
+[ 42.733] --- Collision Ended:
+[ 42.762] >>> Position-Altitude Executing:
+[ 42.827] --- Position-Altitude Ended:
+[ 42.847] >>> Speed Executing:
+[ 42.864] --- Speed Ended:
+[ 42.998] >>> Collision Executing:
+[ 43.020] --- Collision Ended:
+[ 43.047] >>> Position-Altitude Executing:
+[ 43.112] --- Position-Altitude Ended:
+[ 43.132] >>> Display Executing:
+[ 43.178] >>> Speed Executing:
+[ 43.195] --- Speed Ended:ot_Power:  700
+[ 43.285] >>> Collision Executing:
+[ 43.307] --- Collision Ended:
+[ 43.326] .
+[ 43.332] >>> Position-Altitude Executing:
+
+[ 43.478] --- Display Ended:
+[ 43.508] >>> Speed Executing:
+[ 43.525] --- Speed Ended:
+[ 43.573] >>> Collision Executing:
+[ 43.595] --- Collision Ended:
+[ 43.617] >>> Position-Altitude Executing:
+[ 43.682] --- Position-Altitude Ended:
+[ 43.839] >>> Speed Executing:
+[ 43.856
+[ 43.861] >>> Collision Executing:
+[ 43.883] --- Collision Ended:] --- 
+[ 43.902] >>> Position-Altitude Executing:
+[ 43.967] --- Position-Altitude Ended:Speed Ended:
+[ 44.148] >>> Collision Executing:
+[ 44.170] --- Collision Ended:
+[ 44.187] >>> Position-Altitude Executing:
+[ 44.252] --- Position-Altitude Ended:
+[ 44.293] >>> Speed Executing:
+[ 44.310] --- Speed Ended:
+[ 44.435] >>> Collision Executing:
+[ 44.458] --- Collision Ended:
+[ 44.473] >>> Position-Altitude Executing:
+[ 44.539] --- Position-Altitude Ended:
+[ 44.559] >>> Display Executing:
+[ 44.624] >>> Speed Executing:
+[ 44.641] --- Speed Ended:peed:  700
+[ 44.723] >>> Collision Executing:
+[ 44.745] --- Collision Ended:
+[ 44.761] >>> Position-Altitude Executing:
+[ 44.827] --- Position-Altitude Ended:SSG:                                                                                                     
+
+[ 44.905] --- Display Ended:
+[ 44.954] >>> Speed Executing:
+[ 44.971] --- Speed Ended:
+[ 45.011] >>> Collision Executing:
+[ 45.033] --- Collision Ended:
+[ 45.049] >>> Position-Altitude Executing:
+[ 45.114] --- Position-Altitude Ended:
+[ 45.285] >>> Speed Execu
+[ 45.298] >>> Collision Executing:
+[ 45.320] --- Collision Ended:
+[ 45.336] >>> Position-Altitude Executing:
+[ 45.401] --- Position-Altitude Ended:ting:
+[ 45.438] --- Speed Ended:
+[ 45.586] >>> Collision Executing:
+[ 45.608] --- Collision Ended:
+[ 45.624] >>> Position-Altitude Executing:
+[ 45.689] --- Position-Altitude Ended:
+[ 45.751] >>> Speed Executing:
+[ 45.781] --- Speed Ended:
+[ 45.873] >>> Collision Executing:
+[ 45.895] --- Collision Ended:
+[ 45.911] >>> Position-Altitude Executing:
+[ 45.976] --- Position-Altitude Ended:
+[ 45.996] >>> Display Executing:
+[ 46.09
+[ 46.095] >>> Speed Executing:
+[ 46.161] >>> Collision Executing:
+[ 46.183] --- Collision Ended:
+[ 46.199] >>> Position-Altitude Executing:
+[ 46.264] --- Position-Altitude Ended::  0
+
+[ 46.357] --- Display Ended:
+[ 46.438] >>> Spee
+[ 46.448] >>> Collision Executing:
+[ 46.470] --- Collision Ended:
+[ 46.486] >>> Position-Altitude Executing:
+[ 46.551] --- Position-Altitude Ended:d Executing:
+[ 46.591] --- Speed Ended:
+[ 46.736] >>> Collision Executing:
+[ 46.758] --- Collision Ended:
+[ 46.773] >>> Position-Altitude Executing:
+[ 46.839] --- Position-Altitude Ended:
+[ 46.905] >>> Speed Executing:
+[ 46.935] --- Speed Ended:
+[ 47.023] >>> Collision Executing:
+[ 47.059] --- Collision Ended:
+[ 47.075] >>> Position-Altitude Executing:
+[ 47.140] --- Position-Altitude Ended:
+[ 47.248] >>> Speed Executing:
+[ 47.278] --- Speed Ended:
+[ 47.324] >>> Collision Executing:
+[ 47.361] --- Collision Ended:
+[ 47.376] >>> Position-Altitude Executing:
+[ 47.442] --- Position-Altitude Ended:
+[ 47.462] >>> Display Executing:
+[ 47.
+[ 47.592] >>> Speed Executing:
+[ 47.622
+[ 47.626] >>> Collision Executing:
+[ 47.662] --- Collision Ended:
+[ 47.678] >>> Position-Altitude Executing:
+
+[ 47.836] --- Display Ended:
+[ 47.928] >>> Collision Executing:
+[ 47.964] --- Collision Ended:
+[ 47.980] >>> Position-Altitude Executing:
+[ 48.045] --- Position-Altitude Ended:
+[ 48.072] >>> Speed Executing:
+[ 48.102] --- Speed Ended:
+[ 48.229] >>> Collision Executing:
+[ 48.265] --- Collision Ended:
+[ 48.281] >>> Position-Altitude Executing:
+[ 48.347] --- Position-Altitude Ended:
+[ 48.416] >>> Speed Executing:
+[ 48.446] --- Speed Ended:
+[ 48.531] >>> Collision Executing:
+[ 48.567] --- Collision Ended:
+[ 48.583] >>> Position-Altitude Executing:
+[ 48.648] --- Position-Altitude Ended:
+[ 48.759] >>> Speed Executing:
+[ 48.789] --- Speed Ended:
+[ 48.832] >>> Collision Executing:
+[ 48.868] --- Collision Ended:
+[ 48.884] >>> Position-Altitude Executing:
+[ 48.950] --- Position-Altitude Ended:
+[ 48.970] >>> Display Executing:
+[ 49.103] >>> Speed Executing:
+[
+[ 49.134] >>> Collision Executing:
+[ 49.176] >>> Position-Altitude Executing:
+[ 49.241] --- Position-Altitude Ended: 49.133] --- Speed Ended: MSSG:                                                                                                     
+
+[ 49.333] --- Display Ended:
+[ 49.461] >>> Position-Altitude Executing:
+[ 49.526] --- Position-Altitude Ended:
+[ 49.574] >>> Speed Executing:
+[ 49.603] --- Speed Ended:
+[ 49.745] >>> Position-Altitude Executing:
+[ 49.811] --- Position-Altitude Ended:
+[ 49.917] >>> Speed Executing:
+[ 49.947] --- Speed Ended:
+[ 50.030] >>> Position-Altitude Executing:
+[ 50.095] --- Position-Altitude Ended:
+[ 50.260] >>> Speed Executing:
+[ 50.290] --- Speed Ended:
+[ 50.315] >>> Position-Altitude Executing:
+[ 50.380] --- Position-Altitude Ended:
+[ 50.400] >>> Display Executing:
+
+[ 50.592] --- 
+[ 50.600] >>> Position-Altitude Executing:
+[ 50.666] --- Position-Altitude Ended:
+[ 50.685] >>> Speed Executing:
+[ 50.715] --- Speed Ended:Display Ended:
+[ 50.885] >>> Position-Altitude Executing:
+[ 50.950] --- Position-Altitude Ended:
+[ 51.029] >>> Speed Executing:
+[ 51.059] --- Speed Ended:
+[ 51.170] >>> Position-Altitude Executing:
+[ 51.235] --- Position-Altitude Ended:
+[ 51.372] >>> Speed Executing:
+[ 51.402] --- Speed Ended:
+[ 51.454] >>> Position-Altitude Executing:
+[ 51.520] --- Position-Altitude Ended:
+[ 51.715] >>> Speed Executing:
+[ 51.739] >>> Position-Altitude Executing:
+[ 51.805] --- Position-Altitude Ended:ght(2): ON
+[ 51.831] --- Speed Ended:
+[ 51.844] >>> Display Executing:
+[ 52.024] >>> Position-Altitude Executing:
+[ 52.089] --- Position-Altitude Ended:               
+
+[ 52.122] --- Display Ended:
+[ 52.144] >>> Speed Executing:
+[ 52
+[ 52.182] --- Collision Ended:.174] --- Speed Ended:
+[ 52.309] >>> Position-Altitude Executing:
+[ 52.374] --- Position-Altitude Ended:
+[ 52.447] >>> Collision Executing:
+[ 52.469] --- Collision Ended:
+[ 52.508] >>> Speed Executing:
+[ 52.538] --- Speed Ended:
+[ 52.594] >>> Position-Altitude Executing:
+[ 52.659] --- Position-Altitude Ended:
+[ 52.734] >>> Collision Executing:
+[ 52.756] --- Collision Ended:
+[ 52.852] >>> Speed Executing:
+[ 52.879] >>> Position-Altitude Executing:
+[ 52.944] --- Position-Altitude Ended:: ON
+[ 52.967] --- Speed Ended:
+[ 53.022] >>> Collision Executing:
+[ 53.044] --- Collision Ended:
+[ 53.136] >>> Display Executing:
+[ 53.164] >>> Position-Altitude Executing:
+[ 53.229] --- Position-Altitude Ended:de:  10020
+[ 5
+[ 53.280] >>> Speed Executing:
+[ 53.309] >>> Collision Executing:
+[ 53.332] --- Collision Ended:
+[ 53.449] >>> Position-Altitude Executing:
+[ 53.514] --- Position-Altitude Ended:                                                                                 
+
+[ 53.580] --- Display Ended:
+[ 53.597] >>> Collision Executing:
+[ 53.619] --- Collision Ended:
+[ 53.661] >>> Speed Executing:
+[ 53.691] --- Speed Ended:
+[ 53.733] >>> Position-Altitude Executing:
+[ 53.799] --- Position-Altitude Ended:
+[ 53.884] >>> Collision Executing:
+[ 53.906] --- Collision Ended:
+[ 54.005] >>> Speed Execut
+[ 54.019] >>> Position-Altitude Executing:
+[ 54.084] --- Position-Altitude Ended:ing:
+[ 54.120] --- Speed Ended:
+[ 54.172] >>> Collision Executing:
+[ 54.194] --- Collision Ended:
+[ 54.303] >>> Position-Altitude Executing:
+[ 54.369] --- Position-Altitude Ended:
+[ 54.433] >>> Speed Executing:
+[ 54.459] >>> Collision Executing:
+[ 54.481] --- Collision Ended:2): ON
+[ 54.501] --- Speed Ended:
+[ 54.588] >>> Position-Altitude Executing:
+[ 54.653] --- Position-Altitude Ended:
+[ 54.673] >>> Display Executing:
+[ 54.747] >>> Collision Executing:
+[ 54.769] --- Collision Ended:
+[ 54.815] >>> Speed Executing:
+[ 54.844] --- Speed Ended::  0
+[ 54.873] >>> Position-Altitude Executing:
+[ 54.938] --- Position-Altitude Ended:ll:  0
+
+[ 55
+[ 55.035] >>> Collision Executing:
+[ 55.057] --- Collision Ended:.032] --- Display Ended:
+[ 55.158] >>> Position-Altitude Executing:
+[ 55.223] --- Position-Altitude Ended:
+[ 55.243] >>> Speed Executing:
+[ 55.273] --- Speed Ended:
+[ 55.322] >>> Collision Executing:
+[ 55.344] --- Collision Ended:
+[ 55.443] >>> Position-Altitude Executing:
+[ 55.508] --- Position-Altitude Ended:
+[ 55.587] >>> Speed Executing:
+[ 55.610] >>> Collision Executing:
+[ 55.632] --- Collision Ended:ight(2): ON
+[ 55.654] --- Speed Ended:
+[ 55.727] >>> Position-Altitude Executing:
+[ 55.793] --- Position-Altitude Ended:
+[ 55.897] >>> Collision Executing:
+[ 55.919] --- Collision Ended:
+[ 55.968] >>> Speed Executing:
+[ 55.998] --- Speed Ended:
+[ 56.012] >>> Position-Altitude Executing:
+[ 56.077] --- Position-Altitude Ended:
+[ 56.097] >>> Display Executing:
+[ 56.185] >>> Collision Executing:
+[ 56.207] --- Collision Ended: 1 1
+[ 56.297] >>> Position-Altitude Executing:
+[ 56.363] --- Position-Altitude Ended:
+[ 56.382] >>> Speed Executing:
+[ 56.412] --- Speed Ended:                                                  
+
+[ 56.456] --- Display Ended:
+[ 56.472] >>> Collision Executing:
+[ 56.494] --- Collision Ended:
+[ 56.582] >>> Position-Altitude Executing:
+[ 56.647] --- Position-Altitude Ended:
+[ 56.726] >>> Speed Executing:
+[ 56.743] --- Speed Ended:
+[ 56.760] >>> Collision Executing:
+[ 56.782] --- Collision Ended:
+[ 56.867] >>> Position-Altitude Executing:
+[ 56.932] --- Position-Altitude Ended:
+[ 57.047] >>> Collision Executing:
+[ 57.069] --- Collision Ended:
+[ 57.085] >>> Speed Executing:
+[ 57.102] --- Speed Ended:
+[ 57.151] >>> Position-Altitude Executing:
+[ 57.217] --- Position-Altitude Ended:
+[ 57.335] >>> Collision Executing:
+[ 57.357] --- Collision Ended:
+[ 57.416] >>> Speed Executing:
+[ 57.4
+[ 57.436] >>> Position-Altitude Executing:
+[ 57.502] --- Position-Altitude Ended:33] --- Speed Ended:
+[ 57.532] >>> Display Executing:
+[ 57.622] >>> Collision Executing:
+[ 57.644] --- Collision Ended:
+[ 57.722] >>> Position-Altitude Executing:
+[ 57.787] --- Position-Altitude Ended:                                                 
+[ 57.832] >>> Speed Executing:
+[ 57.862] --- Speed Ended:                   
+
+[ 57.890] --- Display Ended:
+[ 57.909] >>> Collision Executing:
+[ 57.931] --- Collision Ended:
+[ 58.007] >>> Position-Altitude Executing:
+[ 58.072] --- Position-Altitude Ended:
+[ 58.175] >>> Speed Executing:
+[ 58.193
+[ 58.197] >>> Collision Executing:
+[ 58.219] --- Collision Ended:] --- Speed Ended:
+[ 58.291] >>> Position-Altitude Executing:
+[ 58.357] --- Position-Altitude Ended:
+[ 58.485] >>> Collision Executing:
+[ 58.507] --- Collision Ended:
+[ 58.544] >>> Speed Executing:
+[ 58.561] --- Speed Ended:
+[ 58.576] >>> Position-Altitude Executing:
+[ 58.641] --- Position-Altitude Ended:
+[ 58.772] >>> Collision Executing:
+[ 58.794] --- Collision Ended:
+[ 58.861] >>> Position-Altitude Executing:
+[ 58.926] --- Position-Altitude Ended:
+[ 58.946] >>> Speed Executing:
+[ 58.976] --- Speed Ended:
+[ 58.990] >>> Display Executing:
+[ 59.060] >>> Collision Executing:
+[ 59.082] --- Collision Ended:0
+[ 59.146] >>> Position-Altitude Executing:
+[ 59.211] --- Position-Altitude Ended:ll:  0
+[ 59.290] >>> Speed Executing:
+[ 59.320] --- Speed Ended:                    
+[ 59.347] >>> Collision Executing:
+[ 59.369] --- Collision Ended:
+
+[ 59.386] --- Display Ended:
+[ 59.430] >>> Position-Altitude Executing:
+[ 59.496] --- Position-Altitude Ended:
+[ 
+[ 59.634] >>> Collision Executing:
+[ 59.657] --- Collision Ended:59.633] >>> Speed Executing:
+[ 59.701] --- Speed Ended:
+[ 59.715] >>> Position-Altitude Executing:
+[ 59.780] --- Position-Altitude Ended:
+[ 59.922] >>> Collision Executing:
+[ 59.944] --- Collision Ended:
+[ 60.000] >>> Position-Altitude Executing:
+[ 60.065] --- Position-Altitude Ended:
+[ 60.085] >>> Speed Executing:
+[ 60.115] --- Speed Ended:
+[ 60.209] >>> Collision Executing:
+[ 60.231] --- Collision Ended:
+[ 60.285] >>> Position-Altitude Executing:
+[ 60.350] --- Position-Altitude Ended:
+[ 60.400] >>> Display Executing:
+[ 60.429] >>> Speed Executing:
+[ 60.459] --- Speed Ended::  10020
+[ 60.497] >>> Collision Executing:
+[ 60.519] --- Collision Ended:
+[ 60.570] >>> Position-Altitude Executing:
+[ 60.635] --- Position-Altitude Ended:3 1
+
+[ 60.759] --- Display End
+[ 60.772] >>> Speed Exe
+[ 60.785] >>> Collision Executing:
+[ 60.807] --- Collision Ended:cuting:
+[ 60.840] --- Speed Ended:ed
+[ 60.855] >>> Position-Altitude Executing:
+[ 60.920] --- Position-Altitude Ended::
+[ 61.072] >>> Collision Executing:
+[ 61.094] --- Collision Ended:
+[ 61.140] >>> Position-Altitude Executing:
+[ 61.205] --- Position-Altitude Ended:
+[ 61.225] >>> Speed Executing:
+[ 61.255] --- Speed Ended:
+[ 61.359] >>> Collision Executing:
+[ 61.381] --- Collision Ended:
+[ 61.424] >>> Position-Altitude Executing:
+[ 61.490] --- Position-Altitude Ended:
+[ 61.568] >>> Speed Executing:
+[ 61.598] --- Speed Ended:
+[ 61.647] >>> Collision Executing:
+[ 61.669] --- Collision Ended:
+[ 61.709] >>> Position-Altitude Executing:
+[ 61.774] --- Position-Altitude Ended:
+[ 61.912] >>> Speed Executing:
+[ 61.934] >>> Collision Executing:
+[ 61.956] --- Collision Ended:Light(2): ON
+[ 61.979] --- Speed Ended:
+[
+[ 61.994] >>> Position-Altitude Executing:
+[ 62.059] --- Position-Altitude Ended: 61.993] >>> Display Executing:
+[ 62.222] >>> Collision Executing:
+[ 62.244] --- Collision Ended:                                     
+[ 62.279] >>> Position-Altitude Executing:
+[ 62.345] --- Position-Altitude Ended:
+[ 62.365] >>> Speed Executing:
+[ 62.394] --- Speed Ended:                                                
+
+[ 62.437] --- Display Ended:
+[ 62.510] >>> Collision Executing:
+[ 62.532] --- Collision Ended:
+[ 62.564] >>> Position-Altitude Executing:
+[ 62.629] --- Position-Altitude Ended:
+[ 62.708] >>> Speed Executing:
+[ 62.725] --- Speed Ended:
+[ 62.797] >>> Collision Executing:
+[ 62.819] --- Collision Ended:
+[ 62.849] >>> Position-Altitude Executing:
+[ 62.914] --- Position-Altitude Ended:
+[ 63.038] >>> Speed Executing:
+[ 63.056] --- Speed Ended:
+[ 63.085] >>> Collision Executing:
+[ 63.107] --- Collision Ended:
+[ 63.133] >>> Position-Altitude Executing:
+[ 63.199] --- Position-Altitude Ended:
+[ 63.3
+[ 63.373] >>> Collision Executing:
+[ 63.395] --- Collision Ended:69] >>> Speed Ex
+[ 63.419] >>> Position-Altitude Executing:
+[ 63.484] --- Position-Altitude Ended:ecuting:
+[ 63.510] --- Speed Ended:
+[ 63.523] >>> Display Executing:
+[ 63.660] >>> Collision Executing:
+[ 63.682] --- Collision Ended:            
+[ 63.704] >>> Position-Altitude Executing:
+[ 63.770] --- Position-Altitude Ended:                                                                  
+[ 63.823] >>> Speed Executing:
+[ 63.840] --- Speed Ended:                     
+
+[ 63.870] --- Display Ended:
+[ 63.947] >>> Collision Executing:
+[ 63.970] --- Collision Ended:
+[ 63.989] >>> Position-Altitude Executing:
+[ 64.054] --- Position-Altitude Ended:
+[ 64.154] >>> Speed Executing:
+[ 64.171] --- Speed Ended:
+[ 64.235] >>> Collision Executing:
+[ 64.257] --- Collision Ended:
+[ 64.274] >>> Position-Altitude Executing:
+[ 64.339] --- Position-Altitude Ended:
+[ 64.484] >>> Speed Executing:
+[ 64.502] --- Speed Ended:
+[ 64.522] >>> Collision Executing:
+[ 64.544] --- Collision Ended:
+[ 64.560] >>> Position-Altitude Executing:
+[ 64.626] --- Position-Altitude Ended:
+[ 64.810] >>> Collision Executing:
+[ 64.832] --- Collision Ended:
+[ 64.848] >>> Position-Altitude Executing:
+[ 64.913] --- Position-Altitude Ended:
+[ 64.933] >>> Speed Executing:
+[ 64.950] --- Speed Ended:
+[ 64.964] >>> Display Executing:
+[ 65.098] >>> Collision Executing:
+[ 65.120] --- Collision Ended:
+[ 65.136] >>> Position-Altitude Executing:
+[ 65.201] --- Position-Altitude Ended:SSG:                                                                                
+[ 65.264] >>> Speed Executing:
+[ 65.294] --- Speed Ended:                     
+
+[ 65.323] --- Display Ended:
+[ 65.385] >>> Collision Executing:
+[ 65.407] --- Collision Ended:
+[ 65.423] >>> Position-Altitude Executing:
+[ 65.488] --- Position-Altitude Ended:
+[ 65.607] >>> Speed Executing:
+[ 65.637] --- Speed Ended:
+[ 65.673] >>> Collision Executing:
+[ 65.695] --- Collision Ended:
+[ 65.710] >>> Position-Altitude Executing:
+[ 65.776] --- Position-Altitude Ended:
+[ 65.951] >>> Spee
+[ 65.960] >>> Collision Executing:
+[ 65.982] --- Collision Ended:
+[ 65.998] >>> Position-Altitude Executing:
+[ 66.064] --- Position-Altitude Ended:d Executing:
+[ 66.104] --- Speed Ended:
+[ 66.248] >>> Collision Executing:
+[ 66.270] --- Collision Ended:
+[ 66.286] >>> Position-Altitude Executing:
+[ 66.351] --- Position-Altitude Ended:
+[ 66.371] >>> Display Executing:
+[ 66.417] >>> Speed Executing:
+[ 66.447] --- Speed Ended:ot_Power:  950
+[ 66.535] >>> Collision Executing:
+[ 66.557] --- Collision Ended:
+[ 66.573] >>> Position-Altitude Executing:
+[ 66.639] --- Position-Altitude Ended::  0
+
+[ 66.731] --- Display Ended:
+[ 66.760] >>> Speed Executing:
+[ 66.790] --- Speed Ended:
+[ 66.823] >>> Collision Executing:
+[ 66.845] --- Collision Ended:
+[ 66.861] >>> Position-Altitude Executing:
+[ 66.926] --- Position-Altitude Ended:
+[ 67.104] >>
+[ 67.110] >>> Collision Executing:
+[ 67.146] --- Collision Ended:
+[ 67.162] >>> Position-Altitude Executing:
+[ 67.228] --- Position-Altitude Ended:> Speed Executing:
+[ 67.271] --- Speed Ended:
+[ 67.412] >>> Collision Executing:
+[ 67.448] --- Collision Ended:
+[ 67.464] >>> Position-Altitude Executing:
+[ 67.529] --- Position-Altitude Ended:
+[ 67.584] >>> Speed Executing:
+[ 67.614] --- Speed Ended:
+[ 67.713] >>> Collision Executing:
+[ 67.749] --- Collision Ended:
+[ 67.765] >>> Position-Altitude Executing:
+[ 67.831] --- Position-Altitude Ended:
+[ 67.851] >>> Display Executing:
+[ 6
+[ 67.928] >>> Speed Executing:
+[ 68.015] >>> Collision Executing:
+[ 68.051] --- Collision Ended:
+[ 68.067] >>> Position-Altitude Executing:
+[ 68.133] --- Position-Altitude Ended:  0
+
+[ 68.225] --- Display Ended:
+[ 68.271] >>> Speed Executing:
+[ 68.301] --- Speed Ended:
+[ 68.317] >>> Collision Executing:
+[ 68.353] --- Collision Ended:
+[ 68.369] >>> Position-Altitude Executing:
+[ 68.434] --- Position-Altitude Ended:
+[ 68.61
+[ 68.619] >>> Collision Executing:
+[ 68.655] --- Collision Ended:
+[ 68.671] >>> Position-Altitude Executing:
+[ 68.736] --- Position-Altitude Ended:5] >>> Speed Executing:
+[ 68.782] --- Speed Ended:
+[ 68.920] >>> Collision Executing:
+[ 68.956] --- Collision Ended:
+[ 68.972] >>> Position-Altitude Executing:
+[ 69.037] --- Position-Altitude Ended:
+[ 69.095] >>> Speed Executing:
+[ 69.125] --- Speed Ended:
+[ 69.222] >>> Collision Executing:
+[ 69.264] >>> Position-Altitude Executing:
+[ 69.329] --- Position-Altitude Ended:
+[ 69.349] >>> Display Executing:
+[ 69.438] >>> Speed Executing:
+[ 69.468] --- Speed Ended: 4
+[ 69.549] >>> Position-Altitude Executing:
+[ 69.615] --- Position-Altitude Ended:                                                              
+
+[ 69.671] --- Display Ended:
+[ 69.782] >>> Speed Executing:
+[ 69.812] --- Speed Ended:
+[ 69.834] >>> Position-Altitude Executing:
+[ 69.899] --- Position-Altitude Ended:
+[ 70.119] >>> Position-Altitude Executing:
+[ 70.184] --- Position-Altitude Ended:
+[ 70.204] >>> Speed Executing:
+[ 70.234] --- Speed Ended:
+[ 70.403] >>> Position-Altitude Executing:
+[ 70.469] --- Position-Altitude Ended:
+[ 70.547] >>> Speed Executing:
+[ 70.577] --- Speed Ended:
+[ 70.
+[ 70.688] >>> Position-Altitude Executing:
+[ 70.754] --- Position-Altitude Ended:685] >>> Display Executing:
+[ 70.891] >>> Speed Executing:
+[ 70.920] --- Speed Ended:  0
+[ 70.974] >>> Position-Altitude Executing:
+[ 71.039] --- Position-Altitude Ended:                                                       
+
+[ 71.092] --- Display Ended:
+[ 71.234] >>> Speed Executing:
+[ 71.259] >>> Position-Altitude Executing:
+[ 71.324] --- Position-Altitude Ended:t(2): ON
+[ 71.349] --- Speed Ended:
+[ 71.544] >>> Position-Altitude Executing:
+[ 71.609] --- Position-Altitude Ended:
+[ 71.662] >>> Speed Executing:
+[ 71.692] --- Speed Ended:
+[ 71.828] >>> Position-Altitude Executing:
+[ 71.894] --- Position-Altitude Ended:
+[ 72.006] >>> Speed Executing:
+[ 72.036] --- Speed Ended:
+[ 72.106] >>>
+[ 72.113] >>> Position-Altitude Executing:
+[ 72.179] --- Position-Altitude Ended: Display Executing:
+[ 72.270] --- Collision Ended:
+[ 72.349] >>> Speed Executing:
+[ 72.379] --- Speed Ended:           
+[ 72.398] >>> Position-Altitude Executing:
+[ 72.464] --- Position-Altitude Ended:                                                                                        
+
+[ 7
+[ 72.536] >>> Collision Executing:
+[ 72.558] --- Collision Ended:2.533] --- Display Ended:
+[ 72.683] >>> Position-Altitude Executing:
+[ 72.748] --- Position-Altitude Ended:
+[ 72.768] >>> Speed Executing:
+[ 72.798] --- Speed Ended:
+[ 72.823] >>> Collision Executing:
+[ 72.845] --- Collision Ended:
+[ 72.968] >>> Position-Altitude Executing:
+[ 73.033] --- Position-Altitude Ended:
+[ 73.110] >>> Collision Executing:
+[ 73.132] --- Collision Ended:
+[ 73.148] >>> Speed Executing:
+[ 73.178] --- Speed Ended:
+[ 73.253] >>> Position-Altitude Executing:
+[ 73.318] --- Position-Altitude Ended:
+[ 73.398] >>> Collision Executing:
+[ 73.420] --- Collision Ended:
+[ 73.492] >>> Speed Executing:
+[ 73.521] --- Speed Ended:
+[ 73.537] >>> Position-Altitude Executing:
+[ 73.603] --- Position-Altitude Ended:
+[ 73.623] >>> Display Executing:
+[ 73.680] 
+[ 73.685] >>> Collision Executing:
+[ 73.822] >>> Position-Altitude Executing:
+[ 73.888] --- Position-Altitude Ended:
+[ 73.908] >>> Speed Executing:
+[ 73.938] --- Speed Ended:                                          
+[ 73.973] >>> Collision Executing:
+[ 73.995] --- Collision Ended:        
+
+[ 74.020] --- Display Ended:
+[ 74.107] >>> Position-Altitude Executing:
+[ 74.173] --- Position-Altitude Ended:
+[ 74.251] >>> Spee
+[ 74.261] >>> Collision Executing:
+[ 74.283] --- Collision Ended:d Executing:
+[ 74.319] --- Speed Ended:
+[ 74.392] >>> Position-Altitude Executing:
+[ 74.457] --- Position-Altitude Ended:
+[ 74.548] >>> Collision Executing:
+[ 74.570] --- Collision Ended:
+[ 74.632] >>> Speed Executing:
+[ 74.662] --- Speed Ended:
+[ 74.677] >>> Position-Altitude Executing:
+[ 74.742] --- Position-Altitude Ended:
+[ 74.836] >>> Collision Executing:
+[ 74.858] --- Collision Ended:
+[ 74.961] >>> Position-Altitude Executing:
+[ 75.027] --- Position-Altitude Ended:
+[ 75.047] >>> Speed Executing:
+[ 75.076] --- Speed Ended:
+[ 75.090] >>> Display Executing:
+[ 75.123] >>> Collision Executing:
+[ 75.145] --- Collision Ended:
+[ 75.246] >>> Position-Altitude Executing:
+[ 75.312] --- Position-Altitude Ended:ll:  0
+[ 75.390] >>> Speed Executing:
+[ 75.4
+[ 75.411] >>> Collision Executing:
+[ 75.458] --- Speed Ended:                    
+
+[ 75.487] --- Display Ended:
+[ 75.531] >>> Position-Altitude Executing:
+[ 75.596] --- Position-Altitude Ended:
+[ 75.698] >>> Collision Executing:
+[ 75.720] --- Collision Ended:
+[ 75.772] >>> Speed Executing:
+[ 75.801] --- Speed Ended:
+[ 75.816] >>> Position-Altitude Executing:
+[ 75.881] --- Position-Altitude Ended:
+[ 75.985] >>> Collision Executing:
+[ 76.008] --- Collision Ended:
+[ 76.100] >>> Position-Altitude Executing:
+[ 76.166] --- Position-Altitude Ended:
+[ 76.186] >>> Speed Executing:
+[ 76.216] --- Speed Ended:
+[ 76.273] >>> Collision Executing:
+[ 76.295] --- Collision Ended:
+[ 76.385] >>> Position-Altitude Executing:
+[ 76.450] --- Position-Altitude Ended:
+[ 76.501] >>> Display Executing:
+[ 76.529] >>> Speed Executing:
+[ 76.546] --- Speed Ended:e
+[ 76.561] >>> Collision Executing:
+[ 76.583] --- Collision Ended::  10020
+[ 76.670] >>> Position-Altitude Executing:
+[ 76.736] --- Position-Altitude Ended: Pitch:  0
+
+[
+[ 76.848] >>> Collision Executing:
+[ 76.870] --- Collision Ended:
+[ 76.886] >>> Speed Executing:
+[ 76.903] --- Speed Ended: 76.847] --- Display Ended:
+[ 76.955] >>> Position-Altitude Executing:
+[ 77.020] --- Position-Altitude Ended:
+[ 77.136] >>> Collision Executing:
+[ 77.158] --- Collision Ended:
+[ 77.217] >>> Speed Executing:
+[ 77.234] -
+[ 77.240] >>> Position-Altitude Executing:
+[ 77.305] --- Position-Altitude Ended:-- Speed Ended:
+[ 77.423] >>> Collision Executing:
+[ 77.445] --- Collision Ended:
+[ 77.525] >>> Position-Altitude Executing:
+[ 77.590] --- Position-Altitude Ended:
+[ 77.633] >>> Speed Executing:
+[ 77.662] --- Speed Ended:
+[ 77.710] >>> Collision Executing:
+[ 77.733] --- Collision Ended:
+[ 77.809] >>> Position-Altitude Executing:
+[ 77.875] --- Position-Altitude Ended:
+[ 77.930] >>> Display Executing:
+[ 77.976] >>> Speed Executing:
+[ 77.993] 
+[ 77.998] >>> Collision Executing:
+[ 78.044] --- Speed Ended:lot_Power:  150
+[ 78.095] >>> Position-Altitude Executing:
+[ 78.160] --- Position-Altitude Ended:oystick:  3 0
+[ 78.286] >>> Collision Executing:
+[ 78.308] --- Collision Ended:
+
+[ 78.327] --- Display Ended:
+[ 78.357] >>> Speed Executing:
+[ 78.374] 
+[ 78.380] >>> Position-Altitude Executing:
+[ 78.445] --- Position-Altitude Ended:--- Speed Ended:
+[ 78.573] >>> Collision Executing:
+[ 78.595] --- Collision Ended:
+[ 78.665] >>> Position-Altitude Executing:
+[ 78.730] --- Position-Altitude Ended:
+[ 78.773] >>> Speed Executing:
+[ 78.803] --- Speed Ended:
+[ 78.861] >>> Collision Executing:
+[ 78.883] --- Collision Ended:
+[ 78.949] >>> Position-Altitude Executing:
+[ 79.015] --- Position-Altitude Ended:
+[ 79.116] >>> Speed Executing:
+[ 7
+[ 79.148] >>> Collision Executing:
+[ 79.170] --- Collision Ended:9.146] --- Speed Ended:
+[ 79.234] >>> Position-Altitude Executing:
+[ 79.299] --- Position-Altitude Ended:
+[ 79.341] >>> Display Executing:
+[
+[ 79.436] >>> Collision Executing:
+[ 79.498] >>> Speed Executing:
+[ 79.515
+[ 79.519] >>> Position-Altitude Executing:
+[ 79.613] --- Speed Ended:l:  0
+
+[ 79.700] --- Display Ended:
+[ 79.723] >>> Collision Executing:
+[ 79.745] --- Collision Ended:
+[ 79.804] >>> Position-Altitude Executing:
+[ 79.869] --- Position-Altitude Ended:
+[ 79.927] >>> Speed Executing:
+[ 79.956] --- Speed Ended:
+[ 80.010] >>> Collision Executing:
+[ 80.033] --- Collision Ended:
+[ 80.089] >>> Position-Altitude Executing:
+[ 80.154] --- Position-Altitude Ended:
+[ 80.270] >>> Speed Executing:
+[ 80.298] >>> Collision Executing:
+[ 80.320] --- Collision Ended:N
+[ 80.338] --- Speed Ended:
+[ 80.374] >>> Position-Altitude Executing:
+[ 80.439] --- Position-Altitude Ended:
+[ 80.586] >>> Collision Executing:
+[ 80.608] --- Collision Ended:
+[ 80.651] >>> 
+[ 80.659] >>> Position-Altitude Executing:
+[ 80.724] --- Position-Altitude Ended:Speed Executing:
+[ 80.766] --- Speed Ended:
+[ 80.780] >>> Display Executing:
+[ 80.873] >>> Collision Executing:
+[ 80.895] --- Collision Ended:
+[
+[ 80.944] >>> Position-Altitude Executing:
+[ 81.080] >>> Speed Executing:
+[ 81.110] --- Speed Ended:                    
+
+[ 81.139] --- Display Ended:
+[ 81.161] >>> Collision Executing:
+[ 81.183] --- Collision Ended:
+[ 81.229] >>> Position-Altitude Executing:
+[ 81.294] --- Position-Altitude Ended:
+[ 81.424] >>> Speed Executing:
+[ 81.448] >>> Collision Executing:
+[ 81.471] --- Collision Ended:t(2): ON
+[ 81.491] --- Speed Ended:
+[ 81.514] >>> Position-Altitude Executing:
+[ 81.579] --- Position-Altitude Ended:
+[ 81.736] >>> Collision Executing:
+[ 81.758] --- Collision Ended:
+[ 81.798] >>> Position-Altitude Executing:
+[ 81.864] --- Position-Altitude Ended:
+[ 81.884] >>> Speed Executing:
+[ 81.914] --- Speed Ended:
+[ 82.023] >>> Collision Executing:
+[ 82.045] --- Collision Ended:
+[ 82.083] >>> Position-Altitude Executing:
+[ 82.149] --- Position-Altitude Ended:
+[ 82.168] >>> Display Executing:
+[ 
+[ 82.227] >>> Speed Executing:
+[ 82.306]
+[ 82.311] >>> Collision Executing:
+[ 82.368] >>> Position-Altitude Executing:
+[ 82.433] --- Position-Altitude Ended:oll:  0
+
+[ 82.528] --- Display Ended:
+[ 82.570] >>> Speed Executing:
+[ 82.588] --- Speed E
+[ 82.599] >>> Collision Executing:
+[ 82.621] --- Collision Ended:nded:
+[ 82.653] >>> Position-Altitude Executing:
+[ 82.718] --- Position-Altitude Ended:
+[ 82.886] >>> Collision Executing:
+[ 82.908] --- Collision Ended:
+[ 82.938] >>> Position-Altitude Executing:
+[ 83.003] --- Position-Altitude Ended:
+[ 83.023] >>> Speed Executing:
+[ 83.040] --- Speed Ended:
+[ 83.174] >>> Collision Executing:
+[ 83.196] --- Collision Ended:
+[ 83.223] >>> Position-Altitude Executing:
+[ 83.288] --- Position-Altitude Ended:
+[ 83.354] >>> Speed Executing:
+[ 83.371] --- Speed Ended:
+[ 83.461] >>> Collision Executing:
+[ 83.483] --- Collision Ended:
+[ 83.507] >>> Position-Altitude Executing:
+[ 83.573] --- Position-Altitude Ended:
+[ 83.593] >>> Display Executing:
+[ 83.684] >>> Speed Executing:
+[ 83.701] --- Speed Ended:
+[ 83.748] >>> Collision Executing:
+[ 83.771] --- Collision Ended:
+[ 83.787] .
+[ 83.793] >>> Position-Altitude Executing:
+
+[ 83.939] --- Display Ended:
+[ 84.015] >>> Speed Executing:
+[ 84.03
+[ 84.036] >>> Collision Executing:
+[ 84.058] --- Collision Ended:2] --- S
+[ 84.078] >>> Position-Altitude Executing:
+[ 84.143] --- Position-Altitude Ended:peed Ended:
+[ 84.324] >>> Collision Executing:
+[ 84.346] --- Collision Ended:
+[ 84.363] >>> Position-Altitude Executing:
+[ 84.428] --- Position-Altitude Ended:
+[ 84.469] >>> Speed Executing:
+[ 84.486] --- Speed Ended:
+[ 84.611] >>> Collision Executing:
+[ 84.633] --- Collision Ended:
+[ 84.649] >>> Position-Altitude Executing:
+[ 84.714] --- Position-Altitude Ended:
+[ 84.799] >>> Speed Executing:
+[ 84.816] --- Speed Ended:
+[ 84.898] >>> Collision Executing:
+[ 84.920] --- Collision Ended:
+[ 84.936] >>> Position-Altitude Executing:
+[ 85.002] --- Position-Altitude Ended:
+[ 85.022] >>> Display Executing:
+[ 85.130] >>> Speed Executing:
+[ 85.160] --- Speed Ended:
+[ 85.186] >>> Collision Executing:
+[ 85.208] --- Collision Ended:
+[ 85.224] >>> Position-Altitude Executing:
+[ 85.289] --- Position-Altitude Ended: 0
+
+[ 85.381] --- Display Ended:
+[ 85.473] >>> Collision Executing:
+[ 85.495] --- Collision Ended:
+[ 85.511] >>> Position-Altitude Executing:
+[ 85.577] --- Position-Altitude Ended:
+[ 85.597] >>> Speed Executing:
+[ 85.626] --- Speed Ended:
+[ 85.761] >>> Collision Executing:
+[ 85.783] --- Collision Ended:
+[ 85.799] >>> Position-Altitude Executing:
+[ 85.864] --- Position-Altitude Ended:
+[ 85.940] >>> Speed Executing:
+[ 85.970] --- Speed Ended:
+[ 86.048] >>> Collision Executing:
+[ 86.070] --- Collision Ended:
+[ 86.086] >>> Position-Altitude Executing:
+[ 86.151] --- Position-Altitude Ended:
+[ 86.283] >>> Speed Executing:
+[ 86.313] --- Speed Ended:
+[ 86.336] >>> Collision Executing:
+[ 86.358] --- Collision Ended:
+[ 86.374] >>> Position-Altitude Executing:
+[ 86.439] --- Position-Altitude Ended:
+[ 86.459] >>> Display Executing:
+[ 86.623] >>> Collision Executing:
+[ 86.646] --- Collision Ended:
+[ 86.661] >>> Position-Altitude Executing:
+[ 86.727] --- Position-Altitude Ended:
+[ 86.747] >>> Speed Executing:
+[ 86.777] --- Speed Ended:                                               
+
+[ 86.819] --- Display Ended:
+[ 86.911] >>> Collision Executing:
+[ 86.933] --- Collision Ended:
+[ 86.949] >>> Position-Altitude Executing:
+[ 87.014] --- Position-Altitude Ended:
+[ 87.090] >>> Speed Executing:
+[ 87.120] --- Speed Ended:
+[ 87.198] >>> Collision Executing:
+[ 87.234] --- Collision Ended:
+[ 87.250] >>> Position-Altitude Executing:
+[ 87.316] --- Position-Altitude Ended:
+[ 87.433] >>> Speed Executing:
+[ 87.463] --- Speed Ended:
+[ 87.500] >>> Collision Executing:
+[ 87.536] --- Collision Ended:
+[ 87.552] >>> Position-Altitude Executing:
+[ 87.617] --- Position-Altitude Ended:
+[ 87.777] >>> Speed Executing:
+[ 87.802] >>> Collision Executing:
+[ 87.838] --- Collision Ended:
+[ 87.853] >>> Position-Altitude Executing:
+[ 87.919] --- Position-Altitude Ended:t(2): ON
+[ 87.944] --- Speed Ended:
+[ 87.958] >>> Display Executing:
+[ 88.104] >>> Collision Executing:
+[ 88.140] --- Collision Ended:
+[ 88.155] >>> Position-Altitude Executing:
+[ 88.221] --- Position-Altitude Ended:                                
+[ 88.257] >>> Speed Executing:
+[ 88.287] --- Speed Ended:                                                   
+
+[ 88.332] --- Display Ended:
+[ 88.405] >>> Collision Executing:
+[ 88.441] --- Collision Ended:
+[ 88.457] >>> Position-Altitude Executing:
+[ 88.522] --- Position-Altitude Ended:
+[ 88.600] >>> Speed Executing:
+[ 88.630] --- Speed Ended:
+[ 88.706] >>> Collision Executing:
+[ 88.743] --- Collision Ended:
+[ 88.758] >>> Position-Altitude Executing:
+[ 88.824] --- Position-Altitude Ended:
+[ 88.944] >>> Speed Executing:
+[ 88.974] --- Speed Ended:
+[ 89.008] >>> Collision Executing:
+[ 89.050] >>> Position-Altitude Executing:
+[ 89.115] --- Position-Altitude Ended:
+[ 89.287] >>> Speed Executing:
+[ 89.317] --- Speed Ended:
+[ 89.335] >>> Position-Altitude Executing:
+[ 89.400] --- Position-Altitude Ended:
+[ 89.420] >>> Display Executing:
+
+[ 89.613] ---
+[ 89.620] >>> Position-Altitude Executing:
+[ 89.685] --- Position-Altitude Ended:
+[ 89.705] >>> Speed Executing:
+[ 89.735] --- Speed Ended: Display Ended:
+[ 89.905] >>> Position-Altitude Executing:
+[ 89.970] --- Position-Altitude Ended:
+[ 90.049] >>> Speed Executing:
+[ 90.078] --- Speed Ended:
+[ 90.190] >>> Position-Altitude Executing:
+[ 90.255] --- Position-Altitude Ended:
+[ 90.392] >>> Speed Executing:
+[ 90.422] --- Speed Ended:
+[ 90.474] >>> Position-Altitude Executing:
+[ 90.540] --- Position-Altitude Ended:
+[ 90.735] >>> Speed Executing:
+[ 90.760] >>> Position-Altitude Executing:
+[ 90.825] --- Position-Altitude Ended:ht(2): ON
+[ 90.850] --- Speed Ended:
+[ 90.864] >>> Display Executing:
+[ 91.044] >>> Position-Altitude Executing:
+[ 91.110] --- Position-Altitude Ended:              
+
+[ 91.142] --- Display Ended:
+[ 91.164] >>> Speed Executing:
+[ 91.194] --- Speed Ended:
+[ 91.329] >>> Position-Altitude Executing:
+[ 91.395] --- Position-Altitude Ended:
+[ 91.507] >>> Speed Executing:
+[ 91.537] --- Speed Ended:
+[ 91.614] >>> Position-Altitude Executing:
+[ 91.679] --- Position-Altitude Ended:
+[ 91.850] >>> Speed Executing:
+[ 91.880] --- Speed Ended:
+[ 91.899] >>> Position-Altitude Executing:
+[ 91.964] --- Position-Altitude Ended:
+[ 92.056] --- Collision Ended:
+[ 92.156] >>> Display Executing:
+[ 92.184] >>> Position-Altitude Executing:
+[ 92.249] --- Position-Altitude Ended:
+[ 92.269] >>> Speed Executing:
+[ 92.299] --- Speed Ended:e:  10020
+[ 92.321] >>> Collision Executing:
+[ 92.343] --- Collision Ended:
+[ 92.469] >>> Position-Altitude Executing:
+[ 92.534] --- Position-Altitude Ended:                                                                                
+
+[ 92.600] --- Dis
+[ 92.609] >>> Collision Executing:
+[ 92.631] --- Collision Ended:
+[ 92.647] >>> Speed Executing:
+[ 92.677] --- Speed Ended:play Ended:
+[ 92.754] >>> Position-Altitude Executing:
+[ 92.819] --- Position-Altitude Ended:
+[ 92.896] >>> Collision Executing:
+[ 92.919] --- Collision Ended:
+[ 92.990] >>> Speed Executing:
+[ 93.020] --- Speed Ended:
+[ 93.038] >>> Position-Altitude Executing:
+[ 93.104] --- Position-Altitude Ended:
+[ 93.184] >>> Collision Executing:
+[ 93.206] --- Collision Ended:
+[ 93.323] >>> Position-Altitude Executing:
+[ 93.389] --- Position-Altitude Ended:
+[ 93.408] >>> Speed Executing:
+[ 93.438] --- Speed Ended:
+[ 93.471] >>> Collision Executing:
+[ 93.493] --- Collision Ended:
+[ 93.608] >>> Position-Altitude Executing:
+[ 93.673] --- Position-Altitude Ended:
+[ 93.696] >>> Display Executing:
+[ 93.752] >>>
+[ 93.759] >>> Collision Executing:
+[ 93.781] --- Collision Ended: Speed Executing:
+[ 93.820] --- Speed Ended:
+[ 93.887] 
+[ 93.893] >>> Position-Altitude Executing:
+[ 94.047] >>> Collision Executing:
+[ 94.069] --- Collision Ended:       
+
+[ 94.093] --- Display Ended:
+[ 94.133] >>> Speed Executing:
+[ 94.163] --- Speed Ended:
+[ 94.178] >>> Position-Altitude Executing:
+[ 94.243] --- Position-Altitude Ended:
+[ 94.334] >>> Collision Executing:
+[ 94.356] --- Collision Ended:
+[ 94.462] >>> Position-Altitude Executing:
+[ 94.528] --- Position-Altitude Ended:
+[ 94.548] >>> Speed Executing:
+[ 94.578] --- Speed Ended:
+[ 94.622] >>> Collision Executing:
+[ 94.644] --- Collision Ended:
+[ 94.747] >>> Position-Altitude Executing:
+[ 94.812] --- Position-Altitude Ended:
+[ 94.891] >>> Speed Executing:
+[
+[ 94.909] >>> Collision Executing:
+[ 94.959] --- Speed Ended:
+[ 95.032] >>> Position-Altitude Executing:
+[ 95.097] --- Position-Altitude Ended:
+[ 95.117] >>> Display Executing:
+[ 95.192
+[ 95.196] >>> Collision Executing:
+[ 95.272] >>> Speed Executing:
+[ 95.302] --- Speed Ended:Ro
+[ 95.317] >>> Position-Altitude Executing:
+[ 95.383] --- Position-Altitude Ended:ll:  0
+
+[ 95.476] --- D
+[ 95.484] >>> Collision Executing:
+[ 95.506] --- Collision Ended:isplay Ended:
+[ 95.602] >>> Position-Altitude Executing:
+[ 95.667] --- Position-Altitude Ended:
+[ 95.687] >>> Speed Executing:
+[ 95.717] --- Speed Ended:
+[ 95.772] >>> Collision Executing:
+[ 95.794] --- Collision Ended:
+[ 95.887] >>> Position-Altitude Executing:
+[ 95.952] --- Position-Altitude Ended:
+[ 96.031] >>> Speed Executing:
+[ 96.060] >>> Collision Executing:
+[ 96.082] --- Collision Ended:
+[ 96.098] --- Speed Ended:
+[ 96.171] >>> Position-Altitude Executing:
+[ 96.237] --- Position-Altitude Ended:
+[ 96.347] >>> Collision Executing:
+[ 96.369] --- Collision Ended:
+[ 96.412] >>> Speed Executing:
+[ 96.442] --- Speed Ended:
+[ 96.456] >>> Position-Altitude Executing:
+[ 96.521] --- Position-Altitude Ended:
+[ 96.541] >>> Display Executing:
+[ 96.634] >>> Collision Executing:
+[ 96.656] --- Collision Ended:
+[ 96.741] >>> Position-Altitude Executing:
+[ 96.807] --- Position-Altitude Ended:
+[ 96.826] >>> Speed Executing:
+[ 96.844] --- Speed Ended:                                                 
+
+[ 96.887] --- Display Ended:
+[ 96.922] >>> Collision Executing:
+[ 96.944] --- Collision Ended:
+[ 97.026] >>> Position-Altitude Executing:
+[ 97.091] --- Position-Altitude Ended:
+[ 97.157] >>> Speed Executing:
+[ 97.174] --- Speed Ended:
+[ 97.209] >>> Collision Executing:
+[ 97.231] --- Collision Ended:
+[ 97.311] >>> Position-Altitude Executing:
+[ 97.376] --- Position-Altitude Ended:
+[ 97.488] >>> Spe
+[ 97.497] >>> Collision Executing:
+[ 97.519] --- Collision Ended:ed Executing:
+[ 97.555] --- Speed Ended:
+[ 97.595] >>> Position-Altitude Executing:
+[ 97.661] --- Position-Altitude Ended:
+[ 97.784] >>> Collision Executing:
+[ 97.806] --- Collision Ended:
+[ 97.869] >>> Speed Ex
+[ 97.881] >>> Position-Altitude Executing:
+[ 97.946] --- Position-Altitude Ended:ecuting:
+[ 97.984] --- Speed Ended:
+[ 97.998] >>> Display Executing:
+[ 98.072] >>> Collision Executing:
+[ 98.094] --- Collision Ended:
+[ 98.160] 
+[ 98.166] >>> Position-Altitude Executing:
+[ 98.298] >>> Speed Executing:
+[ 98.315] --- Speed Ended:                   
+
+[ 98.343] --- Display Ended:
+[ 98.359] >>> Collision Executing:
+[ 98.381] --- Collision Ended:
+[ 98.451] >>> Position-Altitude Executing:
+[ 98.516] --- Position-Altitude Ended:
+[ 98.628] >>> Speed Executing:
+[
+[ 98.647] >>> Collision Executing:
+[ 98.669] --- Collision Ended: 98.646] --- Speed Ended:
+[ 98.736] >>> Position-Altitude Executing:
+[ 98.801] --- Position-Altitude Ended:
+[ 98.934] >>> Collision Executing:
+[ 98.956] --- Collision Ended:
+[ 98.997] >>> Speed Executing:
+[ 99.020] >>> Position-Altitude Executing:
+[ 99.086] --- Position-Altitude Ended:ight(2): ON
+[ 99.112] --- Speed Ended:
+[ 99.221] >>> Collision Executing:
+[ 99.243] --- Collision Ended:
+[ 99.305] >>> Position-Altitude Executing:
+[ 99.371] --- Position-Altitude Ended:
+[ 99.391] >>> Display Executing:
+[ 99.426] >>> Speed Executing:
+[ 99.455] --- Speed Ended:
+[ 99.509] >>> Collision Executing:
+[ 99.531] --- Collision Ended:
+[ 99.590] >>> Position-Altitude Executing:
+[ 99.656] --- Position-Altitude Ended:ll:  0
+
+[ 99.749] --- Display Ended:
+[ 99.769] >>> Speed Executing:
+[ 99.796] >>> Collision Executing:
+[ 99.818] --- Collision Ended: ON
+[ 99.837] --- Speed Ended:
+[ 99.875] >>> Position-Altitude Executing:
+[ 99.940] --- Position-Altitude Ended:
+[ 100.08] >>> Collision Executing:
+[ 100.15] >>> Spee
+[ 100.16] >>> Position-Altitude Executing:d Executing:
+[ 100.76] >>> Display Executing:
+
+[ 100.95] --- Display Ended:
+[ 101.97] >>> Display Executing:
+
+[ 102.16] --- Display Ended:
+[ 103.17] >>> Display Executing:
+
+[ 103.36] --- Display Ended:
+[ 104.38] >>> Display Executing:
+
+[ 104.57] --- Display Ended:
+[ 105.59] >>> Display Executing:
+
+[ 105.78] --- Display Ended:
+[ 106.79] >>> Display Executing:
+
+[ 106.98] --- Display Ended:
+[ 108.00] >>> Display Executing:
+
+[ 108.19] --- Display Ended:
+[ 109.20] >>> Display Executing:
+
+[ 109.40] --- Display Ended:
+[ 110.41] >>> Display Executing:
+
+[ 110.60] --- Display Ended:
+[ 111.62] >>> Display Executing:
+
+[ 111.81] --- Display Ended:
+[ 112.82] >>> Display Executing:
+
+[ 113.02] --- Display Ended:
+[ 114.03] >>> Display Executing:
+
+[ 114.22] --- Display Ended:
+[ 115.24] >>> Display Executing:
+
+[ 115.43] --- Display Ended:
+[ 116.44] >>> Display Executing:
+
+[ 116.64] --- Display Ended:
+[ 117.65] >>> Display Executing:
+
+[ 117.84] --- Display Ended:
+[ 118.86] >>> Display Executing:
+
+[ 119.05] --- Display Ended:
+[ 120.06] >>> Display Executing:
+
+[ 120.25] --- Display Ended:
+[ 121.27] >>> Display Executing:
+
+[ 121.46] --- Display Ended:
+[ 122.48] >>> Display Executing:
+
+[ 122.67] --- Display Ended:
+[ 123.68] >>> Display Executing:
+
+[ 123.87] --- Display Ended:
+[ 124.89] >>> Display Executing:
+
+[ 125.08] --- Display Ended:
+[ 126.10] >>> Display Executing:
+
+[ 126.29] --- Display Ended:
+[ 127.30] >>> Display Executing:
