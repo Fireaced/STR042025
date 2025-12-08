@@ -424,16 +424,16 @@ fss_interfaces__pitch_roll_data
                     0x1c              ./fss_interfaces.o
 ada__finalization__controlledB
                     0x24              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-finali.o)
-testing_3__wcet_pilotpresence
-                    0x8               ./testing_3.o
-testing_3__wcet_alarm
-                    0x8               ./testing_3.o
-testing_3__wcet_light
-                    0x8               ./testing_3.o
+testing_2__wcet_display
+                    0x8               ./testing_2.o
+testing_2__wcet_pilotbutton
+                    0x8               ./testing_2.o
 ada__finalization__limited_controlledT
                     0x30              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-finali.o)
-testing_3__wcet_altitude
-                    0x8               ./testing_3.o
+testing_2__wcet_speed
+                    0x8               ./testing_2.o
+testing_2__wcet_pilotpresence
+                    0x8               ./testing_2.o
 errno               0x4               /usr/local/openravenscar/sparc-ork-elf/lib/libc.a(sbrkr.o)
 system__finalization_implementation__record_controllerT
                     0x2c              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-finimp.o)
@@ -449,8 +449,8 @@ system__exception_table__exception_htable__iterator_indexXn
                     0x1               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-exctab.o)
 gnat__exceptions__exception_typeB
                     0x1c              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(g-except.o)
-testing_3__wcet_speed
-                    0x8               ./testing_3.o
+testing_2__wcet_roll
+                    0x8               ./testing_2.o
 ada__streams__root_stream_typeB
                     0x1c              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-stream.o)
 system__finalization_root__root_controlledT
@@ -459,10 +459,10 @@ system__tasking__debug__known_tasks
                     0xfa0             /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(s-tasdeb.o)
 system__finalization_implementation__record_controllerB
                     0x28              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-finimp.o)
-testing_3__wcet_roll
-                    0x8               ./testing_3.o
 system__exceptions__all_others_dummy_exception
                     0x14              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-except.o)
+testing_2__wcet_altitude
+                    0x8               ./testing_2.o
 ada__exceptions__num_subprogram_descriptors
                     0x4               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-except.o)
 ada__strings__unbounded__unbounded_stringT
@@ -477,10 +477,6 @@ ada__tags__external_tag_htable__iterator_indexXn
                     0x1               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-tags.o)
 ada__streams__root_stream_typeT
                     0x14              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-stream.o)
-testing_3__wcet_pitch
-                    0x8               ./testing_3.o
-testing_3__wcet_power
-                    0x8               ./testing_3.o
 kernel__peripherals__timer_control_mirror
                     0x4               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(kernel-peripherals.o)
 system__finalization_root__empty_root_controlledB
@@ -491,8 +487,6 @@ kernel__peripherals__registers__protected_segment_2_end_register
                     0x4               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(kernel-peripherals-registers.o)
 kernel__peripherals__registers__protected_segment_1_base_register
                     0x4               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(kernel-peripherals-registers.o)
-testing_3__wcet_joystick
-                    0x8               ./testing_3.o
 kernel__peripherals__registers__protected_segment_1_end_register
                     0x4               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(kernel-peripherals-registers.o)
 system__stack_checking__null_stack_info
@@ -503,14 +497,16 @@ fss_interfaces__speed_altitude_data
                     0x14              ./fss_interfaces.o
 fss_interfaces__selected_mode
                     0x38              ./fss_interfaces.o
+testing_2__wcet_joystick
+                    0x8               ./testing_2.o
 kernel__interrupts__handlers_table
                     0xb4              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(kernel-interrupts.o)
 system__task_primitives__operations__all_tasks_l
                     0x8               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(s-taprop.o)
-testing_3__wcet_display
-                    0x8               ./testing_3.o
 system__soft_links__nt_exc_stack
                     0x2008            /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-soflin.o)
+testing_2__wcet_distance
+                    0x8               ./testing_2.o
 system__finalization_implementation__limited_record_controllerT
                     0x2c              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-finimp.o)
 system__soft_links__nt_tsd
@@ -523,6 +519,8 @@ system__exception_table__exception_htable__tableXn
                     0x94              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-exctab.o)
 system__exceptions__others_dummy_exception
                     0x14              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-except.o)
+testing_2__wcet_light
+                    0x8               ./testing_2.o
 ada__strings__maps__null_set
                     0x20              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-strmap.o)
 system__finalization_implementation__limited_record_controllerB
@@ -533,21 +531,23 @@ kernel__threads__thread_idL
                     0x28              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(kernel-threads.o)
 ada__strings__unbounded__unbounded_stringB
                     0x28              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-strunb.o)
-testing_3__wcet_distance
-                    0x8               ./testing_3.o
 ada__strings__maps__A8s
                     0x20              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-strmap.o)
+testing_2__wcet_alarm
+                    0x8               ./testing_2.o
 tools__big_bang     0x8               ./tools.o
 system__secondary_stack__ss_pool
                     0x4               /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(s-secsta.o)
+testing_2__wcet_pitch
+                    0x8               ./testing_2.o
 ada__finalization__list_controller__list_controllerB
                     0x28              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-filico.o)
 gnat__exceptions__exception_typeT
                     0x2c              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(g-except.o)
-testing_3__wcet_pilotbutton
-                    0x8               ./testing_3.o
 ada__finalization__list_controller__simple_list_controllerB
                     0x28              /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnat.a(a-filico.o)
+testing_2__wcet_power
+                    0x8               ./testing_2.o
 system__task_primitives__operations__atcb_array
                     0x6a6a0           /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/adalib/libgnarl.a(s-taprop.o)
 
@@ -583,8 +583,8 @@ Linker script and memory map
                 0x02001544                adafinal
  .text          0x020015f8       0x1c ./main.o
                 0x020015f8                _ada_main
- .text          0x02001614      0x118 ./testing_3.o
-                0x02001614                testing_3___elabs
+ .text          0x02001614      0x118 ./testing_2.o
+                0x02001614                testing_2___elabs
  .text          0x0200172c     0x42f8 ./fss_interfaces.o
                 0x020055d0                fss_interfaces__status_recordPT__setjoystickP
                 0x02003e64                fss_interfaces__status_recordPT__setspeedN
@@ -1965,7 +1965,7 @@ Linker script and memory map
  *fill*         0x0203d75c        0x4
                 0x0203d760                .=ALIGN(0x10)
  *(.rodata)
- .rodata        0x0203d760        0xe ./testing_3.o
+ .rodata        0x0203d760        0xe ./testing_2.o
  *fill*         0x0203d76e        0x2
  .rodata        0x0203d770       0x38 ./fss_interfaces.o
  .rodata        0x0203d7a8      0x1c0 ./devicesfss_v1.o
@@ -2125,7 +2125,6 @@ Linker script and memory map
                 0x02041040                system__exn_fltS
                 0x02040fa0                ada__real_time__delaysB
                 0x02040f54                system__finalization_implementationS
-                0x0204101c                testing_3S
                 0x02040ec0                system__arith_64S
                 0x02040ef0                system__unsigned_typesS
                 0x0204105c                system__tasking__restricted__stagesS
@@ -2164,6 +2163,7 @@ Linker script and memory map
                 0x02041054                fss_interfacesS
                 0x02040fb0                ada__strings__unboundedS
                 0x02040f24                system__machine_codeS
+                0x0204101c                testing_2S
                 0x02040fa4                ada__real_time__delaysS
                 0x02040fd4                ada__strings__searchB
                 0x02040f70                system__os_interfaceB
@@ -2252,13 +2252,13 @@ Linker script and memory map
                 0x02041020                toolsB
                 0x02041044                system__exn_genB
                 0x02041048                system__exn_genS
- .data          0x02041064     0x15e0 ./testing_3.o
-                0x02041064                testing_3__distance_simulation
-                0x02042004                testing_3__pilotpresence_simulation
-                0x02042324                testing_3__pilotbutton_simulation
-                0x02041384                testing_3__light_intensity_simulation
-                0x020416a4                testing_3__joystick_simulation
-                0x02041ce4                testing_3__power_simulation
+ .data          0x02041064     0x15e0 ./testing_2.o
+                0x02042324                testing_2__pilotbutton_simulation
+                0x02041ce4                testing_2__power_simulation
+                0x02041064                testing_2__distance_simulation
+                0x020416a4                testing_2__joystick_simulation
+                0x02041384                testing_2__light_intensity_simulation
+                0x02042004                testing_2__pilotpresence_simulation
  .data          0x02042644        0x1 ./fss_interfaces.o
                 0x02042644                fss_interfaces_E
  *fill*         0x02042645        0x3
@@ -2655,19 +2655,19 @@ Linker script and memory map
  .bss           0x0219c920        0x4 /usr/local/openravenscar/lib/gcc-lib/sparc-ork-elf/2.8.1/libgcc.a(frame.o)
  *(COMMON)
  *fill*         0x0219c924        0x4
- COMMON         0x0219c928       0x60 ./testing_3.o
-                0x0219c928                testing_3__wcet_pilotpresence
-                0x0219c930                testing_3__wcet_alarm
-                0x0219c938                testing_3__wcet_light
-                0x0219c940                testing_3__wcet_altitude
-                0x0219c948                testing_3__wcet_speed
-                0x0219c950                testing_3__wcet_roll
-                0x0219c958                testing_3__wcet_pitch
-                0x0219c960                testing_3__wcet_power
-                0x0219c968                testing_3__wcet_joystick
-                0x0219c970                testing_3__wcet_display
-                0x0219c978                testing_3__wcet_distance
-                0x0219c980                testing_3__wcet_pilotbutton
+ COMMON         0x0219c928       0x60 ./testing_2.o
+                0x0219c928                testing_2__wcet_display
+                0x0219c930                testing_2__wcet_pilotbutton
+                0x0219c938                testing_2__wcet_speed
+                0x0219c940                testing_2__wcet_pilotpresence
+                0x0219c948                testing_2__wcet_roll
+                0x0219c950                testing_2__wcet_altitude
+                0x0219c958                testing_2__wcet_joystick
+                0x0219c960                testing_2__wcet_distance
+                0x0219c968                testing_2__wcet_light
+                0x0219c970                testing_2__wcet_alarm
+                0x0219c978                testing_2__wcet_pitch
+                0x0219c980                testing_2__wcet_power
  COMMON         0x0219c988       0xc0 ./fss_interfaces.o
                 0x0219c988                fss_interfaces__pitch_roll_data
                 0x0219c9a4                fss_interfaces__speed_altitude_data
@@ -2754,7 +2754,7 @@ Linker script and memory map
 .stab           0x0221b594    0x4f9b0
  [.stab](*)
  .stab          0x0221b594       0xf0 ./main.o
- .stab          0x0221b684      0x798 ./testing_3.o
+ .stab          0x0221b684      0x798 ./testing_2.o
                                 0x7a4 (size before relaxing)
  .stab          0x0221be1c     0x4410 ./fss_interfaces.o
                                0x441c (size before relaxing)
@@ -2938,7 +2938,7 @@ Linker script and memory map
 LOAD /usr/local/openravenscar/sparc-ork-elf/lib/ada_crt0.o
 LOAD b~main.o
 LOAD ./main.o
-LOAD ./testing_3.o
+LOAD ./testing_2.o
 LOAD ./fss_interfaces.o
 LOAD ./devicesfss_v1.o
 LOAD ./workload.o
@@ -2960,7 +2960,7 @@ OUTPUT(main elf32-sparc)
 .comment        0x00000000      0xec4
  .comment       0x00000000       0x12 b~main.o
  .comment       0x00000012       0x12 ./main.o
- .comment       0x00000024       0x12 ./testing_3.o
+ .comment       0x00000024       0x12 ./testing_2.o
  .comment       0x00000036       0x12 ./fss_interfaces.o
  .comment       0x00000048       0x12 ./devicesfss_v1.o
  .comment       0x0000005a       0x12 ./workload.o
