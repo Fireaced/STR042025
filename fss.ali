@@ -18,7 +18,7 @@ W devicesfss_v1%s	devicesfss_v1.adb	devicesfss_v1.ali
 W fss_interfaces%s	fss_interfaces.adb	fss_interfaces.ali  ED
 W interrupt_handler%s	interrupt_handler.adb	interrupt_handler.ali
 W kernel%s		kernel.ads		kernel.ali
-W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali  ED
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -155,8 +155,8 @@ X 11 fss.adb
 105a5 Current_J 115m20 120r41 121r39 171r23
 106i5 Current_Pitch 117m5 120r57
 107i5 Current_Roll 118m5 121r55
-108i5 Target_Pitch 120m5 123r9 124m7 125r12 126m7 141m9 152m9 166r33 168r25
-. 174r28
+108i5 Target_Pitch 120m5 123r9 124m7 125r12 126m7 141m9 152m9 166r28 167r25
+. 172r20
 109i5 Target_Roll 121m5 129r9 130m7 131r12 132m7 142m9 144r13 144r33 153m9
 . 155r13 155r33 161r11 161r31 166r42 168r24 173r19
 111i5 Current_A 135m5 137r9 140r11 148r12 151r11 170r23
